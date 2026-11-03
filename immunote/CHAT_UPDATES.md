@@ -1,0 +1,64 @@
+# 이 채팅에서 문제은행 업데이트하기
+
+새 문제 파일이나 강의 자료를 이 채팅에 첨부하고 원하는 작업을 말하면, assistant가 내용을 검토하여 저장소에 반영합니다. 사이트에 같은 파일을 다시 올릴 필요는 없습니다. 첨부만으로 백그라운드 게시가 일어나는 감시 서비스는 아니며, 각 요청에 대한 검토·반영·게시 작업입니다.
+
+## 업데이트 흐름
+
+1. 첨부 파일에서 문제를 읽거나, 요청한 범위의 문제를 만듭니다.
+2. `족보 기출(past)`과 `만든 문제(generated)`를 명시적으로 지정하고 족보 강의 분류에 연결합니다. ‘기출 응용’이라는 제목이나 태그만으로 만든 문제를 실제 기출로 분류하지 않습니다.
+3. 보기·정답 대응과 출처를 검토합니다. 확인할 수 없는 족보 답은 추측해서 넣지 않습니다.
+4. 원문 정답은 보존하고, assistant의 정정 제안·해석·불확실성은 별도 검토 의견에 기록합니다.
+5. 질문 데이터 검증과 채점 테스트를 통과한 뒤, 승인된 GitHub 저장소에 변경을 반영합니다.
+6. GitHub Actions가 성공적으로 배포한 주소를 확인하여 안내합니다. 앞으로도 같은 주소를 사용합니다.
+
+GitHub 계정 연결, 저장소 쓰기 권한, Pages 게시 설정이 준비되어 있어야 실제 게시가 가능합니다. 페이지 게시 범위와 저장소 공개 범위는 계정 및 GitHub 요금제에 따라 달라지므로 게시 전에 확인합니다.
+
+## 검증된 문제 묶음 추가
+
+JSON, TXT, Markdown, CSV 파일을 사용할 수 있습니다. 예:
+
+```sh
+node scripts/import-chat-bundle.mjs /absolute/path/new-questions.json --bank generated --dry-run
+node scripts/import-chat-bundle.mjs /absolute/path/new-questions.json --bank generated
+```
+
+정답표가 없는 실제 기출은 출처가 있을 때만 명시적으로 허용합니다.
+
+```sh
+node scripts/import-chat-bundle.mjs /absolute/path/past-questions.json --bank past --allow-unconfirmed
+```
+
+스크립트는 새 문제를 `data/chat-questions.js`에 저장합니다. 이 모듈은 앱의 공유 문제은행에 연결되어 있으며, 게시하면 다른 브라우저에서도 같은 추가 문제를 받습니다. 기존 원본 `past-*`, 기존 생성문제 `seed-*` ID는 덮어쓰지 않습니다. 새 문제 ID는 종류·분류·본문·보기의 내용으로부터 안정적으로 생성되어, 같은 문제를 중복 반영해도 기록 ID가 바뀌지 않습니다. 이미 반영한 채팅 문제를 수정하려면 `--replace-existing`을 명시합니다.
+
+## GitHub Pages 게시
+
+이 사이트는 공개 저장소 `tra030303/medical-microbiology-quiz`의 `immunote/` 폴더에 게시합니다.
+
+- 사이트: https://tra030303.github.io/medical-microbiology-quiz/immunote/
+- 소스: https://github.com/tra030303/medical-microbiology-quiz/tree/main/immunote
+- 기존 저장소 루트의 미생물학 사이트와 Pages 설정은 유지합니다.
+
+전체 작업 소스에서는 다음 명령으로 검증하고 게시용 정적 파일을 만듭니다.
+
+```sh
+npm test
+node scripts/build-github-static.mjs
+```
+
+`outputs/github-static/`의 파일을 원격 저장소의 `immunote/` 아래에 반영하면 기존 Pages 배포가 갱신합니다. 업로드 경로와 체크섬은 `outputs/github-static-upload-manifest.json`에 기록됩니다. 인증정보, 원본 PDF, 사용자별 학습 기록은 게시하지 않습니다.
+
+원문 그림은 필요한 문항을 열 때만 불러오는 `data/scan-packs/` 모듈과 `data/scan-index.js`로 게시합니다. 작업 소스에 WebP 원본이 있으면 빌드가 묶음을 다시 만들고, 원격 저장소에서 내려받은 소스에 이미 묶음이 있으면 그대로 보존합니다. 문제·검토 의견만 바뀌면 해당 데이터 파일만 반영해도 됩니다.
+
+## 문제 업데이트와 학습 기록
+
+게시된 문제 데이터는 사이트를 새로 열거나 새로고침하면 받을 수 있습니다. 사이트에 게시하는 문제와 개인 학습 기록은 별개입니다. 풀이·오답·북마크는 현재 브라우저에 저장되며, 기존 문제의 ID가 유지되면 그 기록도 이어집니다. 다른 브라우저나 기기로 기록을 옮길 때는 백업·복원을 사용합니다.
+
+교정 의견이 추가되더라도 기출의 원문 답안과 assistant의 의견을 같은 값으로 합치지 않습니다. 의견에 근거가 부족한 경우에는 단정적인 정답 변경 대신 확인이 필요하다는 설명을 표시합니다.
+
+## 정답 검토 표시
+
+`data/review-notes.js`는 문항 ID별 별도 검토 기록입니다. `originalAnswers`는 족보 원답이고, `suggestedAnswers`는 근거가 있을 때만 제시하는 검토상 권고 답입니다. 이 파일을 추가하는 것만으로 채점 정답을 바꾸지 않습니다. 정답 화면은 원답, 현재 채점 기준이 다른 경우의 안내, AI 검토 의견·근거·확실성·검토일을 구분합니다. 원문 정답이 없는 문항에 사용자가 답을 등록해도 그것을 원문 답안으로 표시하지 않습니다.
+
+## 게시 위치와 이후 업데이트
+
+사용자 요청에 따라 별도 저장소 대신 기존 공개 저장소의 `immunote/` 폴더를 사용합니다. 이후에도 이 채팅에 강의록·족보·새 문제를 첨부하고 업데이트를 요청하면, assistant가 내용을 검토하여 같은 저장소와 사이트 주소에 반영합니다. 채팅 첨부 자체를 감시하는 자동 서비스는 아니며 각 업데이트 요청을 assistant가 처리합니다.

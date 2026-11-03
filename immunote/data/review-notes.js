@@ -1,0 +1,111 @@
+// 문항별 보조 검토 의견입니다. 849문항 전체의 의학적 검증 완료를 뜻하지 않습니다.
+// 원본 답안은 originalAnswers로 보존하고, 이 객체만으로 채점 정답을 바꾸지 않습니다.
+const reviewedAt = '2026-11-03';
+
+export const ASSISTANT_REVIEWS = {
+  'past-1-1-2025-12': {
+    status: 'correction', originalAnswers: [1], suggestedAnswers: [2],
+    summary: '답안표의 ①은 오기로 보이며, 정의에 맞는 답은 ② Incubation period입니다.',
+    rationale: '감염부터 임상 증상 발생까지는 잠복기(incubation period)입니다. 감염부터 전염력이 생길 때까지는 잠재기(latent period)이고, convalescent period는 회복기에 해당합니다. 2023년 95번·2020년 2번의 동일 문항 및 병인론 강의 9–11쪽과 대조하면 ②가 타당합니다.',
+    confidence: '높음', reviewedAt,
+    references: [{label:'병인론 강의 PDF 9–11쪽'}, {label:'족보_1 PDF 4쪽 본문·102쪽 답안표 및 다른 연도 동일 문항'}],
+  },
+  'past-1-6-2023-97': {
+    status: 'correction', originalAnswers: [5],
+    summary: 'ETA를 대표적인 초항원으로 외우는 것은 부적절하며, 선지에 적절한 정답이 없을 가능성이 큽니다.',
+    rationale: 'ETA의 확립된 주된 작용은 desmoglein-1을 절단하는 serine protease 작용입니다. 과거 ETA의 초항원성에 대한 보고가 있었지만, 재조합 독소를 이용한 후속 연구는 이를 지지하지 않았습니다. 황색포도알균의 대표적인 초항원은 TSST-1과 여러 enterotoxin인데 이 보기에는 없습니다. 원답 ⑤를 다른 번호로 임의 교체하지 않고 문항 오류 가능성으로 남깁니다.',
+    confidence: '높음', reviewedAt,
+    references: [{label:'Recombinant S. aureus exfoliative toxins are not bacterial superantigens',url:'https://journals.asm.org/doi/10.1128/iai.68.5.3048-3052.2000'}, {label:'ETA의 desmoglein-1 절단 기전 연구',url:'https://pubmed.ncbi.nlm.nih.gov/11062541/'}],
+  },
+  'past-1-6-2020-18': {
+    status: 'correction', originalAnswers: [5],
+    summary: 'ETA의 초항원 분류에는 문제가 있으며, 주된 기전은 desmoglein-1 절단입니다.',
+    rationale: '원답 ⑤ ETA는 피부의 desmoglein-1에 작용하는 serine protease로 이해해야 합니다. ETA를 전형적인 초항원으로 분류하는 것은 후속 실험 결과와 맞지 않습니다. TSST-1·staphylococcal enterotoxin이 보기에서 빠져 있어, 제시된 선지 중 새 정답을 단정하기 어렵습니다.',
+    confidence: '높음', reviewedAt,
+    references: [{label:'Recombinant S. aureus exfoliative toxins are not bacterial superantigens',url:'https://journals.asm.org/doi/10.1128/iai.68.5.3048-3052.2000'}, {label:'ETA의 desmoglein-1 절단 기전 연구',url:'https://pubmed.ncbi.nlm.nih.gov/11062541/'}],
+  },
+  'past-1-18-2023-29': {
+    status: 'correction', originalAnswers: [4,5], suggestedAnswers: [5],
+    summary: '접합백신의 예로는 ⑤ 수막염균이 적절합니다. ④ 백일해를 같은 방식으로 묶는 것은 부적절합니다.',
+    rationale: 'MenACWY 접합백신은 수막염균의 협막 다당을 운반 단백질에 결합한 백신입니다. 반면 통상적인 무세포 백일해 백신은 pertussis toxoid 등 선택된 단백 항원을 사용하며, 협막 다당-단백 접합백신의 예가 아닙니다. 혼합백신에 다른 세균의 접합백신 성분이 들어 있다는 사실과 백일해 항원 자체의 유형을 구별해야 합니다. 원본의 복수 인정답 ④·⑤ 중 질문의 기전에 직접 맞는 것은 ⑤입니다.',
+    confidence: '높음', reviewedAt,
+    references: [{label:'CDC: Meningococcal vaccination information for health care providers',url:'https://www.cdc.gov/vaccines/hcp/by-disease/mening.html'}, {label:'WHO: Acellular pertussis vaccine recommendations',url:'https://cdn.who.int/media/docs/default-source/biologicals/vaccine-standardization/pertussis/trs_979_annex_4.pdf'}],
+  },
+  'past-1-3-2022-11': {
+    status: 'ambiguous', originalAnswers: [1],
+    summary: '원답 ①의 방향은 맞지만, ④ 역시 임상적으로 타당하게 읽힐 여지가 있습니다.',
+    rationale: '코인두 면봉은 위쪽이 아니라 입천장과 평행하게 뒤쪽으로 진행합니다. 다만 소아에게 해부학적 크기와 채취 부위에 적절한 면봉을 선택한다는 ④의 취지도 일반적으로 타당합니다. 따라서 단일 최선답으로 ①을 고르도록 한 원문과, 다른 선지의 임상적 타당성은 구분해서 이해하는 편이 좋습니다. ④를 무조건 틀린 채취 원칙으로 암기하지 마세요.',
+    confidence: '중간', reviewedAt,
+    references: [{label:'진단 강의 PDF 43–47쪽'}, {label:'CDC: Clinical specimen collection—NP swab direction and mini-tip swabs',url:'https://www.cdc.gov/covid/hcp/clinical-care/clinical-specimen-guidelines.html'}],
+  },
+  'past-1-3-2023-65': {
+    status: 'ambiguous', originalAnswers: [4],
+    summary: '④는 강의에서 설명한 검사실 작업 흐름으로 읽되, 모든 동정법의 절대적 필요조건으로 일반화하지 마세요.',
+    rationale: '검체 도말과 배양 집락의 그람염색을 함께 활용하는 것은 일반적인 검사실 흐름입니다. 그러나 “동정에는 적어도 두 번이 반드시 필요하다”는 문구를 모든 검사법에 적용되는 원리로 확장하면 지나칩니다. 검사실·검체·동정 방법에 따라 과정이 달라질 수 있습니다. 그람염색은 형태와 숙주 반응을 빠르게 보여주지만 최종 동정·감수성 결과 자체와 동일하지 않다는 개념을 우선 학습하세요.',
+    confidence: '중간', reviewedAt,
+    references: [{label:'족보 2023년 진단 65번'}, {label:'치료원칙 강의 PDF 10–13쪽·진단 강의 PDF 18–24쪽'}],
+  },
+  'past-1-3-2022-35': {
+    status: 'historical', originalAnswers: [3],
+    summary: '2022년 당시의 국내 확진 인정 기준을 묻는 문항입니다.',
+    rationale: '원답은 신속항원검사와 실시간 RT-PCR의 조합인 ③입니다. 이는 해당 연도의 정책·검사 운영 문맥에 속하므로 현재의 확진 인정 기준으로 그대로 외우면 안 됩니다. 검사법의 표적과 원리를 구분해서 공부하세요. 원문의 “RT-OCR”은 “RT-PCR”의 오기로 보입니다.',
+    confidence: '높음', reviewedAt,
+    references: [{label:'족보 2022년 진단 35번 및 답안표'}, {label:'진단 강의 PDF 46–52쪽: 바이러스 검출법'}],
+  },
+  'past-1-3-2020-3': {
+    status: 'historical', originalAnswers: [3],
+    summary: '“가장 널리 이용된다”는 2020년 당시의 상황에 대한 답입니다.',
+    rationale: '원답 ③ 실시간 RT-PCR은 이 기출의 연도와 검사 상황에 맞추어 해석해야 합니다. 검사 이용 빈도와 행정적 인정 기준은 시기에 따라 달라질 수 있습니다. RT-PCR은 RNA를 역전사한 뒤 핵산을 증폭하는 검사라는 원리를 학습의 기준으로 삼으세요.',
+    confidence: '높음', reviewedAt,
+    references: [{label:'족보 2020년 진단 3번 및 답안표'}, {label:'진단 강의 PDF 46–52쪽'}],
+  },
+  'past-1-13-2022-81': {
+    status: 'ambiguous', originalAnswers: [2],
+    summary: '②는 의도된 답으로 보이지만, “액틴을 분해한다”는 분자기전 표현은 부정확합니다.',
+    rationale: 'C. difficile의 TcdA·TcdB는 주로 Rho 계열 GTPase를 glucosylation하여 불활성화하고, 그 결과 액틴 세포골격이 붕괴하게 합니다. 독소가 액틴 단백질 자체를 직접 절단하는 것으로 이해하면 안 됩니다. 이 문항의 다른 선지들도 독소·마비 양상 등을 뒤바꾸고 있어 ②가 출제 의도로 보이나, 정확한 기전은 별도로 구분해야 합니다.',
+    confidence: '높음', reviewedAt,
+    references: [{label:'Toxin A의 Rho 단백질 glucosylation 원저',url:'https://pubmed.ncbi.nlm.nih.gov/7775453/'}, {label:'TcdB의 Rho GTPase glucosylation 기전 연구',url:'https://pubmed.ncbi.nlm.nih.gov/36038138/'}],
+  },
+  'past-1-15-2022-64': {
+    status: 'ambiguous', originalAnswers: [5],
+    summary: '원답 ⑤ 외에, NTM 전체를 신속발육균으로 쓰는 ③도 일반화하면 틀립니다.',
+    rationale: 'NTM은 하나의 균종이 아니라 여러 균종을 포함하는 범주입니다. MAC·M. kansasii·M. xenopi처럼 느리게 자라는 균과 M. abscessus처럼 빠르게 자라는 균이 모두 포함됩니다. 문항의 smooth/rough·GPL·cording 설명은 특히 M. abscessus의 맥락과 관련이 있으므로 이를 NTM 전체의 성질로 외우면 안 됩니다. 전체 NTM을 대상으로 읽으면 단일정답성이 흔들립니다.',
+    confidence: '높음', reviewedAt,
+    references: [{label:'ATS/ERS/ESCMID/IDSA NTM 진료지침: slowly/rapidly growing species 구분',url:'https://www.idsociety.org/practice-guideline/nontuberculous-mycobacterial-ntm-diseases/'}],
+  },
+  'past-1-15-2021-40': {
+    status: 'ambiguous', originalAnswers: [4],
+    summary: '문항의 M. abscessus 맥락과 NTM 전체에 대한 설명이 섞여 있습니다.',
+    rationale: '원답은 ④이지만, ③의 “비결핵 항산균은 생장속도가 빠르다”는 설명은 NTM 전체에 대해 성립하지 않습니다. NTM에는 느리게 자라는 MAC 등도 포함됩니다. M. abscessus의 표현형과 감염 모델에 관한 설명을 NTM의 보편적 특징으로 확대하지 말고, 해당 균종을 전제한 강의 설명인지 확인하는 것이 좋습니다.',
+    confidence: '높음', reviewedAt,
+    references: [{label:'ATS/ERS/ESCMID/IDSA NTM 진료지침',url:'https://www.idsociety.org/practice-guideline/nontuberculous-mycobacterial-ntm-diseases/'}],
+  },
+  'past-1-15-2025-9': {
+    status: 'ambiguous', originalAnswers: [],
+    summary: '정답표가 확인되지 않았고, NTM 전체와 M. abscessus의 특성이 혼용되어 있습니다.',
+    rationale: '③처럼 NTM 전체를 신속발육균으로 묶을 수 없습니다. ⑤의 smooth/GPL 설명도 특정 균종의 표현형 문맥을 확인해야 합니다. 원본 답안이 누락된 상태에서 하나의 정답을 추정해 채우기보다, 문제에서 NTM이 M. abscessus를 뜻하도록 제한되었는지 강의와 대조할 필요가 있습니다.',
+    confidence: '높음', reviewedAt,
+    references: [{label:'ATS/ERS/ESCMID/IDSA NTM 진료지침',url:'https://www.idsociety.org/practice-guideline/nontuberculous-mycobacterial-ntm-diseases/'}],
+  },
+  'past-1-10-2025-89': {
+    status: 'ambiguous', originalAnswers: [2,3],
+    summary: '보체 회피와 직접 부착이라는 서로 다른 기능을 한 문장으로 묶어 해석이 모호합니다.',
+    rationale: '협막 K 항원은 보체·포식작용을 포함한 숙주 방어 회피와 연결되고, 숙주세포에 대한 직접 부착에서는 fimbriae/pili의 역할이 중요합니다. O 항원은 LPS의 다당 부분으로 구별해야 합니다. 특정 협막이나 표면 구조가 부착에도 기여할 수 있지만, 모든 균주에서 K 또는 O 항원 하나가 제시된 두 기능을 대표한다고 일반화하기는 어렵습니다. 원본에서 ②·③이 함께 인정된 사실과 항원별 대표 기능을 나누어 학습하세요.',
+    confidence: '중간', reviewedAt,
+    references: [{label:'Medical Microbiology: Bacterial Pathogenesis',url:'https://www.ncbi.nlm.nih.gov/books/NBK8526/'}, {label:'Essentials of Glycobiology: K antigens와 capsule의 숙주 방어 회피',url:'https://www.ncbi.nlm.nih.gov/books/NBK1945/'}],
+  },
+  'past-1-33-2025-51': {
+    status: 'ambiguous', originalAnswers: [1,3],
+    summary: '①은 배양세포의 바이러스 증식 기전, ③은 제조 방식 전환의 임상적 이점이라는 서로 다른 수준의 설명입니다.',
+    rationale: 'Vero 세포는 type I interferon 유전자군의 결실로 바이러스 증식에 유리한 성질을 보입니다. 한편 뇌조직 유래 백신에서 세포배양 백신으로 전환한 이점은 최종 제품의 안전성 평가와 관련된 별도 문제입니다. Vero 세포를 쓴다는 사실만으로 모든 백신의 부작용 감소가 자동 보장된다고 해석하지 마세요. 원본의 복수 인정답 ①·③은 질문 범위가 넓었던 결과로 이해할 수 있습니다.',
+    confidence: '중간', reviewedAt,
+    references: [{label:'Vero 세포 유전체의 type I interferon 유전자군 결실 원저',url:'https://pubmed.ncbi.nlm.nih.gov/25267831/'}, {label:'CDC ACIP: Japanese encephalitis vaccines',url:'https://www.cdc.gov/mmwr/volumes/68/rr/rr6802a1.htm'}],
+  },
+  'past-1-13-2023-8': {
+    status: 'historical', originalAnswers: [3],
+    summary: '원답 ③의 배양 단독 확진 문제와, ②의 과거 치료 표현은 구분해서 보세요.',
+    rationale: 'C. difficile을 배양했다는 사실만으로 독소에 의한 활동성 감염을 확진할 수 없다는 것이 원답 ③의 핵심입니다. 다만 ②를 현재의 중증도와 무관한 우선 치료 원칙으로 외우면 안 됩니다. IDSA/SHEA 지침은 성인 초기 CDI에서 fidaxomicin을 선호하고 경구 vancomycin을 대안으로 제시하며, metronidazole의 역할은 제한적입니다. 과거 증례의 처방과 현재 지침을 분리해 학습하세요.',
+    confidence: '높음', reviewedAt,
+    references: [{label:'IDSA/SHEA 2021 CDI focused update',url:'https://www.idsociety.org/practice-guideline/clostridioides-difficile-2021-focused-update/'}, {label:'IDSA/SHEA 2017 CDI guideline',url:'https://www.idsociety.org/practice-guideline/clostridium-difficile'}],
+  },
+};

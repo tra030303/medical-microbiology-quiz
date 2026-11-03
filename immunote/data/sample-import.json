@@ -1,0 +1,15 @@
+{
+  "questions": [
+    {
+      "category": "감염병의 진단",
+      "title": "가져오기 예시 — EHEC 검사 표적",
+      "stem": "혈성 설사 후 용혈성 빈혈·혈소판감소·급성 신손상이 발생했다. EHEC 감염 확인을 위한 PCR 표적으로 가장 적절한 것은?",
+      "options": ["mecA", "vanA", "stx", "rpoB", "erm"],
+      "answer": 3,
+      "explanation": "Shiga toxin을 암호화하는 stx 유전자를 검출한다.",
+      "source": "감염병의 진단 PDF 8~12쪽",
+      "difficulty": "중",
+      "tags": ["EHEC", "기출 응용"]
+    }
+  ]
+}

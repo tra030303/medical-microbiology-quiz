@@ -1,0 +1,8 @@
+{
+  "name": "immunote",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build-github-static.mjs"
+  }
+}
