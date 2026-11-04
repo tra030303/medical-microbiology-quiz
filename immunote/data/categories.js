@@ -5,7 +5,7 @@ export const CATEGORIES = [
   { id: 'diagnosis', name: '감염병의 진단', group: '감염 질환', order: 3, professor: '김택수' },
   { id: 'treatment', name: '감염병의 치료원칙', group: '감염 질환', order: 4, professor: '김홍빈' },
   { id: 'clinical-syndromes', name: '위장관감염, 피부연조직감염, 요로감염, 폐렴', group: '감염 질환', order: 5 },
-  { id: 'staphylococci', name: '포도알균', group: '감염 질환', order: 6 },
+  { id: 'staphylococci', name: '포도알균', group: '감염 질환', order: 6, professor: '김범준' },
   { id: 'infectious-pathology', name: '감염성 질환의 병리 1–2', group: '감염 질환', order: 7, professor: '김지은' },
   { id: 'streptococci', name: '사슬알균', group: '감염 질환', order: 9 },
   { id: 'enteric-bacteria', name: '장내세균', group: '감염 질환', order: 10, professor: '김동현' },
