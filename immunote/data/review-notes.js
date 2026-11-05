@@ -315,5 +315,34 @@ export const ASSISTANT_REVIEWS = {
         "url": "https://www.who.int/news/item/01-05-2020-massive-proportion-world-population-living-with-herpes-infection"
       }
     ]
+  },
+  "past-1-11-2021-22": {
+    "status": "correction",
+    "originalAnswers": [
+      1
+    ],
+    "suggestedAnswers": [
+      2
+    ],
+    "summary": "답안표의 ① Enterobacter는 오기로 보이며, 이 문항의 기전에 맞는 답은 ② Shigella입니다.",
+    "rationale": "단백질 합성을 억제하는 Shiga 독소와 출혈성 설사를 연결한 문항입니다. 장내세균 일반특징 강의 16쪽은 Shiga 독소의 단백질 합성 억제와 Shigella·장출혈성 대장균을 연결합니다. 특히 S. dysenteriae 1형이 대표적이며, 보기에서는 ② Shigella가 이에 해당합니다. 같은 보기와 문장을 사용하는 2020년 23번의 원답도 ②인 반면 2021년 답안표만 ①로 되어 있어 답안 오기 가능성이 높습니다. 원본 답안과 채점 기준은 보존하고 교정 제안만 별도로 표시합니다. 원문의 “hemolytic diarrhea”는 혈변을 뜻하는 문맥으로 읽되, 출혈성 설사와 HUS의 용혈성 빈혈은 구분해 학습하세요.",
+    "confidence": "높음",
+    "reviewedAt": "2026-11-05",
+    "references": [
+      {
+        "label": "10_장내세균일반특징_강의자료.pdf 16쪽: Shiga toxin과 단백질 합성 억제"
+      },
+      {
+        "label": "감염과 면역 족보_1.pdf 18쪽 동일 문항 및 104쪽 2021년·2020년 답안표 직접 대조"
+      },
+      {
+        "label": "S. dysenteriae 1 Shiga toxin의 단백질 합성 억제 원저",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/3334156/"
+      },
+      {
+        "label": "Shiga toxin의 28S rRNA N-glycosidase 기전 원저",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/3276522/"
+      }
+    ]
   }
 };

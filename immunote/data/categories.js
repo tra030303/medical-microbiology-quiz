@@ -7,7 +7,7 @@ export const CATEGORIES = [
   { id: 'clinical-syndromes', name: '위장관감염, 피부연조직감염, 요로감염, 폐렴', group: '감염 질환', order: 5 },
   { id: 'staphylococci', name: '포도알균', group: '감염 질환', order: 6, professor: '김범준' },
   { id: 'infectious-pathology', name: '감염성 질환의 병리 1–2', group: '감염 질환', order: 7, professor: '김지은' },
-  { id: 'streptococci', name: '사슬알균', group: '감염 질환', order: 9 },
+  { id: 'streptococci', name: '사슬알균', group: '감염 질환', order: 9, professor: '김범준' },
   { id: 'enteric-bacteria', name: '장내세균', group: '감염 질환', order: 10, professor: '김동현' },
   { id: 'cholera-campylobacter-pseudomonas', name: '콜레라, 캄필로박터, 수도모나스', group: '감염 질환', order: 12, professor: '김현제' },
   { id: 'anaerobes', name: '무산소성 세균', group: '감염 질환', order: 13, professor: '염진기' },
