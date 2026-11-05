@@ -9,7 +9,7 @@ export const CATEGORIES = [
   { id: 'infectious-pathology', name: '감염성 질환의 병리 1–2', group: '감염 질환', order: 7, professor: '김지은' },
   { id: 'streptococci', name: '사슬알균', group: '감염 질환', order: 9, professor: '김범준' },
   { id: 'enteric-bacteria', name: '장내세균', group: '감염 질환', order: 10, professor: '김동현' },
-  { id: 'cholera-campylobacter-pseudomonas', name: '콜레라, 캄필로박터, 수도모나스', group: '감염 질환', order: 12, professor: '김현제' },
+  { id: 'cholera-campylobacter-pseudomonas', name: '콜레라, 캄필로박터, 수도모나스', group: '감염 질환', order: 12, professor: '방예지' },
   { id: 'anaerobes', name: '무산소성 세균', group: '감염 질환', order: 13, professor: '염진기' },
   { id: 'endocarditis-cns', name: '심내막염, 중추신경계감염', group: '감염 질환', order: 14 },
   { id: 'mycobacteria', name: '미코박테리움', group: '감염 질환', order: 15, professor: '염진기' },

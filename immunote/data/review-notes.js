@@ -344,5 +344,78 @@ export const ASSISTANT_REVIEWS = {
         "url": "https://pubmed.ncbi.nlm.nih.gov/3276522/"
       }
     ]
+  },
+  "past-1-12-2021-37": {
+    "status": "correction",
+    "originalAnswers": [
+      5
+    ],
+    "suggestedAnswers": [
+      3
+    ],
+    "summary": "답안표의 ⑤는 임상·보기와 맞지 않으며, 제시된 보기 중 ③ C. jejuni가 가장 타당합니다. 다만 18시간 잠복기는 비전형적입니다.",
+    "rationale": "원족보 PDF 20쪽 본문과 105쪽 답안표를 직접 대조하면 원답은 ⑤ C. diphtheriae로 되어 있습니다. 닭고기 관련 식사, 복통·미열·혈변, 대변에서 원인균 동정이라는 조합은 보기 중 ③ C. jejuni가 가장 잘 설명합니다. C. diphtheriae의 전형적 호흡기·피부 감염상과 맞지 않아 답안표 오기 가능성이 높습니다. 다만 식사 18시간 뒤 발생은 CDC의 C. jejuni 전형 잠복기 2–5일보다 짧으므로 시간 단서까지 매끈한 문항으로 해석하지 않습니다. 원문의 짧은 잠복기 때문에 다른 식중독 감별도 필요하나 원답 ⑤를 지지하지는 않습니다. 원본 정답·채점 키는 보존하고 별도 교정 제안만 표시합니다.",
+    "confidence": "높음",
+    "reviewedAt": "2026-11-05",
+    "references": [
+      {
+        "label": "감염과 면역 족보_1.pdf PDF 20쪽 본문·105쪽 답안표 직접 렌더 확인"
+      },
+      {
+        "label": "감염과면역12-콜레라 캄필로박터 수도모나스_2026.pdf / PDF 20–22쪽: C. jejuni 노출·염증성 장염·잠복기"
+      },
+      {
+        "label": "CDC Campylobacter 임상개요: 전형2–5일·가금류·혈성설사",
+        "url": "https://www.cdc.gov/campylobacter/hcp/clinical-overview/index.html"
+      },
+      {
+        "label": "CDC Diphtheria 임상 양상",
+        "url": "https://www.cdc.gov/diphtheria/hcp/clinical-signs/index.html"
+      }
+    ]
+  },
+  "past-1-12-2023-30": {
+    "status": "ambiguous",
+    "originalAnswers": [
+      4
+    ],
+    "summary": "원답 ④ 여행력은 보존하되, 간경변·발열·하지 수포성 병변에서는 ⑤ 음식 섭취력과 ③ 외상·해수 노출력도 핵심 질문입니다.",
+    "rationale": "원족보 PDF 19쪽 본문·하지 수포 사진과 105쪽 답안표를 직접 확인했습니다. 원답은 ④ 여행력입니다. 간경변 환자의 발열과 수포성 하지 병변은 V. vulnificus 감염을 감별해야 하는 소견으로, 생굴 등 날해산물 섭취와 해수·기수에 노출된 상처를 모두 물어야 합니다. 따라서 ⑤ 음식 섭취력이나 ③ 외상력을 원인균 추정과 무관한 오답으로 외우면 부정확합니다. 사진과 짧은 본문만으로 원인균을 확진하거나 감염 경로를 하나로 정할 수 없고 여행력도 다른 감별에 도움이 될 수 있으므로, 새 정답을 하나로 확정하지 않고 단일정답성의 모호함을 안내합니다. 원본 정답·채점 키는 변경하지 않습니다.",
+    "confidence": "중간",
+    "reviewedAt": "2026-11-05",
+    "references": [
+      {
+        "label": "감염과 면역 족보_1.pdf PDF 19쪽 본문·수포사진 및105쪽 답안표 직접 렌더 확인"
+      },
+      {
+        "label": "감염과면역12-콜레라 캄필로박터 수도모나스_2026.pdf / PDF 11–13·16–17쪽: V. vulnificus 고위험군·노출·괴사성 감염"
+      },
+      {
+        "label": "CDC Vibriosis 임상개요: 간질환·패혈증·수포·음식 및 상처 노출",
+        "url": "https://www.cdc.gov/vibrio/hcp/clinical-overview/"
+      }
+    ]
+  },
+  "past-1-12-2022-70": {
+    "status": "ambiguous",
+    "originalAnswers": [
+      5
+    ],
+    "summary": "의도된 정답은 ⑤이지만, ②의 “절대 산소균”도 모든 조건의 무산소 성장 불가능으로 외우면 부정확합니다.",
+    "rationale": "원족보 PDF 20쪽 본문과 105쪽 답안표의 원답 ⑤를 직접 확인했습니다. 녹농균은 MacConkey에서 lactose 비발효성이므로 분홍색 발효 집락이라는 ⑤의 진술은 명백히 틀려 이 문항의 의도된 정답입니다. 그러나 ② obligate aerobe를 문자 그대로 산소가 없으면 어떤 조건에서도 성장하지 못한다는 뜻으로 읽으면 엄밀하지 않습니다. 2026년 콜레라·캄필로박터·수도모나스 강의 PDF 32쪽은 주로 호기성 호흡을 하되 질산염 등으로 혐기성 호흡이 가능함을 명시하고, 원저에서도 질산염 최종 전자수용체를 이용한 무산소 조건이 확인됩니다. 과거 문항의 단순화와 정확한 대사 가능성을 구별하여 안내하고 원본 정답·채점 키는 ⑤로 보존합니다.",
+    "confidence": "높음",
+    "reviewedAt": "2026-11-05",
+    "references": [
+      {
+        "label": "감염과 면역 족보_1.pdf PDF 20쪽 본문·105쪽 답안표 직접 렌더 확인"
+      },
+      {
+        "label": "감염과면역12-콜레라 캄필로박터 수도모나스_2026.pdf / PDF 32쪽: 비발효성·lactose 비발효·질산염 이용 혐기성 호흡"
+      },
+      {
+        "label": "질산염을 최종 전자수용체로 이용한 무산소 조건 원저",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/8955420/"
+      }
+    ]
   }
 };
