@@ -73,11 +73,52 @@ try {
   questionImageFiles = names.filter(name => questionImageName.test(name)).sort();
 } catch (error) { if (error.code !== 'ENOENT') throw error; }
 
-let questionImagePackCount = 0;
-let questionImageCount = 0;
+// Published checkouts may contain old packed images plus newly added WebPs.
+// Read the indexed image bytes before rebuilding so the new files augment the
+// published bank; a raw file with the same name intentionally replaces it.
+let questionImageIndexSource;
+try { questionImageIndexSource = await readFile(questionImageIndexPath, 'utf8'); }
+catch (error) {
+  if (error.code !== 'ENOENT') throw error;
+  questionImageIndexSource = 'export const QUESTION_IMAGE_INDEX = null;\n';
+  await writeFile(questionImageIndexPath, questionImageIndexSource);
+}
+const questionImageIndexMatch = questionImageIndexSource.match(/export const QUESTION_IMAGE_INDEX = (null|\{[\s\S]*\});/);
+if (!questionImageIndexMatch) throw new Error('The generated question image index must export QUESTION_IMAGE_INDEX as null or an object.');
+const existingQuestionImageIndex = JSON.parse(questionImageIndexMatch[1]);
+const indexedQuestionPacks = new Map();
+const questionImageUrls = new Map();
+if (existingQuestionImageIndex !== null) {
+  for (const [filename, pack] of Object.entries(existingQuestionImageIndex)) {
+    if (!questionImageName.test(filename) || !/^part-\d+\.js$/.test(pack)) throw new Error('Invalid generated question image index entry: ' + filename);
+    if (!indexedQuestionPacks.has(pack)) {
+      const path = join(questionImagePackDirectory, pack);
+      const info = await stat(path);
+      if (!info.isFile() || info.size > maximumPackBytes) throw new Error('Generated question image pack ' + pack + ' is missing or exceeds ' + maximumPackBytes + ' bytes.');
+      const source = await readFile(path, 'utf8');
+      const match = source.match(/^\s*export const SCANS = (\{[\s\S]*\});\s*$/);
+      if (!match) throw new Error('Invalid generated question image pack: ' + pack);
+      indexedQuestionPacks.set(pack, JSON.parse(match[1]));
+    }
+    const url = indexedQuestionPacks.get(pack)[filename];
+    if (typeof url !== 'string' || !/^data:image\/webp;base64,[A-Za-z0-9+/]+={0,2}$/.test(url)) throw new Error('Missing or invalid generated question image ' + filename + ' in ' + pack);
+    questionImageUrls.set(filename, url);
+  }
+}
+
+let questionImagePackCount = indexedQuestionPacks.size;
+let questionImageCount = questionImageUrls.size;
 if (questionImageFiles.length) {
+  for (const filename of questionImageFiles) {
+    const data = await readFile(join(questionImageDirectory, filename));
+    questionImageUrls.set(filename, 'data:image/webp;base64,' + data.toString('base64'));
+  }
+  // Stable order preserves the existing all-raw build's exact module bytes.
+  const combinedFilenames = [...questionImageUrls.keys()].sort();
   await rm(questionImagePackDirectory, { recursive: true, force: true });
   await mkdir(questionImagePackDirectory, { recursive: true });
+  questionImagePackCount = 0;
+  questionImageCount = 0;
   const index = {};
   let current = {};
   let bytes = 0;
@@ -90,9 +131,8 @@ if (questionImageFiles.length) {
     await writeFile(join(questionImagePackDirectory, name), source);
     current = {}; bytes = 0;
   }
-  for (const filename of questionImageFiles) {
-    const data = await readFile(join(questionImageDirectory, filename));
-    const url = 'data:image/webp;base64,' + data.toString('base64');
+  for (const filename of combinedFilenames) {
+    const url = questionImageUrls.get(filename);
     const entryBytes = Buffer.byteLength(JSON.stringify(filename) + ':' + JSON.stringify(url) + ',');
     if (entryBytes + 40 > maximumPackBytes) throw new Error('Generated question image ' + filename + ' is too large for a ' + maximumPackBytes + '-byte upload module. Compress the source WebP to about 350 KB before building.');
     if (bytes && bytes + entryBytes + 40 > targetPackBytes) await flushQuestionImages();
@@ -101,32 +141,6 @@ if (questionImageFiles.length) {
   await flushQuestionImages();
   await writeFile(questionImageIndexPath, '// Lazy generated-question image index generated for GitHub Pages.\nexport const QUESTION_IMAGE_INDEX = ' + JSON.stringify(index) + ';\n');
   await rm(questionImageDirectory, { recursive: true });
-} else {
-  // Published clones contain the packed modules instead of original WebPs.
-  // A source checkout with no generated images uses the nullable default index.
-  let source;
-  try { source = await readFile(questionImageIndexPath, 'utf8'); }
-  catch (error) {
-    if (error.code !== 'ENOENT') throw error;
-    source = 'export const QUESTION_IMAGE_INDEX = null;\n';
-    await writeFile(questionImageIndexPath, source);
-  }
-  const match = source.match(/export const QUESTION_IMAGE_INDEX = (null|\{[\s\S]*\});/);
-  if (!match) throw new Error('The generated question image index must export QUESTION_IMAGE_INDEX as null or an object.');
-  const index = JSON.parse(match[1]);
-  if (index !== null) {
-    const packs = new Set();
-    for (const [filename, pack] of Object.entries(index)) {
-      if (!questionImageName.test(filename) || !/^part-\d+\.js$/.test(pack)) throw new Error('Invalid generated question image index entry: ' + filename);
-      packs.add(pack);
-    }
-    for (const name of packs) {
-      const info = await stat(join(questionImagePackDirectory, name));
-      if (!info.isFile() || info.size > maximumPackBytes) throw new Error('Generated question image pack ' + name + ' is missing or exceeds ' + maximumPackBytes + ' bytes.');
-    }
-    questionImagePackCount = packs.size;
-    questionImageCount = Object.keys(index).length;
-  }
 }
 
 // The editable browser source is already in src/ and data/. Include only the
