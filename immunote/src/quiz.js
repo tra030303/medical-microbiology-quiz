@@ -1,4 +1,4 @@
-import { bindScanImage } from './assets.js';
+import { bindScanImage, isSafeScanSource } from './assets.js';
 const CIRCLED = ['①', '②', '③', '④', '⑤', '⑥', '⑦', '⑧'];
 
 export function getAnswerChoices(question) {
@@ -110,6 +110,65 @@ export function mountQuiz(container, questions, config = {}) {
   let enteredAt = Date.now();
   let result = null;
   let liveStatus = null;
+  let imageDialog = null;
+  let imageReturnFocus = null;
+
+  function closeImageDialog(restoreFocus = true) {
+    const dialog = imageDialog;
+    if (!dialog) return;
+    imageDialog = null;
+    if (dialog.open && typeof dialog.close === 'function') dialog.close();
+    dialog.remove();
+    if (restoreFocus && imageReturnFocus?.isConnected) imageReturnFocus.focus();
+    imageReturnFocus = null;
+  }
+
+  function openImageDialog(source, label, trigger) {
+    closeImageDialog(false);
+    imageReturnFocus = trigger;
+    const dialog = element('dialog', 'quiz-image-dialog');
+    dialog.setAttribute('role', 'dialog');
+    dialog.setAttribute('aria-modal', 'true');
+    dialog.setAttribute('aria-labelledby', 'quiz-image-dialog-title');
+    const header = element('div', 'quiz-image-dialog-header');
+    const title = element('h2', '', label + ' 확대');
+    title.id = 'quiz-image-dialog-title';
+    const close = button('닫기', 'quiz-image-close', () => closeImageDialog(), { 'aria-label': '사진 확대 닫기' });
+    header.append(title, close);
+    const controls = element('div', 'quiz-image-controls');
+    const view = element('div', 'quiz-image-viewport');
+    view.tabIndex = 0;
+    view.setAttribute('aria-label', '확대한 사진 보기');
+    const image = element('img', 'quiz-image-full');
+    image.alt = label;
+    let scale = 1;
+    const resize = () => {
+      if (!image.naturalWidth) return;
+      const fitted = Math.min(image.naturalWidth, Math.max(1, view.clientWidth - 2));
+      image.style.width = Math.round(fitted * scale) + 'px';
+      image.style.maxWidth = 'none';
+      indicator.textContent = Math.round(scale * 100) + '%';
+    };
+    const indicator = element('span', 'quiz-image-scale', '100%');
+    indicator.setAttribute('aria-live', 'polite');
+    controls.append(
+      button('− 축소', '', () => { scale = Math.max(.5, scale / 1.5); resize(); }, { 'aria-label': '사진 축소' }),
+      button('+ 확대', '', () => { scale = Math.min(6, scale * 1.5); resize(); }, { 'aria-label': '사진 확대' }),
+      button('화면에 맞춤', '', () => { scale = 1; resize(); view.scrollTo(0, 0); }),
+      indicator
+    );
+    image.addEventListener('load', resize);
+    view.append(image);
+    dialog.append(header, controls, view, element('p', 'quiz-image-help', '확대한 사진은 화면 안에서 좌우·상하로 이동해 볼 수 있습니다.'));
+    dialog.addEventListener('cancel', event => { event.preventDefault(); closeImageDialog(); });
+    dialog.addEventListener('click', event => { if (event.target === dialog) closeImageDialog(); });
+    document.body.append(dialog);
+    imageDialog = dialog;
+    if (typeof dialog.showModal === 'function') dialog.showModal(); else dialog.setAttribute('open', '');
+    bindScanImage(image, source);
+    close.focus();
+  }
+
   const confirmAction = message => typeof config.confirm === 'function' ? config.confirm(message) : window.confirm(message);
 
   const getEntry = id => state.get(id) || { selected: null, checked: false, timeMs: 0 };
@@ -330,6 +389,7 @@ export function mountQuiz(container, questions, config = {}) {
   }
 
   function renderQuestion(focusHeading = false) {
+    closeImageDialog(false);
     if (destroyed) return;
     container.replaceChildren();
     const shell = element('section', 'quiz-shell');
@@ -377,17 +437,29 @@ export function mountQuiz(container, questions, config = {}) {
     card.append(heading);
     const stem = element('div', 'question-stem', question.stem || '');
     stem.style.whiteSpace = 'pre-wrap';
-    if (question.scanImages?.length) {
-      const scans = element('div','past-question-scans');
-      for (const [i, src] of question.scanImages.entries()) {
-        if (typeof src !== 'string' || !(/^\.\/data\/past-images\/[a-z0-9-]+\.webp$/.test(src)||/^data:image\/webp;base64,[A-Za-z0-9+/=]+$/.test(src))) continue;
-        const img = element('img','past-question-image');
-        bindScanImage(img,src);img.alt=`${question.year||''}년 ${question.originalNumber||''}번 원문 ${i+1}`;
-        scans.append(img);
+    const imageSources = Array.isArray(question.scanImages) ? question.scanImages.filter(isSafeScanSource) : [];
+    if (imageSources.length) {
+      const originalScan = question.bank === 'past' && question.choiceLabelsOnly === true;
+      if (!originalScan) card.append(stem);
+      const scans = element('div', 'past-question-scans' + (originalScan ? '' : ' question-photo-gallery'));
+      for (const [i, src] of imageSources.entries()) {
+        const label = originalScan ? `${question.year || ''}년 ${question.originalNumber || ''}번 원문 ${i + 1}` : `조직사진 ${String.fromCharCode(65 + i)}`;
+        const imageButton = button(null, 'quiz-image-open', null, { 'aria-label': label + ' 확대 보기' });
+        const img = element('img', 'past-question-image' + (originalScan ? '' : ' question-photo'));
+        img.alt = label;
+        bindScanImage(img, src);
+        imageButton.addEventListener('click', () => openImageDialog(src, label, imageButton));
+        imageButton.append(img);
+        if (!originalScan) imageButton.append(element('span', 'quiz-image-caption', label + ' · 눌러서 확대'));
+        scans.append(imageButton);
       }
       card.append(scans);
-      const textDetails=element('details','past-text-details');textDetails.append(element('summary','','원문 텍스트 보기'),stem);card.append(textDetails);
-      card.append(element('p','past-choice-hint',question.answerMode==='multiple'?'원문의 보기를 읽고 정답을 모두 선택하세요.':'원문의 보기를 읽고 아래 번호를 선택하세요.'));
+      if (originalScan) {
+        const textDetails = element('details', 'past-text-details');
+        textDetails.append(element('summary', '', '원문 텍스트 보기'), stem);
+        card.append(textDetails);
+        card.append(element('p', 'past-choice-hint', question.answerMode === 'multiple' ? '원문의 보기를 읽고 정답을 모두 선택하세요.' : '원문의 보기를 읽고 아래 번호를 선택하세요.'));
+      } else card.append(element('p', 'quiz-photo-hint', '사진의 형태와 임상 정보를 함께 보고 답을 선택하세요.'));
     } else card.append(stem);
     if (question.answerMode === 'multiple') card.append(element('p','quiz-notice','복수선택 · 모든 정답을 선택한 뒤 확인해 주세요.'));
     const choices = element('div', 'quiz-options');
@@ -452,6 +524,7 @@ export function mountQuiz(container, questions, config = {}) {
   }
 
   function renderResults() {
+    closeImageDialog(false);
     if (destroyed || !result) return;
     container.replaceChildren();
     liveStatus = null;
@@ -527,6 +600,7 @@ export function mountQuiz(container, questions, config = {}) {
   function cleanup() {
     if (destroyed) return;
     destroyed = true;
+    closeImageDialog(false);
     document.removeEventListener('keydown', onKeyDown);
     container.replaceChildren();
   }

@@ -1,3 +1,4 @@
+import { isSafeScanSource } from './assets.js';
 /** Question imports are data only. Nothing in this module evaluates imported text. */
 const CIRCLED = '①②③④⑤⑥⑦⑧⑨⑩';
 const MAX_QUESTIONS = 1000;
@@ -84,7 +85,7 @@ function normalizeQuestion(raw, defaults) {
     options,
     answer: answerNumber(answerValue, options, hasAnswerIndex),
     ...(Array.isArray(raw.acceptedAnswers) && raw.acceptedAnswers.length && raw.acceptedAnswers.every(n=>Number.isInteger(n)&&n>=1&&n<=options.length) ? {acceptedAnswers:[...raw.acceptedAnswers],answerMode:raw.answerMode==='multiple'?'multiple':'single'} : {}),
-    ...(Array.isArray(raw.scanImages) && raw.scanImages.every(src=>typeof src==='string'&&(/^\.\/data\/past-images\/[a-z0-9-]+\.webp$/.test(src)||/^data:image\/webp;base64,[A-Za-z0-9+/=]+$/.test(src))) ? {scanImages:[...raw.scanImages],choiceLabelsOnly:raw.choiceLabelsOnly===true} : {}),
+    ...(raw.scanImages !== undefined ? {scanImages:Array.isArray(raw.scanImages) ? [...raw.scanImages] : raw.scanImages,choiceLabelsOnly:raw.choiceLabelsOnly===true} : {}),
     explanation: plain(raw.explanation ?? raw.rationale ?? raw.solution ?? raw.해설),
     source: plain(raw.source ?? raw.reference ?? raw.출처 ?? raw.근거),
     difficulty: plain(raw.difficulty ?? raw.난이도) || '중',
@@ -105,6 +106,7 @@ export function validateQuestion(question, { allowUnanswered = true } = {}) {
     if (question.options.some(option => typeof option !== 'string' || !option.trim())) errors.push('빈 보기가 있습니다.');
     if (question.options.some(option => typeof option === 'string' && option.length > 20_000)) errors.push('보기의 길이가 너무 깁니다.');
   }
+  if (question.scanImages !== undefined && (!Array.isArray(question.scanImages) || !question.scanImages.every(isSafeScanSource))) errors.push('허용되지 않는 문제 이미지 경로입니다.');
   if (question.answer === null || question.answer === undefined) {
     if (!allowUnanswered) errors.push('정답이 없습니다.');
   } else if (!Number.isInteger(question.answer) || question.answer < 1 || question.answer > (question.options?.length || 0)) {

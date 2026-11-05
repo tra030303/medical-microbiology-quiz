@@ -59,6 +59,76 @@ if (imageFiles.length) {
   scanCount = Object.keys(JSON.parse(match[1])).length;
 }
 
+// Generated question images have their own lazy packs so adding them never
+// changes the original scan modules or their Git blob identities.
+const questionImageDirectory = resolve(output, 'data/question-images');
+const questionImagePackDirectory = resolve(output, 'data/question-image-packs');
+const questionImageIndexPath = resolve(output, 'data/question-image-index.js');
+const questionImageName = /^histology-\d{3}(?:-[ab])?\.webp$/;
+let questionImageFiles = [];
+try {
+  const names = await readdir(questionImageDirectory);
+  const invalid = names.find(name => !name.startsWith('.') && !questionImageName.test(name));
+  if (invalid) throw new Error('Unexpected generated question image filename: ' + invalid + '. Use histology-NNN[-a/b].webp.');
+  questionImageFiles = names.filter(name => questionImageName.test(name)).sort();
+} catch (error) { if (error.code !== 'ENOENT') throw error; }
+
+let questionImagePackCount = 0;
+let questionImageCount = 0;
+if (questionImageFiles.length) {
+  await rm(questionImagePackDirectory, { recursive: true, force: true });
+  await mkdir(questionImagePackDirectory, { recursive: true });
+  const index = {};
+  let current = {};
+  let bytes = 0;
+  async function flushQuestionImages() {
+    if (!Object.keys(current).length) return;
+    const name = 'part-' + String(++questionImagePackCount).padStart(3, '0') + '.js';
+    const source = 'export const SCANS = ' + JSON.stringify(current) + ';\n';
+    if (Buffer.byteLength(source) > maximumPackBytes) throw new Error('Generated question image module ' + name + ' exceeds ' + maximumPackBytes + ' bytes.');
+    for (const filename of Object.keys(current)) index[filename] = name;
+    await writeFile(join(questionImagePackDirectory, name), source);
+    current = {}; bytes = 0;
+  }
+  for (const filename of questionImageFiles) {
+    const data = await readFile(join(questionImageDirectory, filename));
+    const url = 'data:image/webp;base64,' + data.toString('base64');
+    const entryBytes = Buffer.byteLength(JSON.stringify(filename) + ':' + JSON.stringify(url) + ',');
+    if (entryBytes + 40 > maximumPackBytes) throw new Error('Generated question image ' + filename + ' is too large for a ' + maximumPackBytes + '-byte upload module. Compress the source WebP to about 350 KB before building.');
+    if (bytes && bytes + entryBytes + 40 > targetPackBytes) await flushQuestionImages();
+    current[filename] = url; bytes += entryBytes; questionImageCount++;
+  }
+  await flushQuestionImages();
+  await writeFile(questionImageIndexPath, '// Lazy generated-question image index generated for GitHub Pages.\nexport const QUESTION_IMAGE_INDEX = ' + JSON.stringify(index) + ';\n');
+  await rm(questionImageDirectory, { recursive: true });
+} else {
+  // Published clones contain the packed modules instead of original WebPs.
+  // A source checkout with no generated images uses the nullable default index.
+  let source;
+  try { source = await readFile(questionImageIndexPath, 'utf8'); }
+  catch (error) {
+    if (error.code !== 'ENOENT') throw error;
+    source = 'export const QUESTION_IMAGE_INDEX = null;\n';
+    await writeFile(questionImageIndexPath, source);
+  }
+  const match = source.match(/export const QUESTION_IMAGE_INDEX = (null|\{[\s\S]*\});/);
+  if (!match) throw new Error('The generated question image index must export QUESTION_IMAGE_INDEX as null or an object.');
+  const index = JSON.parse(match[1]);
+  if (index !== null) {
+    const packs = new Set();
+    for (const [filename, pack] of Object.entries(index)) {
+      if (!questionImageName.test(filename) || !/^part-\d+\.js$/.test(pack)) throw new Error('Invalid generated question image index entry: ' + filename);
+      packs.add(pack);
+    }
+    for (const name of packs) {
+      const info = await stat(join(questionImagePackDirectory, name));
+      if (!info.isFile() || info.size > maximumPackBytes) throw new Error('Generated question image pack ' + name + ' is missing or exceeds ' + maximumPackBytes + ' bytes.');
+    }
+    questionImagePackCount = packs.size;
+    questionImageCount = Object.keys(index).length;
+  }
+}
+
 // The editable browser source is already in src/ and data/. Include only the
 // small publishing helpers and documentation needed for later chat updates.
 for (const name of ['README.md', 'CHAT_UPDATES.md']) {
@@ -72,7 +142,7 @@ for (const name of ['build-pages.mjs', 'build-github-static.mjs', 'import-chat-b
 // The working repository owns the full test suite. The published browser package
 // does not declare a test command that would require the unpacked original scans.
 
-const manifest = { version: 1, remotePrefix: prefix, scans: scanCount, scanPacks: packCount, files: [] };
+const manifest = { version: 1, remotePrefix: prefix, scans: scanCount, scanPacks: packCount, questionImages: questionImageCount, questionImagePacks: questionImagePackCount, files: [] };
 async function visit(directory) {
   for (const name of (await readdir(directory)).sort()) {
     const path = join(directory, name);
@@ -94,4 +164,4 @@ async function visit(directory) {
 }
 await visit(output);
 await writeFile(resolve(root, 'outputs/github-static-upload-manifest.json'), JSON.stringify(manifest, null, 2) + '\n');
-console.log(JSON.stringify({ output, remotePrefix: prefix, scans: scanCount, scanPacks: packCount, files: manifest.files.length, maximumScanPackBytes: Math.max(...manifest.files.filter(file => file.path.includes('/scan-packs/')).map(file => file.size_bytes)), manifest: 'outputs/github-static-upload-manifest.json' }, null, 2));
+console.log(JSON.stringify({ output, remotePrefix: prefix, scans: scanCount, scanPacks: packCount, questionImages: questionImageCount, questionImagePacks: questionImagePackCount, files: manifest.files.length, maximumScanPackBytes: Math.max(0, ...manifest.files.filter(file => file.path.includes('/scan-packs/')).map(file => file.size_bytes)), maximumQuestionImagePackBytes: Math.max(0, ...manifest.files.filter(file => file.path.includes('/question-image-packs/')).map(file => file.size_bytes)), manifest: 'outputs/github-static-upload-manifest.json' }, null, 2));

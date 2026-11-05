@@ -1,3 +1,4 @@
+import { isSafeScanSource } from './assets.js';
 export function getBank(question) {
   return question?.bank === 'past' ? 'past' : 'generated';
 }
@@ -17,4 +18,8 @@ export function prepareBankSession(questions, {bank, count = 'all', shuffle = fa
     }
   }
   return selected.slice(0, count === 'all' ? selected.length : Math.max(0, Number(count) || 0));
+}
+
+export function isHistologyQuestion(question) {
+  return getBank(question) === 'generated' && Array.isArray(question?.tags) && question.tags.includes('조직사진') && Array.isArray(question?.scanImages) && question.scanImages.some(isSafeScanSource);
 }
