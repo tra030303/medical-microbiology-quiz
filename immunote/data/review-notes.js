@@ -417,5 +417,49 @@ export const ASSISTANT_REVIEWS = {
         "url": "https://pubmed.ncbi.nlm.nih.gov/8955420/"
       }
     ]
+  },
+  "past-1-16-2025-86": {
+    "status": "ambiguous",
+    "originalAnswers": [
+      4
+    ],
+    "summary": "정답 ④의 기전은 맞지만, 본문의 “전사(translation)”는 “번역(translation)”으로 읽어야 합니다.",
+    "rationale": "원문은 “전사”라고 쓰면서 괄호에 translation을 병기합니다. 전사는 DNA에서 RNA를 만드는 transcription이고, 번역은 mRNA를 바탕으로 단백질을 만드는 translation입니다. 디프테리아 독소의 C domain은 NAD⁺를 이용해 EF-2를 ADP-ribosylation하여 단백질 합성의 신장 단계를 억제합니다. 따라서 이 문항은 RNA 전사를 억제하는 기전이 아니라 번역을 억제하는 기전을 묻는 것으로 해석해야 합니다. 원답 ④와 채점 기준은 그대로 보존합니다.",
+    "confidence": "높음",
+    "reviewedAt": "2026-11-06",
+    "references": [
+      {
+        "label": "감염과 면역 족보_1.pdf / PDF 25쪽 2025년 86번 원문 이미지·106쪽 답안표"
+      },
+      {
+        "label": "[261106_05]코리네박테리움, 노카르디아(염진기)_변준서v1.pdf / PDF p11–13: EF-2와 단백질 번역 억제"
+      },
+      {
+        "label": "NCBI Medical Microbiology: Corynebacterium Diphtheriae — EF-2 ADP-ribosylation and protein synthesis inhibition",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK7971/"
+      }
+    ]
+  },
+  "past-1-15-2022-78": {
+    "status": "historical",
+    "originalAnswers": [
+      4
+    ],
+    "summary": "원답 ④ kanamycin은 과거 2차 주사제 분류의 답입니다. 현행 MDR/RR-TB 처방 원칙과 구분하세요.",
+    "rationale": "이 문항의 원답은 ④ kanamycin으로, 문항이 사용한 과거 1차/2차 약제 분류를 묻는 것으로 읽을 수 있습니다. 이는 2022년의 최신 처방 권고까지 정확히 반영한다는 뜻은 아닙니다. WHO 2026 통합지침 제2판의 권고 B3.2는 MDR/RR-TB 장기요법에 kanamycin과 capreomycin을 포함하지 않도록 권고합니다. 따라서 이 기출을 현재 내성 결핵에 kanamycin을 우선 추가한다는 뜻으로 외우면 부정확합니다. 실제 약제 선택은 감수성과 치료 적격성 등에 따라 결정합니다. 원본 정답과 채점 키 ④는 보존하고, 과거 분류와 현재 치료 원칙을 별도로 안내합니다.",
+    "confidence": "높음",
+    "reviewedAt": "2026-11-06",
+    "references": [
+      {
+        "label": "감염과 면역 족보_1.pdf / PDF 25쪽 2022년 78번·105쪽 답안표: 원답 ④"
+      },
+      {
+        "label": "[261106_03] 마이코박테리움(염진기)_ 서현오v1.pdf / PDF 26·50쪽: 과거 약제 분류·기출"
+      },
+      {
+        "label": "WHO consolidated guidelines on tuberculosis, 2nd edition (2026), Module 4, Chapter 2, B3.2: kanamycin/capreomycin 제외",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK625333/"
+      }
+    ]
   }
 };
