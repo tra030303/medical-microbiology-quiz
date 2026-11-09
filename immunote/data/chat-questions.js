@@ -5265,7 +5265,7 @@ export const CHAT_QUESTIONS = [
     ],
     "answer": 4,
     "explanation": "정답 ④. 같은 cAMP 증가라도 표적은 다를 수 있다. ETEC의 LT는 Gsα를 ADP-ribosylation하여 adenylate cyclase 신호를 높이고, STa는 막의 guanylate cyclase-C를 자극해 cGMP를 증가시킨다. 제시된 균·특이 중화 결과와 두 신호를 함께 설명하는 연결은 ④이다.\n① Giα를 ADP-ribosylation하여 억제성 신호를 막는 것은 백일해 독소(pertussis toxin)의 기전이다. cAMP가 올라갈 수 있다는 공통점만으로 LT의 Gsα 표적과 같게 취급하지 않는다. STa 부분은 맞지만 LT 부분이 다르다.\n② Calmodulin에 의해 활성화되는 외인성 adenylate cyclase는 탄저균 edema factor(EF)의 실제 기전이며, 백일해균 ACT도 직접 cAMP를 생성한다. LT가 숙주 Gsα 신호를 바꾸는 방식과 구별한다. 탄저 EF는 첨부된 장내세균 강의 밖의 일반 기전을 원저로 보완한 비교이다.\n③ LT의 대표 수용체 GM1과 STa의 guanylate cyclase-C는 다르다. 항체별 선택적 신호 소실을 농도 차이만으로 바꾸면 일차 표적의 차이를 놓친다.\n④ LT–Gsα–cAMP와 STa–guanylate cyclase-C–cGMP를 구별하면서 공통 분비 반응에 기여할 수 있음을 설명한다.\n⑤ 신호별 중화가 분비량의 단순 합산이나 상호작용 부재까지 증명하지는 않는다. 용량–반응과 병용 효과를 따로 비교해야 한다.\n통합 비교: LT는 Gsα, 백일해 독소는 Giα, 탄저 EF는 그 자체의 효소 활성이라는 차이를 정리한다. 이 문제의 ST는 사람 ETEC의 STa이다.\n참고: LT/STa 기전 — https://doi.org/10.1128/IAI.02496-14 ; 탄저 EF–calmodulin 원저 및 구조 — https://www.rcsb.org/structure/1K93",
-    "source": "11_장내세균각론_강의자료.pdf / PDF p4–7; 관련 기출 2023년 64번의 분비성 장독소를 LT/STa의 cyclic nucleotide 신호로 심화(세부 신호는 원저 보완); 통합 선지 보완: 감염과면역18_헤모필루스, 보르데텔라, 나이세리아 2026.pdf / PDF p16; 탄저 EF의 일반 기전은 원저로 보완 — https://www.rcsb.org/structure/1K93",
+    "source": "11_장내세균각론_강의자료.pdf / PDF p4–7; 관련 기출 2023년 64번의 분비성 장독소를 LT/STa의 cyclic nucleotide 신호로 심화(세부 신호는 원저 보완); 통합 선지 보완: 감염과면역18_헤모필루스, 보르데텔라, 나이세리아 2026.pdf / PDF p16; 탄저 EF의 일반 기전은 원저로 보완 — https://www.rcsb.org/structure/1K93; 추가 강의 대조: [251106_05] 레지오넬라, 리스테리아, 바실루스(석승혁)_정동민v1.pdf / PDF p40 (탄저 EF의 calmodulin 의존 adenylate cyclase)",
     "difficulty": "상",
     "tags": [
       "ETEC",
@@ -5522,7 +5522,7 @@ export const CHAT_QUESTIONS = [
     ],
     "answer": 2,
     "explanation": "정답 ②. 비당화 숙주 단백질 절편을 코팅한 무세포·무항체 표면에서 성장·생존·slime을 통제했다. 따라서 특정 숙주 단백질과의 결합이 초기 부착에 기여한다는 해석이 가장 직접적이다.\n① 요로감염 대장균의 FimH가 mannose를 인식하는 것은 실제 부착 기전이다. 이 실험은 당수용체를 제공하지 않는 비당화 fibronectin 절편에 대한 결합을 분리해 평가했다.\n② 포도알균의 fibronectin 결합 같은 숙주 단백질 인식은 단순 증식이나 성숙 생물막의 유지와 다른 단계이다. Albumin 대조는 모든 표면의 비특이적 부착 감소와도 구별하게 한다.\n③ Listeria의 ActA와 Shigella의 IcsA는 숙주 actin을 이용하는 세포 내 운동·확산과 연결된다. 현재 실험에는 숙주 세포질이 없어 이 기전을 측정한 것이 아니다.\n④ S. mutans의 sucrose 유래 glucan은 치아 생물막의 정착·기질 형성에 기여한다. 여기서는 성숙 다층 생물막이 생기기 전 단백질별 결합 차이를 관찰했고 slime 생성량도 같았다.\n⑤ 임균 pili 항원변이는 실제 면역회피 기전이다. 그러나 이 실험에는 항체 선택압이 없고 pili 항원서열 변화도 측정하지 않았다. 이 결과만으로 항원변이를 부착 감소의 직접 원인으로 정할 수 없다.\n이 실험으로 균종 자체를 확정하거나, 초기 부착 차단이 이미 형성된 생물막을 같은 정도로 제거한다고 판단하지 않는다.",
-    "source": "6.(강의자료)미생물학) 포도알균_김범준 교수님.pdf / PDF p.6–8, 12, 22; 통합 선지 보완: 장내세균·사슬알균·나이세리아 및 미첨부 리스테리아의 숙주 상호작용 비교 원저 — https://pubmed.ncbi.nlm.nih.gov/18952882/ ; https://pubmed.ncbi.nlm.nih.gov/12010488/ ; https://pubmed.ncbi.nlm.nih.gov/1739966/ ; https://pubmed.ncbi.nlm.nih.gov/8748026/ ; https://pubmed.ncbi.nlm.nih.gov/6217405/ ; https://pubmed.ncbi.nlm.nih.gov/10094619/",
+    "source": "6.(강의자료)미생물학) 포도알균_김범준 교수님.pdf / PDF p.6–8, 12, 22; 통합 선지 보완: 장내세균·사슬알균·나이세리아 및 리스테리아의 숙주 상호작용 비교 원저 — https://pubmed.ncbi.nlm.nih.gov/18952882/ ; https://pubmed.ncbi.nlm.nih.gov/12010488/ ; https://pubmed.ncbi.nlm.nih.gov/1739966/ ; https://pubmed.ncbi.nlm.nih.gov/8748026/ ; https://pubmed.ncbi.nlm.nih.gov/6217405/ ; https://pubmed.ncbi.nlm.nih.gov/10094619/; 추가 강의 대조: [251106_05] 레지오넬라, 리스테리아, 바실루스(석승혁)_정동민v1.pdf / PDF p59–60 (Listeria ActA의 actin 의존 이동)",
     "difficulty": "상",
     "tags": [
       "부착",
@@ -5578,7 +5578,7 @@ export const CHAT_QUESTIONS = [
     ],
     "answer": 1,
     "explanation": "정답 ①. P는 sphingomyelin을 분해하면서 PC를 분해하지 않는 기질 특이성, Q는 지질을 절단하지 않는 7량체 공 형성으로 구별한다. 균종 이름만으로 고르지 않고 두 실험 결과를 함께 적용한다.\n① 포도알균 β-toxin은 sphingomyelinase이고 α-toxin은 대표적으로 7량체 막관통 공을 만든다. 주어진 두 결과가 모두 맞는다.\n② C. perfringens α-toxin은 실제 PLC이며 sphingomyelin뿐 아니라 PC도 분해한다. 따라서 P의 PC 음성과 맞지 않는다. Q 부분이 맞아도 이 조합 전체는 틀리다.\n③ 폐렴알균 pneumolysin도 실제 공 형성 독소이지만 대표적인 대형 공에는 수십 개 단량체가 참여한다. 공 형성이라는 결과만 같다고 Q의 7량체 구조까지 같은 것은 아니다.\n④ B. cereus에는 PC-specific PLC와 별도의 sphingomyelinase가 있다. 여기서 제시한 PC-specific PLC는 PC를 분해하므로 P와 맞지 않는다. B. cereus의 모든 막독소를 하나의 효소로 묶지 않는다.\n⑤ 포도알균 α-toxin의 공 형성과 β-toxin의 sphingomyelin 가수분해는 각각 옳은 기능이지만 P·Q에 거꾸로 연결했다.\n이 문항은 제시한 후보 사이의 기전 비교이다. 막 조성과 실험 조건을 달리해도 모든 독소의 활성이 같다는 뜻은 아니며, 7량체 구조와 교차 균종의 세부 기질 특이성은 강의 개념을 원저로 보완한 내용이다.",
-    "source": "6.(강의자료)미생물학) 포도알균_김범준 교수님.pdf / PDF p.9, 12; 통합 선지 보완: 무산소세균·사슬알균·미첨부 바실루스 범위의 막독소 비교 및 구조·기질 원저 — https://pubmed.ncbi.nlm.nih.gov/8914839/ ; https://pubmed.ncbi.nlm.nih.gov/8943190/ ; https://pubmed.ncbi.nlm.nih.gov/2560137/ ; https://pubmed.ncbi.nlm.nih.gov/11076935/ ; https://pubmed.ncbi.nlm.nih.gov/14573681/",
+    "source": "6.(강의자료)미생물학) 포도알균_김범준 교수님.pdf / PDF p.9, 12; 통합 선지 보완: 무산소세균·사슬알균·바실루스 범위의 막독소 비교 및 구조·기질 원저 — https://pubmed.ncbi.nlm.nih.gov/8914839/ ; https://pubmed.ncbi.nlm.nih.gov/8943190/ ; https://pubmed.ncbi.nlm.nih.gov/2560137/ ; https://pubmed.ncbi.nlm.nih.gov/11076935/ ; https://pubmed.ncbi.nlm.nih.gov/14573681/; 추가 강의 대조: [251106_05] 레지오넬라, 리스테리아, 바실루스(석승혁)_정동민v1.pdf / PDF p50–51 (B. cereus PLC의 일반 기능; PC-specific PLC·막공 구조의 세부는 위 원저로 보완)",
     "difficulty": "중상",
     "tags": [
       "α-toxin",
@@ -5925,8 +5925,8 @@ export const CHAT_QUESTIONS = [
       "C5a 수용체에 대한 지속적인 경쟁적 점유가 주된 원인이며, 세포외 C5a의 절단은 주화성과 무관한 것이다."
     ],
     "answer": 1,
-    "explanation": "정답 ①. C5a와 효소만 먼저 반응시켰고, 효소 제거 뒤 그 분획을 호중구에 넣었다. C5a 절단과 촉매활성 대조, 새 C5a에 의한 회복을 함께 보면 세포외 주화성 리간드의 소실이 가장 직접적인 설명이다.\n① GAS의 C5a peptidase가 보체 유래 주화성 신호를 절단하는 기능과 맞는다.\n② 백일해독소(PT)는 Gi 계열 단백질을 ADP-ribosylation하여 주화성 수용체의 세포 내 신호를 방해할 수 있다. 그러나 여기서는 효소를 호중구 노출 전에 제거했고 새 C5a에 대한 세포 반응도 유지되어, 세포 내 Gi 변화보다 리간드 자체의 변화가 지지된다.\n③ 포도알균의 leukocidin은 호중구막에 공을 형성할 수 있다. 이 실험의 세포외 C5a 절단과 새 리간드에 의한 회복을 직접 막 손상만으로 설명하기는 어렵다.\n④ 탄저 edema factor(EF)는 calmodulin 의존 adenylate cyclase이며 세포 내 cAMP 증가로 호중구 이동을 저해할 수 있다. 이는 세포 안에서 작용하는 방식으로, 세포와 만나기 전 C5a가 절단된 이 분리 실험과 구별된다.\n⑤ 효소 제거·C5a 절단·리간드 보충 대조를 무시한 해석이다. 이 결과에서 지속적인 수용체 점유가 주된 원인이라는 근거는 없다.\n같은 '호중구 이동 감소'라도 리간드 분해, 세포 내 신호 변경, 막 손상은 다른 기전이다. EF는 아직 첨부되지 않은 후반 주제의 통합 선지로, 특정 강의의 강조점이 아닌 원저로 보완했다.\n근거: C5a peptidase — https://pubmed.ncbi.nlm.nih.gov/3039012/ ; PT/Gi와 호중구 반응 — https://pubmed.ncbi.nlm.nih.gov/2989409/ ; leukocidin 막공 — https://pubmed.ncbi.nlm.nih.gov/8399361/ ; anthrax EF와 이동 — https://pubmed.ncbi.nlm.nih.gov/19349425/",
-    "source": "(강의자료)미생물학) 사슬알균_김범준 교수님.pdf / PDF p.6; 강의 핵심 보완; 통합 선지 보완: 백일해독소·포도알균 leukocidin·탄저 EF의 면역회피 기전을 원저와 비교(EF는 후반 미첨부 주제)",
+    "explanation": "정답 ①. C5a와 효소만 먼저 반응시켰고, 효소 제거 뒤 그 분획을 호중구에 넣었다. C5a 절단과 촉매활성 대조, 새 C5a에 의한 회복을 함께 보면 세포외 주화성 리간드의 소실이 가장 직접적인 설명이다.\n① GAS의 C5a peptidase가 보체 유래 주화성 신호를 절단하는 기능과 맞는다.\n② 백일해독소(PT)는 Gi 계열 단백질을 ADP-ribosylation하여 주화성 수용체의 세포 내 신호를 방해할 수 있다. 그러나 여기서는 효소를 호중구 노출 전에 제거했고 새 C5a에 대한 세포 반응도 유지되어, 세포 내 Gi 변화보다 리간드 자체의 변화가 지지된다.\n③ 포도알균의 leukocidin은 호중구막에 공을 형성할 수 있다. 이 실험의 세포외 C5a 절단과 새 리간드에 의한 회복을 직접 막 손상만으로 설명하기는 어렵다.\n④ 탄저 edema factor(EF)는 calmodulin 의존 adenylate cyclase이며 세포 내 cAMP 증가로 호중구 이동을 저해할 수 있다. 이는 세포 안에서 작용하는 방식으로, 세포와 만나기 전 C5a가 절단된 이 분리 실험과 구별된다.\n⑤ 효소 제거·C5a 절단·리간드 보충 대조를 무시한 해석이다. 이 결과에서 지속적인 수용체 점유가 주된 원인이라는 근거는 없다.\n같은 '호중구 이동 감소'라도 리간드 분해, 세포 내 신호 변경, 막 손상은 다른 기전이다. EF의 calmodulin 의존 adenylate cyclase 기능은 추가된 바실루스 강의 PDF p40에서도 확인되며, 호중구 이동 저해의 세부 내용은 원저로 보완했다.\n근거: C5a peptidase — https://pubmed.ncbi.nlm.nih.gov/3039012/ ; PT/Gi와 호중구 반응 — https://pubmed.ncbi.nlm.nih.gov/2989409/ ; leukocidin 막공 — https://pubmed.ncbi.nlm.nih.gov/8399361/ ; anthrax EF와 이동 — https://pubmed.ncbi.nlm.nih.gov/19349425/",
+    "source": "(강의자료)미생물학) 사슬알균_김범준 교수님.pdf / PDF p.6; 강의 핵심 보완; 통합 선지 보완: 백일해독소·포도알균 leukocidin·탄저 EF의 면역회피 기전을 원저와 비교; 추가 강의 대조: [251106_05] 레지오넬라, 리스테리아, 바실루스(석승혁)_정동민v1.pdf / PDF p40 (EF의 calmodulin 의존 adenylate cyclase와 호중구 기능 억제)",
     "difficulty": "상",
     "tags": [
       "C5a peptidase",
@@ -5990,5 +5990,2014 @@ export const CHAT_QUESTIONS = [
     ],
     "origin": "강의·기출 기반 심화 새 문제",
     "id": "chat-generated-1092692c3a0abc6d"
+  },
+  {
+    "category": "haemophilus-bordetella-neisseria",
+    "bank": "generated",
+    "title": "같은 항원에 붙어도 달라지는 항체의 운명",
+    "stem": "H. influenzae의 정제 분비효소를 같은 항원에 결합하는 사람 IgA1·IgA2·IgG에 각각 처리했다. IgA1에서만 hinge 절단 산물이 생겼고 IgA2·IgG는 유지되었다. 촉매활성을 없앤 효소에서는 절단이 없었다. 세포와 보체가 없는 이 결과가 가장 직접적으로 지지하는 방어 회피 방식은?",
+    "options": [
+      "IgG Fc에 결합하여 옵소닌의 방향을 바꾸는 표면 단백질 작용이다.",
+      "C5a를 분해하여 염증 부위로 향하는 호중구 신호를 줄이는 작용이다.",
+      "Pili·Opa의 항원·상변이로 항체가 세균 표면을 인식하는 양상이 달라지는 작용이다.",
+      "LOS sialylation으로 활성 보체에 의한 균 살상을 줄이는 작용이다.",
+      "IgA1의 특정 구조를 인식해 항체를 절단하는 점막 방어 회피 작용이다."
+    ],
+    "answer": 5,
+    "explanation": "정답 ⑤. 항원 결합성은 통제했고 실제 항체 절단 산물이 나타났다. IgA1 protease의 기질 선택성을 보여 주며, 항체 전체가 같은 정도로 분해된다고 해석하지 않는다.\n① 포도알균 Protein A의 IgG Fc 결합은 실제 면역회피 기전이지만 IgA1 hinge 절단을 설명하지 못한다.\n② 사슬알균 C5a peptidase는 주화성 신호를 절단한다. 이 반응의 기질은 C5a가 아니라 IgA1이다.\n③ 임균 pili·Opa의 항원·상변이는 항체 인식 회피에 기여한다. 그러나 세균 표면이 없는 이 반응에서 관찰한 IgA1 자체의 절단과 구별된다.\n④ 임균 LOS sialylation은 보체 회피에 기여하나 보체가 없는 항체 분해 반응과 구별된다.\n⑤ H. influenzae의 IgA1 protease와 부합한다. 정상 IgA2는 hinge 구조 등이 달라 같은 방식으로 절단되지 않는다.\n다른 기질에 대한 모든 효소 활성이 없다는 뜻이나, 모든 사람의 점막 면역이 소실된다는 뜻은 아니다.\n보완 원저: https://pubmed.ncbi.nlm.nih.gov/40880/ ; https://pubmed.ncbi.nlm.nih.gov/12704129/",
+    "source": "[261109_01]헤모필루스, 보르데텔라, 나이세리아(방예지)_손세영v1.pdf / PDF p.10, 24; 통합 선지 보완: 포도알균 Protein A·사슬알균 C5a peptidase·임균의 보체회피와 비교; IgA 아형 선택성은 원저 보완; 비교 원저 — https://pubmed.ncbi.nlm.nih.gov/7287175/ ; https://pubmed.ncbi.nlm.nih.gov/3039012/",
+    "difficulty": "상",
+    "tags": [
+      "IgA1 protease",
+      "항체 선택성",
+      "점막 면역",
+      "전범위 통합"
+    ],
+    "origin": "강의·기출 기반 심화 새 문제",
+    "id": "chat-generated-50c8026705b114d8"
+  },
+  {
+    "category": "legionella-listeria-bacillus",
+    "bank": "generated",
+    "title": "약제 범위와 감염 구획의 연결",
+    "stem": "중증 폐렴 환자에서 Legionella 감염이 확인되었다. 환자는 초기 ceftriaxone 단독요법에 충분히 반응하지 않았다. 다른 동반 원인과 합병증도 평가 중이다. 이 균에 대한 항균제 선택을 재평가할 때 가장 적절한 원칙은?",
+    "options": [
+      "Legionella에 임상적 활성이 있는 macrolide 또는 respiratory fluoroquinolone 등으로 치료 범위를 확보한다.",
+      "그람음성균에 대한 범위를 넓히는 cefepime으로 바꾸고, 추가 표적 약제는 그 반응을 본 뒤 결정한다.",
+      "β-lactamase를 주된 문제로 보아 penicillin–β-lactamase 억제제 병합으로 대체하면 충분한 표적 치료로 평가한다.",
+      "혈중에서 높은 약물 노출을 얻을 수 있는 aminoglycoside 단독으로 바꾸어 세포 내 감염도 같은 방식으로 치료한다.",
+      "분리주의 체외 감수성 결과가 완성될 때까지 현재 β-lactam을 유지하고, 그 결과로 표적 약제 추가를 결정한다."
+    ],
+    "answer": 1,
+    "explanation": "정답 ①. Legionella는 대식세포 안에서 증식하고 통상적인 폐렴 초기 요법이 이 균에 대한 활성을 포함하지 않을 수 있다. 확인된 원인과 중증도에 맞게 표적 치료를 확보한다.\n① 현재 치료 범위의 빈틈을 보완하는 원칙이다. 장기기능·동반 원인도 함께 평가한다.\n② Cefepime의 그람음성균 범위 확대가 Legionella에 대한 임상 활성을 대신하지는 못한다.\n③ β-lactamase가 알려진 성상이지만, 억제제 병합 여부만으로 세포 내 임상 효과가 확보된다고 판단하지 않는다.\n④ 혈중 약물 노출과 세포 내 감염 구획의 유효 노출은 다르다. Aminoglycoside 단독을 같은 효과로 바꾸어 해석하지 않는다.\n⑤ 중증의 확인된 감염에서 필요한 표적 치료를 감수성 결과 완성까지 미루는 접근은 적절하지 않다. 이 문항은 특정 투여기간이나 rifampin 일률 병합을 요구하지 않는다.\n보완 근거: https://www.cdc.gov/legionella/hcp/clinical-guidance/index.html",
+    "source": "[251106_05] 레지오넬라, 리스테리아, 바실루스(석승혁)_정동민v1.pdf / PDF p.11, 17–19, 24; 강의 핵심 보완",
+    "difficulty": "중상",
+    "tags": [
+      "Legionella",
+      "세포 내 감염",
+      "항균제 선택"
+    ],
+    "origin": "강의·기출 기반 심화 새 문제",
+    "id": "chat-generated-73beb471c36339a5"
+  },
+  {
+    "category": "legionella-listeria-bacillus",
+    "bank": "generated",
+    "title": "음성 항원검사 뒤의 진단 선택",
+    "stem": "신장이식 환자가 원예용 흙을 다룬 뒤 중증 폐렴으로 입원했다. 통상적인 L. pneumophila serogroup 1 요항원검사는 음성이다. 영상과 증상만으로 원인균은 확정되지 않았다. Legionella 감염 가능성을 평가하는 다음 접근으로 가장 적절한 것은?",
+    "options": [
+      "요항원과 SG1 표적 급성기 항체검사를 짝지어 시행하고, 두 결과의 일치에 따라 비SG1 종의 평가 우선순위를 낮춘다.",
+      "하부호흡기 검체를 SG1 특이 직접형광항체로 확인하고, 그 결과를 다른 Legionella 종의 초기 선별 근거로 사용한다.",
+      "짝혈청의 회복기 항체가 상승을 먼저 확보한 뒤, 그 결과에 따라 급성기 호흡기 추가검사와 표적 치료 여부를 정한다.",
+      "하부호흡기 검체에서 검증된 Legionella 분자검사와 특수배양을 고려하여 요항원이 놓치는 범위를 평가한다.",
+      "일반 객담배양과 요항원의 음성 결과를 결합해 Legionella 가능성을 낮게 보고, 같은 요항원검사 추적으로 보완한다."
+    ],
+    "answer": 4,
+    "explanation": "정답 ④. 통상적인 요항원검사는 주로 L. pneumophila SG1을 검출한다. 토양 노출은 L. longbeachae 등도 고려하게 하지만 그 사실만으로 종을 확정하지 않는다.\n① SG1에 제한된 두 검사를 결합해도 비SG1 종에 대한 검출 범위가 넓어지는 것은 아니다.\n② 직접형광항체 검사도 사용한 시약의 항원 범위에 의존한다. SG1 특이 시약을 속 전체의 선별검사로 바꾸어 해석하지 않는다.\n③ 짝혈청은 역학·후향적 진단에 도움이 될 수 있지만 중증 폐렴의 급성기 평가·치료를 기다리게 할 검사로 적절하지 않다.\n④ 하부호흡기 배양·검증된 분자검사는 요항원이 검출하지 못하는 종·혈청군의 평가를 보완한다. 실제 검사 표적 범위를 확인한다.\n⑤ 일반 배양의 음성과 좁은 요항원의 음성은 Legionella 전체를 충분히 평가한 결과와 다르다.\n보완 근거: CDC 검사 안내 https://www.cdc.gov/legionella/php/laboratories/index.html ; 토양 노출·요항원 범위의 임상 보고 https://pubmed.ncbi.nlm.nih.gov/21940651/",
+    "source": "[251106_05] 레지오넬라, 리스테리아, 바실루스(석승혁)_정동민v1.pdf / PDF p.11–15, 21–23; 관련 기출 2023년 72번의 환경 노출을 검사 범위 해석으로 확장",
+    "difficulty": "상",
+    "tags": [
+      "Legionella",
+      "요항원",
+      "검사 범위",
+      "면역저하"
+    ],
+    "origin": "강의·기출 기반 심화 새 문제",
+    "id": "chat-generated-e08e0c63f9877225"
+  },
+  {
+    "category": "antibiotic-pharmacology",
+    "bank": "generated",
+    "title": "투과성 변화의 방향",
+    "stem": "두 설명을 검토한다.\n• A: 세균막 장벽을 손상하여 투과성과 세포 내용물 유출을 증가시킨다.\n• B: 특정 포린 수를 줄여 그 통로를 이용하는 항균제 유입을 감소시킨다.\n세균 생존과 관련한 역할을 가장 잘 구분한 것은?",
+    "options": [
+      "A·B 모두 세포 내 약물 농도를 높이는 항균 기전이다.",
+      "A·B 모두 항균제 표적을 변형하는 내성 기전이다.",
+      "A는 능동적 약물 유출이고 B는 약물의 효소적 불활성화이다.",
+      "A는 막 작용 항균 기전이고 B는 약물 유입 제한 내성 기전이다.",
+      "A는 약물 유입 제한 내성이고 B는 막 손상 항균 기전이다."
+    ],
+    "answer": 4,
+    "explanation": "정답은 ④이다. 막·투과성이라는 단어가 같아도 변화 방향과 이동 물질을 구분한다.\n① B는 일부 항균제 유입을 줄인다. ② 두 설명은 장벽·통로 변화이며 직접 표적 변형이 아니다. ③ 내용물 누출은 정상 약물의 능동 유출과 다르고 포린 감소는 약물 분해가 아니다. ④ A는 polymyxin 같은 막 작용 약물, B는 포린 감소에 의한 유입 제한과 맞는다. ⑤ 두 역할을 반대로 연결했다. 모든 물질·항균제 투과성이 같은 정도로 변한다는 뜻은 아니다.",
+    "source": "[261109_03]항생제 약리학의 기본 원리_항생제 내성(이승환)_송경민v1.pdf / PDF p.6, 8, 16–17, 23–24; 강의 작용·내성 기전과 관련 기출을 새 자료로 확장",
+    "difficulty": "중상",
+    "tags": [
+      "막투과성",
+      "porin",
+      "작용과내성"
+    ],
+    "origin": "강의·기출 기반 심화 새 문제",
+    "id": "chat-generated-220be5a31235f700"
+  },
+  {
+    "category": "antibiotic-pharmacology",
+    "bank": "generated",
+    "title": "세균의 번역을 막았을 때의 범위",
+    "stem": "세균 rRNA를 표적으로 하는 항균제 X가 감수성 균의 새 단백질 생성을 억제한다. 감염 치료팀이 X의 직접 작용만으로 기대할 수 있는 결과를 검토한다. 이미 생성된 독소의 양이나 숙주에 결합한 독소는 변하지 않았다고 주어졌다. 가장 타당한 설명은?",
+    "options": [
+      "디프테리아에서 균 제거로 새 독소 공급이 줄면 순환 독소 중화의 역할까지 충족한다.",
+      "포도알균 식중독은 미리 생성된 독소 질환이지만 X의 세균 감수성만으로 구토 호전을 예측한다.",
+      "균의 새 단백질 공급은 줄 수 있지만 이미 존재하는 독소의 작용을 직접 없애지는 않는다.",
+      "성인 식품매개 보툴리눔증도 상처 보툴리눔증처럼 항생제에 의한 균 제거를 독소 치료의 중심으로 삼는다.",
+      "새 단백질 합성이 줄었으므로 X는 rifampin과 같은 RNA polymerase 직접 억제제로 분류한다."
+    ],
+    "answer": 3,
+    "explanation": "정답은 ③이다. 세균의 새 단백질 합성 억제, 이미 존재하는 독소 중화, 숙주 손상 회복은 다른 단계이다.\n① 디프테리아의 항균 치료는 균과 추가 독소 공급을 줄이는 역할이지만 순환 독소의 중화 역할을 대신하지 않는다. ② 포도알균 식중독은 음식에 미리 생성된 장독소가 중요하므로 살아 있는 균의 약제 감수성만으로 이미 섭취한 독소의 효과를 예측할 수 없다. ③ 직접 작용과 그 한계를 함께 반영한다. ④ 상처 보툴리눔증에서는 균의 공급원 제거와 항생제가 중요할 수 있으나 성인 식품매개 보툴리눔증에 같은 균 제거 전략을 중심으로 옮기지 않는다. ⑤ 단백질 합성 감소는 번역 억제로도 생기며 직접 리보솜 결합은 RNA polymerase 억제와 다르다. 독소 관련 현행 임상 역할은 CDC 자료로 보완했다. 특정 환자의 항독소 시점이나 처방을 산출하는 문항은 아니다.",
+    "source": "[261109_03]항생제 약리학의 기본 원리_항생제 내성(이승환)_송경민v1.pdf / PDF p.6, 9–10; 강의 작용·내성 기전과 관련 기출을 새 자료로 확장; 교차 강의: [261106_05]코리네박테리움, 노카르디아(염진기)_변준서v1.pdf / PDF p.13,24 ; 6.(강의자료)미생물학) 포도알균_김범준 교수님.pdf / PDF p.9,14–15 ; [261106_06] 무산소세균(염진기)_손경민v3.pdf / PDF p.41–45 ; 강의 외 임상 역할 확인: CDC diphtheria https://www.cdc.gov/pinkbook/hcp/table-of-contents/chapter-7-diphtheria.html ; staph food poisoning https://www.cdc.gov/staph-food-poisoning/about/ ; botulism https://www.cdc.gov/botulism/treatment/",
+    "difficulty": "상",
+    "tags": [
+      "번역억제",
+      "직접작용범위",
+      "독소",
+      "전범위 통합"
+    ],
+    "origin": "강의·기출 기반 심화 새 문제",
+    "id": "chat-generated-cfeb0e30925afef4"
+  },
+  {
+    "category": "haemophilus-bordetella-neisseria",
+    "bank": "generated",
+    "title": "같은 독소의 서로 다른 두 활성",
+    "stem": "정제 ACT의 두 변이체를 비교했다. A는 세포 결합과 pore 형성은 유지되지만 calmodulin·ATP만 있는 반응계에서 cAMP를 만들지 못했다. B는 정제 촉매 부위의 cAMP 생성과 식세포 내 cAMP 상승은 유지되지만 직접 막 투과성 증가는 크게 줄었다. 단백질의 양·순도와 각 정상성 대조는 확인했다. 가장 타당한 해석은?",
+    "options": [
+      "콜레라독소처럼 숙주 Gs를 변형하는 기능이 핵심이며, 두 변이의 차이는 Gs 발현량만으로 설명된다.",
+      "ACT의 cyclase 활성과 막 손상 기능은 구별되며, 한 기능의 손실이 다른 기능의 소실을 뜻하지 않는다.",
+      "탄저 EF처럼 cyclase 기능만 평가한 것으로, 관찰된 막 투과성은 cAMP 증가 뒤에만 생기는 이차 현상이다.",
+      "Pneumolysin처럼 공 형성만으로 작용하므로, 무세포계 cAMP 생성은 두 변이의 기능 비교에 무관하다.",
+      "Gi 신호 억제에 의한 숙주 cAMP 조절이 공통 원인이므로, 무세포계 합성량도 그 신호 변화로 해석한다."
+    ],
+    "answer": 2,
+    "explanation": "정답 ②. 강의 p.16의 ACT는 cAMP를 직접 만드는 작용과 pore 형성을 함께 갖는다. 제시한 기능 분리 변이는 두 활성을 같은 측정값으로 취급하지 않도록 한다.\n① 콜레라독소의 Gs 조절은 실제 cAMP 상승 방식이지만, 숙주 G단백질 없이 calmodulin·ATP로 cAMP를 만드는 ACT 촉매 반응과 다르다.\n② Cyclase 기능이 없어도 pore가 남는 A, pore가 약해도 촉매 활성이 남는 B를 함께 설명한다.\n③ 탄저 EF는 calmodulin 의존 AC의 비교 대상이지만 ACT의 막 손상 기능 전체를 대체하는 설명은 아니다. 탄저 독소가 세포질로 들어갈 때의 PA-mediated pore와 EF 자체의 효소 기능도 구별한다. A의 pore가 남는 결과도 cAMP 증가 후의 이차 효과만으로 설명되지 않는다.\n④ 폐렴알균 pneumolysin은 공 형성 독소이나 ACT에는 별도의 효소 활성이 있다. 직접 cAMP 합성 결과를 버릴 수 없다.\n⑤ PT의 Gi ADP-ribosylation은 실제 cAMP 조절 방식이다. 그러나 Gi가 없는 calmodulin·ATP 반응계의 직접 cAMP 합성을 그 숙주 신호 변화로 설명할 수 없다.\n가상 실험의 기능 분리를 해석하며, 두 기능이 실제 감염에서 서로 영향을 전혀 주지 않는다는 주장은 아니다.\n보완 근거: https://pmc.ncbi.nlm.nih.gov/articles/PMC5666347/ ; https://journals.asm.org/doi/10.1128/IAI.00937-16",
+    "source": "[261109_01]헤모필루스, 보르데텔라, 나이세리아(방예지)_손세영v1.pdf / PDF p.16–17; 통합 선지 보완: 콜레라 Gs·탄저 EF·폐렴알균 pore와 ACT의 이중 기능 비교; 구조·분리변이 세부는 원저 보완; 감염과면역12-콜레라 캄필로박터 수도모나스_2026.pdf / PDF p.10; [251106_05] 레지오넬라, 리스테리아, 바실루스(석승혁)_정동민v1.pdf / PDF p.39–40",
+    "difficulty": "상",
+    "tags": [
+      "ACT",
+      "Cyclase",
+      "Pore",
+      "기능 분리",
+      "전범위 통합"
+    ],
+    "origin": "강의·기출 기반 심화 새 문제",
+    "id": "chat-generated-bc71b138a7911fa8"
+  },
+  {
+    "category": "legionella-listeria-bacillus",
+    "bank": "generated",
+    "title": "협막의 재료와 항포식 기능",
+    "stem": "동물 제품 노출 뒤 피부 병변에서 얻은 Bacillus 분리주를 평가했다. 협막 분석에서 주성분은 poly-D-glutamic acid였고, 협막이 적은 조건에서 포식세포에 의한 섭취가 증가했다. 독소 유전자 존재와 독소 활성은 별도로 검사 중이다. 가장 타당한 설명은?",
+    "options": [
+      "Hib의 PRP처럼 인산화 다당 협막이며, 이 성분만 확인하면 독소 생산까지 함께 확정된다.",
+      "E. coli K1의 polysialic acid 협막처럼 항원성이 낮을 수 있으므로, 두 협막의 화학 구성도 같은 것으로 판단한다.",
+      "폐렴알균처럼 다당 혈청형을 정한 결과이므로, 세포벽의 형태와 독소 기능 검사는 대체된다.",
+      "협막이 적으면 모든 병원성 기능이 소실되므로 독소 유전자나 임상 경과는 평가할 필요가 없다.",
+      "탄저균의 대표 협막은 다당이 아닌 polypeptide이며, 항포식 기능과 독소 기능은 구분하여 평가한다."
+    ],
+    "answer": 5,
+    "explanation": "정답 ⑤. B. anthracis의 대표 협막은 poly-D-glutamic acid라는 polypeptide이다. 협막의 항포식 기능과 pXO1에 암호화되는 독소 기능은 구별된다.\n① Hib의 PRP는 실제 협막 다당이지만 이 사례의 화학 조성과 다르며 독소 생산도 대신 확인하지 못한다.\n② E. coli K1의 polysialic acid는 실제 협막 성분이나 D-glutamic acid는 당이 아닌 아미노산이다.\n③ 폐렴알균의 다당 혈청형 역시 다른 구조이다. 협막 분석은 모든 동정·기능 검사를 대체하지 않는다.\n④ 협막 감소로 포식이 늘었다고 모든 독소 기능의 소실이나 모든 숙주에서의 완전한 무독성이 입증되지는 않는다.\n⑤ 강의에서 협막은 pXO2, 세 독소 성분은 pXO1과 연결한다. 이 자료만으로 독소 활성을 추정하지 않는다.",
+    "source": "[251106_05] 레지오넬라, 리스테리아, 바실루스(석승혁)_정동민v1.pdf / PDF p.35, 38–39; 강의 핵심 보완; 통합 선지 보완: Hib PRP 협막, E. coli K1 polysialic acid, 폐렴알균 다당 협막",
+    "difficulty": "중상",
+    "tags": [
+      "Bacillus anthracis",
+      "협막",
+      "Poly-D-glutamate",
+      "항포식",
+      "전범위 통합"
+    ],
+    "origin": "강의·기출 기반 심화 새 문제",
+    "id": "chat-generated-e939572757e45e62"
+  },
+  {
+    "category": "haemophilus-bordetella-neisseria",
+    "bank": "generated",
+    "title": "비피막형이라는 결과와 혈액배양",
+    "stem": "폐렴과 저혈압을 보이는 72세 COPD 환자의 항균제 투여 전 서로 다른 혈액배양에서 H. influenzae가 반복 분리되었다. 검증된 동정·협막 유전자 분석에서 비피막형 NTHi로 확인되었다. 가장 적절한 해석은?",
+    "options": [
+      "NTHi에 의한 폐렴 동반 균혈증으로 분류하고 침습성 감염에 맞춰 치료한다.",
+      "NTHi는 점막에만 존재하므로 혈액 동정이 맞아도 비인두 보균의 연장으로 분류한다.",
+      "혈액에서 반복 분리되었으므로 협막 분석보다 검체 부위를 우선해 Hib로 이름을 바꾼다.",
+      "협막이 없으므로 중증도와 관계없이 Hib 백신 실패가 입증된 감염으로 분류한다.",
+      "COPD 환자의 호흡기 상재 가능성이 높으므로 무균부위 혈액 결과도 객담 검출처럼 해석한다."
+    ],
+    "answer": 1,
+    "explanation": "정답 ①. 흔한 점막 감염 양상과 가능한 감염 범위를 구별해야 한다. 강의 p.10은 NTHi도 침습성 감염을 일으킬 수 있음을 명시한다.\n① 반복 혈액 분리와 패혈증 임상상은 침습성 감염에 부합하며, 비피막형이라는 결과가 이를 무효화하지 않는다.\n② NTHi의 점막 질환이 흔하다는 사실을 혈류 침습 불가능으로 바꾸면 안 된다.\n③ 혈액 검체가 균의 협막형을 결정하지는 않는다. 검증된 NTHi 결과를 Hib로 재분류할 근거가 없다.\n④ Hib PRP 백신의 표적은 type b 협막이다. NTHi 감염을 곧바로 그 백신의 실패로 부르지 않는다.\n⑤ 비인두·객담의 상재 가능성과 원래 무균인 혈액에서 반복 검출된 의미는 다르다.\n참고: CDC 침습성 H. influenzae 감시 지침 — https://www.cdc.gov/surv-manual/php/table-of-contents/chapter-2-haemophilus-influenzae.html",
+    "source": "[261109_01]헤모필루스, 보르데텔라, 나이세리아(방예지)_손세영v1.pdf / PDF p.9–11; 강의 p.9 필기의 절대적 표현 대신 p.10 본문의 NTHi 침습 가능성을 적용",
+    "difficulty": "중상",
+    "tags": [
+      "NTHi",
+      "침습성 감염",
+      "혈액배양",
+      "COPD"
+    ],
+    "origin": "강의·기출 기반 심화 새 문제",
+    "id": "chat-generated-64e64a52166bbbb2"
+  },
+  {
+    "category": "haemophilus-bordetella-neisseria",
+    "bank": "generated",
+    "title": "임상 부위와 생화학적 성상의 결합",
+    "stem": "급성 수막염 환자의 혈액에서 oxidase 양성 그람음성 쌍알균이 분리되었다. 검증된 전통적 당 이용 시험에서 포도당과 맥아당을 이용하고, 추가 종 특이 검사도 그 분류를 지지했다. 제시한 후보 중 가장 잘 맞는 연결은?",
+    "options": [
+      "N. meningitidis — 그람음성 쌍알균이며 전통적으로 포도당·맥아당을 이용한다.",
+      "N. gonorrhoeae — 그람음성 쌍알균이며 전통적으로 포도당을 이용하고 맥아당은 이용하지 않는다.",
+      "H. influenzae — X·V인자를 요구하는 작은 그람음성 짧은막대균이다.",
+      "S. pneumoniae — 그람양성 쌍알균이며 α-용혈·bile solubility·optochin 결과로 동정을 보완한다.",
+      "L. monocytogenes — 그람양성 막대균이며 세포 내에서 증식하며 수막염을 일으킬 수 있다."
+    ],
+    "answer": 1,
+    "explanation": "정답 ①. 형태·그람반응·전통적 당 이용·종 특이 검사를 함께 적용한다. 임상 부위 하나만으로 원인균을 정하는 문제는 아니다.\n① 강의 p.30의 수막염균 성상과 맞는다. 실제 검사는 검증된 현대 동정법과 함께 해석한다.\n② 임균의 전통적 특징은 포도당 이용이며 맥아당 이용을 같은 성상으로 보지 않는다.\n③ Haemophilus의 성장인자 요구성과 형태는 다른 진단 정보이다.\n④ 폐렴알균도 수막염을 일으키지만 그람반응과 동정 성상이 다르다.\n⑤ Listeria도 수막염 원인이지만 이 분리주의 그람음성 쌍알균·당 이용 조합과 다르다.\n검증되지 않은 생화학적 한 항목만으로 모든 비전형 Neisseria나 상재균을 완전히 배제한다고 일반화하지 않는다.",
+    "source": "[261109_01]헤모필루스, 보르데텔라, 나이세리아(방예지)_손세영v1.pdf / PDF p.21, 23, 30; 통합 선지 보완: 사슬알균 폐렴알균·리스테리아와 수막염 원인균의 형태/동정 비교",
+    "difficulty": "중상",
+    "tags": [
+      "Neisseria 동정",
+      "당 이용",
+      "수막염 감별",
+      "전범위 통합"
+    ],
+    "origin": "강의·기출 기반 심화 새 문제",
+    "id": "chat-generated-17173df7ee6c27b5"
+  },
+  {
+    "category": "resistant-organisms",
+    "bank": "generated",
+    "title": "한 검체에서 나온 두 원인균의 범위",
+    "stem": "적절히 채취한 깊은 감염 검체와 혈액에서 ESBL E. coli 및 P. aeruginosa가 함께 분리되어 두 균 모두 원인으로 판단되었다. 두 균은 meropenem에 감수성이고, E. coli는 ertapenem에도 감수성이다. 감염원 조절 후 확정 치료의 약제 범위를 조정한다. 가장 적절한 판단은?",
+    "options": [
+      "Ertapenem으로 바꾼다. ESBL E. coli에 감수성이면 같은 검체의 그람음성 막대균도 함께 치료되는 것으로 본다.",
+      "모든 carbapenem을 제외한다. Ertapenem의 녹농균 범위가 좁으므로 meropenem도 같은 제한을 가진다.",
+      "깊은 농양에서는 B. fragilis 같은 혐기균이 중요하므로, 확인된 두 원인균보다 혐기균 치료를 우선해 metronidazole로 바꾼다.",
+      "Ertapenem의 E. coli 감수성만으로 축소하지 말고, 두 원인균 모두에 활성이 확인된 meropenem을 사용한다.",
+      "기기 관련 감염에서는 포도알균이 중요하므로, ertapenem에 vancomycin을 추가하는 것으로 확정 치료를 조정한다."
+    ],
+    "answer": 4,
+    "explanation": "정답 ④. 한 균의 S 결과가 복수 원인균 전체의 치료 범위를 보장하지 않는다. Ertapenem은 ESBL 장내세균 치료에 쓸 수 있지만 Pseudomonas에 대한 항녹농균 활성을 갖는 약제로 취급하지 않는다.\n① 장내세균과 녹농균의 약제 범위를 묶었다. Ertapenem의 E. coli 결과를 P. aeruginosa에 대입할 수 없다.\n② Ertapenem과 meropenem의 항녹농균 범위는 다르다. Meropenem 감수성이 직접 확인되었다.\n③ B. fragilis 등 혐기균이 깊은 감염에서 중요할 수 있다는 점은 맞지만, 여기서는 두 원인균이 확인되었다. 실제 확인 균의 치료를 혐기균 치료로 대체하지 않는다.\n④ 원인으로 확인된 두 균 모두에 활성이 유지되는 범위를 선택한다.\n⑤ 포도알균의 기기 감염 역할은 실제 개념이지만, 현재 원인으로 확인된 두 그람음성균의 정보가 우선이다. Vancomycin을 더해도 ertapenem의 녹농균 범위 공백을 보완하지 못한다.",
+    "source": "[261109_05]항생제 내성균의 진단과 치료(송경호)_송민서v1.pdf / PDF p.50–51, 93; 강의 핵심 보완: ertapenem의 범위를 두 원인균의 확정 치료에 적용; 통합 선지 보완: 다른 강의의 장내세균과 비발효균의 차이·P. aeruginosa의 치료 범위·Metronidazole의 혐기균 범위를 임상·기전과 비교",
+    "difficulty": "중상",
+    "tags": [
+      "Ertapenem",
+      "Meropenem",
+      "혼합 감염",
+      "비발효균",
+      "전범위 통합"
+    ],
+    "origin": "강의·기출 기반 심화 새 문제",
+    "id": "chat-generated-f8d73116ab77660d"
+  },
+  {
+    "category": "antibiotic-pharmacology",
+    "bank": "generated",
+    "title": "내성 변화가 나타난 효소의 기능",
+    "stem": "Quinolone 내성 분리주에서 DNA gyrase 양과 기본 촉매 기능은 보존되었다. 별도 보조 단백질을 제외한 gyrase 자체도 약물에 덜 억제되었다. 세포 내 약물 농도와 약물 구조는 비교 분리주와 같았다. 가장 적절한 해석은?",
+    "options": [
+      "약물 유출 증가로 표적에 도달하는 세포 내 농도가 낮아진 것이다.",
+      "약물 변형 효소가 quinolone의 구조를 바꿔 활성을 낮춘 것이다.",
+      "세균에 필요한 기능을 유지하면서 약물 표적의 감수성이 낮아진 것이다.",
+      "별도 보호 단백질이 정상 gyrase의 약물 억제를 막은 것이 주원인이다.",
+      "포린 감소로 정상 gyrase에 도달하는 세포 내 약물량이 낮아진 것이다."
+    ],
+    "answer": 3,
+    "explanation": "정답은 ③이다. 필수 효소는 기본 기능을 유지하면서 약물의 억제에 덜 반응하도록 바뀔 수 있다.\n① 유출은 실제 내성이지만 세포 내 농도가 같았다. ② 약물 효소적 변형도 가능하지만 약물 구조가 보존되었다. ③ Gyrase 자체의 반응 감소와 기본 기능 보존을 함께 설명한다. ④ 표적 보호도 실제 기전이지만 보조 단백질 없이 효소 자체에 차이가 있었다. ⑤ 유입 제한은 실제 기전이나 세포 내 약물량 보존과 다르다. 특정 변이 위치나 균종은 이 자료로 지정하지 않는다.",
+    "source": "[261109_03]항생제 약리학의 기본 원리_항생제 내성(이승환)_송경민v1.pdf / PDF p.10, 16, 18–21; 강의 작용·내성 기전과 관련 기출을 새 자료로 확장; 강의 외 선지 보완(quinolone 약물 변형·표적 보호가 실재함): 원저 https://www.nature.com/articles/nm1347 ; https://pubmed.ncbi.nlm.nih.gov/11943863/",
+    "difficulty": "상",
+    "tags": [
+      "quinolone",
+      "DNA gyrase",
+      "표적변형"
+    ],
+    "origin": "강의·기출 기반 심화 새 문제",
+    "id": "chat-generated-40ee9550995129f1"
+  },
+  {
+    "category": "haemophilus-bordetella-neisseria",
+    "bank": "generated",
+    "title": "쇼크에 동반된 양측 부신 소견",
+    "stem": "전격성 수막알균혈증 환자가 DIC와 쇼크로 치료 중이다. 영상에서 양측 부신의 급성 출혈이 확인되었고, 높은 ACTH에 비해 cortisol이 낮았다. 이 부신 소견과 호르몬 반응을 연결하는 대표 합병증은?",
+    "options": [
+      "결핵성 육아종의 만성 피질 파괴가 주된 기전인 부신부전이다.",
+      "패혈증의 혈관·응고장애와 양측 부신출혈에 연결된 급성 일차 부신부전이다.",
+      "외인성 glucocorticoid 중단 뒤 ACTH 억제가 지속되어 생긴 중추성 부신부전이다.",
+      "뇌하수체 압박으로 ACTH 생성이 감소하여 생긴 중추성 부신부전이다.",
+      "부신피질 자가면역 파괴가 장기간 진행한 것으로, 급성 출혈은 해석과 무관하다."
+    ],
+    "answer": 2,
+    "explanation": "정답 ②. 전격성 수막알균혈증의 양측 부신출혈과 급성 부신기능부전은 Waterhouse–Friderichsen 증후군의 대표적 연결이다.\n① 결핵의 만성 부신 파괴는 실제 일차 부신부전 원인이지만 급성 패혈증·DIC와 새 양측 출혈의 시간 경과와 다르다.\n② 부신 자체 손상에 따른 낮은 cortisol과 높은 ACTH가 제시된 영상·임상 맥락에 맞는다.\n③ 외인성 glucocorticoid에 의한 중추 억제는 ACTH가 높게 보상 상승한 이 사례와 맞지 않는다.\n④ 뇌하수체의 ACTH 결핍을 시사하는 반응이 아니다.\n⑤ 자가면역성 부신부전과 급성 출혈성 손상을 같은 원인으로 취급하지 않는다.\n수막알균성 쇼크는 전신 염증·응고장애·순환부전이 함께 관여하며 모든 저혈압을 부신 하나만으로 설명하는 것은 아니다.",
+    "source": "[261109_01]헤모필루스, 보르데텔라, 나이세리아(방예지)_손세영v1.pdf / PDF p.29–31; 강의 핵심 보완; 부신부전 원인 감별 — https://www.niddk.nih.gov/health-information/endocrine-diseases/adrenal-insufficiency-addisons-disease/symptoms-causes",
+    "difficulty": "중상",
+    "tags": [
+      "Waterhouse–Friderichsen",
+      "부신출혈",
+      "DIC",
+      "부신부전"
+    ],
+    "origin": "강의·기출 기반 심화 새 문제",
+    "id": "chat-generated-628c59887c843114"
+  },
+  {
+    "category": "legionella-listeria-bacillus",
+    "bank": "generated",
+    "title": "수막염의 원인균과 약제 공백",
+    "stem": "고령의 면역저하 환자가 수막염으로 ceftriaxone을 투여받고 있다. 혈액과 뇌척수액에서 짧은 그람양성 막대균이 분리되었고, 약한 β-용혈·catalase 양성·실온 tumbling motility 및 검증된 동정이 L. monocytogenes에 맞았다. 약제 재평가로 가장 적절한 것은?",
+    "options": [
+      "그람양성 세균이므로 폐렴알균에 사용하는 ceftriaxone의 범위가 그대로 보장된다고 보고 유지한다.",
+      "금기와 감수성을 확인하면서 ampicillin 등 Listeria에 활성이 있는 치료 범위를 확보한다.",
+      "세포 내 세균이라는 이유만으로 Legionella 치료에 쓰는 macrolide를 수막염의 표준 단독요법으로 대체한다.",
+      "Bacteroides 등의 무산소균 치료에 쓰는 metronidazole을 선택하면 Listeria 치료 범위도 확보된다고 본다.",
+      "Cefepime은 더 광범위한 cephalosporin이므로, 같은 계열로 변경하면 Listeria 활성도 함께 확보된다고 본다."
+    ],
+    "answer": 2,
+    "explanation": "정답 ②. Listeria는 임상적으로 중요한 cephalosporin 내재내성이 있어, 흔한 수막염 원인균의 초기 치료 범위와 다를 수 있다.\n① 그람반응만으로 모든 균에 같은 약제 범위가 성립하지 않는다.\n② 강의는 penicillin·ampicillin을 제시한다. 실제 치료는 감수성·알레르기·장기기능과 임상 지침에 따라 평가한다.\n③ Macrolide의 Legionella 활성과 Listeria 수막염의 적절한 치료를 동일시하지 않는다.\n④ Metronidazole의 무산소균 활성은 Listeria에 대한 표적 치료를 뜻하지 않는다.\n⑤ 같은 cephalosporin 안에서 범위가 넓어졌다는 사실만으로 Listeria에 대한 공백을 해결하지 못한다. 실제 병합 여부는 별도로 평가한다.\n보완 근거: https://pmc.ncbi.nlm.nih.gov/articles/PMC7473133/",
+    "source": "[251106_05] 레지오넬라, 리스테리아, 바실루스(석승혁)_정동민v1.pdf / PDF p.56–57, 61–63; 관련 기출 2020년 41번의 노인 수막염을 치료 범위로 확장; 통합 선지 보완: 폐렴알균 수막염 초기 약제, Legionella macrolide 치료, 무산소균 metronidazole",
+    "difficulty": "상",
+    "tags": [
+      "Listeria",
+      "수막염",
+      "Cephalosporin",
+      "치료 범위",
+      "전범위 통합"
+    ],
+    "origin": "강의·기출 기반 심화 새 문제",
+    "id": "chat-generated-9ab389060f3fd936"
+  },
+  {
+    "category": "resistant-organisms",
+    "bank": "generated",
+    "title": "감염원 조절 이후에도 남는 범위의 공백",
+    "stem": "장 천공 후 복강 농양을 충분히 배액했다. 깊은 농에서 KPC 생성 K. pneumoniae와 B. fragilis가 원인균으로 확인되었다. 전자는 ceftazidime-avibactam에 감수성이고 후자는 metronidazole에 감수성이며, 다른 원인균은 없다. Ceftazidime-avibactam을 주된 그람음성균 약제로 사용할 때 가장 적절한 조정은?",
+    "options": [
+      "Ceftazidime-avibactam 단독을 유지한다. KPC 효소가 억제되면 같은 농양의 혐기균도 그 효과로 함께 치료된다.",
+      "확인된 혐기균의 치료 범위를 확보하도록 metronidazole을 병합하고, 감염원 조절·임상 반응에 따라 기간을 정한다.",
+      "경구 vancomycin을 병합한다. C. difficile 대장염에서의 장내 작용이 복강 농양의 B. fragilis 치료도 대신한다.",
+      "Linezolid는 VRE 균혈증에 유효하므로, 내성균이 확인된 복강 농양에서도 주된 약제로 우선 교체한다.",
+      "배액이 이루어졌으므로 확인된 균종과 전신 상태에 관계없이 모든 항균제를 즉시 중단한다."
+    ],
+    "answer": 2,
+    "explanation": "정답 ②. Ceftazidime-avibactam의 KPC 장내세균 활성과 복강 내 혐기균 치료는 같은 범위가 아니다. 이 약제를 복잡성 복강 감염에 사용할 때 metronidazole을 함께 쓰는 원칙을 적용한다.\n① 한 균의 효소 억제가 다른 균의 치료 범위를 보장하지 않는다. 혐기균 범위를 별도로 확보해야 한다.\n② KPC 치료만으로 생기는 혐기균 범위의 공백을 보완한다.\n③ 경구 vancomycin의 장내 C. difficile 치료와 복강 농양의 혐기성 그람음성균 치료는 부위·표적이 다르다.\n④ Linezolid의 VRE 치료 역할은 실제로 중요하지만, 현재 확인된 원인균은 KPC 장내세균과 B. fragilis이다. 다른 균종에 대한 적응증이 현재 필요한 치료를 대체할 근거가 되지 않는다.\n⑤ 배액은 핵심이지만 잔여 감염·전신 상태를 포함한 치료 필요성 및 기간 평가를 대신하지 않는다.",
+    "source": "[261109_05]항생제 내성균의 진단과 치료(송경호)_송민서v1.pdf / PDF p.53–60, 93; 강의의 복강 내 적응증·metronidazole 병합을 실제 혼합 감염에 적용; 통합 선지 보완: C. difficile의 경구 치료·VRE의 Linezolid 범위의 실제 역할과 현재 병소를 비교",
+    "difficulty": "중상",
+    "tags": [
+      "Ceftazidime-avibactam",
+      "복강 감염",
+      "혐기균",
+      "감염원 조절",
+      "전범위 통합"
+    ],
+    "origin": "강의·기출 기반 심화 새 문제",
+    "id": "chat-generated-b71ba63be056b433"
+  },
+  {
+    "category": "resistant-organisms",
+    "bank": "generated",
+    "title": "문제가 생긴 단계에 맞는 중재",
+    "stem": "병원 처방 감사를 시행했다. 중증 감염의 초기 유효 약제 투여는 대체로 적절하고 신속검사·감수성 결과도 빨리 보고된다. 그러나 배양 결과를 받은 뒤에도 처방이 자동 연장되어, 확정 병원체에 불필요한 범위와 기간이 유지되는 사례가 많았다. 이 문제에 가장 직접적으로 맞는 추가 ASP 활동은?",
+    "options": [
+      "초기 경험적 항균제의 사전 승인 범위를 늘리는 것을 우선하고, 결과 보고 후 재검토는 현재 방식으로 둔다.",
+      "시작 후 배양·병소·반응을 재검토하는 전향적 감사와 처방자 피드백을 시행하고 조정률을 추적한다.",
+      "병원 전체의 누적 antibiogram 갱신만 우선하고, 개별 확정 결과를 받은 처방의 재평가는 추가하지 않는다.",
+      "환경 배양과 접촉주의 관찰에만 자원을 배정하고, 이미 시작한 항균제의 사용 기간은 처방자에게 맡긴다.",
+      "보고 시간이 이미 짧더라도 더 빠른 분자검사만 도입하고, 처방자가 결과에 반응하는 과정은 그대로 둔다."
+    ],
+    "answer": 2,
+    "explanation": "정답 ②. 관찰된 병목은 검사나 초기 유효 치료의 시작보다 결과를 처방 조정에 연결하는 단계다. 전향적 감사·피드백으로 약제 범위·기간·경로를 재평가하고 실제 조정 여부를 측정한다.\n① 사전 승인도 실제 ASP 도구지만, 이미 적절한 초기 치료보다 현재 확인된 사후 조정 병목에 직접 맞지 않는다.\n② 검사 결과가 처방 변경으로 이어지는 단계의 병목을 겨냥한다.\n③ Antibiogram은 경험적 선택에 중요하다. 현재의 개별 확정 결과 미반영·자동 연장 문제를 그것만으로 해결하지 못한다.\n④ 감염관리는 필요하지만 현재 드러난 처방 조정 문제는 적정 사용 중재로 직접 다뤄야 한다.\n⑤ 더 빠른 결과가 자동으로 적절한 처방을 보장하지 않는다. 정보가 실제 행동으로 연결되는 과정이 병목이다.\n보완 근거: https://www.cdc.gov/antibiotic-use/hcp/core-elements/hospital.html",
+    "source": "[261109_05]항생제 내성균의 진단과 치료(송경호)_송민서v1.pdf / PDF p.89–96, 107; 강의의 스튜어드십 필수 요소·모니터링을 병원 과정 자료에 적용",
+    "difficulty": "상",
+    "tags": [
+      "ASP",
+      "전향적 감사",
+      "피드백",
+      "진단–치료 연결"
+    ],
+    "origin": "강의·기출 기반 심화 새 문제",
+    "id": "chat-generated-e31da40140c3a345"
+  },
+  {
+    "category": "legionella-listeria-bacillus",
+    "bank": "generated",
+    "title": "같은 AB 독소라도 다른 세포 내 표적",
+    "stem": "균종 표시를 가린 독소 성분 A는 calmodulin 존재하에서 ATP로부터 cAMP를 직접 생성했다. 성분 B는 MAPKK 단백질을 절단했지만 EF-2나 SNARE 절단은 관찰되지 않았다. 두 성분의 대표 기전을 가장 잘 연결한 것은?",
+    "options": [
+      "A는 cholera toxin의 Gsα ADP-ribosylation, B는 diphtheria toxin의 EF-2 억제에 해당한다.",
+      "A는 EF의 adenylate cyclase 활성, B는 LF의 zinc metalloprotease 활성에 해당한다.",
+      "A는 pertussis toxin의 Giα ADP-ribosylation, B는 C. difficile 독소의 Rho glucosylation에 해당한다.",
+      "A는 백일해균 ACT의 직접 cAMP 생성 방식과 부합하고, B는 botulinum toxin의 SNARE 절단에 해당한다.",
+      "A는 ETEC STa의 guanylate cyclase 자극, B는 Shiga toxin의 28S rRNA 손상에 해당한다."
+    ],
+    "answer": 2,
+    "explanation": "정답 ②. EF는 calmodulin 의존 adenylate cyclase이고 LF는 MAPKK를 절단하는 zinc metalloprotease이다. PA의 수송 기능과 이 촉매 기능을 혼동하지 않는다.\n① 콜레라 독소는 Gsα를 조절하고 디프테리아 독소는 EF-2에 작용한다. 제시한 직접 cAMP 합성·MAPKK 절단과 다르다.\n② 두 관찰에 모두 부합한다.\n③ 백일해 독소의 Giα 조절과 C. difficile의 Rho glucosylation도 실제 기전이나 이 결과를 설명하지 못한다.\n④ ACT도 직접 cAMP를 만드는 효소이지만, botulinum toxin의 표적은 SNARE이다. B에서 관찰된 MAPKK 절단과 맞지 않는다.\n⑤ STa는 cGMP 경로, Shiga 독소는 rRNA 손상과 연결된다. A·B의 기질과 다르다.\n보완 근거: https://pubmed.ncbi.nlm.nih.gov/9563949/ ; https://www.rcsb.org/structure/1K93",
+    "source": "[251106_05] 레지오넬라, 리스테리아, 바실루스(석승혁)_정동민v1.pdf / PDF p.39–40; 강의 핵심 보완; 통합 선지 보완: 콜레라 Gsα·디프테리아 EF-2, 백일해 PT·C. difficile Rho, ACT와 botulinum SNARE, ETEC STa·Shiga toxin",
+    "difficulty": "상",
+    "tags": [
+      "탄저 독소",
+      "EF",
+      "LF",
+      "세포 내 표적",
+      "전범위 통합"
+    ],
+    "origin": "강의·기출 기반 심화 새 문제",
+    "id": "chat-generated-e54a04582a270a0b"
+  },
+  {
+    "category": "legionella-listeria-bacillus",
+    "bank": "generated",
+    "title": "증식 구획을 정하는 분비장치",
+    "stem": "폐렴 원인균의 세포 내 증식을 관찰했다. 초기 섭취량은 같지만 Dot/Icm 수송 기능이 낮은 균에서는 ER 유래 막 단백질의 모집과 막으로 둘러싸인 복제 구획의 형성이 감소했다. 원형주는 이 구획 안에서 늘어났으며, 숙주 세포질의 자유 세균이나 actin 꼬리는 주된 증식 양상이 아니었다. 가장 잘 맞는 해석은?",
+    "options": [
+      "Type IV 분비장치가 숙주 막 이동을 바꾸어 Legionella-containing vacuole 형성에 기여한다.",
+      "Listeriolysin O에 의한 식포 파열이 일어나 균의 주된 복제 장소가 자유 세포질로 바뀐 것이다.",
+      "ActA가 숙주 actin 중합을 이용해 세포질 내 운동과 인접 세포로의 확산을 돕는 과정이 주된 설명이다.",
+      "장내세균의 type III 분비에 의한 상피세포 침입이 ER 유래 복제 구획의 형성을 직접 입증한다.",
+      "표면 단백질의 IgG Fc 결합이 옵소닌화를 방해해 포식세포에 의한 초기 섭취를 줄인 결과로 해석한다."
+    ],
+    "answer": 1,
+    "explanation": "정답 ①. Legionella는 ER과 상호작용하는 막성 LCV를 형성해 그 안에서 증식한다. Dot/Icm은 관련 효과기 단백질을 전달하는 type IV 분비장치이다.\n① 같은 초기 섭취 뒤 복제 구획과 증식이 달라진 결과에 맞는다.\n② Listeria의 LLO는 식포 탈출에 기여하지만, 여기서는 막성 구획 내 증식이 관찰되었다.\n③ Listeria의 ActA는 실제로 세포질 actin 기반 운동·확산을 돕는다. 그러나 여기서 관찰한 주된 복제 장소는 막성 LCV이고 자유 세포질·actin 꼬리가 아니다.\n④ Shigella·Salmonella 등의 type III 분비와 Legionella의 type IV 분비를 같은 장치로 취급하지 않는다.\n⑤ 포도알균 Protein A의 IgG Fc 결합은 실제로 옵소닌화를 방해한다. 초기 섭취량은 같게 통제되었고, 이후 ER 막 모집·LCV 형성의 차이가 관찰되어 그 설명과 다르다.\n강의 p18의 간단한 '빠져나온다' 필기보다 p19 도해의 LCV 내 증식을 기준으로 읽는다.\n보완 근거: https://pmc.ncbi.nlm.nih.gov/articles/PMC387905/",
+    "source": "[251106_05] 레지오넬라, 리스테리아, 바실루스(석승혁)_정동민v1.pdf / PDF p.17–19; 강의 핵심 보완; 통합 선지 보완: Listeria LLO 식포 탈출, 장내세균 type III 분비, 포도알균 Protein A",
+    "difficulty": "상",
+    "tags": [
+      "Legionella",
+      "Dot/Icm",
+      "LCV",
+      "세포 내 구획",
+      "전범위 통합"
+    ],
+    "origin": "강의·기출 기반 심화 새 문제",
+    "id": "chat-generated-766d61958cd154a3"
+  },
+  {
+    "category": "antibiotic-pharmacology",
+    "bank": "generated",
+    "title": "약물 분류와 투여 가능한 농도",
+    "stem": "감수성 균에 대한 약물 A는 통상 임상 노출에서는 증식을 억제하지만 훨씬 높은 농도에서는 살균 기준도 충족했다. 그 고농도는 사람에게 안전하게 달성하기 어렵다. 회진에서 설명한 말 중 가장 적절한 것은?",
+    "options": [
+      "임상 노출에서의 정균 작용과 더 높은 농도에서의 살균 작용은 양립할 수 있다.",
+      "고농도에서 살균되었으므로 통상 투여량에서도 살균제로 분류하여 판단한다.",
+      "정균제로 분류된 약은 살균 기준을 충족할 수 없으므로 고농도 결과를 배제한다.",
+      "균이 살아남았으므로 임상 노출에서의 증식 억제 결과도 내성으로 재분류한다.",
+      "고농도에서 살균되었으므로 환자 투여량을 MBC 도달량으로 우선 올린다."
+    ],
+    "answer": 1,
+    "explanation": "정답은 ①이다. 정균·살균은 균종과 노출 조건의 영향을 받으며 사람에서는 안전하게 확보할 수 있는 노출을 고려한다.\n① 통상 노출의 증식 억제와 더 높은 농도의 살균은 모순되지 않는다. ② 달성하기 어려운 고농도 결과를 통상 용량의 작용으로 옮겼다. ③ 정균성은 어떤 농도에서도 살균이 불가능하다는 뜻이 아니다. ④ MIC 부근의 생존 자체가 내성 판정은 아니다. ⑤ MBC만을 목표로 안전 한계를 넘는 증량을 정당화하지 못한다. 실제 환자 투여량을 산출하는 문항은 아니다.",
+    "source": "[261109_03]항생제 약리학의 기본 원리_항생제 내성(이승환)_송경민v1.pdf / PDF p.3–4; 강의 작용·내성 기전과 관련 기출을 새 자료로 확장",
+    "difficulty": "중상",
+    "tags": [
+      "정균",
+      "살균",
+      "임상노출"
+    ],
+    "origin": "강의·기출 기반 심화 새 문제",
+    "id": "chat-generated-45d973b5e5852f24"
+  },
+  {
+    "category": "haemophilus-bordetella-neisseria",
+    "bank": "generated",
+    "title": "호전되던 기침에 새로 생긴 발열",
+    "stem": "백일해로 치료받은 8개월 영아가 발작성 기침은 남아도 산소포화도·수유 상태는 호전되고 있었다. 수일 뒤 39℃ 발열, 새 저산소증과 국소 수포음이 발생했고 흉부 영상에서 새로운 엽성 침윤이 보였다. 가장 적절한 판단은?",
+    "options": [
+      "균 제거 뒤 기침이 지속되는 회복기이므로 새 발열과 국소 침윤도 같은 회복 과정으로 관찰한다.",
+      "백일해 치료를 받았으므로 다른 세균에 의한 호흡기 감염 가능성은 낮아 재평가를 미룬다.",
+      "새로 생긴 폐렴을 의심해 호흡 상태 안정화와 원인별 진단·치료 평가를 우선한다.",
+      "Macrolide 내성을 우선 가정하여 새 원인 평가보다 대체 백일해 항균제로 변경하는 데 집중한다.",
+      "Whoop 소리가 줄었으므로 영상 변화보다 백일해 증상의 호전만으로 임상 경과를 판단한다."
+    ],
+    "answer": 3,
+    "explanation": "정답 ③. 오래 남는 기침만 있는 안정된 경과와 새 발열·저산소증·국소 침윤이 생긴 경과는 다르다.\n① 새 악화 소견까지 회복기의 기침으로 설명하지 않는다.\n② 백일해에 대한 치료가 모든 다른 병원체·합병증을 예방한 것은 아니다.\n③ 강의가 설명한 섬모·분비물 배출 장애와 이차 감염 위험을 임상 변화에 적용한다. 호흡 상태를 안정시키며 폐렴 원인·합병증을 평가한다.\n④ 내성 가능성도 상황에 따라 평가할 수 있지만, 새 발열·국소 침윤을 모두 백일해 약제 실패로 우선 설명하여 새로운 병소 평가를 뒤로 미루는 것은 부적절하다.\n⑤ Whoop의 변화가 저산소증과 새 영상 소견을 무효화하지 않는다.\n이 사례는 단순 지속 기침에 대한 불필요한 항균제 연장을 묻는 것이 아니라 새 합병증의 경고 소견을 구별하는 문제이다.\n참고: CDC Clinical Features of Pertussis — https://www.cdc.gov/pertussis/hcp/clinical-signs/index.html",
+    "source": "[261109_01]헤모필루스, 보르데텔라, 나이세리아(방예지)_손세영v1.pdf / PDF p.12, 17–19; 강의 핵심 보완",
+    "difficulty": "중상",
+    "tags": [
+      "백일해",
+      "이차 폐렴",
+      "섬모 손상",
+      "임상 재평가"
+    ],
+    "origin": "강의·기출 기반 심화 새 문제",
+    "id": "chat-generated-ed58b3b6d242870a"
+  },
+  {
+    "category": "legionella-listeria-bacillus",
+    "bank": "generated",
+    "title": "두 결손 양상이 가리키는 서로 다른 기능",
+    "stem": "Listeria 두 분리주의 초기 상피세포 유입량은 같았다. A는 막성 식포 안에 오래 머물고 세포질 진입이 줄었다. B는 세포질에서 증식하지만 actin 꼬리와 인접 세포로의 확산이 줄었다. 배지 성장률과 숙주세포 생존은 비슷하다. 각각의 주된 장애를 가장 잘 연결한 것은?",
+    "options": [
+      "A는 internalin을 통한 초기 유입, B는 LLO를 통한 식포 탈출의 장애이다.",
+      "A는 LLO 관련 식포 탈출, B는 ActA 관련 actin 기반 운동·확산의 장애이다.",
+      "A는 ActA 관련 세포질 운동, B는 internalin 관련 표면 수용체 결합의 장애이다.",
+      "A와 B 모두 초기 상피 유입의 장애이며 세포 내 위치 차이는 의미가 없다.",
+      "A는 주로 세포질 증식, B는 식포막 파열의 장애로 해석하는 것이 타당하다."
+    ],
+    "answer": 2,
+    "explanation": "정답 ②. 세포가 들어간 뒤 어느 구획에 머무는지와, 세포질에 나온 뒤 어떻게 확산하는지를 나누어 본다.\n① 초기 유입은 같고 B는 세포질 증식이 유지되어 두 연결 모두 맞지 않는다.\n② LLO는 식포 탈출, ActA는 actin 기반 세포 내 운동·세포 간 전파에 관여한다.\n③ ActA와 internalin의 단계를 뒤바꾸었고 A의 막성 식포 잔류도 설명하지 못한다.\n④ 초기 유입량 통제는 이후 단계 차이를 해석하게 한다.\n⑤ A는 세포질 진입 자체가 줄었고 B는 이미 세포질에서 증식한다. 이 결과만으로 두 인자의 모든 기능이나 실제 환자에서의 중증도까지 정하지 않는다.",
+    "source": "[251106_05] 레지오넬라, 리스테리아, 바실루스(석승혁)_정동민v1.pdf / PDF p.58–60; 관련 기출 2020년 34번의 LLO 기능을 ActA와 단계별로 비교",
+    "difficulty": "상",
+    "tags": [
+      "Listeria",
+      "LLO",
+      "ActA",
+      "세포 내 구획"
+    ],
+    "origin": "강의·기출 기반 심화 새 문제",
+    "id": "chat-generated-e108534a91e95eff"
+  },
+  {
+    "category": "legionella-listeria-bacillus",
+    "bank": "generated",
+    "title": "음식과 무관한 깊은 부위의 분리주",
+    "stem": "흙이 묻은 이물질로 안구 관통상을 입은 환자가 빠르게 악화하는 안구 내 염증을 보였다. 무균적으로 얻은 유리체 검체에서 B. cereus가 우세하게 분리되었고 임상 소견과 일치했다. 가장 적절한 해석은?",
+    "options": [
+      "Bacillus는 환경 오염으로 검출되는 일이 흔하므로, 이번 결과도 우선 오염 가능성에 두고 추적 검체가 나올 때까지 판단을 미룬다.",
+      "그람양성 세균의 침습 감염이므로 penicillin 계열의 치료 범위를 기대하여, 이번 분리주의 감수성 결과 없이 약제를 정한다.",
+      "B. cereus는 외상 뒤 침습성 감염도 일으킬 수 있어, 검체 부위·임상 경과·감수성을 함께 평가한다.",
+      "화농성 안구염에서 흔한 포도알균을 주원인으로 우선 가정하고, 우세하게 분리된 B. cereus는 부차적 검출로 평가한다.",
+      "이전에 환경에서 얻은 같은 종의 감수성 결과가 있다면, 그 결과를 이번 임상 분리주의 감수성 대신 사용해 약제를 정한다."
+    ],
+    "answer": 3,
+    "explanation": "정답 ③. B. cereus는 식중독뿐 아니라 외상 후 안구 감염 등 침습성 질환도 일으킬 수 있다. 원래 무균인 깊은 검체의 우세 분리와 빠른 임상 악화를 함께 해석한다.\n① 환경 오염이 가능한 균이라는 사실과 이 환자의 실제 감염 여부는 다른 문제이다. 제시한 검체 부위·균의 우세 분리·경과는 진성 감염을 지지한다.\n② β-lactam 내성 가능성이 있어 그람반응만으로 약제 감수성을 보장하지 않는다.\n③ 강의의 토양 오염 관통상·안구 감염 연관성을 임상 검체 해석에 적용한 설명이다.\n④ 포도알균도 안구염의 실제 원인일 수 있으나, 흔한 원인이라는 일반 빈도가 이 검체에서 확인한 B. cereus와 임상 연관성을 대신하지는 못한다.\n⑤ 같은 종이라도 분리주별 감수성이 같다고 보장되지 않는다. 이전 환경 분리주의 결과로 현재 임상 분리주의 평가를 대체하지 않는다.\n보완 근거: https://pmc.ncbi.nlm.nih.gov/articles/PMC11273953/",
+    "source": "[251106_05] 레지오넬라, 리스테리아, 바실루스(석승혁)_정동민v1.pdf / PDF p.41, 50–53; 강의 핵심 보완",
+    "difficulty": "중상",
+    "tags": [
+      "B. cereus",
+      "안구 관통상",
+      "침습성 감염",
+      "배양 해석"
+    ],
+    "origin": "강의·기출 기반 심화 새 문제",
+    "id": "chat-generated-be04934880919ef3"
+  },
+  {
+    "category": "resistant-organisms",
+    "bank": "generated",
+    "title": "감수성 보고 뒤에도 필요한 부위 판단",
+    "stem": "다음은 원인균·병소가 확인되고 각 약제에 시험관 내 감수성이 보고된 상황이다. 알레르기나 다른 환자별 금기는 없고 적절한 투여량을 사용할 수 있다. 약제–감염 조합 중, 감수성 표시만으로 선택하면 가장 부적절한 것은?",
+    "options": [
+      "Levofloxacin — Legionella에 의한 폐렴",
+      "Vancomycin 경구 투여 — C. difficile 대장염",
+      "Daptomycin 정맥 투여 — 폐포를 침범하는 MRSA 폐렴",
+      "Cefazolin 정맥 투여 — CNS 침범이 없는 MSSA 균혈증",
+      "Ampicillin 정맥 투여 — 감수성 Listeria에 의한 균혈증"
+    ],
+    "answer": 3,
+    "explanation": "정답 ③. Daptomycin은 시험관 내 MRSA 감수성이 있어도 폐 surfactant에 의해 항균 활성이 억제되어 폐렴 치료제로 선택하지 않는다. 이 기전은 부위별 약물 작용을 비교하기 위한 강의 외 원저 보완이다.\n① Legionella 폐렴에 fluoroquinolone은 실제 치료 선택지다. 세포 내 감염이라는 특성과 적합한 약제를 연결한다.\n② 장내 작용을 이용하는 실제 치료 방식이다. 경구 vancomycin을 전신 균혈증에 쓰는 것과 구별한다.\n③ 이 조합이 부적절하다. MIC만으로 폐 조직 환경의 영향을 알 수 없다.\n④ 제시한 조건에서는 적합한 항포도알균 β-lactam 확정 치료 선택지다. 모든 S 약제가 임상적으로 동등하다는 뜻은 아니다.\n⑤ Listeria에 대한 실제 주요 치료 약제다. 일부 다른 세포 내 병원체의 치료 원칙을 일괄 적용해 β-lactam 전체를 배제하지 않는다.\n보완 근거: https://pubmed.ncbi.nlm.nih.gov/15898002/",
+    "source": "[261109_05]항생제 내성균의 진단과 치료(송경호)_송민서v1.pdf / PDF p.44, 61, 65, 92–93; 강의의 병소·숙주·미생물 통합 약제 선택을 장기 특이적 약물 억제로 확장; 통합 선지 보완: Legionella 폐렴 치료·C. difficile의 장내 치료·MSSA 확정 치료·Listeria의 ampicillin 치료의 실제 역할과 현재 병소를 비교; [251106_05] 레지오넬라, 리스테리아, 바실루스(석승혁)_정동민v1.pdf / PDF p24, p63",
+    "difficulty": "상",
+    "tags": [
+      "감염 부위",
+      "Daptomycin",
+      "폐렴",
+      "약물 선택",
+      "전범위 통합"
+    ],
+    "origin": "강의·기출 기반 심화 새 문제",
+    "id": "chat-generated-9257a92f40702d5a"
+  },
+  {
+    "category": "haemophilus-bordetella-neisseria",
+    "bank": "generated",
+    "title": "증상 소실 뒤 재검의 목적",
+    "stem": "비임신 성인이 단순 요도 임질에 대해 권고 요법을 정확히 받았고 증상이 사라졌다. 인두·직장 감염은 없었고 Chlamydia는 배제되었다. 최근 파트너도 치료되었다고 한다. CDC 기준에서 routine test-of-cure와 이후 재검을 구별한 것으로 가장 적절한 것은?",
+    "options": [
+      "파트너도 치료되었으므로 이후 증상이 생기기 전까지 재검 계획은 필요하지 않다.",
+      "인두 임질의 완치검사처럼 7–14일 검사를 적용하고, 그때 음성이면 3개월 재검은 생략한다.",
+      "이 단순 요도 감염의 routine 완치검사는 보통 불필요하지만, 재감염 확인을 위한 약 3개월 재검을 계획한다.",
+      "3개월 재검은 임균의 약제감수성 확인 목적이므로, NAAT 결과로 사용할 약제의 MIC를 판단한다.",
+      "3개월 재검은 치료를 누락한 파트너가 실제로 확인된 경우에만 계획하고 그 외에는 생략한다."
+    ],
+    "answer": 3,
+    "explanation": "정답 ③. 조기 완치검사와 몇 달 뒤 재감염 선별은 목적·시점이 다르다.\n① 치료를 받았던 사람의 재감염 빈도가 높아 파트너가 치료되었다고 생각해도 약 3개월 재검을 권한다.\n② 인두 감염의 7–14일 test-of-cure와 몇 달 뒤 재감염 선별은 목적이 다르다. 이 사례는 인두 감염이 없으며 완치 확인이 재감염 재검을 대신하지도 않는다.\n③ 권고 치료를 마친 단순 비뇨생식기·직장 감염은 routine test-of-cure가 보통 필요하지 않지만 재검은 계획한다.\n④ 재검은 재감염 등을 찾는 목적이며, 통상적 NAAT만으로 약제 MIC를 결정하지 못한다. 감수성이 필요하면 배양 분리주를 이용한다.\n⑤ 파트너 미치료가 확인되어야만 재검하는 기준은 아니다.\n지속 증상·치료실패 의심이 생기면 별도로 배양·감수성을 평가해야 한다.\n근거: CDC Gonococcal Infections, Follow-Up — https://www.cdc.gov/std/treatment-guidelines/gonorrhea-adults.htm",
+    "source": "[261109_01]헤모필루스, 보르데텔라, 나이세리아(방예지)_손세영v1.pdf / PDF p.27–28; 강의 핵심 보완",
+    "difficulty": "중상",
+    "tags": [
+      "재검",
+      "재감염",
+      "완치검사",
+      "추적 관리"
+    ],
+    "origin": "강의·기출 기반 심화 새 문제",
+    "id": "chat-generated-d9c56034e78a81e3"
+  },
+  {
+    "category": "haemophilus-bordetella-neisseria",
+    "bank": "generated",
+    "title": "출생 직후의 심한 화농성 결막염",
+    "stem": "산전 성매개감염 검사를 받지 않은 산모에게서 태어난 생후 3일 만삭아가 심한 화농성 결막염과 눈꺼풀 부종을 보인다. 결막 분비물에는 호중구와 세포 내 그람음성 쌍알균이 관찰된다. 전신 상태와 각막 손상도 평가하고 있다. 가장 적절한 원인·대응의 조합은?",
+    "options": [
+      "C. trachomatis 결막염을 우선하여, 그 균의 세포내 감염에 대한 macrolide 요법만 시행한다.",
+      "신생아 HSV를 우선하여, 결막의 세균 검체 없이 acyclovir만으로 치료하고 세균 평가는 보류한다.",
+      "출생 시 점안제에 의한 화학성 자극으로 보아, 분비물 배양 없이 보존적 관찰만 지속한다.",
+      "국소 임균 감염으로 보아, 안과용 항균제만 사용하고 전신 항균제와 파종 평가는 생략한다.",
+      "분만 중 획득한 임균 감염을 의심해 배양·감수성 검체를 얻고 권고 전신요법과 파종 평가를 시행한다."
+    ],
+    "answer": 5,
+    "explanation": "정답 ⑤. 생후 수일의 급성 화농성 결막염과 호중구 내 그람음성 쌍알균은 임균을 강하게 시사한다. 각막 손상과 전신 합병증의 위험을 함께 본다.\n① Chlamydia는 신생아 결막염의 실제 감별 원인이며 전신 macrolide가 필요할 수 있지만, 그람음성 쌍알균 소견과 맞지 않는다.\n② HSV도 실제 신생아 피부·눈·입 감염 및 파종 감염을 일으킨다. 그러나 이 세균학적 소견을 버리고 항바이러스제만 쓰는 접근은 맞지 않는다.\n③ 화학성 결막염이라는 감별은 가능하나 심한 화농과 세포 내 쌍알균을 보존적 관찰만으로 처리할 수 없다.\n④ 확인된/의심 임균 안염은 국소 약제만으로 치료하지 않는다.\n⑤ 원인균을 확보하고 권고 전신 항균요법을 시작하며 sepsis·관절염·수막염 등도 평가한다. 실제 약제 선택은 빌리루빈·정맥칼슘 등 신생아 조건을 함께 반영한다.\n근거: CDC Gonococcal Infections Among Neonates — https://www.cdc.gov/std/treatment-guidelines/gonorrhea-neonates.htm",
+    "source": "[261109_01]헤모필루스, 보르데텔라, 나이세리아(방예지)_손세영v1.pdf / PDF p.25–26, 28; 통합 선지 보완: 미코플라즈마·클라미디아 강의의 C. trachomatis와 후반 HSV의 신생아 감염 비교; 관리 세부는 CDC 보완; 17_미코플라즈마_클라미디아_수정본.pdf / PDF p.18; HSV 비교 — https://www.msdmanuals.com/professional/pediatrics/infections-in-neonates/neonatal-herpes-simplex-virus-hsv-infection",
+    "difficulty": "상",
+    "tags": [
+      "신생아 결막염",
+      "분만 중 전파",
+      "전신 치료",
+      "감별",
+      "전범위 통합"
+    ],
+    "origin": "강의·기출 기반 심화 새 문제",
+    "id": "chat-generated-3987672e375c38e3"
+  },
+  {
+    "category": "antibiotic-pharmacology",
+    "bank": "generated",
+    "title": "약물·표적·단백질의 역할",
+    "stem": "Tetracycline 내성 분리주에서 세포 내 약물량·약물 자체 활성은 유지되고 rRNA 서열·methylation 변화도 없었다. 약물과 리보솜만으로는 억제 감소가 나타나지 않았지만 리보솜 결합 단백질이 작용하는 상태에서는 약물 억제가 줄었다는 보고서를 받았다. 가장 잘 맞는 설명은?",
+    "options": [
+      "효소적 약물 변형으로 항균제 자체의 활성이 낮아진 것이다.",
+      "rRNA methylation으로 리보솜의 약물 결합 부위가 바뀐 것이다.",
+      "리보솜 자체 돌연변이로 약물·리보솜만 있어도 결합력이 낮아진 것이다.",
+      "약물 유출 펌프가 약물을 배출하여 리보솜에 도달하는 양이 감소한 것이다.",
+      "약물이나 rRNA의 화학적 변화 없이 리보솜 보호가 내성에 기여한 것이다."
+    ],
+    "answer": 5,
+    "explanation": "정답은 ⑤이다. 약물량·약물 활성·rRNA 성질이 보존되고 별도 결합 단백질이 있어야 억제가 줄어드는 결과는 리보솜 보호에 맞는다.\n① 효소적 약물 변형은 실제 내성이지만 약물 활성 보존과 다르다. ② Methylation은 실제 표적 변형이나 그 변화가 없었다. ③ 리보솜 자체의 변화라면 별도 단백질 없이도 차이를 기대하지만 보고서는 그렇지 않다. ④ 세포 내 약물량 감소가 없었다. ⑤ 직접 관찰을 모두 설명한다. 특정 유전자나 조작 절차를 묻지 않는다.",
+    "source": "[261109_03]항생제 약리학의 기본 원리_항생제 내성(이승환)_송경민v1.pdf / PDF p.9, 16, 19–20, 23–24; 강의 작용·내성 기전과 관련 기출을 새 자료로 확장",
+    "difficulty": "상",
+    "tags": [
+      "리보솜보호",
+      "tetracycline",
+      "기전감별"
+    ],
+    "origin": "강의·기출 기반 심화 새 문제",
+    "id": "chat-generated-04259adaa713716f"
+  },
+  {
+    "category": "resistant-organisms",
+    "bank": "generated",
+    "title": "들어가는 경로가 달라진 항균제",
+    "stem": "그람음성 분리주의 철 운반체 유전자 결손주와 복원주를 비교했다. 결손주에서는 cefiderocol의 세포 내 유입과 항균 활성이 감소했고 복원으로 회복되었다. 일반 porin 양·efflux 활성·β-lactamase 활성과 PBP의 약제 친화도는 모두 같았다. 이 실험이 가장 직접적으로 지지하는 것은?",
+    "options": [
+      "MRSA의 PBP2a처럼 표적의 β-lactam 친화도 저하가 항균 활성 감소를 설명하며, 측정된 유입 차이보다 이를 우선한다.",
+      "장내세균의 β-lactamase 증가처럼 약물 분해가 높아져, 철 운반체와 무관하게 활성이 줄어든 것이다.",
+      "철 획득 경로를 이용하는 유입이 이 약제의 활성에 기여하며, 일반 porin만으로 유입을 설명할 수 없다.",
+      "녹농균의 유출 증가처럼 약물이 들어온 뒤 더 빨리 배출되었으므로, 운반체 복원의 결과는 부수적이다.",
+      "일반 porin 소실이 모든 cephalosporin 유입 감소를 설명하므로, 철 운반체는 항균제 통로와 무관하다."
+    ],
+    "answer": 3,
+    "explanation": "정답 ③. Cefiderocol은 siderophore 성질을 이용해 철 운반 경로로 그람음성 외막을 통과한다. 제시된 결손·복원과 다른 인자의 통제가 유입 경로의 기여를 지지한다.\n① PBP 친화도는 같다고 통제되었다. 포도알균의 표적 변화와 이 실험의 약제 유입 차이를 구분한다.\n② β-lactamase 활성이 같았다. 약물 분해라는 실제 내성 기전을 제시한 유입 실험의 원인으로 바꿀 근거가 없다.\n③ 다른 내성 인자들을 통제한 결손·복원 결과와 맞는다.\n④ Efflux 활성도 통제되었다. 결손·복원에 따른 유입 변화와 별도의 유출 기전을 혼동하지 않는다.\n⑤ 일반 porin 양이 같고 철 운반체만 달랐다. 같은 β-lactam 계열이어도 외막 진입 경로를 구별한다.",
+    "source": "[261109_05]항생제 내성균의 진단과 치료(송경호)_송민서v1.pdf / PDF p.55, 58, 61–62; 강의의 철 운반 경로를 결손·복원 자료로 확장; 통합 선지 보완: 다른 강의의 MRSA PBP2a 표적 변화·장내세균 β-lactamase·녹농균 efflux를 임상·기전과 비교",
+    "difficulty": "중상",
+    "tags": [
+      "Cefiderocol",
+      "Siderophore",
+      "철 운반",
+      "외막",
+      "전범위 통합"
+    ],
+    "origin": "강의·기출 기반 심화 새 문제",
+    "id": "chat-generated-cf0f641f1896b15f"
+  },
+  {
+    "category": "haemophilus-bordetella-neisseria",
+    "bank": "generated",
+    "title": "같은 병실에 있었던 두 의료종사자",
+    "stem": "침습성 수막염균 Y 감염 환자가 항균제를 받기 전, A는 적절한 마스크·눈 보호구 없이 긴급 기도 삽관을 하다가 환자 호흡기 분비물이 점막에 튀었다. B는 장갑을 끼고 정맥주사만 시행했으며 대면 분비물 접촉은 없었다. A는 MenACWY를 접종한 상태이고 노출은 전날 있었다. CDC 직업성 노출 기준에 맞는 조치는?",
+    "options": [
+      "같은 병실에 들어간 사람은 모두 동등 노출이므로 A와 B에게 동일하게 예방 항균제를 준다.",
+      "혈액 감염이므로 정맥주사를 시행한 B만 예방 투약하고, A는 호흡기 접촉이므로 제외한다.",
+      "A와 B의 비인두 배양이 양성일 때만 예방 투약하며 배양 결과까지 기다린다.",
+      "A는 접종력과 별도로 신속한 예방 투약을 시행하고, B의 일상적 IV 처치만은 보통 노출로 보지 않는다.",
+      "A는 접종 완료자로 보아 항균제 대신 MenACWY를 한 번 더 접종하고 B는 관찰한다."
+    ],
+    "answer": 4,
+    "explanation": "정답 ④. 직업상 환자에게 접촉했다는 사실과, 감염성 분비물이 점막에 도달한 노출을 구별한다.\n① 병실에 있었다는 사실만으로 모든 사람을 같은 노출로 분류하지 않는다.\n② 수막염균의 이 상황의 전파 위험은 무보호 호흡기 분비물·침 접촉이다. IV 처치를 했다는 이유로 위험 순서를 거꾸로 정하지 않는다.\n③ 접촉자의 비인두 배양으로 예방 투약 필요성을 정하거나 신속한 예방을 지연하지 않는다.\n④ A의 무보호 기도 관리·점막 분비물 접촉은 노출에 해당한다. 접종력이 있어도 예방 항균제를 적용한다. B의 기재된 단순 IV 처치는 일반적으로 노출에 해당하지 않는다.\n⑤ 백신의 장기 예방과 노출 후 항균 예방은 대체 관계가 아니다.\n현장에서는 실제 PPE·분비물 노출 여부와 지역 지침에 따라 평가한다.\n근거: CDC Meningococcal Disease, Occupational Exposures — https://www.cdc.gov/infection-control/hcp/healthcare-personnel-epidemiology-control/meningococcal-disease.html",
+    "source": "[261109_01]헤모필루스, 보르데텔라, 나이세리아(방예지)_손세영v1.pdf / PDF p.30, 33; 강의 핵심 보완",
+    "difficulty": "상",
+    "tags": [
+      "수막염균",
+      "직업성 노출",
+      "접촉자 예방",
+      "PPE"
+    ],
+    "origin": "강의·기출 기반 심화 새 문제",
+    "id": "chat-generated-579ac610a84f3b1c"
+  },
+  {
+    "category": "resistant-organisms",
+    "bank": "generated",
+    "title": "감시 건수가 늘었을 때의 분모",
+    "stem": "병원에서 CRE 입원 선별검사 대상을 넓힌 뒤 직장도말 양성 신고 건수는 2배가 되었다. 같은 기간 환자일수, 혈액배양 시행 방식 및 CRE 균혈증의 1,000환자일수당 발생률은 큰 변화가 없었다. “CRE 감염 발생률이 2배로 증가했다”는 결론을 평가한 것으로 가장 적절한 것은?",
+    "options": [
+      "직장도말 양성 수가 늘었으므로, 혈액배양 결과와 관계없이 CRE에 의한 조직 침범도 같은 비율로 늘었다.",
+      "균혈증 발생률이 같으므로, 이 기간에는 CRE의 새 보균 획득이나 균혈증 외 감염도 증가하지 않았다고 확정한다.",
+      "선별 확대에 따른 보균 발견 증가와 임상 감염 발생을 구분하고, 같은 정의·분모로 감염 발생률을 비교해야 한다.",
+      "검사 대상이 넓어지면 환자일수는 해석에서 제외하고, 양성 신고의 절대 수만으로 병원 간 위험을 비교한다.",
+      "직장도말은 감염을 진단하지 못하므로, 보균자 자료는 전파 감시와 감염관리에도 사용하지 않는다."
+    ],
+    "answer": 3,
+    "explanation": "정답 ③. 검사 대상·빈도가 바뀌면 확인되는 보균 수가 늘 수 있다. 직장도말 신고 총수와 일정한 환자일수 분모의 균혈증 발생률은 다른 지표이므로, 한쪽 증가를 다른 지표의 2배 증가로 바꿀 수 없다.\n① 보균 발견과 조직 침범을 동일시했다. 검체의 의미와 임상 감염 기준을 구별해야 한다.\n② 균혈증 하나의 지표로 새 보균이나 다른 부위 감염까지 모두 배제할 수 없다.\n③ 검사 방식·분모·임상 정의가 다른 지표를 서로 섞지 않는다.\n④ 노출된 인구·재원일수와 감시 방법을 고려하지 않으면 위험 비교가 왜곡될 수 있다.\n⑤ 직장도말의 보균 자료는 전파 위험과 감염관리에 유용하다. 임상 감염을 직접 뜻하지 않는다고 자료의 가치가 사라지는 것은 아니다.",
+    "source": "[261109_05]항생제 내성균의 진단과 치료(송경호)_송민서v1.pdf / PDF p.17, 23–32, 84, 87; 강의의 신고·보균·감염 질병부담 지표를 감시 방식 변화의 해석으로 확장",
+    "difficulty": "상",
+    "tags": [
+      "감시",
+      "보균",
+      "발생률",
+      "분모"
+    ],
+    "origin": "강의·기출 기반 심화 새 문제",
+    "id": "chat-generated-b1c0e5a345612428"
+  },
+  {
+    "category": "antibiotic-pharmacology",
+    "bank": "generated",
+    "title": "핵산 합성 억제의 직접 표적",
+    "stem": "감수성 세균의 핵산 합성을 억제하는 약물 X의 보고서에 “DNA-dependent RNA polymerase에 직접 결합하여 새 RNA 합성을 억제한다”고 기록되어 있다. DNA gyrase와 세균 외피 합성 효소에는 직접 억제가 없었다. 가장 잘 맞는 약물–작용 연결은?",
+    "options": [
+      "Ciprofloxacin — DNA gyrase·topoisomerase IV 억제",
+      "Isoniazid — mycolic acid 합성 억제",
+      "Ethambutol — arabinogalactan 합성 억제",
+      "Macrolide — 세균 리보솜에서 번역 억제",
+      "Rifampin — 세균 RNA polymerase 억제"
+    ],
+    "answer": 5,
+    "explanation": "정답은 ⑤이다. 핵산 합성을 억제하더라도 직접 표적은 서로 다르다.\n① Ciprofloxacin은 DNA gyrase·topoisomerase IV에 작용하므로 직접 결합 결과와 다르다. ② Isoniazid의 mycolic acid 합성 억제는 실제 결핵 외피 약리이나 RNA polymerase와 다르다. ③ Ethambutol의 arabinogalactan 합성 억제도 실제 외피 표적이다. ④ Macrolide의 번역 억제는 전사 효소 억제가 아니다. ⑤ Rifampin과 직접 표적이 일치한다. 강의 p10을 모든 핵산 억제제가 RNA polymerase를 억제한다는 뜻으로 읽지 않는다.",
+    "source": "[261109_03]항생제 약리학의 기본 원리_항생제 내성(이승환)_송경민v1.pdf / PDF p.6, 9–10; 강의 작용·내성 기전과 관련 기출을 새 자료로 확장; 교차 강의: [261106_03] 마이코박테리움(염진기)_ 서현오v1.pdf / PDF p.11,24–25 ; 강의 개념 공식 확인: DailyMed rifampin https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a1f9f1e2-dfc0-4d31-a13b-b656d897b791 ; ciprofloxacin https://www.dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8916b85c-9004-4e26-a34d-b0e6a65e6a24",
+    "difficulty": "중상",
+    "tags": [
+      "전사",
+      "핵산합성",
+      "rifampin",
+      "전범위 통합"
+    ],
+    "origin": "강의·기출 기반 심화 새 문제",
+    "id": "chat-generated-9555038340501469"
+  },
+  {
+    "category": "antibiotic-pharmacology",
+    "bank": "generated",
+    "title": "혼탁도와 생존성 결과의 연결",
+    "stem": "임상 분리주에 대한 항생제 X의 검사 결과이다. MIC는 육안적 증식 억제, MBC는 정해진 살균 기준 충족으로 판정하였다.\n• 1 μg/mL: 증식 있음, 살균 기준 미충족\n• 2 μg/mL: 증식 없음, 살균 기준 미충족\n• 4 μg/mL: 증식 없음, 살균 기준 미충족\n• 8 μg/mL: 증식 없음, 살균 기준 충족\n검사한 농도에서 MIC와 MBC의 연결로 옳은 것은?",
+    "options": [
+      "MIC 1, MBC 2 μg/mL",
+      "MIC 2, MBC 4 μg/mL",
+      "MIC 2, MBC 8 μg/mL",
+      "MIC 4, MBC 8 μg/mL",
+      "MIC 8, MBC 2 μg/mL"
+    ],
+    "answer": 3,
+    "explanation": "정답은 ③이다. MIC는 보이는 증식을 처음 억제한 2 μg/mL, MBC는 살균 기준을 처음 충족한 8 μg/mL이다. 맑은 배양액에서도 생존균이 남을 수 있다.\n① 1에서는 증식하며 2도 살균 기준을 충족하지 않았다. ② 4에서 살균 기준을 충족하지 않았다. ③ 두 최소 농도가 모두 맞다. ④ 2에서 이미 증식이 억제된다. ⑤ 두 지표를 뒤바꾸었으며 2는 살균 기준을 충족하지 않는다.",
+    "source": "[261109_03]항생제 약리학의 기본 원리_항생제 내성(이승환)_송경민v1.pdf / PDF p.3–4; 강의 작용·내성 기전과 관련 기출을 새 자료로 확장",
+    "difficulty": "중",
+    "tags": [
+      "MIC",
+      "MBC",
+      "검사해석"
+    ],
+    "origin": "강의·기출 기반 심화 새 문제",
+    "id": "chat-generated-026fabe3a3471ca1"
+  },
+  {
+    "category": "legionella-listeria-bacillus",
+    "bank": "generated",
+    "title": "염색 성상과 균종 동정이 어긋날 때",
+    "stem": "면역저하 환자의 폐 조직에서 약한 항산성을 보이는 짧은 막대균이 관찰되었으나 분지성 필라멘트는 보이지 않았다. 임상검사실 보고서에서 일반 혈액배지는 음성이고 BCYE에서 균이 회수되었다. 배양된 집락에서는 항산성 염색이 음성이었다. 검사 품질 대조에는 문제가 없었다. 이 조합을 가장 잘 설명하는 후보는?",
+    "options": [
+      "Mycobacterium tuberculosis — mycolic acid와 관련된 항산성 막대균이며 배양 분리주에서도 항산성이 중요한 동정 단서이다.",
+      "Nocardia species — 부분 항산성의 분지성 필라멘트가 중요한 특징이며 면역저하자에서 폐 감염을 일으킨다.",
+      "Rhodococcus equi — 그람양성 구간균으로 부분 항산성을 보일 수 있고, 일반 혈액배지에서도 회수되는 비까다로운 균이다.",
+      "Legionella micdadei — 조직에서 약한 항산성을 보일 수 있으나 배양 후 그 성상이 없어질 수 있으며 BCYE에서 회수된다.",
+      "Haemophilus influenzae — X·V 인자를 요구하는 작은 그람음성 구간균이며 호흡기 감염을 일으킨다."
+    ],
+    "answer": 4,
+    "explanation": "정답 ④. 조직의 약한 항산성 하나만으로 Mycobacterium을 정하지 않는다. 분지 유무·일반 배양의 회수·특수배양과 배양 뒤 염색 성상의 변화를 함께 적용하면 L. micdadei가 가장 잘 맞는다.\n① 결핵균의 mycolic acid 관련 항산성은 실제 특징이지만, 배양 분리주에서 항산성이 확인되지 않고 BCYE에서 회수된 조합과 덜 맞는다.\n② Nocardia는 면역저하자 폐 감염의 실제 감별 대상이다. 다만 분지성 필라멘트가 없고 다른 검사 결과까지 합쳐지므로 이 사례의 우선 후보는 다르다. 분지가 없다는 한 가지 소견만으로 Nocardia를 절대 배제한 것은 아니다.\n③ R. equi도 부분 항산성·막대-구균 형태 변화를 보일 수 있다. 그러나 일반 혈액배지에서도 자라는 비까다로운 성질이 있어 제시한 회수 양상과 덜 맞는다.\n④ 강의 p11의 L. micdadei 조직 항산성 사진과 임상 보고에 부합한다. 최종 종 확정은 검증된 동정으로 확인한다.\n⑤ Haemophilus의 영양 요구는 실제 특징이지만 약한 조직 항산성과 배양 뒤 성상 변화의 대표적인 설명은 아니다.\n통합 선지 보완: L. micdadei 임상 보고 https://pmc.ncbi.nlm.nih.gov/articles/PMC4368428/ ; Rhodococcus 임상 감별 https://wwwnc.cdc.gov/eid/article/3/2/97-0207_article",
+    "source": "[251106_05] 레지오넬라, 리스테리아, 바실루스(석승혁)_정동민v1.pdf / PDF p.11–12, 15; 관련 기출 2025년 77번의 성상 해석을 종별 예외·감별로 확장; 통합 선지 보완: Mycobacterium·Nocardia·Rhodococcus·Haemophilus의 실제 임상 동정 단서와 비교",
+    "difficulty": "상",
+    "tags": [
+      "Legionella micdadei",
+      "항산성",
+      "동정",
+      "검체 조건",
+      "전범위 통합"
+    ],
+    "origin": "강의·기출 기반 심화 새 문제",
+    "id": "chat-generated-739f5277ed80b8b0"
+  },
+  {
+    "category": "antibiotic-pharmacology",
+    "bank": "generated",
+    "title": "같은 합성 경로 안의 서로 다른 결합점",
+    "stem": "두 세포벽 약물 A와 B를 비교한다. A는 PBP에, B는 peptidoglycan 전구체 말단에 결합한다. 한 분리주에서는 B의 결합 부위인 전구체 말단만 변했고 PBP의 A 친화도는 유지되었다. 분자적 예측으로 가장 적절한 것은?",
+    "options": [
+      "전구체 말단 변화는 B의 결합에 영향을 주며 A–PBP 결합의 보존과 양립한다.",
+      "두 약물이 세포벽 합성을 억제하므로 B의 결합 감소는 A의 PBP 결합 감소를 뜻한다.",
+      "전구체 말단 변화는 β-lactamase 활성 증가이므로 A의 분해도 증가한다고 본다.",
+      "MRSA의 PBP2a 변화와 같으므로 A 결합이 먼저 줄고 B 결합은 유지된다고 본다.",
+      "Mycoplasma의 세포벽 부재와 같으므로 A와 B의 직접 표적이 모두 없어졌다고 본다."
+    ],
+    "answer": 1,
+    "explanation": "정답은 ①이다. 같은 경로의 약물도 직접 결합 분자가 다르면 한 결합점의 변화가 다른 결합점의 변화를 뜻하지 않는다.\n① 전구체 말단은 vancomycin 결합과 연결되며 PBP 친화도 보존과 양립한다. ② 최종 경로와 직접 표적을 혼동했다. ③ 전구체 변화는 표적 변화이며 약물 분해와 다르다. ④ PBP2a는 실제 β-lactam 표적 변화지만 제시된 변화는 전구체 말단이다. ⑤ Mycoplasma의 세포벽 부재는 실제 β-lactam 비감수성 근거이나 여기서는 PBP·전구체가 존재한다. 이 예측은 분자적 결합에 한정하며 A의 최종 감수성은 다른 기전도 포함한 실제 검사로 판단한다.",
+    "source": "[261109_03]항생제 약리학의 기본 원리_항생제 내성(이승환)_송경민v1.pdf / PDF p.7, 16, 18; 강의 작용·내성 기전과 관련 기출을 새 자료로 확장; 교차 선지 확인: 17_미코플라즈마_클라미디아_수정본.pdf / PDF p.3 ; 6.(강의자료)미생물학) 포도알균_김범준 교수님.pdf / PDF p.21–23",
+    "difficulty": "상",
+    "tags": [
+      "세포벽합성",
+      "PBP",
+      "교차내성"
+    ],
+    "origin": "강의·기출 기반 심화 새 문제",
+    "id": "chat-generated-bd2dff7ee9b65028"
+  },
+  {
+    "category": "legionella-listeria-bacillus",
+    "bank": "generated",
+    "title": "재가열한 식사와 빠른 구토",
+    "stem": "보관이 부적절했던 쌀 음식 섭취 2시간 뒤 집단 구토가 발생했다. 남은 음식에서 구토 관련 활성이 재가열 뒤에도 유지되었고, 분석에서는 단백질성 독소와 구별되는 cyclic depsipeptide가 검출되었다. 이 사건의 독소와 발생 과정을 가장 잘 설명한 것은?",
+    "options": [
+      "음식에서 미리 생성된 B. cereus의 내열성 구토 독소 cereulide 섭취가 짧은 잠복기를 설명한다.",
+      "포도알균 enterotoxin의 실제 내열성만으로 cyclic depsipeptide 분석 결과까지 같은 독소로 해석한다.",
+      "C. perfringens가 장내에서 만드는 enterotoxin과 같은 과정이므로 음식 속 이미 존재한 독소는 부차적이다.",
+      "ETEC LT처럼 장관 내 독소 생성과 Gsα 조절이 핵심이므로, 음식에서 이미 확인된 독소는 부차적이다.",
+      "Shiga 독소의 단백질 합성 억제·신장 내피 손상 기전이 이 독소 분석 결과와 짧은 구토 잠복기를 설명한다."
+    ],
+    "answer": 1,
+    "explanation": "정답 ①. B. cereus 구토형은 음식에서 이미 만들어진 내열성 cereulide와 연결된다. 재가열로 살아 있는 균 수가 줄어도 이미 생성된 독소의 위험이 사라졌다고 볼 수 없다.\n① 짧은 잠복기, 내열성 및 cyclic depsipeptide라는 분석을 합치면 cereulide가 가장 잘 맞는다.\n② 포도알균의 미리 생성된 내열성 장독소도 빠른 구토를 일으키지만, cereulide와는 분자 구조가 다르다. 음식 종류만으로 둘을 확정 구별한 것이 아니다.\n③ C. perfringens 장독소의 장내 생산 과정과 식품 내 미리 생성된 구토 독소를 구별한다.\n④ ETEC LT는 장관에서 생성되어 숙주 Gsα를 조절한다. 식품에서 확인된 내열성 cyclic depsipeptide와 다른 기전이다.\n⑤ Shiga 독소의 HUS 기전은 실제 내용이나 이 사건에 그 합병증 소견은 제시되지 않았다.\n강의 p51의 오래된 '구토 인자 미확인' 문구는 현재의 cereulide 규명과 구별한다. 기출의 heat-stable enterotoxin은 구토형 독소를 가리키는 표현으로 읽는다.\n보완 근거: https://pubmed.ncbi.nlm.nih.gov/8082824/ ; https://pubmed.ncbi.nlm.nih.gov/18363653/",
+    "source": "[251106_05] 레지오넬라, 리스테리아, 바실루스(석승혁)_정동민v1.pdf / PDF p.34–35, 47, 50–53; 관련 기출 2023년 59번·2022년 6번·2021년 35번의 구토형 식중독 확장; 통합 선지 보완: 포도알균 preformed enterotoxin, C. perfringens 장내 독소, ETEC LT, Shiga toxin/HUS",
+    "difficulty": "상",
+    "tags": [
+      "B. cereus",
+      "Cereulide",
+      "구토형",
+      "내열성 독소",
+      "전범위 통합"
+    ],
+    "origin": "강의·기출 기반 심화 새 문제",
+    "id": "chat-generated-6e408fa3eac45007"
+  },
+  {
+    "category": "legionella-listeria-bacillus",
+    "bank": "generated",
+    "title": "처음 들어가는 단계와 그 이후 단계",
+    "stem": "Listeria 분리주의 상피세포 유입을 분석했다. 한 조건에서는 표면 internalin–숙주 수용체 결합이 억제되어 초기 세포 내 균수가 줄었다. 그러나 세포 안으로 들어간 균만 비교하면 식포 탈출과 세포질 증식은 유지되었다. 이 결과가 가장 직접적으로 가리키는 병원성 단계는?",
+    "options": [
+      "ActA에 의한 세포질 actin 중합이 주된 결손이므로 초기 상피 유입 감소가 나타난 것이다.",
+      "LLO에 의한 식포 탈출 실패가 먼저 일어나 상피 표면에 대한 결합도 감소한 것이다.",
+      "항체 Fc 결합이 억제되어 세포 밖 옵소닌화가 증가한 것이 직접 관찰된 결과이다.",
+      "상피 표면의 결합과 유입은 유지되지만, 세포 안에서의 기본 복제능만 선택적으로 낮아진 단계이다.",
+      "비포식성 상피세포에 부착하고 유입되는 초기 단계가 선택적으로 영향을 받은 것이다."
+    ],
+    "answer": 5,
+    "explanation": "정답 ⑤. Internalin은 상피세포 부착·유입에 관여한다. 초기 유입과 들어간 뒤 식포 탈출·증식을 구별하여 해석한다.\n① ActA는 세포 내 운동·세포 간 확산 단계와 연결된다. 초기 수용체 결합 결손의 직접 설명은 아니다.\n② 식포 탈출은 유입 이후 단계이고, 들어간 균에서 그 기능은 유지되었다.\n③ 포도알균 Protein A의 Fc 결합과 같은 결과를 측정한 실험이 아니다.\n④ 초기 수용체 결합·유입이 감소했고 들어간 뒤의 증식은 유지되었다. 선택적 복제능 결손과 다르다.\n⑤ InlA–E-cadherin 결합은 이 초기 유입을 설명하는 대표적인 기전이다. 모든 세포 유입이 단일 수용체 하나로만 결정된다고 확대하지 않는다.\n보완 근거: https://pubmed.ncbi.nlm.nih.gov/8601315/",
+    "source": "[251106_05] 레지오넬라, 리스테리아, 바실루스(석승혁)_정동민v1.pdf / PDF p.58–60; 강의 핵심 보완",
+    "difficulty": "중상",
+    "tags": [
+      "Listeria",
+      "Internalin",
+      "세포 유입",
+      "감염 단계"
+    ],
+    "origin": "강의·기출 기반 심화 새 문제",
+    "id": "chat-generated-3aa6173b233c3caf"
+  },
+  {
+    "category": "haemophilus-bordetella-neisseria",
+    "bank": "generated",
+    "title": "같은 균에서 분리되는 두 부착 단계",
+    "stem": "임균의 외막 단백질 P를 고정 발현하는 균과 P 결손주를 비교했다. Type IV pili의 양과 초기 microcolony 형성은 같지만, 특정 CEACAM을 발현하는 세포에 대한 밀접 부착은 결손주에서 줄었다. 해당 P를 복원하면 회복되었고 정제 P도 그 CEACAM에 결합했다. 가장 직접적으로 지지되는 기능은?",
+    "options": [
+      "숙주 mannose를 인식하는 fimbrial lectin의 당수용체 결합 기능이다.",
+      "특정 Opa–CEACAM 조합의 수용체 인식이 밀접 부착에 기여하는 기능이다.",
+      "숙주 fibronectin에 결합하는 단백질을 통한 기기 표면 정착 기능이다.",
+      "Sucrose 유래 glucan 기질을 만들어 세균 사이를 연결하는 생물막 기능이다.",
+      "LOS의 지질 부분으로 TLR4를 자극해 호중구 유입을 만드는 기능이다."
+    ],
+    "answer": 2,
+    "explanation": "정답 ②. 초기 microcolony는 유지되지만 CEACAM 의존 밀접 부착이 선택적으로 달라졌다. 정제 단백질의 결합과 복원까지 있어 해당 P에 해당하는 Opa–수용체 조합의 기능을 지지한다.\n① UPEC FimH–mannose 인식은 실제 부착 방식이나, 여기서 측정한 Opa–CEACAM 단백질 결합과 다르다.\n② 강의의 Opa 수용체 결합을 pili의 초기 부착 기능과 분리한 결과이다. 모든 Opa 변이형이 모든 CEACAM에 똑같이 결합한다는 뜻은 아니다.\n③ 포도알균의 fibronectin 결합은 실제 숙주 단백질 부착 방식이다. 이 실험의 수용체는 CEACAM으로 특정되어 있다.\n④ S. mutans의 glucan 기질은 실제 생물막 기능이지만 정제 Opa의 수용체 결합을 다당 생성으로 설명하지 못한다.\n⑤ 임균 LOS의 염증 신호는 실제 병인 기능이나 수용체 특이 부착과 별개이다.\n보완 원저: Opa–CEACAM 선택성 — https://pubmed.ncbi.nlm.nih.gov/25605771/ ; https://pmc.ncbi.nlm.nih.gov/articles/PMC387857/",
+    "source": "[261109_01]헤모필루스, 보르데텔라, 나이세리아(방예지)_손세영v1.pdf / PDF p.23–25; 통합 선지 보완: UPEC FimH·포도알균 fibronectin 결합·S. mutans glucan과 수용체 인식 비교; Opa 수용체 조합은 원저 보완; FimH https://pubmed.ncbi.nlm.nih.gov/12010488/ ; FnBP https://pubmed.ncbi.nlm.nih.gov/18952882/ ; glucan https://pubmed.ncbi.nlm.nih.gov/7781982/",
+    "difficulty": "상",
+    "tags": [
+      "Opa",
+      "CEACAM",
+      "Pili",
+      "부착 단계",
+      "전범위 통합"
+    ],
+    "origin": "강의·기출 기반 심화 새 문제",
+    "id": "chat-generated-e902de3ddd56d619"
+  },
+  {
+    "category": "resistant-organisms",
+    "bank": "generated",
+    "title": "장갑을 쓴 뒤에도 이어진 전달",
+    "stem": "의료진이 VRE 보균 환자의 침상 난간을 장갑으로 만진 뒤, 그 장갑을 낀 채 다음 환자의 도관 연결 부위를 다루려 한다. “환자의 몸은 만지지 않았고 장갑을 착용했으니 괜찮다”고 설명한다. 가장 적절한 대응은?",
+    "options": [
+      "피부에 직접 닿지 않았으므로 환경 접촉 장갑은 다음 환자의 도관 처치까지 계속 사용한다.",
+      "장갑 겉면을 알코올로 닦아 반복 사용하면, 장갑 교체와 손위생을 같은 효과로 대체할 수 있다.",
+      "다음 환자의 처치 뒤에만 손위생을 시행하고, 처치 전에는 기존 장갑이 손을 보호하도록 유지한다.",
+      "장갑을 벗고 손위생을 한 뒤, 다음 환자의 도관 처치에 맞는 새 장갑·무균술을 적용한다.",
+      "수술용 마스크를 추가하면 장갑 표면의 VRE가 도관에 전달되는 위험을 충분히 보완할 수 있다."
+    ],
+    "answer": 4,
+    "explanation": "정답 ④. 보균자의 주변 환경도 손·장갑을 오염시킬 수 있다. 장갑은 손위생을 대체하지 않으며 환자 간 이동과 무균 처치에 맞춰 교체·손위생을 해야 한다.\n① 환자 환경을 통해서도 손·장갑이 오염될 수 있다. 직접 피부 접촉만을 전파 경로로 한정하지 않는다.\n② 일회용 장갑을 손위생·교체 대신 소독해 계속 사용하는 방식으로 바꾸지 않는다. 적절한 장갑 사용과 손위생은 함께 필요하다.\n③ 다음 환자·무균 처치 전의 전파 차단 기회를 놓친다. 손위생은 처치 후에만 하는 조치가 아니다.\n④ 환경 접촉에서 다음 환자의 무균 처치로 가는 연결고리를 차단한다.\n⑤ 전파 경로가 다른 보호구를 추가하는 것으로 오염된 장갑과 손위생의 문제를 해결하지 못한다.\n보완 근거: https://www.cdc.gov/clean-hands/hcp/clinical-safety/",
+    "source": "[261109_05]항생제 내성균의 진단과 치료(송경호)_송민서v1.pdf / PDF p.79–87; 관련 기출 2023년 50번의 손위생 원칙을 환경 접촉·무균 처치 전환에 적용",
+    "difficulty": "중상",
+    "tags": [
+      "손위생",
+      "환경 오염",
+      "장갑",
+      "접촉 전파"
+    ],
+    "origin": "강의·기출 기반 심화 새 문제",
+    "id": "chat-generated-be8a21693f146709"
+  },
+  {
+    "category": "haemophilus-bordetella-neisseria",
+    "bank": "generated",
+    "title": "환자 치료와 가정 내 보균 제거의 구분",
+    "stem": "침습성 Hib 감염 소아가 ceftriaxone으로 치료받았다. 같은 집에는 Hib 접종을 완료하지 않은 2세 동생과 접종을 완료한 건강한 부모가 함께 산다. 현재 모두 무증상이며 특별한 약물 금기는 없다. CDC의 Hib 가정 접촉자 관리 기준을 적용한 가장 적절한 방침은?",
+    "options": [
+      "접종이 미완료된 2세 동생만 rifampin을 받고 부모는 예방 투약에서 제외한다.",
+      "접촉자 모두 비인두 배양을 한 뒤 Hib가 배양된 사람에게만 예방 투약을 한다.",
+      "접종 보완을 시행하면 비인두 보균 제거도 즉시 이루어지므로 예방 투약은 생략한다.",
+      "가정 접촉자 전원에게 rifampin을 투여하며, ceftriaxone 치료 환자는 추가 rifampin을 생략한다.",
+      "가정 접촉자 전원에게 rifampin을 투여하고, ceftriaxone 치료 환자에게도 추가 rifampin을 준다."
+    ],
+    "answer": 4,
+    "explanation": "정답 ④. Hib 예방 투약의 목적은 환자의 침습 감염 치료와 별개로 접촉자의 보균·전파를 줄이는 것이다.\n① 접종 미완료 4세 미만 아이가 있는 해당 가정은 그 아이만이 아니라 모든 가정 접촉자가 예방 투약 대상이다.\n② 배양 양성자만 선별하는 전략은 권고 기준이 아니다.\n③ 백신 보완과 신속한 보균 제거는 다른 조치이다. 백신 접종이 적응증에 해당하는 예방 투약을 대신하지 않는다.\n④ 제시된 조건의 가정 접촉자에게 rifampin을 사용한다. Index 환자가 ceftriaxone/cefotaxime으로 치료되었다면 일반적으로 추가 rifampin은 필요하지 않다.\n⑤ 접촉자 예방은 맞지만 ceftriaxone/cefotaxime 치료를 마친 index 환자에게 보균 제거용 rifampin을 일률적으로 추가할 필요는 없다.\n이 기준을 모든 NTHi·모든 가정의 일률적 예방 투약으로 확대하지 않는다.\n근거: CDC Surveillance Manual Ch2, Chemoprophylaxis — https://www.cdc.gov/surv-manual/php/table-of-contents/chapter-2-haemophilus-influenzae.html",
+    "source": "[261109_01]헤모필루스, 보르데텔라, 나이세리아(방예지)_손세영v1.pdf / PDF p.11; 강의 핵심 보완: 가정 접촉자 적응증과 index 환자의 치료를 CDC 기준으로 구체화",
+    "difficulty": "상",
+    "tags": [
+      "Hib",
+      "접촉자 예방",
+      "Rifampin",
+      "보균"
+    ],
+    "origin": "강의·기출 기반 심화 새 문제",
+    "id": "chat-generated-df380b37643e5ef2"
+  },
+  {
+    "category": "haemophilus-bordetella-neisseria",
+    "bank": "generated",
+    "title": "배양 뒤 길어진 균의 형태",
+    "stem": "한 H. influenzae 단일 집락에서 나온 배양을 비교했다. 신선한 배양은 짧은 coccobacilli가 많았고, 오래 배양한 쪽은 길이가 긴 막대·filamentous form이 섞였다. 배양 조건을 되돌리면 짧은 형태가 다시 우세해졌고, 검증된 분자 동정은 유지되었다. 가장 타당한 판단은?",
+    "options": [
+      "긴 형태가 우세해진 배양은 새로운 균종이 선택된 것으로 보아 기존 동정과 별도 균주로 관리한다.",
+      "배양 조건·성장 단계가 같은 균집단의 형태를 바꾸는 pleomorphism으로 해석한다.",
+      "Filament가 보이면 서로 다른 균종의 혼합 감염이므로 단일 집락 동정은 버린다.",
+      "긴 형태는 PBP3 내성 변이를 직접 입증하므로 별도 감수성 결과 없이 약제를 정한다.",
+      "혈액에서 긴 형태가 보이면 Hib, 객담에서 짧은 형태가 보이면 NTHi로 구분한다."
+    ],
+    "answer": 2,
+    "explanation": "정답 ②. H. influenzae는 다형태성을 보일 수 있다. 성장 단계·환경과 균의 길이 변화를 종 동정·협막형·약제감수성과 동일시하지 않는다.\n① 조건을 되돌리면 짧은 형태가 다시 우세하고 분자 동정도 유지된다. 길이 차이를 새로운 종의 선택으로 우선 해석할 근거가 부족하다.\n② 강의 p.5가 설명하는 배양 시간·환경에 따른 형태 차이에 부합한다.\n③ 형태가 다양하다는 사실 하나로 혼합 감염을 확정하지 않는다. 여기서는 단일 집락에서 시작했고 분자 동정도 유지된다.\n④ 일부 세포벽 작용 약물 등이 형태에 영향을 줄 수 있어도, filament라는 형태만으로 특정 유전적 내성 기전을 판정하지 못한다.\n⑤ 검체의 위치나 길이만으로 Hib/NTHi를 결정하지 않는다. 협막형은 적절한 추가 분석으로 확인한다.",
+    "source": "[261109_01]헤모필루스, 보르데텔라, 나이세리아(방예지)_손세영v1.pdf / PDF p.5–6, 11; 강의 핵심 보완",
+    "difficulty": "중상",
+    "tags": [
+      "Pleomorphism",
+      "그람염색",
+      "동정 한계"
+    ],
+    "origin": "강의·기출 기반 심화 새 문제",
+    "id": "chat-generated-0ec4f2a7c79b949f"
+  },
+  {
+    "category": "resistant-organisms",
+    "bank": "generated",
+    "title": "일부 감수성 표시와 중증 감염의 선택",
+    "stem": "ESBL 유전자가 확인된 E. coli 균혈증 환자가 쇼크로 중환자실 치료 중이다. 혈청 albumin은 1.8 g/dL이고 감염원 조절도 진행 중이다. Piperacillin-tazobactam, cefepime, ertapenem, meropenem은 검사상 감수성으로 보고되었다. 약제 알레르기는 없다. 제시한 선택지 중 확정 치료의 우선 선택으로 가장 적절한 것은?",
+    "options": [
+      "Cefepime을 선택한다. 4세대 cephalosporin의 넓은 범위가 ESBL에 의한 치료 실패 우려를 충분히 상쇄한다.",
+      "Piperacillin-tazobactam을 선택한다. β-lactamase 억제제 병합과 S 보고가 균혈증에서 carbapenem과 동등한 근거를 제공한다.",
+      "Ertapenem을 선택한다. 모든 감수성 carbapenem은 쇼크와 저알부민혈증에서도 같은 약동학적 신뢰도를 가진다.",
+      "Ceftazidime을 선택한다. 다른 cephalosporin의 결과와 무관하게 ESBL 생성균에도 동등한 효과를 예상할 수 있다.",
+      "중증도·저알부민혈증과 ESBL 혈류 감염을 함께 고려하여 meropenem을 선택하고 노출량과 감염원을 관리한다."
+    ],
+    "answer": 5,
+    "explanation": "정답 ⑤. 침습성 ESBL 감염에서는 carbapenem이 우선 고려되며, 위중하거나 저알부민혈증이 있으면 ertapenem보다 meropenem 또는 imipenem이 적합하다. 단순한 S 표시만으로 약제 간 임상 근거·약동학을 같게 취급하지 않는다.\n① ESBL 침습 감염에서 cefepime은 검사상 감수성이어도 우선 선택으로 삼지 않는다. 세대 숫자만으로 판단하지 않는다.\n② ESBL 혈류 감염에서는 S 보고가 임상적 동등성을 보장하지 않는다. MERINO 및 현재 지침의 근거를 함께 고려한다.\n③ Ertapenem의 높은 단백결합과 위중한 환자의 약동학 변화 때문에 제시한 상황에서는 meropenem 등을 우선 고려한다.\n④ ESBL의 기질·임상 실패 위험을 무시한 판단이다. 이 경우 단독 ceftazidime은 적절한 우선 선택이 아니다.\n⑤ 제시된 쇼크·저알부민혈증 조건에 맞는 carbapenem 선택이다.\n보완 근거: https://pubmed.ncbi.nlm.nih.gov/30208454/ ; https://www.idsociety.org/practice-guideline/amr-guidance/",
+    "source": "[261109_05]항생제 내성균의 진단과 치료(송경호)_송민서v1.pdf / PDF p.46–51; 관련 기출 2022년 7번·2020년 43번을 중증도·약동학 조건으로 확장",
+    "difficulty": "상",
+    "tags": [
+      "ESBL",
+      "균혈증",
+      "저알부민혈증",
+      "Carbapenem"
+    ],
+    "origin": "강의·기출 기반 심화 새 문제",
+    "id": "chat-generated-d5596c09ab057e8c"
+  },
+  {
+    "category": "haemophilus-bordetella-neisseria",
+    "bank": "generated",
+    "title": "항체가 부착 단계에 미치는 영향",
+    "stem": "B. pertussis의 FHA에 결합하는 단가 Fab를 처리하자 섬모상피 모형의 초기 부착 균수가 감소했다. 균 성장·생존과 PT·ACT 활성은 유지되었고, Fab는 세균끼리 응집시키지 않았다. 비특이 Fab는 효과가 없었다. 이 결과에 가장 잘 맞는 설명은?",
+    "options": [
+      "숙주 mannose와 결합하는 fimbrial 수용체 인식을 차단한 것이며 FHA와의 결합은 부차적이다.",
+      "숙주 fibronectin을 이용하는 표면 adhesin의 수용체 결합 감소가 부착 억제의 직접 근거이다.",
+      "세포질 actin을 이용하는 세포 간 확산을 막아 섬모 표면에 남는 균을 줄인 것이다.",
+      "FHA 관련 초기 부착을 방해한 것으로, 독소 중화나 직접 살균과 구별되는 효과이다.",
+      "Gi 신호를 정상화하여 숙주세포의 cAMP를 낮춘 것이 초기 부착 감소의 주된 원인이다."
+    ],
+    "answer": 4,
+    "explanation": "정답 ④. 특이 Fab에 의한 FHA 결합, 비특이 대조, 응집·성장·독소 활성 통제를 함께 보면 부착 단계의 기여가 직접 지지된다.\n① UPEC의 FimH–mannose 인식은 실제 부착 기전이나, 제시한 FHA 선택적 차단을 그 기전으로 바꿀 근거는 없다.\n② 포도알균의 fibronectin 결합은 실제 부착 기전이다. 여기서는 FHA 선택적 차단을 평가했으며 수용체가 fibronectin임을 직접 측정하지 않았다.\n③ Listeria ActA·Shigella IcsA가 이용하는 숙주 actin 기반 이동은 세포 내 확산 단계이다. 초기 섬모상피 표면 부착 실험과 구별한다.\n④ 강의의 FHA·fimbriae·pertactin 집락화 기능 중 FHA 관련 부착을 선택적으로 평가한 결과이다. FHA가 모든 부착의 유일한 인자라는 뜻은 아니다.\n⑤ PT 활성은 유지되었고 Gi나 cAMP 회복을 측정하지 않았다. 부착 억제와 독소 중화를 같은 반응으로 취급하지 않는다.",
+    "source": "[261109_01]헤모필루스, 보르데텔라, 나이세리아(방예지)_손세영v1.pdf / PDF p.13, 16–17; 통합 선지 보완: UPEC FimH·포도알균 fibronectin 결합·Listeria/Shigella actin 이동과 부착 단계 비교; 강의의 FHA 기능을 가상 차단 실험으로 확장; FimH https://pubmed.ncbi.nlm.nih.gov/12010488/ ; FnBP https://pubmed.ncbi.nlm.nih.gov/18952882/ ; [251106_05] 레지오넬라, 리스테리아, 바실루스(석승혁)_정동민v1.pdf / PDF p.59–60",
+    "difficulty": "상",
+    "tags": [
+      "FHA",
+      "부착",
+      "Fab",
+      "집락화",
+      "전범위 통합"
+    ],
+    "origin": "강의·기출 기반 심화 새 문제",
+    "id": "chat-generated-632b365359401dec"
+  },
+  {
+    "category": "antibiotic-pharmacology",
+    "bank": "generated",
+    "title": "한 기전을 막은 뒤 남아 있는 내성",
+    "stem": "β-lactam 내성 임상 분리주에서 약물 가수분해와 낮은 PBP 약물 친화도가 함께 확인되었다. 선택적 β-lactamase 억제제를 더하자 가수분해는 억제되었지만 PBP 친화도는 변하지 않았고 시험관 내 항균 활성 회복도 불충분했다. 관찰을 가장 잘 설명하는 것은?",
+    "options": [
+      "Chlamydia 감염에서 중요한 세포 내 약물 분포의 부족이 이 시험관 내 결과의 주원인이다.",
+      "Mycoplasma의 β-lactam 비감수성처럼 이 분리주에 세포벽 약물 표적 자체가 없는 것이다.",
+      "농양에서 중요한 배농의 부족이 이 분리된 표적의 낮은 약물 친화도를 직접 설명한다.",
+      "약물 분해를 줄여도 이미 확인된 별도의 표적 친화도 저하는 남을 수 있다.",
+      "가수분해가 억제되었으므로 PBP의 낮은 친화도는 남은 항균 활성 저하와 무관하다."
+    ],
+    "answer": 4,
+    "explanation": "정답은 ④이다. 한 분리주에 둘 이상의 내성 기전이 함께 존재할 수 있고 하나를 막아도 다른 기전이 남는다.\n① 세포내 기생균에서 분포가 중요하다는 사실은 맞지만 환자 안의 분포가 분리된 PBP의 친화도 저하를 설명하지는 못한다. ② Mycoplasma에는 세포벽 표적이 없지만 여기서는 PBP가 존재하고 저친화도가 측정되었다. ③ 농양의 감염원 조절은 실제로 중요하지만 낮은 PBP 친화도라는 분자적 성질의 원인은 아니다. ④ 가수분해 억제와 표적 변화 유지가 공존하는 결과에 맞는다. ⑤ 가수분해 억제가 PBP 친화도 저하의 기능적 중요성을 없애는 것은 아니다. 임상 효과는 감수성·병소·노출도 함께 평가한다.",
+    "source": "[261109_03]항생제 약리학의 기본 원리_항생제 내성(이승환)_송경민v1.pdf / PDF p.16, 18, 20–22; 강의 작용·내성 기전과 관련 기출을 새 자료로 확장; 교차 강의: 17_미코플라즈마_클라미디아_수정본.pdf / PDF p.3,13–14 ; 감염병의 치료원칙-학생용2026.pdf / PDF p.5,8,20,30–31",
+    "difficulty": "상",
+    "tags": [
+      "복합내성",
+      "표적친화도",
+      "효소억제제",
+      "전범위 통합"
+    ],
+    "origin": "강의·기출 기반 심화 새 문제",
+    "id": "chat-generated-00ca9f416f5f4940"
+  },
+  {
+    "category": "legionella-listeria-bacillus",
+    "bank": "generated",
+    "title": "환경 속 보호와 세균 자체 내성",
+    "stem": "같은 Legionella 분리주를 비교했다. 아메바 내부에 있는 상태에서는 소독제 노출 뒤 생존율이 높았지만, 세균을 분리하여 같은 조건에서 노출하면 그 차이가 줄었다. 분리 후 기본 성장 특성과 항균제 감수성은 같고 세균 내 아포는 관찰되지 않았다. 가장 직접적으로 지지되는 설명은?",
+    "options": [
+      "세균의 안정적인 유전 내성이 새로 생겨, 숙주 밖으로 나와도 같은 보호가 유지된 결과이다.",
+      "아메바 내부의 환경이 세균을 보호할 수 있으며, 이 효과를 세균 자체의 영구적 내성과 구별해야 한다.",
+      "Bacillus의 아포처럼 세균 한 개가 내생포자로 전환한 결과이므로 아메바의 존재는 부차적이다.",
+      "포도알균의 세포외 다당 생물막과 같은 보호이므로 아메바 내부 위치를 확인할 필요는 없다.",
+      "Mycobacterium의 mycolic acid 세포벽 증가가 직접 확인된 것이므로 세포벽 조성이 달라졌다고 결론 낸다."
+    ],
+    "answer": 2,
+    "explanation": "정답 ②. Legionella는 자연계 아메바 안에서 증식하고 환경 스트레스로부터 보호받을 수 있다. 보호가 아메바 내부 상태에 따라 달라지면 위치·미세환경의 기여를 평가한다.\n① 분리 후 차이가 줄어 영구적인 세균 고유 내성만으로 설명하기 어렵다.\n② 아메바와 세균 자체의 내성·감수성 지표를 구별한 해석이다.\n③ Bacillus 내생포자의 저항성은 실제 성질이나 Legionella는 아포를 만들지 않는다.\n④ 포도알균의 세포외 생물막도 실제 보호 방식이다. 그러나 여기서 제시한 위치는 원생동물 내부로, 두 구조를 동일시할 수 없다.\n⑤ Mycobacterium의 지질성 세포벽은 실제 특징이지만, 이 자료는 Legionella의 mycolic acid 획득을 측정하지 않았다.\n보완 근거: https://pubmed.ncbi.nlm.nih.gov/2196257/",
+    "source": "[251106_05] 레지오넬라, 리스테리아, 바실루스(석승혁)_정동민v1.pdf / PDF p.17, 26–27; 강의 핵심 보완; 통합 선지 보완: Bacillus 내생포자 저항성, 포도알균 생물막, Mycobacterium 지질성 세포벽",
+    "difficulty": "상",
+    "tags": [
+      "Legionella",
+      "아메바",
+      "환경 소독",
+      "미세환경",
+      "전범위 통합"
+    ],
+    "origin": "강의·기출 기반 심화 새 문제",
+    "id": "chat-generated-31011607f9ef5323"
+  },
+  {
+    "category": "resistant-organisms",
+    "bank": "generated",
+    "title": "병원 밖에서 발견된 같은 내성 유전자",
+    "stem": "지역 조사에서 사람의 장내세균, 축산 동물, 식품과 하천 검체에서 같은 ESBL 유전자 계열이 검출되었다. 현재 자료는 유전자 계열 수준이며 plasmid 전체 비교나 노출 추적은 하지 않았다. 강의의 One Health 관점에 가장 잘 맞는 다음 단계는?",
+    "options": [
+      "사람·동물·식품·환경의 사용·노출 자료와 균주·유전요소를 공동 감시하고, 실제 연결 경로를 추가 평가한다.",
+      "사람에서 ESBL 감염이 확인되었으므로 병원의 항균제 처방 자료만 모으고, 동물·환경 검체는 조사에서 제외한다.",
+      "같은 유전자 계열이면 같은 plasmid와 같은 균주이므로, 축산 동물에서 사람으로의 전파 방향을 확정한다.",
+      "유전자 계열이 같지만 균종이 다르면 유전정보 이동은 불가능하므로, 서로 독립된 문제로만 관리한다.",
+      "환경에서 내성이 검출되었으므로 의료기관의 손위생·적정 항생제 사용은 효과가 없는 것으로 보고 중단한다."
+    ],
+    "answer": 1,
+    "explanation": "정답 ①. 여러 생태계에서 내성이 발생·이동할 수 있어 공동 대응이 필요하다. 동시에 같은 유전자 계열이라는 사실만으로 구체적 전파 방향이나 단일 감염원을 확정하지 않는다.\n① 공동 감시와 인과 경로 검증이라는 목표를 함께 고려한다.\n② 병원 관리가 중요해도 One Health는 연결된 다른 영역의 자료·중재를 함께 다룬다.\n③ 유전자 계열·plasmid·균주와 실제 노출 경로는 서로 다른 정보 수준이다. 현재 자료로 방향성을 단정하지 않는다.\n④ 다른 균종 사이의 이동성 유전요소 공유도 가능하다. 종명이 다르다는 이유만으로 연결 가능성을 배제하지 않는다.\n⑤ 병원 밖 저장소 가능성이 병원 내 전파 차단·선택압 감소의 필요성을 없애지는 않는다.",
+    "source": "[261109_05]항생제 내성균의 진단과 치료(송경호)_송민서v1.pdf / PDF p.71, 101–107; 강의의 One Health 원칙을 유전자 계열·plasmid·노출의 구분으로 확장",
+    "difficulty": "중상",
+    "tags": [
+      "One Health",
+      "공동 감시",
+      "유전요소",
+      "인과 추론"
+    ],
+    "origin": "강의·기출 기반 심화 새 문제",
+    "id": "chat-generated-93183f36ad0737cf"
+  },
+  {
+    "category": "antibiotic-pharmacology",
+    "bank": "generated",
+    "title": "핵산 공급과 핵산 효소의 구분",
+    "stem": "환자에게 투여한 TMP-SMX의 기전을 설명하려 한다. SMX는 세균의 엽산 합성에, TMP는 뒤이은 엽산 대사 단계에 작용하여 핵산·단백질 합성에 필요한 대사를 제한한다. 이 병합을 가장 잘 설명하는 것은?",
+    "options": [
+      "Rifampin과 quinolone처럼 RNA polymerase와 DNA gyrase를 각각 직접 억제한다.",
+      "엽산 대사의 연속된 두 단계를 억제하여 생합성에 필요한 대사산물을 제한한다.",
+      "Isoniazid와 ethambutol처럼 mycolic acid와 arabinogalactan 합성을 나누어 억제한다.",
+      "디프테리아 독소와 Shiga toxin처럼 숙주 EF-2와 28S rRNA를 나누어 억제한다.",
+      "β-lactam과 vancomycin처럼 PBP와 peptidoglycan 전구체 결합을 나누어 억제한다."
+    ],
+    "answer": 2,
+    "explanation": "정답은 ②이다. TMP-SMX는 항대사제 병합으로 핵산 합성이 줄었다고 핵산 관련 효소를 직접 억제한 것은 아니다.\n① 두 약물의 표적은 맞지만 TMP-SMX와 다르다. ② SMX의 엽산 합성 억제와 TMP의 dihydrofolate reductase 억제가 연속된 대사 단계를 막는다. 세부 두 단계는 허가사항으로 보완했다. ③ 두 결핵 약물이 서로 다른 외피 합성을 억제하는 설명은 맞지만 엽산 대사 병합과 다르다. ④ 두 독소의 숙주 번역 억제는 실제이나 세균 엽산 대사를 표적으로 하는 이 처방과 다르다. ⑤ 두 세포벽 약제의 표적 차이는 실제이지만 이 처방에 적용되지 않는다. 최종 생성물이 줄었다는 이유만으로 직접 표적을 같은 것으로 묶지 않는다.",
+    "source": "[261109_03]항생제 약리학의 기본 원리_항생제 내성(이승환)_송경민v1.pdf / PDF p.6–7, 9–10; 강의 작용·내성 기전과 관련 기출을 새 자료로 확장; 교차 강의: [261106_03] 마이코박테리움(염진기)_ 서현오v1.pdf / PDF p.11,24–25 ; [261106_05]코리네박테리움, 노카르디아(염진기)_변준서v1.pdf / PDF p.13 ; 11_장내세균각론_강의자료.pdf / PDF p.5–7 ; 강의 외 세부 보완(TMP-SMX의 연속 단계): DailyMed https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=29df8839-3dfa-0b2b-c5a3-906db6997b3b; 강의 외 28S 표적 확인: Endo et al. 원저 https://pubmed.ncbi.nlm.nih.gov/3276522/",
+    "difficulty": "중상",
+    "tags": [
+      "TMP-SMX",
+      "엽산대사",
+      "항대사제",
+      "전범위 통합"
+    ],
+    "origin": "강의·기출 기반 심화 새 문제",
+    "id": "chat-generated-c3674f639a5cb2e4"
+  },
+  {
+    "category": "antibiotic-pharmacology",
+    "bank": "generated",
+    "title": "단백질 합성 저하가 생긴 위치",
+    "stem": "감염 환자의 치료 약물 X는 감수성 세균의 rRNA에 결합한다. 보고서는 세균 번역 저하를 확인했지만 사람 세포의 EF-2 변형이나 28S rRNA 손상은 확인하지 않았다. X의 일차 작용을 가장 잘 설명하는 것은?",
+    "options": [
+      "디프테리아 독소처럼 숙주 EF-2를 ADP-ribosylation한다.",
+      "Aminoglycoside처럼 세균 리보솜에 작용하여 번역을 방해한다.",
+      "Shiga toxin처럼 숙주 28S rRNA를 손상하여 번역을 방해한다.",
+      "Rifampin처럼 세균 RNA polymerase를 억제하여 전사를 방해한다.",
+      "Quinolone처럼 세균 DNA 위상 조절 효소를 억제한다."
+    ],
+    "answer": 2,
+    "explanation": "정답은 ②이다. 단백질 합성 저하가 같아도 세균 리보솜·숙주 리보솜·숙주 번역인자는 다른 표적이다.\n① 디프테리아 독소의 EF-2 변형은 실제이나 숙주 EF-2 변형이 없고 세균 rRNA 결합이 제시되었다. ② Aminoglycoside의 세균 리보솜 작용이 일치한다. ③ Shiga toxin의 숙주 28S rRNA 손상도 실제이나 해당 손상이 없고 표적 세포가 다르다. ④ mRNA 공급 저하로 단백질 합성이 이차적으로 줄 수 있으나 직접 표적과 다르다. ⑤ 위상 조절 효소 억제도 증식을 줄이지만 rRNA 결합을 설명하지 못한다. 30S·50S 숫자보다 생물학적 단계의 구분을 평가한다.",
+    "source": "[261109_03]항생제 약리학의 기본 원리_항생제 내성(이승환)_송경민v1.pdf / PDF p.6, 9–10; 강의 작용·내성 기전과 관련 기출을 새 자료로 확장; 교차 강의: [261106_05]코리네박테리움, 노카르디아(염진기)_변준서v1.pdf / PDF p.11–13 ; 11_장내세균각론_강의자료.pdf / PDF p.5–7; 강의 외 28S 표적 확인: Endo et al. 원저 https://pubmed.ncbi.nlm.nih.gov/3276522/",
+    "difficulty": "상",
+    "tags": [
+      "번역",
+      "rRNA",
+      "선택적표적",
+      "전범위 통합"
+    ],
+    "origin": "강의·기출 기반 심화 새 문제",
+    "id": "chat-generated-205a0e77ac016b02"
+  },
+  {
+    "category": "legionella-listeria-bacillus",
+    "bank": "generated",
+    "title": "산모의 경한 증상과 태아 감염",
+    "stem": "임신부가 비살균 유제품을 먹은 뒤 짧은 발열을 보였다. 이후 조산아에게 패혈증과 여러 장기의 염증 병변이 발생했다. 산모 혈액과 태반에서는 catalase 양성의 짧은 그람양성 막대균이 분리되었고 약한 β-용혈이 관찰되었다. 이 사례의 원인과 전파 경로를 가장 잘 연결한 것은?",
+    "options": [
+      "Listeria — 식품에서 획득한 균의 모체 균혈증을 거쳐 태반과 태아에 감염이 도달한 경로이다.",
+      "GBS — 모체의 질·직장 집락으로부터 분만 전후 신생아가 노출되어 조기 패혈증을 일으키는 경로이다.",
+      "E. coli K1 — 모체 장관 기원의 균을 주산기에 획득한 뒤 집락화·침습하여 신생아 감염을 일으키는 경로이다.",
+      "CMV — 임신 중 모체 감염에서 바이러스가 혈액·태반을 거쳐 태아에 전파되는 선천 감염 경로이다.",
+      "HSV — 분만 시 감염된 산도에 노출된 신생아에게 피부·눈·입 또는 전신 감염을 일으키는 경로이다."
+    ],
+    "answer": 1,
+    "explanation": "정답 ①. 식품 노출과 모체 혈액·태반의 catalase 양성 짧은 그람양성 막대균은 Listeria를 지지한다. 산모가 경증이어도 태반·태아에 감염이 도달하면 심각한 결과가 생길 수 있다.\n① 식품 섭취 뒤 모체 균혈증·경태반 전파를 연결한 설명이다.\n② GBS의 주산기 전파는 실제 경로이나, GBS는 catalase 음성의 그람양성 알균으로 이 분리주와 다르다. 모든 GBS 감염이 분만 순간에만 생긴다는 뜻은 아니다.\n③ E. coli K1은 신생아 침습 감염의 실제 원인이지만 그람음성 막대균이어서 이 검체 성상과 맞지 않는다.\n④ CMV의 경태반 전파는 실제 선천 감염 경로이다. 그러나 검체에서 분리된 그람양성 세균을 CMV 감염의 증거로 바꾸지 않는다.\n⑤ HSV의 주산기 노출은 실제 경로이나, 산모 혈액·태반의 세균 분리 결과와 다른 병인이다. 이 사례에서 바이러스 재활성화를 확인했다고 주장할 근거는 없다.\n보완 근거: Listeria https://www.cdc.gov/listeria/hcp/clinical-overview/index.html ; CMV https://www.cdc.gov/cytomegalovirus/congenital-infection/index.html ; HSV https://www.cdc.gov/std/treatment-guidelines/herpes.htm",
+    "source": "[251106_05] 레지오넬라, 리스테리아, 바실루스(석승혁)_정동민v1.pdf / PDF p.61–62; 강의 핵심 보완; 통합 선지 보완: GBS 주산기 전파, E. coli K1 신생아 감염, CMV 선천 감염",
+    "difficulty": "상",
+    "tags": [
+      "Listeria",
+      "임신",
+      "경태반 전파",
+      "신생아 패혈증",
+      "전범위 통합"
+    ],
+    "origin": "강의·기출 기반 심화 새 문제",
+    "id": "chat-generated-d27a2e1cb6952e54"
+  },
+  {
+    "category": "antibiotic-pharmacology",
+    "bank": "generated",
+    "title": "숙주 방어 회피와 항생제 내성",
+    "stem": "환자 분리주의 연속 보고서에서 협막이 증가하고 C3 침착·혈청 살균이 감소했다. IgG Fc 결합 기능은 변하지 않았다. 두 시점의 혈청 살균 평가는 같은 정상 보체 함유 혈청으로 이루어졌고 검사한 항생제 MIC·약물 표적 친화도는 같았다. 새 생존 이점을 가장 잘 설명하는 것은?",
+    "options": [
+      "협막과 연관된 보체 방어 회피이며 이 결과 자체가 검사 약제의 내성 증가를 뜻하지는 않는다.",
+      "Protein A의 IgG Fc 결합이 증가하여 항체 매개 방어를 더 잘 피한 현상이다.",
+      "숙주의 말단 보체 결핍이 새로 발생하여 같은 정상 혈청에서도 살균이 감소한 현상이다.",
+      "저친화도 PBP가 새로 생겨 항생제 결합이 감소한 현상이며 혈청 결과가 이를 입증한다.",
+      "생물막 기질이 증가하여 항생제의 확산을 막은 현상이며 C3 침착 감소는 무관하다."
+    ],
+    "answer": 1,
+    "explanation": "정답은 ①이다. 항생제 반응과 숙주 방어에 대한 저항은 다른 축이다. 협막 증가·C3 침착 감소가 혈청 생존을 설명하며 검사한 약제 MIC 상승은 없다.\n① 관찰된 면역 회피와 약제 감수성 자료를 함께 반영한다. ② Protein A의 Fc 결합은 실제 포식 회피 기전이지만 그 기능은 변하지 않았다. ③ 말단 보체 결핍은 특히 수막알균 감염 위험을 높이는 실제 숙주 요인이지만 같은 정상 보체 함유 혈청을 사용한 분리주 간 차이를 설명하지 못한다. ④ PBP 친화도는 유지되었고 혈청 살균은 직접 약물 결합 검사가 아니다. ⑤ 생물막에 의한 확산 제한은 실제 방어이나 기질 증가가 제시되지 않았고 C3 침착 감소라는 직접 자료를 배제했다. 검사하지 않은 약제까지 모두 감수성이라는 의미는 아니다.",
+    "source": "[261109_03]항생제 약리학의 기본 원리_항생제 내성(이승환)_송경민v1.pdf / PDF p.4–5, 16–18; 강의 작용·내성 기전과 관련 기출을 새 자료로 확장; 교차 강의: 6.(강의자료)미생물학) 포도알균_김범준 교수님.pdf / PDF p.8 ; 감염학_병인론_최종본-2026.pdf / PDF p.31 ; (강의자료)미생물학) 사슬알균_김범준 교수님.pdf / PDF p.18–19,21,23",
+    "difficulty": "상",
+    "tags": [
+      "약물감수성",
+      "보체회피",
+      "협막",
+      "전범위 통합"
+    ],
+    "origin": "강의·기출 기반 심화 새 문제",
+    "id": "chat-generated-f1c69c6681528ae5"
+  },
+  {
+    "category": "resistant-organisms",
+    "bank": "generated",
+    "title": "같은 효소 분류인데 다른 감수성",
+    "stem": "분리주 A는 OXA-48-like 생성 K. pneumoniae, B는 OXA-23 생성 A. baumannii이다. 둘 다 carbapenem 내성이지만, 검증된 ceftazidime-avibactam 검사에서 A는 감수성, B는 내성이었다. 두 효소가 모두 Ambler class D라는 사실을 적용할 때 가장 타당한 판단은?",
+    "options": [
+      "둘 다 class D이므로 두 결과 중 하나를 오류로 보고, K. pneumoniae의 감수성 결과로 B의 치료도 결정한다.",
+      "A의 감수성은 avibactam이 모든 class D 효소를 억제한다는 근거이므로 B에서도 같은 약제를 우선한다.",
+      "B의 내성이므로 OXA-48-like도 avibactam 표적이 아니며, A의 양호한 감수성은 임상적으로 의미가 없다.",
+      "Carbapenem 내성이 같으면 두 균의 외막과 PBP도 같으므로, 효소 종류 외의 정보는 치료 선택에 필요하지 않다.",
+      "같은 class D라도 OXA-48-like의 약제 감수성을 OXA-23 CRAB에 그대로 적용하지 않는다."
+    ],
+    "answer": 5,
+    "explanation": "정답 ⑤. 분류의 공통점이 모든 효소에 대한 억제나 균체의 감수성을 보장하지 않는다. Avibactam은 OXA-48-like 등 일부 class D에 작용하지만 이를 CRAB의 class D 전체에 확대하지 않는다.\n① 계열명만으로 서로 다른 균종·효소의 실제 검사 결과를 무효화할 수 없다.\n② OXA-48-like의 결과를 class D 전체로 일반화했다. B의 검증된 내성 결과를 반영해야 한다.\n③ 한 균의 내성으로 다른 균의 억제 성질·감수성 결과까지 부정하지 않는다.\n④ 다른 균종의 외막·표적·다른 기전을 같다고 가정할 수 없다. 감염 부위와 전체 감수성 자료도 중요하다.\n⑤ 균종·개별 효소·실제 감수성을 같이 판단한 것이다.\n보완 근거: https://www.idsociety.org/practice-guideline/amr-guidance/",
+    "source": "[261109_05]항생제 내성균의 진단과 치료(송경호)_송민서v1.pdf / PDF p.54, 58–62; 강의의 Ambler 분류와 ceftazidime-avibactam의 범위 구분",
+    "difficulty": "중상",
+    "tags": [
+      "OXA-48-like",
+      "CRAB",
+      "Class D",
+      "해석 범위"
+    ],
+    "origin": "강의·기출 기반 심화 새 문제",
+    "id": "chat-generated-56b6aa51de8c62a4"
+  },
+  {
+    "category": "antibiotic-pharmacology",
+    "bank": "generated",
+    "title": "구조 표적과 선택성의 해석",
+    "stem": "두 항균 후보의 시험관 내 선택성을 비교한다. A는 peptidoglycan 합성, B는 세균막 장벽을 표적으로 한다. MIC는 각각 1, 0.25 μg/mL이고 같은 조건에서 사람 세포 손상 기준 농도는 각각 64, 1 μg/mL이다. “사람 세포 손상농도/MIC”를 비교 지표로 정의할 때 옳은 것은?",
+    "options": [
+      "A의 지표는 4, B는 64이므로 B의 시험관 내 선택성이 높다.",
+      "B의 MIC가 더 낮으므로 사람 세포 손상농도와 무관하게 B가 더 선택적이다.",
+      "B의 사람 세포 손상농도가 더 낮으므로 B가 더 넓은 선택성 범위를 갖는다.",
+      "A의 지표는 64, B는 4이므로 A의 시험관 내 선택성이 높다.",
+      "직접 표적이 다르므로 정의된 농도 비율도 비교할 수 없다."
+    ],
+    "answer": 4,
+    "explanation": "정답은 ④이다. A=64/1=64, B=1/0.25=4이다. 더 낮은 MIC가 숙주 독성을 고려한 더 넓은 선택성 범위를 자동으로 뜻하지 않는다.\n① 값을 뒤바꾸었다. ② B는 세균 억제농도도 낮지만 사람 세포 손상농도도 낮아 상대적 간격이 작다. ③ 손상농도가 낮으면 독성이 더 낮은 농도에서 나타난다. ④ 계산과 비교가 모두 맞다. ⑤ 표적이 달라도 같은 농도 지표로 비교할 수 있다. 수치는 가상이며 비율만으로 실제 안전 용량·임상 우열을 정하지 않는다. 강의 p8의 표적 특이성과 숙주 독성을 적용했다.",
+    "source": "[261109_03]항생제 약리학의 기본 원리_항생제 내성(이승환)_송경민v1.pdf / PDF p.6–8; 강의 작용·내성 기전과 관련 기출을 새 자료로 확장",
+    "difficulty": "중상",
+    "tags": [
+      "세포벽",
+      "세포막",
+      "표적특이성"
+    ],
+    "origin": "강의·기출 기반 심화 새 문제",
+    "id": "chat-generated-1284468501e085f9"
+  },
+  {
+    "category": "haemophilus-bordetella-neisseria",
+    "bank": "generated",
+    "title": "추가로 도착한 동반감염 결과",
+    "stem": "비임신 성인 여성이 임균성 자궁경부염으로 권고된 ceftriaxone 치료를 받았다. 처음 채취한 이중 NAAT의 C. trachomatis 결과가 이틀 뒤 양성으로 보고되었다. 이 검체는 항균제 투여 전 채취했으며, Chlamydia를 치료하는 다른 약제는 아직 받지 않았다. 가장 적절한 해석과 방침은?",
+    "options": [
+      "임균의 추가 감수성 결과가 나올 때까지 Chlamydia 치료를 미루고 두 균의 약제를 함께 결정한다.",
+      "Ceftriaxone 후 증상이 호전되면 동반감염도 경과 관찰하고, 증상 재발 때 추가 치료한다.",
+      "치료 뒤 핵산이 남은 결과일 수 있으므로 투여 전 양성 검체도 한 달 뒤까지 치료하지 않는다.",
+      "환자는 주사 치료를 받았으므로 Chlamydia는 성접촉자에게만 치료하고 본인은 관찰한다.",
+      "별개의 동반감염이 확인된 것으로 보아 Chlamydia 권고 요법을 추가하고 파트너 관리도 확인한다."
+    ],
+    "answer": 5,
+    "explanation": "정답 ⑤. 두 병원체의 동반 감염 여부와 각 병원체에 필요한 항균제 범위를 구별한다.\n① 이미 확인된 미치료 Chlamydia 감염의 치료를 임균 감수성 검사 결과까지 미룰 이유는 없다. 두 병원체의 결과와 치료 범위를 구별한다.\n② 증상이 호전되어도 ceftriaxone 단독 투여를 Chlamydia의 적절한 치료로 취급하지 않는다.\n③ 이 검체는 치료 전에 채취했다. 치료 후 비생균 핵산이 남는 문제를 이유로 이미 확인된 미치료 동반감염의 치료를 미루지 않는다.\n④ 환자 본인의 치료도 필요하며 파트너 관리만으로 대신할 수 없다.\n⑤ 비임신 성인의 Chlamydia에는 doxycycline 등 권고 요법을 사용한다. 임신 여부·금기와 실제 감염 부위는 약제 결정에 반영한다.\n강의 p.22의 사례에서 사용한 두 약제를 모든 임균 감염의 필수 조합으로 암기하기보다, p.28의 동반감염 평가 원칙을 적용한다.\n근거: CDC Chlamydial Infections — https://www.cdc.gov/std/treatment-guidelines/chlamydia.htm",
+    "source": "[261109_01]헤모필루스, 보르데텔라, 나이세리아(방예지)_손세영v1.pdf / PDF p.22, 28; 강의 핵심 보완",
+    "difficulty": "중상",
+    "tags": [
+      "Chlamydia 동반감염",
+      "항균제 범위",
+      "NAAT",
+      "치료 해석"
+    ],
+    "origin": "강의·기출 기반 심화 새 문제",
+    "id": "chat-generated-f46feafb51b8b25c"
+  },
+  {
+    "category": "antibiotic-pharmacology",
+    "bank": "generated",
+    "title": "내성 표현형과 유전자의 위치",
+    "stem": "β-lactamase가 약물 고리를 가수분해하는 임상 분리주가 있다. 효소 유전자가 염색체·plasmid·기타 유전요소 중 어디에 있는지에 대한 자료는 없다. 아래 설명 중 현재 사실과 양립하면서 과도한 추론을 피한 것은?",
+    "options": [
+      "ETEC 장독소가 plasmid에 있는 사례를 고려하여 이 효소의 약물 불활성화 기전도 판정을 보류한다.",
+      "효소의 약물 불활성화는 확인되었지만 유전자 위치·전달 방식은 별도 자료로 판단한다.",
+      "디프테리아 tox가 prophage에 있는 사례처럼 이 효소 유전자의 phage 위치도 기능 정보로 확정한다.",
+      "항균제 사용 후 검출되었으므로 그날 환자 안에서 새 plasmid가 만들어진 것이다.",
+      "유전자 위치가 없으므로 고리 가수분해 결과만으로는 항생제 내성 기전의 분류를 보류한다."
+    ],
+    "answer": 2,
+    "explanation": "정답은 ②이다. 강의 p21은 β-lactamase가 염색체에 있거나 plasmid로 획득될 수 있음을 설명한다. 기능·위치·전파 방식은 다른 정보이다.\n① ETEC의 일부 장독소 유전자가 plasmid에 있다는 사실은 실제이나 현재 분리주에서는 약물 가수분해가 직접 확인되어 불활성화 기전까지 보류할 필요가 없다. ② 확인된 불활성화와 미확인 위치·전달 방식을 나눈다. ③ 디프테리아 tox의 prophage 관련성은 실제이지만 그 사례가 이 효소 유전자도 phage에 있다는 증거가 되지 않는다. ④ 검출 시점은 유전요소 생성·획득 시점이 아니다. ⑤ 위치를 몰라도 약물의 효소적 가수분해는 불활성화 기전으로 분류할 수 있다. 실제 유전자 전달 절차를 묻는 문항은 아니다.",
+    "source": "[261109_03]항생제 약리학의 기본 원리_항생제 내성(이승환)_송경민v1.pdf / PDF p.16, 20–21; 강의 작용·내성 기전과 관련 기출을 새 자료로 확장; 교차 강의: 11_장내세균각론_강의자료.pdf / PDF p.3–5 ; [261106_05]코리네박테리움, 노카르디아(염진기)_변준서v1.pdf / PDF p.20–21 ; 선지 사실 확인(ETEC toxin-plasmid 관계): https://pubmed.ncbi.nlm.nih.gov/381200/",
+    "difficulty": "중상",
+    "tags": [
+      "β-lactamase",
+      "염색체",
+      "plasmid",
+      "전범위 통합"
+    ],
+    "origin": "강의·기출 기반 심화 새 문제",
+    "id": "chat-generated-bb00a4a63e2713f2"
+  },
+  {
+    "category": "resistant-organisms",
+    "bank": "generated",
+    "title": "동시에 입원한 세 환자의 추가주의",
+    "stem": "급성기 병동에 VRE 보균자 A, 효과적인 항균제 치료를 시작하기 전 백일해 환자 B, 전염성 폐결핵이 의심되어 평가 중인 환자 C가 입원했다. 모든 환자에게 표준주의를 적용한다. 추가 전파주의와 핵심 보호구를 연결한 것 중 가장 적절한 것은?",
+    "options": [
+      "A: 접촉·가운/장갑, B: 공기·음압/호흡보호구, C: 비말·수술용 마스크",
+      "A: 비말·수술용 마스크, B: 접촉·가운/장갑, C: 공기·음압/호흡보호구",
+      "A: 공기·음압/호흡보호구, B: 비말·수술용 마스크, C: 접촉·가운/장갑",
+      "A: 접촉·수술용 마스크, B: 비말·가운/장갑, C: 공기·음압/수술용 마스크",
+      "A: 접촉·가운/장갑, B: 비말·수술용 마스크, C: 공기·음압/호흡보호구"
+    ],
+    "answer": 5,
+    "explanation": "정답 ⑤. 균의 내성 여부만으로 모든 전파 방식이 같아지지는 않는다. VRE의 접촉, 백일해의 비말, 폐결핵의 공기 전파를 구분하고 적절한 보호구·병실을 적용한다.\n① VRE 부분은 맞지만 백일해와 전염성 폐결핵의 추가주의가 뒤바뀌었다.\n② 폐결핵 부분만 적합하다. 보균 VRE와 백일해의 주된 전파 방식이 잘못 연결되었다.\n③ 백일해는 적합하지만 VRE를 공기주의로, 폐결핵을 접촉주의만으로 바꿀 근거가 없다.\n④ 이름과 핵심 보호구의 연결이 맞지 않는다. 표준주의를 생략하는 의미도 아니며 각 전파 경로의 추가 조치를 구분한다.\n⑤ 각 전파 경로에 맞는 추가주의와 핵심 조치를 연결했다.\n보완 근거: https://www.cdc.gov/infection-control/hcp/isolation-precautions/appendix-a-type-duration.html",
+    "source": "[261109_05]항생제 내성균의 진단과 치료(송경호)_송민서v1.pdf / PDF p.78–80, 86–87, 107; 관련 기출 2025년 58번·2023년 33번·2022년 17번의 단일 연결을 세 질환 비교로 확장; 통합 선지 보완: 백일해와 폐결핵의 전파·백일해의 비말주의·폐결핵의 공기주의·폐결핵의 호흡보호구의 실제 역할과 현재 병소를 비교",
+    "difficulty": "중상",
+    "tags": [
+      "접촉주의",
+      "비말주의",
+      "공기주의",
+      "보호구",
+      "전범위 통합"
+    ],
+    "origin": "강의·기출 기반 심화 새 문제",
+    "id": "chat-generated-9f5772d802a00167"
+  },
+  {
+    "category": "antibiotic-pharmacology",
+    "bank": "generated",
+    "title": "세포 안에서 낮아진 약물량",
+    "stem": "치료 중 얻은 분리주의 보고서이다. 항생제 초기 유입은 비교 분리주와 비슷했으나 세포 밖으로 나가는 정상 형태 약물량이 증가했다. 세포 내 약물량은 낮았고 분리된 표적 친화도와 약물 자체의 활성은 유지되었다. 관찰 전체를 가장 잘 설명하는 것은?",
+    "options": [
+      "표적 구조 변화로 같은 농도에서 약물 결합이 감소하였다.",
+      "약물 불활성화 효소로 정상 형태 약물이 소실되었다.",
+      "포린 감소로 처음부터 유입되는 약물량이 감소하였다.",
+      "생물막의 확산 장벽이 초기 약물 유입을 감소시켰다.",
+      "약물 유출 증가로 표적에 도달하는 세포 내 농도가 낮아졌다."
+    ],
+    "answer": 5,
+    "explanation": "정답은 ⑤이다. 초기 유입 보존·정상 약물 배출 증가·세포 내 농도 감소는 efflux에 맞는다. 표적이 감수성이어도 도달하는 약물량이 부족할 수 있다.\n① 분리한 표적 친화도가 보존되었다. ② 약물 구조와 활성이 유지되어 불활성화와 다르다. ③ 초기 유입이 비슷하다는 관찰과 다르다. ④ 생물막의 확산 제한은 가능한 방어 기전이지만 초기 유입 보존과 배출 증가를 설명하지 못한다. ⑤ 모든 관찰을 함께 설명한다. 수송체 계열 이름 없이도 방향을 판별할 수 있다.",
+    "source": "[261109_03]항생제 약리학의 기본 원리_항생제 내성(이승환)_송경민v1.pdf / PDF p.16–17, 19–24; 강의 작용·내성 기전과 관련 기출을 새 자료로 확장",
+    "difficulty": "중상",
+    "tags": [
+      "efflux",
+      "세포내농도",
+      "기전감별"
+    ],
+    "origin": "강의·기출 기반 심화 새 문제",
+    "id": "chat-generated-e60e5ab0960bf443"
+  },
+  {
+    "category": "antibiotic-pharmacology",
+    "bank": "generated",
+    "title": "같은 번역 억제제 사이의 추론",
+    "stem": "항생제 A와 B는 모두 세균 번역을 억제하지만 리보솜의 서로 다른 결합 부위를 이용한다. 분리주에서는 A 결합 부위만 변했으며 B 결합 부위, 두 약물의 세포 내 농도와 약물 구조는 보존되었다. 가장 적절한 판단은?",
+    "options": [
+      "번역이라는 최종 단계가 같으므로 A의 결합 감소만으로 B도 내성으로 분류한다.",
+      "리보솜이 하나의 구조이므로 한 결합 부위의 변화는 모든 번역 억제제의 결합을 없앤다.",
+      "A 결합 감소가 관찰되었으므로 두 약물의 세포 내 농도도 낮아졌다고 해석한다.",
+      "A 결합 부위 변화에 따른 A의 결합 감소와 B의 결합·노출 보존은 양립한다.",
+      "A와 B가 다른 부위에 결합하므로 실제 감수성검사 없이 B의 치료 성공을 확정한다."
+    ],
+    "answer": 4,
+    "explanation": "정답은 ④이다. 리보솜 작용 약제라는 공통점만으로 특정 변화가 모든 약물 결합을 같은 정도로 낮춘다고 볼 수 없다.\n① 최종 과정이 같다고 약제별 내성이 같아지지 않는다. ② 리보솜에는 여러 결합 부위가 있어 일부 변화가 모든 결합 소실을 뜻하지 않는다. ③ 세포 내 농도는 보존되었으며 표적 친화도와 다른 축이다. ④ 선택적 결합 변화와 일치한다. ⑤ B 결합 보존은 환자의 감수성·노출·반응을 대신하여 성공을 확정하지 못한다. 30S/50S 목록을 외우는 문제가 아니다.",
+    "source": "[261109_03]항생제 약리학의 기본 원리_항생제 내성(이승환)_송경민v1.pdf / PDF p.9, 16, 19; 강의 작용·내성 기전과 관련 기출을 새 자료로 확장",
+    "difficulty": "중상",
+    "tags": [
+      "번역억제",
+      "약제별내성",
+      "리보솜"
+    ],
+    "origin": "강의·기출 기반 심화 새 문제",
+    "id": "chat-generated-e72848d86206cd06"
+  },
+  {
+    "category": "antibiotic-pharmacology",
+    "bank": "generated",
+    "title": "두 불활성화 반응과 억제제의 범위",
+    "stem": "한 분리주는 β-lactam A의 고리를 가수분해하고 별도 효소는 aminoglycoside B에 화학기를 붙여 활성을 낮춘다. β-lactamase만 선택적으로 억제하는 물질 I는 A의 가수분해를 막지만 B의 화학기 전이는 막지 못한다. 올바른 연결은?",
+    "options": [
+      "A는 표적 변형, B는 유입 제한으로 분류한다.",
+      "A는 유입 제한, B는 유출 증가로 분류한다.",
+      "A·B 모두 약물 불활성화지만 I의 억제 작용을 B에 그대로 적용할 수 없다.",
+      "A·B 모두 약물 불활성화이므로 I는 반응 종류와 무관하게 둘 다 막는다.",
+      "A는 약물 불활성화, B는 rRNA methylation이며 I는 A의 효소 반응만 억제한다."
+    ],
+    "answer": 3,
+    "explanation": "정답은 ③이다. 가수분해와 화학기 전이는 방식이 달라도 약물 자체를 바꾸는 drug inactivation이다. 억제제의 효소 선택성은 별도이다.\n① 약물 자체가 변했으므로 표적 변화·유입 제한이 아니다. ② 수송이 아니라 효소 반응이다. ③ 공통 범주와 I의 선택성을 모두 반영한다. ④ 같은 범주의 다른 효소를 같은 억제제가 모두 막지는 않는다. ⑤ A 분류는 맞지만 B도 약물에 화학기가 붙었으므로 rRNA methylation과 다르다. 효소 억제제 병합을 모든 불활성화에 일반화하지 않는다.",
+    "source": "[261109_03]항생제 약리학의 기본 원리_항생제 내성(이승환)_송경민v1.pdf / PDF p.7, 9, 16, 20–22; 강의 작용·내성 기전과 관련 기출을 새 자료로 확장",
+    "difficulty": "상",
+    "tags": [
+      "약물불활성화",
+      "β-lactamase",
+      "효소선택성"
+    ],
+    "origin": "강의·기출 기반 심화 새 문제",
+    "id": "chat-generated-8c903502f93ea196"
+  },
+  {
+    "category": "legionella-listeria-bacillus",
+    "bank": "generated",
+    "title": "두 독소 반응을 함께 줄이는 항체",
+    "stem": "탄저 독소의 숙주세포 작용을 평가하는 자료에서, 한 항체는 EF와 LF의 세포 내 도달을 모두 감소시켰다. 반면 세포 밖에서 각각 확인한 EF의 효소 활성과 LF의 효소 활성은 항체 처리 후에도 유지되었다. 세균의 생존을 직접 측정한 자료는 없다. 가장 잘 맞는 해석은?",
+    "options": [
+      "항체가 EF의 촉매 부위만 막아 LF의 촉매 활성도 연쇄적으로 소실시킨 것이다.",
+      "항체가 LF의 촉매 부위만 막아 EF가 만드는 모든 cAMP 증가를 직접 차단한 것이다.",
+      "PA 같은 공통 유입 성분에 대한 중화는 서로 다른 효소의 세포 내 전달을 함께 줄일 수 있다.",
+      "세포 내 독소 반응이 줄었으므로 항체가 세균의 배지 증식을 직접 억제한다고 판단한다.",
+      "같은 항체에 반응했으므로 EF와 LF는 같은 기질을 분해하는 동일 효소로 분류한다."
+    ],
+    "answer": 3,
+    "explanation": "정답 ③. PA는 EF와 LF의 숙주세포 유입을 매개하는 공통 성분이다. 유입과 세포 안에서의 촉매 작용을 구별한다.\n① EF 효소 활성이 유지되며 LF 유입까지 함께 줄어 단일 EF 촉매 부위 억제와 맞지 않는다.\n② LF의 효소 활성도 유지되어 직접 촉매 억제가 핵심 관찰이 아니다.\n③ 공통 유입 단계를 차단하면 서로 다른 두 효소의 세포 내 효과가 함께 감소할 수 있다.\n④ 독소 중화와 세균의 직접 살균·증식 억제는 같은 측정값이 아니다.\n⑤ EF는 calmodulin 의존 adenylate cyclase, LF는 MAPKK를 표적으로 하는 metalloprotease로 기능이 다르다. 이 자료는 유입 감소를 지지하며 모든 항체가 같은 부위를 인식한다는 뜻은 아니다.",
+    "source": "[251106_05] 레지오넬라, 리스테리아, 바실루스(석승혁)_정동민v1.pdf / PDF p.38–40, 48; 강의 핵심 보완",
+    "difficulty": "상",
+    "tags": [
+      "Bacillus anthracis",
+      "PA",
+      "독소 유입",
+      "중화"
+    ],
+    "origin": "강의·기출 기반 심화 새 문제",
+    "id": "chat-generated-1ef574481594b33f"
+  },
+  {
+    "category": "legionella-listeria-bacillus",
+    "bank": "generated",
+    "title": "냉장 보관과 생균 수의 변화",
+    "stem": "냉장 즉석섭취 식품에서 Listeria가 검출되었다. 밀봉한 동일 식품의 비교에서 4°C 보관 중에도 생균 수가 증가했고, 새 외부 오염은 배제되었다. 실험은 다른 온도에서의 증식속도를 비교하지 않았다. 이 결과와 예방 원칙을 가장 타당하게 연결한 것은?",
+    "options": [
+      "4°C에서 증가했으므로 이 균의 최적 성장 온도는 4°C이며 실온에서는 증식할 수 없다고 본다.",
+      "냉장 중 살아남은 균이 있으므로 Bacillus와 같은 내생포자를 형성했음을 의미한다.",
+      "식중독이므로 포도알균처럼 미리 생성된 독소만 관리하면 되며 생균의 증가 자체는 위험과 무관하다.",
+      "냉장은 무균화를 뜻하지 않고 이 균은 저온에서도 증식할 수 있어, 고위험군의 식품 선택과 위생 관리가 중요하다.",
+      "식품이 밀봉되어 있으므로 냉장 중 증가한 집락은 환자 감염과 관련되지 않는 배양 오염으로 분류한다."
+    ],
+    "answer": 4,
+    "explanation": "정답 ④. Listeria의 저온 증식능은 냉장 식품에서도 균량이 늘 수 있다는 의미이다. 보관 온도가 낮다는 사실만으로 안전을 보장하지 않는다.\n① 이 실험은 최적 온도를 비교하지 않았다. 4°C에서 증식 가능하다는 말과 그 온도가 최적이라는 말은 다르다.\n② Listeria는 비아포성이다. Bacillus 내생포자의 생존과 구별한다.\n③ 포도알균의 미리 생성된 장독소와 Listeria의 생균에 의한 침습 감염은 병인이 다르다.\n④ 식품의 보관·취급과 고위험군 예방을 연결한 해석이다.\n⑤ 밀봉은 새 오염을 막는 조건이지 이미 들어 있던 균의 증식을 막는 조건은 아니다. 강의 필기의 '4°C 급증'을 다른 온도보다 항상 빠르다는 뜻으로 사용하지 않는다.",
+    "source": "[251106_05] 레지오넬라, 리스테리아, 바실루스(석승혁)_정동민v1.pdf / PDF p.55, 62–63; 강의 핵심 보완",
+    "difficulty": "중상",
+    "tags": [
+      "Listeria",
+      "저온 증식",
+      "식품 안전"
+    ],
+    "origin": "강의·기출 기반 심화 새 문제",
+    "id": "chat-generated-77b974aad05a0ef5"
+  },
+  {
+    "category": "resistant-organisms",
+    "bank": "generated",
+    "title": "정맥 치료 이후 약제의 역할 구분",
+    "stem": "ESBL E. coli 요로 원발 균혈증 환자가 meropenem 치료와 요로 폐쇄 해소 후 안정되었다. 반복 혈액배양은 음성이고, 장 흡수는 정상이며 심내막염·깊은 농양은 없다. 분리주는 TMP-SMX와 nitrofurantoin에 감수성이고 ciprofloxacin에는 내성이다. 치료를 이어갈 약제 선택으로 가장 적절한 것은?",
+    "options": [
+      "Nitrofurantoin으로 전환한다. 방광 요로감염에서 높은 요중 활성을 보이면, 혈류 감염의 후속 치료도 같은 기준으로 선택한다.",
+      "감수성·임상 안정·감염원 조절을 확인한 조건에서, 전신 노출을 얻을 수 있는 경구 TMP-SMX 전환을 고려한다.",
+      "경구 vancomycin으로 전환한다. 장내 농도가 높은 약은 흡수 여부와 관계없이 장내 기원 균혈증에도 유리하다.",
+      "Ciprofloxacin으로 전환한다. ESBL 효소의 직접 기질이 아닌 약제는 검사상 내성이어도 전신 치료에 사용할 수 있다.",
+      "안정된 이후에도 경구제는 혈중 노출을 얻지 못하므로, 감수성·흡수 상태와 무관하게 모든 약제를 정맥으로 유지한다."
+    ],
+    "answer": 2,
+    "explanation": "정답 ②. 경구 전환은 단순히 S인 약을 고르는 것이 아니라 필요한 부위의 노출을 함께 판단한다. 이 경우 TMP-SMX는 조건을 충족한 전환 선택지가 된다.\n① Nitrofurantoin은 하부 요로의 역할과 혈중·신실질 노출을 구분해야 한다. 균혈증 후속 치료에 필요한 전신 노출을 제공하는 약으로 고르지 않는다.\n② 감수성·부위 노출·전환 조건을 함께 충족하는 선택이다.\n③ 경구 vancomycin의 장내 작용은 C. difficile 치료와 연결된다. 이 그람음성 혈류 감염의 전신 치료를 대체하지 못한다.\n④ ESBL에 의한 분해 여부와 다른 기전의 quinolone 내성은 별개다. 현재 검사상 내성이므로 전환 후보가 아니다.\n⑤ 일부 경구제는 적절한 전신 노출을 얻는다. 경로만으로 우열을 정하지 말고 약제·상태·병소를 함께 평가한다.\n보완 근거: https://www.idsociety.org/practice-guideline/amr-guidance/",
+    "source": "[261109_05]항생제 내성균의 진단과 치료(송경호)_송민서v1.pdf / PDF p.44, 49–51, 89, 93; 강의의 경증·중증 치료 선택을 전환 요법의 부위·노출 판단으로 확장; 통합 선지 보완: 다른 강의의 하부 요로 약제와 전신 노출·C. difficile의 경구 vancomycin를 임상·기전과 비교",
+    "difficulty": "상",
+    "tags": [
+      "ESBL",
+      "경구 전환",
+      "약동학",
+      "감염 부위",
+      "전범위 통합"
+    ],
+    "origin": "강의·기출 기반 심화 새 문제",
+    "id": "chat-generated-cc54d4e8e2f9c3a1"
+  },
+  {
+    "category": "legionella-listeria-bacillus",
+    "bank": "generated",
+    "title": "호흡기 증상과 흉부 림프절 병변",
+    "stem": "가죽·동물털을 다루던 성인이 발열 후 급속한 호흡곤란과 쇼크를 보였다. CT에서는 종격동 림프절 병변과 흉수가 두드러졌고 혈액 검체에서 큰 그람양성 막대균이 사슬 모양으로 관찰되었다. 최종 병원체 확인을 진행 중이다. 이 임상상을 가장 잘 설명하는 병인 가설은?",
+    "options": [
+      "폐렴알균이 폐포에서 증식하여 호중구성 삼출과 폐실질 경화를 일으킨 세균성 폐렴이다.",
+      "Legionella가 폐포 대식세포의 ER 유래 LCV 안에서 증식하여 폐렴을 일으킨 것이다.",
+      "Nocardia가 토양에서 유입되어 분지성·부분 항산성 필라멘트 형태로 폐 감염을 일으킨 것이다.",
+      "흡입 탄저에서 흉부 림프절의 감염 뒤 전신 확산·독소 작용이 진행하여 호흡곤란과 쇼크를 일으킨 것이다.",
+      "Histoplasma가 흡입된 뒤 대식세포 안의 효모 형태로 증식하며 폐·림프절 병변을 일으킨 것이다."
+    ],
+    "answer": 4,
+    "explanation": "정답 ④. 동물 제품 노출, 빠른 전신 악화, 종격동 림프절·흉수와 큰 그람양성 사슬 막대균을 함께 보면 흡입 탄저가 가장 잘 맞는다. 흉부 림프절의 감염 뒤 전신 감염·독소 작용이 중요하다.\n① 폐렴알균의 폐포 삼출은 실제 폐렴 기전이다. 그러나 균은 전형적으로 그람양성 쌍알균이며 제시한 분리주 형태·노출·림프절 양상과 다르다.\n② Legionella의 LCV 내 증식은 실제 기전이나, 크고 그람양성인 사슬 막대균이라는 직접 소견과 맞지 않는다.\n③ Nocardia는 면역저하자 폐 감염의 중요한 원인이고 분지성·부분 항산성 형태를 보일 수 있다. 제시한 큰 사슬 막대균과 동물 제품 노출의 조합에는 다른 후보가 우선한다.\n④ 흡입형의 병변 위치와 전신 경과를 연결한다. 피부 가피가 있어야만 의심하는 것은 아니다.\n⑤ Histoplasma는 흡입 후 효모형으로 숙주 내 감염을 일으키며 종격동 병변도 만들 수 있다. 하지만 관찰된 세균 형태를 설명하지 못한다.\n이 정보는 우선 의심과 평가를 위한 것이며, 영상이나 형태만으로 최종 종을 확정하지 않는다.\n보완 근거: https://www.cdc.gov/anthrax/hcp/clinical-overview/index.html ; 후반 진균 감별 보완 https://www.cdc.gov/histoplasmosis/hcp/clinical-overview/index.html",
+    "source": "[251106_05] 레지오넬라, 리스테리아, 바실루스(석승혁)_정동민v1.pdf / PDF p.41–42, 47, 49; 강의 핵심 보완; 통합 선지 보완: 폐렴알균·Nocardia 및 후반 진균 Histoplasma의 실제 폐 감염 기전 비교",
+    "difficulty": "상",
+    "tags": [
+      "흡입 탄저",
+      "종격동",
+      "림프절",
+      "전신 독소",
+      "전범위 통합"
+    ],
+    "origin": "강의·기출 기반 심화 새 문제",
+    "id": "chat-generated-ac69fce9649bd107"
+  },
+  {
+    "category": "antibiotic-pharmacology",
+    "bank": "generated",
+    "title": "작용 표적이 다른 약물의 공통 내성",
+    "stem": "약물 A는 번역, B는 DNA 복제, C는 세포벽 합성을 억제한다. 분리주에서 A·B의 표적과 약물 구조는 정상이지만 같은 과발현 수송체가 A·B를 배출하여 세포 내 농도를 낮춘다. C는 이 수송체 기질이 아니었다. 가장 적절한 해석은?",
+    "options": [
+      "서로 다른 직접 표적의 A와 B에도 하나의 유출 기전이 공통으로 작용할 수 있다.",
+      "A와 B의 공통 내성은 두 약물이 리보솜의 같은 부위에 결합한다는 증거이다.",
+      "A·B의 분해가 없어 세포 내 농도가 낮아져도 내성 기전으로 분류할 수 없다.",
+      "수송체가 A·B를 배출하므로 기질이 아닌 C도 같은 속도로 배출된다고 본다.",
+      "표적이 정상인 A·B는 수송체 발현량과 관계없이 원래의 억제 효과를 유지한다."
+    ],
+    "answer": 1,
+    "explanation": "정답은 ①이다. 다약제 유출은 서로 다른 표적 약물의 유효 농도를 낮출 수 있고 범위는 실제 기질에 달려 있다.\n① 직접 표적이 달라도 공통 수송체의 기질일 수 있다. ② B의 표적은 DNA 복제이며 공통 리보솜 변형이 필요하지 않다. ③ 약물 분해와 efflux는 서로 다른 내성 기전이다. ④ C는 기질이 아니므로 같은 배출을 추정하지 않는다. ⑤ 정상 표적도 세포 내 노출이 부족하면 효과가 낮아질 수 있다. C의 최종 감수성은 다른 기전도 포함하여 검사한다.",
+    "source": "[261109_03]항생제 약리학의 기본 원리_항생제 내성(이승환)_송경민v1.pdf / PDF p.6–10, 16, 23–24; 강의 작용·내성 기전과 관련 기출을 새 자료로 확장",
+    "difficulty": "상",
+    "tags": [
+      "다약제유출",
+      "표적과노출",
+      "교차내성"
+    ],
+    "origin": "강의·기출 기반 심화 새 문제",
+    "id": "chat-generated-892f08cbfbbfbb91"
+  },
+  {
+    "category": "antibiotic-pharmacology",
+    "bank": "generated",
+    "title": "첫 배양의 내성으로 알 수 있는 것",
+    "stem": "항균제 투여 전 첫 배양에서 분리주가 X에 내성으로 보고되었다. 같은 균종의 다른 분리주는 X에 감수성인 경우도 있다. 내성 유전자 위치나 과거 보균 이력은 알려지지 않았다. 가장 타당한 판단은?",
+    "options": [
+      "투약 전이므로 이 균종의 본태성 내성으로 확정한다.",
+      "기존 내성균의 전파·보유도 가능하므로 첫 내성 검출일과 개인 투약 시점은 별도로 해석한다.",
+      "환자의 과거 투약력을 모르므로 첫 검체에서 내성균이 존재했다는 판단도 보류한다.",
+      "투약 전이므로 plasmid 매개 내성이나 표적 돌연변이는 원인에서 제외한다.",
+      "처음 분리된 날이므로 내성 유전자가 그날 환자 안에서 새로 발생했다고 판단한다."
+    ],
+    "answer": 2,
+    "explanation": "정답은 ②이다. 획득 내성은 현재 환자에게 약을 투여한 뒤에만 생긴다는 뜻이 아니다. 이미 내성인 균을 획득·보유하다 첫 검체가 양성일 수 있다.\n① 투약 전후와 종 수준의 본태적 특성은 다른 기준이다. ② 치료 전 존재는 확인되지만 원인 기전·획득 시점은 별도 자료가 필요하다. ③ 첫 검체 자체에서 내성 분리주가 확인되었으므로 과거 투약력을 몰라도 그때 내성균이 존재했다는 사실은 판단할 수 있다. ④ 외래 유전자나 기존 돌연변이를 가진 균이 치료 전부터 있을 수 있다. ⑤ 첫 검출일은 변이 발생일이 아니다. 강의 p5의 역사적 설명을 환자의 첫 투약일로 바꾸어 해석하지 않는다.",
+    "source": "[261109_03]항생제 약리학의 기본 원리_항생제 내성(이승환)_송경민v1.pdf / PDF p.5, 16, 18–21; 강의 작용·내성 기전과 관련 기출을 새 자료로 확장",
+    "difficulty": "중상",
+    "tags": [
+      "본태성내성",
+      "획득내성",
+      "검출시점"
+    ],
+    "origin": "강의·기출 기반 심화 새 문제",
+    "id": "chat-generated-1b4e9551e0e4f99b"
+  },
+  {
+    "category": "resistant-organisms",
+    "bank": "generated",
+    "title": "같은 계열 억제제라도 다른 결과",
+    "stem": "KPC 생성 K. pneumoniae의 정제 효소와 분리주를 조사했다. Ceftazidime 단독 활성은 낮지만 avibactam을 더하면 효소 활성이 감소하고 항균 활성이 회복된다. 비교 조건의 tazobactam은 KPC 억제가 충분하지 않았다. Ceftazidime-avibactam에는 감수성이 확인되었다. 가장 적절한 연결은?",
+    "options": [
+      "Ceftolozane-tazobactam도 같은 억제제 병합이므로, KPC 생성 여부와 상관없이 ceftazidime-avibactam과 같은 효과를 기대한다.",
+      "Ceftazidime-avibactam 감수성이 확인되어도 KPC가 검출되면, 더 오래 사용해 온 colistin을 우선 선택한다.",
+      "KPC라는 이름은 Klebsiella에서만 가능한 현상이므로, 다른 장내세균에서 같은 유전자가 나와도 다른 효소로 해석한다.",
+      "KPC의 효소 활성을 억제하는 avibactam이 β-lactam을 보호하며, 같은 억제제 병합이라는 이유로 tazobactam 제제를 대체하지 않는다.",
+      "KPC가 class A이므로 모든 class A 억제제는 같은 정도의 활성을 가지며, 관찰된 억제 차이는 해석하지 않는다."
+    ],
+    "answer": 4,
+    "explanation": "정답 ④. KPC는 대표적인 Ambler class A carbapenemase다. 억제제마다 효소에 대한 활성이 달라 ceftazidime-avibactam과 ceftolozane-tazobactam을 동일한 KPC 치료제로 취급하지 않는다.\n① Ceftolozane-tazobactam은 녹농균·일부 ESBL 등에 쓸 수 있지만 tazobactam이 KPC를 충분히 억제하는 것은 아니다.\n② KPC 침습 감염에서 활성인 새 β-lactam/억제제는 기존 polymyxin 기반 치료보다 선호된다. 오래 사용한 약이라는 사실이 유효성·독성의 우위를 뜻하지 않는다.\n③ KPC는 다른 균종에서도 발견될 수 있다. 처음의 명칭을 숙주 균종의 절대적 제한으로 사용하지 않는다.\n④ 현재 KPC 효소와 억제제의 실제 활성 차이를 적용했다.\n⑤ 효소 분류의 공통점이 억제제의 모든 결합·활성 특성을 같게 만들지는 않는다. 실제 효소·감수성 자료를 적용한다.\n보완 근거: https://www.idsociety.org/practice-guideline/amr-guidance/",
+    "source": "[261109_05]항생제 내성균의 진단과 치료(송경호)_송민서v1.pdf / PDF p.53–59; 관련 기출 2025년 53번의 약제 선택을 억제제 차이의 실험으로 확장",
+    "difficulty": "상",
+    "tags": [
+      "KPC",
+      "Avibactam",
+      "Tazobactam",
+      "효소 억제"
+    ],
+    "origin": "강의·기출 기반 심화 새 문제",
+    "id": "chat-generated-e7e75b1700e3faef"
+  },
+  {
+    "category": "resistant-organisms",
+    "bank": "generated",
+    "title": "배양 결과를 받은 뒤의 확정 치료",
+    "stem": "도관 관련 S. aureus 균혈증에 경험적으로 vancomycin을 시작했다. 도관은 제거되었고 추가 평가에서 중추신경계 감염·심내막염·깊은 농양은 없었다. 분리주는 oxacillin·cefazolin 감수성, penicillin 내성으로 확인되었으며 중증 β-lactam 알레르기도 없다. 이 시점의 가장 적절한 치료 조정은?",
+    "options": [
+      "MSSA에 적합한 cefazolin 등 항포도알균 β-lactam으로 조정하고, 균혈증의 추적과 필요한 치료 기간을 함께 정한다.",
+      "Vancomycin을 그대로 유지한다. MRSA까지 포함하는 넓은 범위가 MSSA에서도 더 우수한 치료 효과를 의미한다.",
+      "Penicillin G로 바꾼다. GAS의 β-lactam 치료 원칙을 적용하면 penicillin 내성 MSSA도 같은 약제로 치료할 수 있다.",
+      "수막염에서 사용하는 ceftriaxone으로 넓힌다. 현재 병소보다 중추신경계 도달 특성을 약제 선택의 우선 기준으로 둔다.",
+      "Linezolid로 넓힌다. VRE에도 사용할 수 있는 약제이므로 MSSA에서 표적 β-lactam보다 우선한다."
+    ],
+    "answer": 1,
+    "explanation": "정답 ①. MSSA 확정 뒤에는 vancomycin 감수성이 남아 있더라도 cefazolin·nafcillin 같은 적합한 β-lactam을 우선 고려한다. 넓은 범위나 새 약제라는 이유만으로 확정 치료에서 우수한 것은 아니다.\n① 현재 확인된 MSSA에 적합한 확정 치료로 조정한다.\n② 범위의 넓이와 현재 원인균에 대한 최적의 치료 효과는 다르다. 강의가 강조한 확정 치료 축소 원칙을 적용한다.\n③ GAS에서 penicillin이 중요한 사실과 이 MSSA의 penicillin 내성은 별개다. 균종·검사 결과를 함께 반영한다.\n④ Ceftriaxone은 Hib·수막알균 수막염 등에 실제로 사용된다. 하지만 이 환자는 CNS 침범이 없는 MSSA 균혈증이다. 다른 병소의 침투 특성보다 현재 원인균의 최적 확정 치료가 우선이다.\n⑤ 다른 내성 그람양성균에 대한 활성이 MSSA 확정 치료에서의 우선순위를 결정하지 않는다.",
+    "source": "[261109_05]항생제 내성균의 진단과 치료(송경호)_송민서v1.pdf / PDF p.61, 64–65, 92–93; 강의 p92의 MSSA 확정 치료 원칙; 통합 선지 보완: GAS의 penicillin 치료·Hib·수막알균의 ceftriaxone 치료의 실제 역할과 현재 병소를 비교; [261109_01]헤모필루스, 보르데텔라, 나이세리아(방예지)_손세영v1.pdf / PDF p11, p33",
+    "difficulty": "중상",
+    "tags": [
+      "MSSA",
+      "확정 치료",
+      "Cefazolin",
+      "스펙트럼 축소",
+      "전범위 통합"
+    ],
+    "origin": "강의·기출 기반 심화 새 문제",
+    "id": "chat-generated-24d8e5213da94b65"
+  },
+  {
+    "category": "haemophilus-bordetella-neisseria",
+    "bank": "generated",
+    "title": "한 표적의 양성과 종 수준 확정",
+    "stem": "기침 환자의 비인두 검체에서 IS481 단일 표적 PCR이 양성이었다. 이 검사법의 검증 자료에는 IS481이 B. pertussis뿐 아니라 B. holmesii 등에도 존재한다고 적혀 있다. 검체 적합성·양성/음성 대조는 정상이었다. 종 수준 해석을 개선하는 데 가장 적절한 조치는?",
+    "options": [
+      "PCR 대조가 정상이므로 교차 종의 표적 공유와 무관하게 B. pertussis를 확정한다.",
+      "같은 IS481 PCR을 반복하여 다시 양성이면 다른 Bordetella 종의 가능성을 배제한다.",
+      "균량을 반영하는 Ct만으로 종명을 정하고, 임상 정보와 추가 표적은 사용하지 않는다.",
+      "배양이 음성이면 단일 표적 PCR도 거짓양성으로 분류하고 추가 평가는 중단한다.",
+      "IS481와 종 특이 표적을 조합한 검증된 PCR 알고리즘으로 종 구분을 보완한다."
+    ],
+    "answer": 5,
+    "explanation": "정답 ⑤. 오염·억제 대조가 정상이라는 사실과 표적 서열의 종 특이성은 다른 문제다.\n① 분석 과정이 잘 작동해도 표적을 공유하는 종은 구별되지 않을 수 있다.\n② 같은 비특이 표적을 반복하면 재현성은 확인할 수 있으나 종 특이성이 새로 생기지는 않는다.\n③ Ct는 표적 DNA 양과 관련되지만 그 수치만으로 여러 공유 종을 분류하지 않는다.\n④ 배양 음성은 시기·항균제·검체 등에 영향을 받는다. 단독으로 모든 PCR 양성을 부정하지 않는다.\n⑤ 공유 표적의 한계를 보완하는 추가 표적과 임상 맥락을 함께 본다.\n근거: CDC Pertussis PCR Best Practices, IS481·multiple targets — https://www.cdc.gov/pertussis/php/pcr-bestpractices/index.html",
+    "source": "[261109_01]헤모필루스, 보르데텔라, 나이세리아(방예지)_손세영v1.pdf / PDF p.13, 18; Bordetella 균종과 PCR의 한계를 공식 검사 지침으로 보완",
+    "difficulty": "상",
+    "tags": [
+      "IS481",
+      "PCR 특이성",
+      "B. holmesii",
+      "다중 표적"
+    ],
+    "origin": "강의·기출 기반 심화 새 문제",
+    "id": "chat-generated-f50a94dcaad79407"
+  },
+  {
+    "category": "resistant-organisms",
+    "bank": "generated",
+    "title": "두 대책 중 하나만 고르면 충분할까",
+    "stem": "병동에서 신규 VRE 보균이 늘었다. 접촉 조사와 균주 비교는 환자 간 전파를 시사하고, 동시에 적응증 없이 광범위 항균제가 오래 유지되는 처방도 많았다. 팀은 한정된 인력 때문에 “항균제 감량과 전파 차단 중 하나만 하면 된다”고 주장한다. 강의의 두 축을 가장 적절하게 적용한 전략은?",
+    "options": [
+      "처방량을 줄이면 접촉 전파도 자동으로 사라지므로, 보균자 확인과 환경 관리는 시행하지 않는다.",
+      "접촉주의를 강화하면 환자 안의 항생제 선택압도 없어지므로, 장기 처방의 적응증은 검토하지 않는다.",
+      "내성균의 존재 자체를 없애기 위해 병동의 모든 보균자에게 같은 광범위 항균제를 투여한다.",
+      "새 항균제가 도입될 때까지 현재 처방과 접촉 관행을 유지하고, 이후 내성률만 비교한다.",
+      "적정 사용관리와 접촉·환경 전파 차단을 함께 시행하고 각각의 효과·이행을 추적한다."
+    ],
+    "answer": 5,
+    "explanation": "정답 ⑤. 항생제 스튜어드십은 선택압·불필요한 노출을 줄이고, 감염관리는 환자 간 이동·저장소를 차단한다. 현재는 두 문제의 근거가 함께 있어 두 축을 보완적으로 적용하는 것이 타당하다.\n① 선택압 감소와 이미 존재하는 균의 접촉 전파 차단은 다른 목표다. 처방 중재가 환경·손위생을 대신하지 않는다.\n② 접촉주의는 불필요한 항균제 노출 자체를 줄이지 않는다. 적정 사용 검토가 별도로 필요하다.\n③ 보균을 일괄 치료하려는 접근은 적응증과 선택압 문제를 악화시킬 수 있다. 현재 상황의 두 원인에 맞지 않는다.\n④ 신약 개발만 기다리는 것이 아니라 이미 가능한 적정 사용·전파 차단 조치를 시행하고 과정·결과를 평가한다.\n⑤ 두 축의 목표를 구별하면서 확인된 병동 문제에 대응한다.",
+    "source": "[261109_05]항생제 내성균의 진단과 치료(송경호)_송민서v1.pdf / PDF p.67, 73–77, 87–91, 107; 강의의 AMR 대책 두 축을 동시 문제가 있는 병동에 적용",
+    "difficulty": "중상",
+    "tags": [
+      "항생제 스튜어드십",
+      "감염관리",
+      "선택압",
+      "전파 차단"
+    ],
+    "origin": "강의·기출 기반 심화 새 문제",
+    "id": "chat-generated-10fbe6ea80bfbb9e"
+  },
+  {
+    "category": "resistant-organisms",
+    "bank": "generated",
+    "title": "표현형 이름과 효소 검사의 관계",
+    "stem": "K. pneumoniae 분리주가 반복 감수성검사에서 carbapenem 내성으로 확인되었다. 수행한 carbapenemase 표현형 검사는 음성이고, 검사실의 제한된 유전자 패널도 음성이었다. ESBL 생성과 주요 porin 감소가 관찰되었다. 이 결과를 보고할 때 가장 타당한 해석은?",
+    "options": [
+      "CRE 표현형과 carbapenemase 생성 여부는 구분하며, 현재 검사 범위에서 효소 생성 증거가 없는 내성 기전도 고려한다.",
+      "CRE로 확인되었으므로 carbapenemase 생성도 확정되며, 음성 효소·유전자 검사보다 내성 이름을 우선한다.",
+      "유전자 패널이 음성이므로 모든 carbapenem 내성 보고를 취소하고, 검사상 R인 약제도 감수성으로 바꾼다.",
+      "표현형 효소 검사와 패널이 모두 음성이면, 알려지지 않은 효소를 포함한 모든 carbapenemase의 부재를 확정한다.",
+      "ESBL이 검출되었으므로 porin 감소는 내성에 기여하지 않으며, ESBL 단독이 모든 carbapenem 내성을 설명한다."
+    ],
+    "answer": 1,
+    "explanation": "정답 ①. CRE는 내성 표현형을 가리키며 CPE는 carbapenemase 생성에 초점을 둔 용어다. ESBL과 유입 감소 등의 조합도 carbapenem 내성과 관련될 수 있다. 음성 패널은 조사한 유전자 범위와 검사 성능 안에서 해석한다.\n① 내성 표현형과 그 기전의 검출 범위를 구분한 것이다.\n② 내성 표현형을 특정 기전의 확정으로 바꾸었다. 모든 CRE가 같은 효소를 만드는 것은 아니다.\n③ 유전자 음성이 감수성검사 결과를 자동으로 뒤집지 않는다. 패널에 없는 기전이나 유입 변화도 가능하다.\n④ 검사 조합의 음성은 유용하지만 전체 가능한 효소의 절대적 부재를 입증하지는 않는다. 조사 범위를 명시한다.\n⑤ ESBL은 carbapenem을 분해하는 효소와 동일하지 않다. 유입 감소 같은 복합 기전을 무시하지 않는다.\n보완 근거: https://www.idsociety.org/practice-guideline/amr-guidance/",
+    "source": "[261109_05]항생제 내성균의 진단과 치료(송경호)_송민서v1.pdf / PDF p.26, 50, 53–54; 강의의 CRE–CPE 구분과 복합 내성 기전 보완",
+    "difficulty": "상",
+    "tags": [
+      "CRE",
+      "CPE",
+      "검사 범위",
+      "Porin"
+    ],
+    "origin": "강의·기출 기반 심화 새 문제",
+    "id": "chat-generated-f0e1bd75ce43e180"
+  },
+  {
+    "category": "antibiotic-pharmacology",
+    "bank": "generated",
+    "title": "재발 검체에서의 생존 양상",
+    "stem": "같은 항생제로 치료한 두 환자 분리주의 보고서이다.\n• A: 재발 분리주의 MIC가 치료 전보다 안정적으로 상승했고 약물이 있어도 증식했다.\n• B: 치료 전후 MIC는 같았다. 대부분 빠르게 제거되었으나 소수 생존 집단이 오래 남았고 그 자손은 원래 감수성을 보였다.\n보고된 표현형을 가장 잘 구분한 것은?",
+    "options": [
+      "A·B 모두 MIC 상승 없는 persistence이므로 내성 표현형은 관찰되지 않았다.",
+      "A는 persistence, B는 약물 표적 돌연변이에 의한 내성으로 구분한다.",
+      "A는 내성이며 B도 재발했으므로 MIC와 무관하게 같은 내성으로 분류한다.",
+      "A·B 모두 MIC가 살균 속도를 측정하므로 MIC만으로 소수 집단 생존을 설명한다.",
+      "A는 내성과 맞고 B는 감수성 유지 상태의 소수 집단 생존인 persistence와 맞는다."
+    ],
+    "answer": 5,
+    "explanation": "정답은 ⑤이다. 항균제 존재하 증식 농도의 상승과 MIC 변화 없이 일부가 오래 살아남는 현상은 다르다.\n① A에는 안정적 MIC 상승과 약물 존재하 증식이 있다. ② 특징을 반대로 연결했다. ③ 재발만으로 모든 생존을 유전적 내성으로 부르지 않는다. ④ MIC는 증식 억제 지표이며 살균 속도나 잔존 아집단 수를 직접 측정하지 않는다. ⑤ A의 내성과 B의 소수 감수성 생존 집단을 구별한다. B 판단은 같은 MIC 하나만이 아니라 소수 집단의 장기 생존·자손의 감수성 유지에 근거한다. 강의 persistence를 합의문으로 정교화했으며 실제 치료 기간은 이 자료만으로 정하지 않는다.",
+    "source": "[261109_03]항생제 약리학의 기본 원리_항생제 내성(이승환)_송경민v1.pdf / PDF p.4, 15; 강의 작용·내성 기전과 관련 기출을 새 자료로 확장; 강의 외 용어 정교화: Balaban et al. 2019 합의문 https://www.nature.com/articles/s41579-019-0196-3",
+    "difficulty": "상",
+    "tags": [
+      "resistance",
+      "persistence",
+      "재발",
+      "MIC"
+    ],
+    "origin": "강의·기출 기반 심화 새 문제",
+    "id": "chat-generated-4e9f3a065dcabb1e"
+  },
+  {
+    "category": "resistant-organisms",
+    "bank": "generated",
+    "title": "투여 경로와 독성의 관계",
+    "stem": "Linezolid 감수성 VRE 감염을 치료 중인 환자가 안정되어 경구 전환을 검토한다. 장 흡수는 정상이며 다른 경구 전환 방해 요인은 없다. 투여 18일째 혈소판이 계속 감소하고 있다. 경로와 부작용을 함께 고려한 가장 적절한 설명은?",
+    "options": [
+      "경구 aminoglycoside처럼 흡수가 낮을 것이므로, linezolid를 경구로 바꾸면 현재 골수억제의 위험도 충분히 줄어든다.",
+      "경구 vancomycin의 장내 작용과 같은 방식이므로, 경구 linezolid에서는 전신 독성 감시보다 대변 배양을 우선한다.",
+      "VRE가 감수성이므로 치료 반응을 평가할 때 약물 독성은 제외하고, 현재 용법을 같은 기간 유지한다.",
+      "경구에서도 비슷한 전신 노출을 얻으므로, 경로 변경만으로 혈소판 감소를 해결했다고 보지 말고 CBC와 치료 지속 여부를 재평가한다.",
+      "정맥제에서만 혈중 농도가 높아지므로, 경구 전환 후 혈소판 감소는 약제와 관련이 없는 현상으로 분류한다."
+    ],
+    "answer": 4,
+    "explanation": "정답 ④. Linezolid는 경구 생체이용률이 높다. 정맥에서 경구로 바꾸어도 전신 노출·골수억제 위험이 사라지는 것은 아니므로, 진행하는 혈소판 감소를 별도로 평가한다.\n① Neomycin 등 aminoglycoside의 낮은 정상 장관 흡수를 linezolid에 대입하지 않는다. 약제별 경구 생체이용률이 다르며 이는 항생제 약리의 보완 비교이다.\n② C. difficile에 쓰는 경구 vancomycin의 제한된 전신 노출과 linezolid의 높은 흡수는 다르다.\n③ 미생물 감수성과 약물의 숙주 독성은 다른 정보이다. 감수성이 CBC 이상을 무시할 이유가 되지 않는다.\n④ 경로 전환과 진행하는 골수억제를 다른 문제로 평가한다.\n⑤ 경구로도 높은 전신 노출을 얻는다. 경구라는 이유만으로 약물 관련성을 배제하지 않는다.\n보완 근거: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=3e0d868d-f419-47e8-a3bc-41ececac468b ; Neomycin의 경구 흡수 https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=777dbfab-f83e-4738-ae1e-78619a9f82a7",
+    "source": "[261109_05]항생제 내성균의 진단과 치료(송경호)_송민서v1.pdf / PDF p.63–65, 89, 93; 관련 기출 2022년 51번·2020년 44번의 VRE 치료를 경로·독성 판단으로 확장; 통합 선지 보완: Aminoglycoside의 경구 흡수·C. difficile의 국소 장내 치료의 실제 역할과 현재 병소를 비교",
+    "difficulty": "상",
+    "tags": [
+      "VRE",
+      "Linezolid",
+      "경구 생체이용률",
+      "혈소판 감소",
+      "전범위 통합"
+    ],
+    "origin": "강의·기출 기반 심화 새 문제",
+    "id": "chat-generated-71df86f8c4a1db34"
+  },
+  {
+    "category": "haemophilus-bordetella-neisseria",
+    "bank": "generated",
+    "title": "격리 기간을 세는 기준일",
+    "stem": "CDC의 의료종사자 업무배제 기준을 적용하는 백일해 사례이다. 의료종사자가 24일 전 가벼운 기침을 시작했고 10일 전부터 발작성 기침이 뚜렷해졌다. 유효 항균제는 아직 투여하지 않았으며 기침은 남아 있다. 다른 업무제한 사유는 별도로 없다고 할 때, 이 기준의 기간을 계산한 것으로 맞는 것은?",
+    "options": [
+      "최초 기침 시작일을 기준으로 21일을 계산하며, 발작성 기침 시작일로 다시 세지 않는다.",
+      "발작성 기침이 처음 뚜렷해진 날을 기준으로 21일을 새로 계산한다.",
+      "비인두 PCR이 처음 양성인 날부터 21일을 계산하고 증상 시작일은 사용하지 않는다.",
+      "21일이 지나도 기침이 남아 있으면, 이 규정상 기침이 완전히 소실될 때까지 업무에서 배제한다.",
+      "가벼운 기침은 전파와 무관하므로 whoop 소리가 확인된 날부터 기간을 계산한다."
+    ],
+    "answer": 1,
+    "explanation": "정답 ①. 이 문항은 명시한 CDC 의료종사자 기준의 기산점을 묻는다. 알려진/의심 백일해의 유증상 의료종사자는 기침 시작 후 21일, 또는 유효 항균제 시작 후 5일까지 업무에서 배제한다.\n① 첫 기침이 시작된 시점이 기준이다. 이 사례에서는 그 기간이 이미 지났다.\n② 카타르기의 가벼운 기침도 시작점에 포함되며 발작기로 바뀌었다고 다시 세지 않는다.\n③ 검사 결과를 받은 날짜는 기침 시작일과 다르다.\n④ 기침은 기도 회복 동안 오래 남을 수 있다. 이 CDC 기간 규정을 기침이 완전히 사라질 때까지의 일률적 업무배제로 바꾸지 않는다.\n⑤ 전염력이 높은 카타르기를 제외하는 계산은 맞지 않는다. Whoop는 모든 환자에서 나타나지도 않는다.\n개별 기관·국내 지침의 추가 조치를 이 문항만으로 대신하지 않는다.\n근거: CDC Pertussis, Healthcare Personnel recommendations — https://www.cdc.gov/infection-control/hcp/healthcare-personnel-epidemiology-control/pertussis.html",
+    "source": "[261109_01]헤모필루스, 보르데텔라, 나이세리아(방예지)_손세영v1.pdf / PDF p.17–19; p.19의 무치료 격리 문구는 기침 소실과 혼동하지 않도록 CDC 기준을 명시하여 보완",
+    "difficulty": "중상",
+    "tags": [
+      "백일해",
+      "업무배제",
+      "기산점",
+      "지침 해석"
+    ],
+    "origin": "강의·기출 기반 심화 새 문제",
+    "id": "chat-generated-f902e99af3c5626f"
+  },
+  {
+    "category": "haemophilus-bordetella-neisseria",
+    "bank": "generated",
+    "title": "같은 B혈청군인데 다른 백신 항체 반응",
+    "stem": "MenB 단백질 기반 백신 접종 후 IgG로 두 수막염균 B혈청군 분리주를 비교했다. 협막량과 비면역 IgG 조건의 보체 감수성은 비슷했다. A는 백신에 포함된 표면 단백질 항원을 잘 발현하지만 B는 그 항원 발현이 낮았다. IgG와 동일 정상 보체만 넣은 무세포 조건에서 접종 후 IgG의 결합·살균은 B에서 낮았다. 가장 타당한 해석은?",
+    "options": [
+      "협막 다당에 대한 항체가 주요 표적이므로, 폐렴알균 결합백신처럼 협막형 중심으로 이 반응을 해석한다.",
+      "항원 특이 T세포의 대식세포 활성화가 핵심이므로, BCG처럼 세포성 면역효과로 이 시험관 살균을 해석한다.",
+      "MenB 표면 단백질 항원 발현의 차이가 백신 IgG 결합과 살균 효과의 차이에 기여한다.",
+      "유리 독소를 중화하는 항체가 핵심이므로, 디프테리아 toxoid처럼 항독소 반응으로 이 균 살상을 해석한다.",
+      "같은 협막 혈청군과 양이 유지되면, 단백질 발현이 달라도 접종 후 IgG의 결합 반응은 같다고 예측한다."
+    ],
+    "answer": 3,
+    "explanation": "정답 ③. 혈청군은 협막으로 정하지만 MenB 백신의 주요 표적은 단백질이다. 이 실험은 보체의 기본 차이를 통제하고 항원 발현·항체 결합과 살균의 관계를 비교한다.\n① 폐렴알균·Hib 결합백신의 협막 표적은 실제 원리이다. 그러나 MenB 단백질 백신에서는 같은 협막이라는 사실이 표적 단백질의 차이를 없애지 않는다.\n② BCG 등에서 유도되는 T세포·대식세포의 세포성 방어와, 정제 IgG·보체만으로 측정한 이 살균 시험은 구별된다. 이 시험에는 T세포와 대식세포가 없다.\n③ 같은 B협막을 가진 균이라도 백신 표적 단백질에 대한 항체의 접근·결합과 효과가 달라질 수 있다.\n④ Diphtheria toxoid의 항독소 보호는 실제 원리이나 MenB 표면 항원에 대한 살균 항체와 구별한다.\n⑤ 협막 혈청군과 백신이 표적으로 삼는 단백질 항원은 다른 정보이다. 같은 협막이어도 IgG가 접근·결합하는 단백질이 다르면 반응이 달라질 수 있다.\n이는 가상 표적 비교이며 한 균주의 결과로 접종자의 모든 B혈청군 임상 보호를 정량화하지 않는다.\n참고: CDC/ACIP Meningococcal Vaccination Recommendations, MenB 단백질 표적·표면 발현과 살균 반응 — https://www.cdc.gov/mmwr/volumes/69/rr/rr6909a1.htm",
+    "source": "[261109_01]헤모필루스, 보르데텔라, 나이세리아(방예지)_손세영v1.pdf / PDF p.30, 33; 통합 선지 보완: 폐렴알균/Hib 결합백신·BCG·디프테리아 toxoid와 백신 항원의 종류 비교; 일정·제품별 접종 횟수를 묻지 않음; BCG 세포성 면역 비교 — https://pubmed.ncbi.nlm.nih.gov/9378490/; MenB 표적 단백질 발현·strain coverage — https://www.cdc.gov/mmwr/volumes/69/rr/rr6909a1.htm",
+    "difficulty": "상",
+    "tags": [
+      "MenB",
+      "단백질 백신",
+      "항원 발현",
+      "살균 항체",
+      "전범위 통합"
+    ],
+    "origin": "강의·기출 기반 심화 새 문제",
+    "id": "chat-generated-57d2ecca53ddc66f"
+  },
+  {
+    "category": "legionella-listeria-bacillus",
+    "bank": "generated",
+    "title": "정상 항체량에도 취약해지는 숙주",
+    "stem": "이식 후 T세포 기능이 저하된 환자에게 식품 매개 Listeria 균혈증이 발생했다. 혈청 면역글로불린 농도, 말단 보체 기능과 호중구 수는 정상 범위이다. 이 균의 세포 내 생존과 숙주 위험을 가장 적절히 연결한 것은?",
+    "options": [
+      "Hib 협막에 대한 항체 부족이 직접 원인이므로 총 면역글로불린 농도만 정상이면 이 감염은 설명되지 않는다.",
+      "말단 보체에 의한 혈중 살균이 Listeria의 주된 방어이므로 C5–C9 기능 이상이 반드시 동반되어야 한다.",
+      "세포 내 병원체의 제거에는 T세포·활성화 대식세포의 역할이 중요하여, 정상 항체량만으로 충분한 방어를 보장하지 못한다.",
+      "호중구 감소가 없으므로 세포 내 생존과 관계없이 침습성 세균 감염 가능성을 낮게 볼 수 있다.",
+      "장관 분비 IgA가 모든 전신 단계의 핵심이므로 T세포 기능 저하와 균혈증은 별개 사건으로 해석한다."
+    ],
+    "answer": 3,
+    "explanation": "정답 ③. Listeria는 세포 내에서 생존·증식하며 세포성 면역 저하자에서 침습 감염 위험이 높다. 정상 항체량은 모든 방어 기능의 정상과 동의어가 아니다.\n① Hib의 협막 항체·옵소닌화는 실제 방어 개념이나 Listeria 침습 감염의 위험을 그 하나로 설명하지 않는다.\n② C5–C9 결핍과 Neisseria 감염의 연관성은 중요하지만 Listeria 균혈증에 필수적으로 동반되는 결핍은 아니다.\n③ 제시한 선택적 면역저하와 세포 내 감염을 연결한 설명이다.\n④ 정상 호중구 수가 T세포·대식세포 기능 저하를 상쇄하는 것은 아니다.\n⑤ IgA의 점막 방어와 혈중·세포 내 단계의 방어를 구별해야 한다. 항체가 감염의 모든 단계에서 무의미하다는 뜻도 아니다.",
+    "source": "[251106_05] 레지오넬라, 리스테리아, 바실루스(석승혁)_정동민v1.pdf / PDF p.54–55, 58, 61–62; 강의 핵심 보완; 통합 선지 보완: Hib 협막 항체, Neisseria 말단 보체 방어, IgA 점막 방어",
+    "difficulty": "중상",
+    "tags": [
+      "Listeria",
+      "세포성 면역",
+      "이식",
+      "면역 결핍",
+      "전범위 통합"
+    ],
+    "origin": "강의·기출 기반 심화 새 문제",
+    "id": "chat-generated-66d02abb32065d6f"
+  },
+  {
+    "category": "resistant-organisms",
+    "bank": "generated",
+    "title": "양성 선별검사가 곧 치료 적응증일까",
+    "stem": "급성기 병원 입원 선별 직장도말에서 KPC 생성 K. pneumoniae가 검출되었다. 환자는 발열·혈역학적 이상·국소 감염 증상 없이 안정적이며, 다른 감염을 시사하는 자료도 없다. 의료진은 “이 균에 듣는 약이 있으니 지금 제거하자”고 제안했다. 가장 적절한 대응은?",
+    "options": [
+      "감염 근거를 확인하고, 보균만으로 전신 항균제를 쓰기보다 접촉주의·손위생과 전원 정보 전달을 시행한다.",
+      "KPC 유전자 양성만으로 균혈증에 준해 판단하여, 감수성인 새 항균제를 전신 투여한다.",
+      "증상이 없으므로 보균 결과를 퇴원·전원 정보에서 제외하고, 표준주의만으로 관리한다.",
+      "일주일간 항균제를 투여한 뒤 직장도말이 한 번 음성이면 보균이 소실된 것으로 정한다.",
+      "감염 증상이 생길 때부터 접촉주의를 시작하고, 현재는 정기 직장도말을 반복하며 일반 병실에서 지낸다."
+    ],
+    "answer": 1,
+    "explanation": "정답 ①. 선별 양성은 장관 보균을 찾아낸 결과일 수 있다. 보균과 임상 감염을 구분해 불필요한 치료를 피하면서 전파 차단은 시행한다.\n① 항균제 치료 필요성과 전파 차단의 필요성을 분리한 접근이다.\n② 내성 유전자 검출은 감염 부위나 조직 침범을 입증하지 않는다. 약제의 존재 자체가 치료 적응증을 만들지는 않는다.\n③ 치료가 불필요할 수 있다는 사실과 전파 가능성은 별개다. 급성기 병원에서는 보균 상태도 감염관리·기관 간 전달의 대상이다.\n④ 불필요한 제균 치료와 단일 음성 검체에 따른 소실 판단은 적절하지 않다. 보균이 지속되거나 간헐 검출될 수 있다.\n⑤ 보균자도 전파원이 될 수 있어 증상이 생길 때까지 급성기 병원의 접촉주의를 미루는 것은 적절하지 않다.\n보완 근거: https://www.cdc.gov/cre/about/index.html ; https://www.cdc.gov/cre/hcp/infection-control/index.html",
+    "source": "[261109_05]항생제 내성균의 진단과 치료(송경호)_송민서v1.pdf / PDF p.10, 17, 23, 79–87; 강의의 보균–감염 구분 및 전파 차단 원칙 응용",
+    "difficulty": "중상",
+    "tags": [
+      "CRE",
+      "보균과 감염",
+      "접촉주의"
+    ],
+    "origin": "강의·기출 기반 심화 새 문제",
+    "id": "chat-generated-b8f0b46f16aa616f"
+  },
+  {
+    "category": "haemophilus-bordetella-neisseria",
+    "bank": "generated",
+    "title": "숙주 단백질에 묶인 철의 이용",
+    "stem": "임균의 외막 단백질 변이주가 철 제한 배지에서 사람 transferrin을 유일한 철 공급원으로 쓸 때만 잘 자라지 않았다. 이용 가능한 무기 철을 주면 증식이 회복되고, pili·Opa 부착과 일반 영양조건의 성장은 유지되었다. 정제 변이 단백질의 transferrin 결합도 감소했다. 우선 연결할 기능은?",
+    "options": [
+      "분비 siderophore가 철을 포획한 뒤 회수되는 저분자 철 운반 기능이다.",
+      "Hemoglobin·heme을 인식하여 그 안의 철을 회수하는 단백질 기능이다.",
+      "숙주 fibronectin을 이용해 상피에 머무르는 부착 단백질 기능이다.",
+      "Transferrin에 결합해 숙주 단백질의 철을 획득하는 외막 수용체 기능이다.",
+      "Lactoferrin에 결합하여 해당 단백질에서 철을 얻는 별도 수용체 기능이다."
+    ],
+    "answer": 4,
+    "explanation": "정답 ④. 어떤 철 공급원에서 결함이 드러나는지와 정제 단백질의 결합 기질을 함께 본다. 무기 철로의 회복은 기본 증식 결손과 철 공급원 이용 결손을 구별한다.\n① 장내세균의 siderophore는 실제 철 획득 전략이지만, 정제 외막 단백질의 사람 transferrin 결합 저하를 그 저분자 분비 전략으로 설명하지 못한다.\n② 포도알균 Isd 계열의 heme/hemoglobin 이용은 실제 숙주 철 획득 방식이다. 이 실험은 transferrin을 공급원으로 한 선택적 결함을 보여 준다.\n③ 포도알균의 fibronectin 부착은 실제 기능이나 세포 없는 배지의 철 공급원 의존 성장 차이를 설명하지 못한다.\n④ 임균의 transferrin-binding proteins와 맞는다. 수용체 결합·철 회수를 단순 부착 기능과 구별한다.\n⑤ Lactoferrin과 transferrin은 모두 철 결합 숙주 단백질이지만 동일한 기질은 아니다. 이 결과만으로 lactoferrin 이용 결손까지 정하지 않는다.\n보완 원저: 임균 transferrin 수용체 — https://pubmed.ncbi.nlm.nih.gov/20161024/ ; https://pubmed.ncbi.nlm.nih.gov/36321833/",
+    "source": "[261109_01]헤모필루스, 보르데텔라, 나이세리아(방예지)_손세영v1.pdf / PDF p.24; 통합 선지 보완: 장내세균 siderophore·포도알균 heme 획득/부착과 비교; 특정 수용체 기능은 원저 보완; 포도알균 IsdB 비교 — https://pubmed.ncbi.nlm.nih.gov/17041042/ ; 임균 TbpA/B — https://pubmed.ncbi.nlm.nih.gov/20161024/",
+    "difficulty": "상",
+    "tags": [
+      "철 획득",
+      "Transferrin",
+      "외막 수용체",
+      "영양면역",
+      "전범위 통합"
+    ],
+    "origin": "강의·기출 기반 심화 새 문제",
+    "id": "chat-generated-1654b6d961c95c1a"
+  },
+  {
+    "category": "legionella-listeria-bacillus",
+    "bank": "generated",
+    "title": "같은 장소 노출 후 달라진 두 경과",
+    "stem": "온수 분무가 있는 시설을 방문한 건강한 직원 다수는 다음 날 발열·근육통이 생겼으나 폐침윤 없이 수일 내 회복했다. 같은 시설에 노출된 고령 흡연자 일부는 며칠 뒤 폐렴으로 입원했다. 조사에서 두 집단 모두 Legionella 노출이 지지되었다. 가장 적절한 해석은?",
+    "options": [
+      "비폐렴성 직원 집단도 같은 세균 노출이므로, 폐렴 집단과 동일한 항균제 치료 대상으로 분류한다.",
+      "두 집단의 우선 관리 대상을 발병률 순으로 정하여, 발병률이 높은 비폐렴성 집단의 중증 감시를 우선한다.",
+      "잠복기와 영상 소견 차이를 서로 다른 원인균의 주된 근거로 삼고, 두 집단의 공통 시설 노출을 별개 사건으로 분석한다.",
+      "폐렴이 없는 집단의 원인 판단도 폐렴 환자와 동일한 요항원 양성을 주된 기준으로 삼아 정리한다.",
+      "같은 노출에서 Pontiac fever와 Legionnaires disease가 다르게 나타날 수 있으며, 임상 증후군과 숙주 위험을 함께 구별한다."
+    ],
+    "answer": 5,
+    "explanation": "정답 ⑤. Pontiac fever는 비폐렴성·자연 호전 경과이고, Legionnaires disease는 폐렴을 일으킨다. 두 증후군의 경과·검사·치료를 원인체 이름 하나만으로 같게 정하지 않는다.\n① Pontiac fever에는 통상 항균제가 이득을 주지 않는다. 폐렴 여부와 임상 경과를 구별한다.\n② 발병률과 중증도는 다른 지표이다. 폐렴이 생긴 고령·흡연자의 임상 위험도 중요하다.\n③ 같은 원인체도 다른 증후군을 일으킬 수 있다. 임상 양상 차이만으로 확인된 공통 노출의 연관성을 나눌 근거가 부족하다.\n④ 요항원은 주로 SG1 Legionnaires disease 평가에 사용된다. 비폐렴성 집단의 노출 연관성을 같은 검사 양성 하나로 정하지 않는다.\n⑤ 같은 노출과 서로 다른 숙주·증후군을 함께 해석한 설명이다. 이 자료로 차이를 특정 독소 하나나 노출량 하나에만 귀속하지 않는다.\n보완 근거: https://www.cdc.gov/legionella/hcp/clinical-guidance/index.html",
+    "source": "[251106_05] 레지오넬라, 리스테리아, 바실루스(석승혁)_정동민v1.pdf / PDF p.20, 25, 28–29, 65–68; 강의 핵심 보완",
+    "difficulty": "중상",
+    "tags": [
+      "Pontiac fever",
+      "폐렴",
+      "발병률",
+      "숙주 위험"
+    ],
+    "origin": "강의·기출 기반 심화 새 문제",
+    "id": "chat-generated-f66c562dfd158a60"
+  },
+  {
+    "category": "resistant-organisms",
+    "bank": "generated",
+    "title": "같은 폐렴 소견에 더해 볼 정보",
+    "stem": "두 성인 모두 발열·화농성 객담·새 폐침윤을 보인다. A는 최근 의료기관 방문이나 항균제 사용이 없었다. B는 최근 3개월간 반복 입원·광범위 항균제 투여를 받았고, 이전 호흡기 검체에서 다제내성 그람음성균이 분리된 적이 있다. 두 사람의 원인균·내성 가능성을 평가하는 원칙으로 가장 적절한 것은?",
+    "options": [
+      "발열과 침윤이 비슷하므로 두 환자의 내성 가능성도 같게 두고, 같은 경험적 약제로 시작한다.",
+      "B의 과거 내성균 분리만으로 현재 원인균을 동일 균으로 확정하고, 새 미생물 검사는 생략한다.",
+      "해부학적 진단을 공통 출발점으로 삼되, B의 과거 분리균과 의료·항균제 노출을 경험적 약제 선택에 추가한다.",
+      "기저질환·입원 이력보다 이번 발열의 높이가 내성 정도를 더 직접 반영하므로, 체온으로 약제 범위를 정한다.",
+      "B는 내성균 위험이 높으므로 원인균이 확인된 뒤에도 초기 광범위 요법을 같은 범위로 끝까지 유지한다."
+    ],
+    "answer": 3,
+    "explanation": "정답 ③. 같은 감염증후군이라도 숙주·노출 이력과 이전 미생물 자료가 내성균의 사전 가능성을 바꾼다. 증상만으로 감수성과 내성을 동정하는 대신 위험도를 이용해 초기 치료를 설계하고 새 검체로 확인한다.\n① 비슷한 임상상은 내성 상태가 같다는 증거가 아니다. B의 반복 노출·과거 분리 정보를 버렸다.\n② 과거 자료는 위험 예측에 유용하지만 현재 감염의 원인·감수성을 대체하지 않는다.\n③ 같은 증후군 안에서 숙주·노출 정보를 더해 초기 선택을 조정한 것이다.\n④ 발열 강도는 약제내성의 직접 측정값이 아니다. 내성과 독성·숙주 반응을 동일시하지 않는다.\n⑤ 초기 위험도 반영과 이후 확정 치료 조정은 양립한다. 새 검사·임상 반응에 따라 범위를 재평가한다.",
+    "source": "[261109_05]항생제 내성균의 진단과 치료(송경호)_송민서v1.pdf / PDF p.43–46, 66–67, 93–96; 강의 핵심 보완",
+    "difficulty": "중상",
+    "tags": [
+      "위험요인",
+      "경험적 치료",
+      "숙주 인자",
+      "진단의 세 요소"
+    ],
+    "origin": "강의·기출 기반 심화 새 문제",
+    "id": "chat-generated-56f8e24923408d13"
+  },
+  {
+    "category": "resistant-organisms",
+    "bank": "generated",
+    "title": "효소 범위가 다른 약제의 조합",
+    "stem": "NDM과 ESBL을 함께 만드는 K. pneumoniae의 침습성 감염에서 aztreonam 단독과 ceftazidime-avibactam 단독은 효과가 충분하지 않았다. 검증된 병합 감수성 평가에서는 ceftazidime-avibactam과 aztreonam 병합 활성이 확인되었다. 이 병원에는 aztreonam-avibactam 제제가 없다. 이 조합을 검토하는 기전적 이유로 가장 적절한 것은?",
+    "options": [
+      "Avibactam이 NDM 자체의 금속 의존 활성을 차단하므로, aztreonam은 ceftazidime의 농도를 높이는 보조제로 작용한다.",
+      "NDM과 함께 생성된 serine β-lactamase로부터 aztreonam을 avibactam이 보호한다.",
+      "두 β-lactam을 더하면 NDM의 기질 농도가 늘어 효소가 포화되므로, 동반 ESBL 억제 여부는 중요하지 않다.",
+      "MRSA에서 낮은 β-lactam 친화도의 PBP가 문제인 것처럼, 이 병합도 효소 보호보다 PBP 친화도 변경을 주목적으로 한다.",
+      "NDM은 cephalosporin만 분해하므로 carbapenem을 그대로 유지하고, 병합 감수성 결과는 약제 선택에 반영하지 않는다."
+    ],
+    "answer": 2,
+    "explanation": "정답 ②. NDM은 metallo-β-lactamase이며 aztreonam은 그 직접 가수분해를 피할 수 있다. 그러나 동반 ESBL 등이 aztreonam을 분해하므로, 해당 효소를 억제하는 avibactam의 보호 효과를 이용한다.\n① Avibactam은 NDM을 억제하지 않는다. 병합의 핵심은 aztreonam과 동반 serine 효소의 관계다.\n② 서로 다른 효소에 대한 안정성과 억제 작용을 조합한 전략이다.\n③ 단순한 기질 과량 효과가 아니라 서로 다른 효소 안정성·억제 성질을 이용한다. 동반 ESBL 억제가 중요하다.\n④ MRSA의 PBP2a 표적 변화와 현재 NDM·ESBL의 효소 분해는 다른 기전이다. 제시된 병합을 선택하는 논리는 aztreonam 보호에 있다.\n⑤ NDM의 범위를 잘못 제한했다. 현재 균과 병합의 검증 결과를 구체적으로 해석해야 한다.\n보완 근거: https://www.idsociety.org/practice-guideline/amr-guidance/",
+    "source": "[261109_05]항생제 내성균의 진단과 치료(송경호)_송민서v1.pdf / PDF p.54, 58–62; 강의의 class B 예외를 병합 원리로 보완; 현행 제제·대안은 IDSA 2026 확인",
+    "difficulty": "상",
+    "tags": [
+      "NDM",
+      "MBL",
+      "Aztreonam",
+      "Avibactam"
+    ],
+    "origin": "강의·기출 기반 심화 새 문제",
+    "id": "chat-generated-7df83f336685e437"
+  },
+  {
+    "category": "haemophilus-bordetella-neisseria",
+    "bank": "generated",
+    "title": "성장인자 조합으로 좁히는 동정",
+    "stem": "심내막염 검체에서 얻은 작은 그람음성 막대균을 성장인자가 섞이지 않도록 세척해 검증된 기초배지에 접종했다. V인자만 넣으면 자랐고 X인자만 넣거나 둘 다 빼면 자라지 않았다. 혈액한천에서는 용혈이 없었다. 아래 후보 중 이 결과와 가장 잘 맞는 균은?",
+    "options": [
+      "H. influenzae — X·V 모두 요구하며 대개 비용혈이다.",
+      "H. ducreyi — X인자가 필요하고 V인자는 불필요하다.",
+      "H. parainfluenzae — V인자가 필요하고 X인자는 불필요하며 비용혈이다.",
+      "L. pneumophila — L-cysteine·철을 보충한 BCYE 배양이 특징이다.",
+      "S. pneumoniae — α-용혈·bile solubility·optochin 결과를 함께 보는 그람양성균이다."
+    ],
+    "answer": 3,
+    "explanation": "정답 ③. V만으로 성장하지만 X만으로 자라지 않는다는 것은 V 의존·X 비의존 양상이다. 제시한 후보와 용혈 결과를 함께 비교한다.\n① H. influenzae는 X와 V가 모두 필요한데 이 분리주는 V만으로 자랐다.\n② H. ducreyi의 X 의존·V 비의존과 반대이다.\n③ 강의 p.8 표의 H. parainfluenzae 성상과 맞는다.\n④ BCYE의 cysteine·철 요구성을 단순한 X/V 디스크 결과와 같은 것으로 취급하지 않는다.\n⑤ 폐렴알균은 그람양성 쌍알균이며 제시된 그람음성 분리주·V 요구성과 맞지 않는다.\n이는 후보를 좁히는 표현형 비교이며, 성장인자 시험 하나로 모든 유사 균종을 최종 확정한다는 뜻은 아니다.",
+    "source": "[261109_01]헤모필루스, 보르데텔라, 나이세리아(방예지)_손세영v1.pdf / PDF p.4, 8; 종별 성장인자 표를 검체 동정에 적용한 강의 핵심 보완; 비교 근거: [251106_05] 레지오넬라, 리스테리아, 바실루스(석승혁)_정동민v1.pdf / PDF p.15; 사슬알균 동정 개념",
+    "difficulty": "중상",
+    "tags": [
+      "성장인자",
+      "종 감별",
+      "H. parainfluenzae",
+      "배양"
+    ],
+    "origin": "강의·기출 기반 심화 새 문제",
+    "id": "chat-generated-00569e76fd20039f"
+  },
+  {
+    "category": "haemophilus-bordetella-neisseria",
+    "bank": "generated",
+    "title": "하부 감염과 난관의 장기 손상",
+    "stem": "한 여성이 과거 임균성 자궁경부염을 앓은 뒤 골반염을 겪었다. 현재 불임 평가에서 난관의 유착·반흔이 확인되었다. 난관 반흔이 형성되는 해부학적 과정을 가장 직접적으로 설명한 것은?",
+    "options": [
+      "자궁경부 감염이 상부 생식기로 확산하여 난관염·반흔을 남기고 난관 기능을 손상시키는 경로이다.",
+      "점막 감염의 균이 혈류로 퍼져 건초·관절에 도달하며 염증 병변을 만드는 경로이다.",
+      "Pili·Opa의 항원·상변이로 기존 항체의 인식을 피하면서 점막 감염이 반복될 수 있는 경로이다.",
+      "LOS sialylation이 활성 보체에 의한 제거를 줄여 숙주 안의 균 생존을 돕는 경로이다.",
+      "IgA1 protease가 점막 항체를 절단하여 국소 방어를 피하고 집락을 유지하는 경로이다."
+    ],
+    "answer": 1,
+    "explanation": "정답 ①. 난관의 물리적 손상과 반흔을 가장 직접적으로 연결하는 것은 하부 생식기에서 자궁·난관으로의 상행 감염과 난관염이다.\n① 염증 후 난관의 반흔·유착은 불임과 자궁외임신 위험에 연결된다.\n② 혈행성 파종은 임균의 실제 확산 방식이며 건초염·관절염을 일으킬 수 있다. 이 문제의 난관 반흔 형성과는 해부학적 경로가 다르다.\n③ 표면 항원·발현 변화는 재감염에 기여할 수 있지만 난관 반흔이라는 조직 손상의 직접 과정은 아니다.\n④ 보체 회피도 실제 생존 기전이지만 그것만으로 자궁경부에서 난관으로 이어지는 국소 손상 경로를 설명하지는 않는다.\n⑤ 점막 IgA1 절단은 방어 회피에 기여한다. 그러나 난관염·섬유화라는 후유증의 해부학적 과정을 대신하는 설명은 아니다.\nPID는 임균만으로 생기지는 않는다. 이 문제는 과거 한 번의 검사로 개인의 모든 반흔 원인을 확정하는 것이 아니라 감염과 대표 후유증을 연결한다.\n근거: CDC PID — https://www.cdc.gov/std/treatment-guidelines/pid.htm",
+    "source": "[261109_01]헤모필루스, 보르데텔라, 나이세리아(방예지)_손세영v1.pdf / PDF p.25, 28; 강의 핵심 보완",
+    "difficulty": "중상",
+    "tags": [
+      "PID",
+      "상행 감염",
+      "난관 손상",
+      "불임"
+    ],
+    "origin": "강의·기출 기반 심화 새 문제",
+    "id": "chat-generated-b6b8e7d5ade703f3"
+  },
+  {
+    "category": "legionella-listeria-bacillus",
+    "bank": "generated",
+    "title": "배양 음성과 세포 의존성의 구별",
+    "stem": "환자 검체에서 분리한 가느다란 그람음성 막대균은 일반 혈액한천에서 자라지 않았다. 그러나 숙주세포가 전혀 없는 BCYE 계열 배지에 적절한 영양 성분을 공급하자 집락이 형성되었다. 배양 조건을 통제한 추가 비교에서 L-cysteine을 빼면 회수가 크게 줄었다. 가장 타당한 결론은?",
+    "options": [
+      "숙주세포 없이 자랐으므로 환자에서 대식세포 안에 존재한다는 관찰은 부정된다.",
+      "L-cysteine 요구는 H. influenzae의 X·V 인자 요구와 동일하므로 chocolate agar를 그대로 대체할 수 있다.",
+      "통상 배지의 음성은 영양 요구 때문일 수 있으며, 세포 내 증식능과 절대적인 숙주세포 의존성은 다른 성질이다.",
+      "일반 혈액한천 음성은 생균 부재의 증거이므로 BCYE 집락은 검체와 무관한 오염으로 분류한다.",
+      "증식에 특수 성분이 필요하면 세포벽이 없는 Mycoplasma와 같으므로 그람음성 구조는 재해석해야 한다."
+    ],
+    "answer": 3,
+    "explanation": "정답 ③. Legionella는 까다로운 영양 요구가 있으나 적절한 무세포 배지에서 배양 가능하다. '세포 안에서 증식한다'와 '살아 있는 숙주세포 없이는 배양할 수 없다'를 구별한다.\n① 체외 배양 가능성과 숙주 내 세포 내 기생은 양립한다.\n② Haemophilus의 hemin·NAD 요구와 Legionella의 L-cysteine·철 요구는 같은 조합이 아니다.\n③ 일반 배양의 음성이 검체 내 생균 부재를 뜻하지 않는 이유이다.\n④ 적합한 배지에서 확인한 집락을 일반 배지 음성 하나로 무시할 수 없다.\n⑤ Mycoplasma의 세포벽 결여와 영양 요구는 다른 분류 기준이다. 특수 배지 필요만으로 세포벽 유무를 결정하지 않는다.",
+    "source": "[251106_05] 레지오넬라, 리스테리아, 바실루스(석승혁)_정동민v1.pdf / PDF p.11, 15–16; 관련 기출 2025년 57번·2022년 39번의 특수배양 개념을 대조 실험으로 확장; 통합 선지 보완: Haemophilus X/V 인자, Mycoplasma 세포벽 결여",
+    "difficulty": "중상",
+    "tags": [
+      "BCYE",
+      "영양 요구",
+      "배양 해석",
+      "전범위 통합"
+    ],
+    "origin": "강의·기출 기반 심화 새 문제",
+    "id": "chat-generated-da108275006a747a"
+  },
+  {
+    "category": "legionella-listeria-bacillus",
+    "bank": "generated",
+    "title": "구토형과 다른 장독소 반응",
+    "stem": "육류·채소 음식 섭취 10시간 뒤 수양성 설사와 복통이 집단 발생했다. 원인으로 확인된 B. cereus의 상청에서는 열에 민감한 단백질성 독소에 의한 상피막 투과성 증가가 나타났고 cereulide는 검출되지 않았다. 이 결과에 가장 맞는 설명은?",
+    "options": [
+      "구토형과 같은 cereulide가 장내에서 새로 만들어져야만 설사를 설명할 수 있다.",
+      "단백질 독소이므로 ETEC LT처럼 Gsα의 ADP-ribosylation이 확인되었다고 해석한다.",
+      "포도알균의 미리 생성된 장독소와 같으므로 음식 섭취 직후 짧은 잠복기가 반드시 필요하다.",
+      "ETEC STa처럼 guanylate cyclase-C 자극이 입증되었으므로 막 투과성 관찰은 부차적이다.",
+      "구토형의 내열성 cereulide와 구별되는 설사형 단백질성 enterotoxin의 작용에 부합한다."
+    ],
+    "answer": 5,
+    "explanation": "정답 ⑤. B. cereus 설사형은 Hbl·Nhe·CytK 같은 단백질성 장독소와 연결되고, 구토형 cereulide와 구별된다. Nhe와 Hbl의 공 형성은 원저로 보완되는 기전이다.\n① cereulide 부재와 열에 민감한 단백질 독소라는 결과가 구토형과 다르다.\n② ETEC LT의 Gsα 조절은 실제 기전이나, 단백독소라는 공통점만으로 같은 기질·신호를 확정할 수 없다.\n③ 포도알균의 미리 생성된 독소형 식중독과 상대적으로 긴 잠복기의 B. cereus 설사형을 같게 하지 않는다.\n④ STa는 cGMP 경로에 작용한다. 막 투과성 증가만으로 GCC 자극이 증명되지는 않는다.\n⑤ 강의의 열민감성 설사형과 합치한다. 이 자료만으로 Hbl·Nhe·CytK 중 단일 독소 하나까지 정하지 않는다.\n보완 근거: https://pubmed.ncbi.nlm.nih.gov/18310016/ ; https://pubmed.ncbi.nlm.nih.gov/24204713/",
+    "source": "[251106_05] 레지오넬라, 리스테리아, 바실루스(석승혁)_정동민v1.pdf / PDF p.50–52; 강의 핵심 보완; 통합 선지 보완: ETEC LT/Gsα, 포도알균 식중독, ETEC STa/GCC",
+    "difficulty": "중상",
+    "tags": [
+      "B. cereus",
+      "설사형",
+      "Enterotoxin",
+      "막 투과성",
+      "전범위 통합"
+    ],
+    "origin": "강의·기출 기반 심화 새 문제",
+    "id": "chat-generated-617563033be342cb"
   }
 ];

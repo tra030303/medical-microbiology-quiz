@@ -483,5 +483,121 @@ export const ASSISTANT_REVIEWS = {
         "url": "https://www.cdc.gov/pinkbook/hcp/table-of-contents/chapter-8-haemophilus-influenzae.html"
       }
     ]
+  },
+  "past-1-19-2025-77": {
+    "status": "historical",
+    "originalAnswers": [
+      1,
+      3
+    ],
+    "summary": "원문에서 ①·③을 인정한 답안은 유지합니다. ④의 ‘흔하게 gas-liquid chromatography를 사용’한다는 표현은 과거 동정법 설명과 현대 임상진단을 구분해 읽어야 합니다.",
+    "rationale": "강의 PDF p12는 지방산 조성을 이용한 동정 특성을 소개합니다. 이를 현재 임상에서 흔히 시행하는 표준 진단이라는 뜻으로 일반화하면 부정확합니다. CDC의 현재 안내는 L. pneumophila serogroup 1 요항원검사와 하부 호흡기 검체의 배양 또는 분자검사를 함께 활용하도록 권고합니다. 균의 성상·동정법과 환자의 진단 전략은 구분해서 학습하세요. 이 의견은 원문 인정답 ①·③을 변경하거나 새 정답을 추가하지 않습니다.",
+    "confidence": "높음",
+    "reviewedAt": "2026-11-09",
+    "references": [
+      {
+        "label": "감염과 면역 족보_1.pdf · PDF31쪽 · 답안107쪽(①·③ 인정)"
+      },
+      {
+        "label": "[251106_05] 레지오넬라, 리스테리아, 바실루스(석승혁)_정동민v1.pdf · PDF12쪽(지방산 동정 특성)"
+      },
+      {
+        "label": "CDC Laboratory Testing for Legionella (2026-05-13)",
+        "url": "https://www.cdc.gov/legionella/php/laboratories/"
+      }
+    ]
+  },
+  "past-1-19-2022-72": {
+    "status": "ambiguous",
+    "originalAnswers": [
+      1
+    ],
+    "summary": "탄저균이라는 원답은 유지하되, 생검에서 ‘포자를 포함’한다는 문구를 전형적인 생체 조직 소견으로 암기하지 않도록 주의가 필요합니다.",
+    "rationale": "B. anthracis는 살아 있는 숙주 조직에서 주로 협막성 영양형으로 관찰되며, 아포는 주로 환경·배양 상태와 관련됩니다. 채취 뒤 외부 환경에 노출되는 등 검체 상태에 따라 관찰 양상이 달라질 수 있어, 조직 내 아포를 탄저의 필수 동정 소견으로 일반화하면 부정확합니다. 이 문항에서는 가축 접촉, 검은 가피, 큰 사슬형 막대균이라는 전체 맥락이 탄저균을 지지합니다.",
+    "confidence": "높음",
+    "reviewedAt": "2026-11-09",
+    "references": [
+      {
+        "label": "감염과 면역 족보_1.pdf · PDF32쪽 본문·답안107쪽"
+      },
+      {
+        "label": "[251106_05] 레지오넬라, 리스테리아, 바실루스(석승혁)_정동민v1.pdf · PDF35–36쪽(기본 형태)"
+      },
+      {
+        "label": "Hawaii Department of Health, B. anthracis microscopic characteristics",
+        "url": "https://health.hawaii.gov/statelab/ba/"
+      }
+    ]
+  },
+  "past-1-19-2021-33": {
+    "status": "ambiguous",
+    "originalAnswers": [
+      2
+    ],
+    "summary": "탄저균이라는 원답은 유지하되, 생검에서 ‘포자를 포함’한다는 문구를 전형적인 생체 조직 소견으로 암기하지 않도록 주의가 필요합니다.",
+    "rationale": "B. anthracis는 살아 있는 숙주 조직에서 주로 협막성 영양형으로 관찰되며, 아포는 주로 환경·배양 상태와 관련됩니다. 채취 뒤 외부 환경에 노출되는 등 검체 상태에 따라 관찰 양상이 달라질 수 있어, 조직 내 아포를 탄저의 필수 동정 소견으로 일반화하면 부정확합니다. 이 문항에서는 가축 접촉, 검은 가피, 큰 사슬형 막대균이라는 전체 맥락이 탄저균을 지지합니다.",
+    "confidence": "높음",
+    "reviewedAt": "2026-11-09",
+    "references": [
+      {
+        "label": "감염과 면역 족보_1.pdf · PDF32쪽 본문·답안107쪽"
+      },
+      {
+        "label": "[251106_05] 레지오넬라, 리스테리아, 바실루스(석승혁)_정동민v1.pdf · PDF35–36쪽(기본 형태)"
+      },
+      {
+        "label": "Hawaii Department of Health, B. anthracis microscopic characteristics",
+        "url": "https://health.hawaii.gov/statelab/ba/"
+      }
+    ]
+  },
+  "past-1-20-2022-26": {
+    "status": "correction",
+    "originalAnswers": [
+      4
+    ],
+    "suggestedAnswers": [
+      2
+    ],
+    "summary": "β-lactamase/penicillinase에 의한 내성은 항생제 파괴(②)이며, 원답 ④ 표적 결합 방해와 일치하지 않는다.",
+    "rationale": "원문 이미지에는 β-lactamase 또는 penicillinase 생성과 선택지 ② 항생제 파괴, ④ 항생제의 target 결합 방해가 분명히 보인다. β-lactamase는 β-lactam ring을 가수분해해 약물을 불활성화한다. 현재 강의 PDF 물리 p20–21 및 동일 취지 2021년 46번 원답②와도 일치한다.",
+    "confidence": "높음",
+    "reviewedAt": "2026-11-10",
+    "references": [
+      {
+        "label": "[261109_03]항생제 약리학의 기본 원리_항생제 내성 PDF physical p20–21"
+      },
+      {
+        "label": "CDC About Antimicrobial Resistance: enzyme-mediated drug destruction",
+        "url": "https://www.cdc.gov/antimicrobial-resistance/about/"
+      }
+    ]
+  },
+  "past-1-20-2021-45": {
+    "status": "ambiguous",
+    "originalAnswers": [
+      5
+    ],
+    "suggestedAnswers": [
+      3,
+      5
+    ],
+    "summary": "원답 ⑤ 외 ③도 의학적으로 타당하여 단일 정답 문항의 불완전성 가능성이 있다.",
+    "rationale": "원문 두 이미지에서 ③은 항생제 내성이 입원 기간 연장·의료비·사망률 증가를 초래한다는 일반 설명이며 WHO의 AMR 건강·의료체계 영향과 부합한다. ⑤는 원인균이 불명확할 때 초기 광범위 항균제를 사용할 수 있다는 조건부 가능성으로 타당하다. ⑤만 채점되는 원답은 보존하고, ③까지 타당하다는 학습용 검토 첨언을 권고한다. ①의 항생제 사용만이 발생 원인이라는 단정, ②의 독성 증가 일반화, ④의 가능한 저용량 권장은 타당하지 않다.",
+    "confidence": "높음",
+    "reviewedAt": "2026-11-10",
+    "references": [
+      {
+        "label": "WHO Antimicrobial resistance: mortality, hospital stay and health-care costs",
+        "url": "https://www.who.int/news-room/fact-sheets/detail/antimicrobial-resistance"
+      },
+      {
+        "label": "WHO AMR health topic: prolonged hospital stays and health-care costs",
+        "url": "https://www.who.int/health-topics/antimicrobial-resistance"
+      },
+      {
+        "label": "[261109_03]항생제 약리학의 기본 원리_항생제 내성 PDF physical p11–12; 2021년 45번 원문 두 이미지"
+      }
+    ]
   }
 };
