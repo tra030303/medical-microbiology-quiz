@@ -461,5 +461,27 @@ export const ASSISTANT_REVIEWS = {
         "url": "https://www.ncbi.nlm.nih.gov/books/NBK625333/"
       }
     ]
+  },
+  "past-1-18-2025-24": {
+    "status": "ambiguous",
+    "originalAnswers": [
+      5
+    ],
+    "summary": "원답 ⑤는 타당하지만, 본문의 ‘항식세포 작용을 억제’는 ‘식세포 작용을 억제’로 읽어야 합니다.",
+    "rationale": "실제 원문 스캔에는 ‘항식세포 작용을 억제하며’라고 되어 있습니다. Hib의 PRP 협막은 식세포 작용에 의한 제거를 피하게 하므로 ‘식세포 작용을 억제한다’ 또는 ‘항식세포 작용을 나타낸다’가 맞습니다. ‘항식세포 작용을 억제한다’를 문자 그대로 읽으면 기능이 반대로 전달됩니다. 문항이 의도한 주요 독력인자이자 백신 표적은 ⑤ PRP capsule로 타당하므로 원답·채점키는 유지하고 표현의 오류만 구별해 학습합니다.",
+    "confidence": "높음",
+    "reviewedAt": "2026-11-09",
+    "references": [
+      {
+        "label": "감염과 면역 족보_1.pdf / PDF 29쪽 2025년 24번 원문 이미지·106쪽 답안표"
+      },
+      {
+        "label": "감염과면역18_헤모필루스, 보르데텔라, 나이세리아 2026.pdf / PDF p9–10: PRP 협막의 식균 회피·혈류 생존"
+      },
+      {
+        "label": "CDC Pink Book: Hib PRP 협막과 항협막 항체의 보호",
+        "url": "https://www.cdc.gov/pinkbook/hcp/table-of-contents/chapter-8-haemophilus-influenzae.html"
+      }
+    ]
   }
 };
