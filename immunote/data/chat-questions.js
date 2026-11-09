@@ -5228,24 +5228,25 @@ export const CHAT_QUESTIONS = [
     "category": "streptococci",
     "bank": "generated",
     "title": "같은 병합에도 다른 살균 효과",
-    "stem": "Ampicillin에 감수성인 E. faecalis 분리주 A·B를 시험했다. A는 고도 gentamicin 내성 선별검사 음성이고 ampicillin–gentamicin 병합 시 각 단독보다 생균 수가 크게 줄었다. B는 gentamicin 불활화 효소에 의한 고도 내성 양성이며, 같은 병합으로 추가 살균이 관찰되지 않았다. 이 결과에 가장 잘 맞는 설명은?",
+    "stem": "Ampicillin에 감수성인 E. faecalis 분리주 A·B를 시험했다. A는 고도 gentamicin 내성 선별검사 음성이고 ampicillin–gentamicin 병합 시 각 단독보다 생균 수가 크게 줄었다. B는 고도 내성 양성이고 같은 병합으로 추가 살균이 관찰되지 않았다. 같은 양의 gentamicin을 두 균의 무균 세포추출물과 반응시키자 B에서만 약물의 공유결합성 변형과 활성 저하가 나타났다. 변형된 약물을 분리해 감수성 표준균에 처리해도 항균효과가 낮았다. 가장 잘 맞는 설명은?",
     "options": [
-      "병합 시너지는 세포벽 표적 변화에만 좌우되므로, gentamicin 불활화 효소로 A·B 차이를 설명할 수 없다.",
-      "Gentamicin 고도 내성이 ampicillin의 작용 표적도 바꾸었으므로, B의 결과는 세포벽 작용 약제 내성을 뜻한다.",
-      "고도 내성 선별검사는 단독요법만 예측하므로, 세포벽 작용 약제를 병합하면 내성 여부와 무관하게 같은 시너지를 기대한다.",
-      "세포벽 작용 약제가 약물 유입을 도와도, 고도 gentamicin 내성의 불활화 때문에 해당 병합의 시너지가 소실될 수 있다.",
-      "Gentamicin 병합으로 추가 살균이 없으므로, 다른 약제와 다른 기전의 병합까지 모두 효과가 없다고 판단한다."
+      "β-lactam 고리를 가수분해하는 효소가 세포벽 작용 약제의 유효 농도를 낮춰 병합 효과를 줄인 것이다.",
+      "β-lactam 친화도가 낮은 PBP가 세포벽 합성을 유지하여, 감수성 보고와 다른 병합 효과를 만든 것이다.",
+      "막 투과성 저하와 능동적 유출로 세포 내 약물 농도가 낮아져, gentamicin의 표적 도달이 줄어든 것이다.",
+      "세포벽 작용 약제로 유입이 늘어도, gentamicin의 효소적 불활화가 해당 병합의 시너지를 막을 수 있다.",
+      "16S rRNA의 methylation으로 aminoglycoside 결합이 줄어, 약물 자체의 활성은 남아도 번역 억제가 약해진 것이다."
     ],
     "answer": 4,
-    "explanation": "정답 ④. 장알균은 aminoglycoside 유입이 제한되어 단독 살균이 충분하지 않을 수 있고, 세포벽 작용 약제와의 병합이 유입과 살균을 도울 수 있다. 그러나 제시한 고도 gentamicin 내성처럼 약제 불활화가 있으면 유입 증가만으로는 해당 병합의 효과를 회복하지 못할 수 있다.\n① 세포벽 작용뿐 아니라 유입된 gentamicin이 활성 상태로 표적에 도달하는지도 중요하다. 불활화 효소는 병합 효과를 제한할 수 있다.\n② 두 약제의 표적과 내성 기전은 다르다. B는 ampicillin에 감수성이며, gentamicin 불활화를 ampicillin 표적 변화로 바꿀 수 없다.\n③ 고도 내성은 해당 aminoglycoside와 세포벽 작용 약제의 시너지를 없앨 수 있어 병합 효과 평가에도 중요하다.\n④ 고도 aminoglycoside 내성 여부를 확인해야 하는 이유와 일치한다.\n⑤ 한 조합의 시너지 소실이 모든 다른 약제·조합의 무효를 뜻하지 않는다. 균종·감수성·감염 부위에 따라 따로 평가한다.\n강의 p.27의 병합요법 원리를 실험으로 해석한 문제이며, 모든 장알균 감염에 aminoglycoside 병합이 필수라는 뜻은 아니다. 임상 처방·용량 선택은 별도 판단이 필요하다.\n보완 근거: gentamicin 내성 수준과 aminopenicillin 병합 시너지의 실험 연구 — https://journals.asm.org/doi/10.1128/aac.49.10.4144-4148.2005",
-    "source": "(강의자료)미생물학) 사슬알균_김범준 교수님.pdf / PDF p.25–27; 강의 핵심 보완",
+    "explanation": "정답 ④. 약물을 균체 밖에서 B의 추출물과 반응시킨 뒤 분리했는데도 변형과 활성 저하가 남는다. 따라서 주된 증거는 약물 자체의 불활화이다. 세포벽 작용 약제가 aminoglycoside 유입을 도와도 고도 내성의 약제 변형 때문에 해당 병합의 시너지가 소실될 수 있다.\n① β-lactamase에 의한 약물 가수분해는 장내세균의 AmpC 등에서 중요한 내성 기전이다. 그러나 여기서 변형·불활화가 직접 관찰된 약물은 β-lactam 고리가 없는 gentamicin이며 두 균은 ampicillin 감수성이다.\n② MRSA의 mecA–PBP2a처럼 세포벽 표적의 β-lactam 친화도를 낮추는 방식도 실제 내성 기전이다. 이는 세포벽 약제의 표적 변화이고, 분리한 gentamicin 자체가 변형되어 감수성 표준균에도 작용이 약해지는 결과를 설명하지 못한다.\n③ 수도모나스 등에서는 투과성 변화·약물 유출이 내성에 기여한다. 그러나 이 실험은 세포막을 통과시키지 않고 추출물에서 반응시킨 약물을 새 감수성 균에 전달했으므로, 원래 B의 유입·유출만으로 결과가 설명되지 않는다.\n④ 장알균의 aminoglycoside 변형효소에 의한 고도 내성과 병합 시너지 소실을 연결한 해석이다.\n⑤ 수도모나스·장내세균 등에서는 16S rRNA methylation에 의한 aminoglycoside 표적 보호가 나타날 수 있다. 표적만 변했다면 약물은 감수성 표준균의 정상 리보솜에 작용할 수 있어야 한다. 여기서는 분리한 약물 자체가 공유결합성 변형을 거쳐 활성이 낮아졌다.\n이는 내성 기전과 병합 효과를 구별하는 가상 실험이다. 한 조합의 시너지 소실이 모든 병합요법의 무효를 뜻하지는 않는다.\n근거: 장알균 고도 내성과 병합 — https://pubmed.ncbi.nlm.nih.gov/16189091/ ; MRSA/PBP2a — https://www.cdc.gov/mrsa/php/laboratories/index.html ; AmpC·수도모나스 내성 기전 — https://www.idsociety.org/practice-guideline/amr-guidance/ ; 16S rRNA methylation — https://pubmed.ncbi.nlm.nih.gov/14667745/ ; MexXY와 aminoglycoside 유출 — https://pubmed.ncbi.nlm.nih.gov/14506031/",
+    "source": "(강의자료)미생물학) 사슬알균_김범준 교수님.pdf / PDF p.25–27; 강의 핵심 보완; 통합 선지 보완: 장내세균 AmpC·포도알균 PBP2a·수도모나스의 유입/유출 및 항균제 표적변화를 CDC/IDSA·원저로 비교",
     "difficulty": "상",
     "tags": [
       "E. faecalis",
       "고도 aminoglycoside 내성",
       "시너지",
       "Gentamicin",
-      "세포벽 작용 약제"
+      "세포벽 작용 약제",
+      "전범위 통합"
     ],
     "origin": "강의·기출 기반 심화 새 문제",
     "id": "chat-generated-2cbbb57a07f74b6e"
@@ -5256,22 +5257,25 @@ export const CHAT_QUESTIONS = [
     "title": "같은 수분 분비를 만드는 두 경로",
     "stem": "ETEC 분리주의 상청이 소장 상피모형에서 cAMP와 cGMP를 모두 증가시켰다. 특이적 항-LT 중화항체는 cAMP 증가만 없앴고 항-STa 중화항체는 cGMP 증가만 없앴다. 두 항체를 함께 넣으면 수분 분비가 대조 수준으로 감소했다. 항체는 세균 성장이나 숙주 생존에 영향을 주지 않았다. 독소의 일차 작용과 이 결과를 가장 잘 연결한 것은?",
     "options": [
-      "LT와 STa가 모두 guanylate cyclase를 활성화하므로, cAMP 차이는 두 독소의 열안정성 차이를 반영한다.",
-      "LT는 cGMP를, STa는 cAMP를 올리지만 같은 분비 반응으로 수렴하므로, 항체별 결과가 뒤바뀌어도 해석은 같다.",
-      "두 독소가 같은 일차 표적에 경쟁적으로 결합하므로, 어느 한 항체만으로도 두 cyclic nucleotide가 함께 감소해야 한다.",
+      "cAMP 증가는 Giα의 ADP-ribosylation에 따른 억제성 신호 소실이고, cGMP 증가는 막 guanylate cyclase 활성화로 설명한다.",
+      "cAMP 증가는 세포질로 들어온 calmodulin 의존성 adenylate cyclase의 직접 합성이고, cGMP 증가는 막 guanylate cyclase 활성화로 설명한다.",
+      "LT와 STa가 같은 일차 수용체를 공유하므로, 항체에 따라 선택적으로 줄어든 신호는 독소의 농도 차이를 반영한다고 해석한다.",
       "LT의 Gsα–cAMP 경로와 STa의 guanylate cyclase-C–cGMP 경로가 구별되면서 수분 분비에 함께 기여한다.",
       "각 항체가 한 신호만 없애므로, 두 독소가 만드는 분비 반응의 크기는 서로 독립적인 단순 합으로 예측할 수 있다."
     ],
     "answer": 4,
-    "explanation": "정답 ④. LT는 Gsα의 ADP-ribosylation을 통해 adenylate cyclase 신호와 cAMP를 증가시키고, 사람 ETEC의 STa는 장상피 guanylate cyclase-C를 자극해 cGMP를 증가시킨다. 서로 다른 일차 신호가 수분·전해질 분비에 기여할 수 있다.\n① LT의 주된 cyclic nucleotide 신호를 guanylate cyclase/cGMP로 바꾸었다.\n② LT–cAMP와 STa–cGMP의 대응을 뒤집었다. 공통 최종 반응이 중간 신호의 구별을 없애지 않는다.\n③ 특이 중화 결과가 두 신호를 분리하므로 같은 일차 표적의 단순 경쟁이라는 설명은 맞지 않는다.\n④ 항체별 신호 소실과 두 항체를 함께 썼을 때의 분비 감소를 모두 설명한다.\n⑤ 신호별 중화는 단순 합산이나 상호작용 부재를 증명하지 않는다. 분비 반응의 크기를 예측하려면 용량–반응과 병용 효과를 별도로 비교해야 한다.\n어느 독소가 항상 더 중요하다고 일반화하지 않는다. ST에는 여러 형이 있어 이 문제는 사람 ETEC의 STa를 명시했다.\n기전 보완 원저: Simultaneous Exposure to Escherichia coli Heat-Labile and Heat-Stable Enterotoxins… — https://doi.org/10.1128/IAI.02496-14",
-    "source": "11_장내세균각론_강의자료.pdf / PDF p4–7; 관련 기출 2023년 64번의 분비성 장독소를 LT/STa의 cyclic nucleotide 신호로 심화(세부 신호는 원저 보완)",
+    "explanation": "정답 ④. 같은 cAMP 증가라도 표적은 다를 수 있다. ETEC의 LT는 Gsα를 ADP-ribosylation하여 adenylate cyclase 신호를 높이고, STa는 막의 guanylate cyclase-C를 자극해 cGMP를 증가시킨다. 제시된 균·특이 중화 결과와 두 신호를 함께 설명하는 연결은 ④이다.\n① Giα를 ADP-ribosylation하여 억제성 신호를 막는 것은 백일해 독소(pertussis toxin)의 기전이다. cAMP가 올라갈 수 있다는 공통점만으로 LT의 Gsα 표적과 같게 취급하지 않는다. STa 부분은 맞지만 LT 부분이 다르다.\n② Calmodulin에 의해 활성화되는 외인성 adenylate cyclase는 탄저균 edema factor(EF)의 실제 기전이며, 백일해균 ACT도 직접 cAMP를 생성한다. LT가 숙주 Gsα 신호를 바꾸는 방식과 구별한다. 탄저 EF는 첨부된 장내세균 강의 밖의 일반 기전을 원저로 보완한 비교이다.\n③ LT의 대표 수용체 GM1과 STa의 guanylate cyclase-C는 다르다. 항체별 선택적 신호 소실을 농도 차이만으로 바꾸면 일차 표적의 차이를 놓친다.\n④ LT–Gsα–cAMP와 STa–guanylate cyclase-C–cGMP를 구별하면서 공통 분비 반응에 기여할 수 있음을 설명한다.\n⑤ 신호별 중화가 분비량의 단순 합산이나 상호작용 부재까지 증명하지는 않는다. 용량–반응과 병용 효과를 따로 비교해야 한다.\n통합 비교: LT는 Gsα, 백일해 독소는 Giα, 탄저 EF는 그 자체의 효소 활성이라는 차이를 정리한다. 이 문제의 ST는 사람 ETEC의 STa이다.\n참고: LT/STa 기전 — https://doi.org/10.1128/IAI.02496-14 ; 탄저 EF–calmodulin 원저 및 구조 — https://www.rcsb.org/structure/1K93",
+    "source": "11_장내세균각론_강의자료.pdf / PDF p4–7; 관련 기출 2023년 64번의 분비성 장독소를 LT/STa의 cyclic nucleotide 신호로 심화(세부 신호는 원저 보완); 통합 선지 보완: 감염과면역18_헤모필루스, 보르데텔라, 나이세리아 2026.pdf / PDF p16; 탄저 EF의 일반 기전은 원저로 보완 — https://www.rcsb.org/structure/1K93",
     "difficulty": "상",
     "tags": [
       "ETEC",
       "LT",
       "STa",
       "cAMP",
-      "cGMP"
+      "cGMP",
+      "백일해 독소",
+      "탄저 EF",
+      "전범위 통합"
     ],
     "origin": "강의·기출 기반 심화 새 문제",
     "id": "chat-generated-693c695158b5d265"
@@ -5508,23 +5512,28 @@ export const CHAT_QUESTIONS = [
     "category": "staphylococci",
     "bank": "generated",
     "title": "부착이 줄었을 때 먼저 확인할 것",
-    "stem": "숙주 단백질이 기기 표면을 덮는 초기 단계를 모사했다. 두 S. aureus 균주의 성장률·생존율·slime 생성량은 같았다. 한 균주의 fibronectin 결합 기능만 차단하자 fibronectin 코팅 표면의 부착 균 수가 감소했지만 albumin 코팅 표면에서는 차이가 없었다. 세포외 다층 집단은 아직 형성되지 않았다. 가장 직접적으로 지지되는 결론은?",
+    "stem": "기기감염 분리주의 원형주와 변이주에서 초기 부착을 비교했다. 성장률·생존율·slime 생성량은 같았다. 무세포·무항체 조건에서 비당화 재조합 fibronectin 절편을 코팅한 표면을 사용했고, 변이주는 그 절편에 대한 결합 기능만 낮았다. 이 표면의 부착 균 수는 감소했지만 albumin 코팅 표면에서는 차이가 없었다. 성숙한 다층 생물막은 아직 형성되지 않았다. 가장 직접적으로 지지되는 결론은?",
     "options": [
-      "두 균주의 slime 양이 같으므로 초기 부착 차이는 부착인자가 아닌 다른 실험변수에서 찾아야 한다.",
+      "Mannose를 인식하는 fimbrial adhesin의 당수용체 결합 소실이 이 표면의 부착 감소를 설명한다.",
       "숙주 단백질에 대한 결합은 증식·성숙 biofilm과 구분되는 초기 부착 단계에 기여한다.",
-      "Fibronectin 표면의 낮은 균 수는 숙주 단백질을 이용한 증식 저하를 직접 반영한다.",
-      "Albumin 표면에서 차이가 없으므로 fibronectin 표면의 감소도 선택적 결합의 근거로 삼기 어렵다.",
-      "초기 부착을 낮춘 차단제는 성숙 biofilm에도 같은 정도의 제거 효과를 보일 것으로 예상한다."
+      "숙주 세포질 actin의 중합을 이용한 세포 내 이동 감소가 이 표면에 남은 균 수의 차이를 설명한다.",
+      "Sucrose에서 만든 세포외 glucan 기질의 감소가 fibronectin 선택적 부착 저하의 직접 근거이다.",
+      "Pili 항원변이에 따른 항체 회피의 저하가 이 실험에서 관찰한 선택적 부착 감소의 직접 원인이다."
     ],
     "answer": 2,
-    "explanation": "정답 ②. 강의는 laminin·fibronectin에 대한 부착과 기기 감염의 시작을 연결한다. 성장·생존·slime을 통제하고 표면 단백질별 차이를 확인했으므로 특정 결합 기능의 초기 부착 기여를 해석할 수 있다.\n① Slime 양이 같아도 숙주 단백질과 결합하는 다른 표면 기능은 다를 수 있다.\n② 성장·생존·slime을 통제하고 표면 단백질별 차이를 확인해 초기 선택적 부착을 지지한다.\n③ 성장률과 생존율은 같았고 아직 다층 집단 형성 전이다. 표면 잔류 균 수를 증식률로 바꿔 해석하면 안 된다.\n④ Albumin 대조에서 차이가 없는 것은 모든 표면의 비특이적 부착 저하보다는 fibronectin 관련 효과를 지지한다.\n⑤ 초기 부착과 성숙 biofilm의 유지·제거는 다른 단계이므로 후자는 직접 시험해야 한다.",
-    "source": "6.(강의자료)미생물학) 포도알균_김범준 교수님.pdf / PDF p.6–8, 12, 22; 강의 핵심 보완",
+    "explanation": "정답 ②. 비당화 숙주 단백질 절편을 코팅한 무세포·무항체 표면에서 성장·생존·slime을 통제했다. 따라서 특정 숙주 단백질과의 결합이 초기 부착에 기여한다는 해석이 가장 직접적이다.\n① 요로감염 대장균의 FimH가 mannose를 인식하는 것은 실제 부착 기전이다. 이 실험은 당수용체를 제공하지 않는 비당화 fibronectin 절편에 대한 결합을 분리해 평가했다.\n② 포도알균의 fibronectin 결합 같은 숙주 단백질 인식은 단순 증식이나 성숙 생물막의 유지와 다른 단계이다. Albumin 대조는 모든 표면의 비특이적 부착 감소와도 구별하게 한다.\n③ Listeria의 ActA와 Shigella의 IcsA는 숙주 actin을 이용하는 세포 내 운동·확산과 연결된다. 현재 실험에는 숙주 세포질이 없어 이 기전을 측정한 것이 아니다.\n④ S. mutans의 sucrose 유래 glucan은 치아 생물막의 정착·기질 형성에 기여한다. 여기서는 성숙 다층 생물막이 생기기 전 단백질별 결합 차이를 관찰했고 slime 생성량도 같았다.\n⑤ 임균 pili 항원변이는 실제 면역회피 기전이다. 그러나 이 실험에는 항체 선택압이 없고 pili 항원서열 변화도 측정하지 않았다. 이 결과만으로 항원변이를 부착 감소의 직접 원인으로 정할 수 없다.\n이 실험으로 균종 자체를 확정하거나, 초기 부착 차단이 이미 형성된 생물막을 같은 정도로 제거한다고 판단하지 않는다.",
+    "source": "6.(강의자료)미생물학) 포도알균_김범준 교수님.pdf / PDF p.6–8, 12, 22; 통합 선지 보완: 장내세균·사슬알균·나이세리아 및 미첨부 리스테리아의 숙주 상호작용 비교 원저 — https://pubmed.ncbi.nlm.nih.gov/18952882/ ; https://pubmed.ncbi.nlm.nih.gov/12010488/ ; https://pubmed.ncbi.nlm.nih.gov/1739966/ ; https://pubmed.ncbi.nlm.nih.gov/8748026/ ; https://pubmed.ncbi.nlm.nih.gov/6217405/ ; https://pubmed.ncbi.nlm.nih.gov/10094619/",
     "difficulty": "상",
     "tags": [
       "부착",
       "Fibronectin",
       "숙주단백질",
-      "실험대조"
+      "실험대조",
+      "전범위 통합",
+      "FimH",
+      "ActA",
+      "Glucan",
+      "Pili 항원변이"
     ],
     "origin": "강의·기출 기반 심화 새 문제",
     "id": "chat-generated-ea47eaa5e67062e1"
@@ -5559,24 +5568,28 @@ export const CHAT_QUESTIONS = [
     "category": "staphylococci",
     "bank": "generated",
     "title": "막 손상을 만드는 서로 다른 방식",
-    "stem": "S. aureus에서 정제한 두 막독소 P와 Q를 분석했다. P는 sphingomyelin을 분해해 ceramide 생성을 증가시켰다. Q는 적절한 막 조건에서 여러 분자가 모여 막을 관통하는 통로를 만들었지만 sphingomyelin 가수분해 산물은 증가시키지 않았다. 강의의 α-toxin과 β-toxin을 연결한 설명으로 가장 적절한 것은?",
+    "stem": "균종 표시를 가린 정제 막독소 P와 Q를 비교했다. P는 sphingomyelin을 절단해 ceramide를 만들지만, phosphatidylcholine(PC)은 분해하지 않았다. 같은 PC 검사에서 대조 PLC의 활성은 정상이었다. Q는 지질 가수분해 없이 균일한 7량체의 닫힌 고리형 막관통 공을 만들었다. 제시된 후보 중 P와 Q의 기전을 모두 가장 잘 연결한 것은?",
     "options": [
-      "P는 β-toxin의 sphingomyelinase 작용, Q는 α-toxin의 공 형성과 부합한다.",
-      "P는 α-toxin의 sphingomyelinase 작용, Q는 β-toxin의 공 형성과 부합한다.",
-      "P와 Q는 모두 공 형성 독소이며 P의 지질 가수분해는 세포 사멸의 이차 현상이다.",
-      "P와 Q는 모두 지질분해효소이며 Q의 단백질 통로도 지질 가수분해 산물로 이루어진다.",
-      "P와 Q의 차이는 독소의 양으로 설명되므로 기질 반응을 비교할 필요는 없다."
+      "P는 S. aureus β-toxin의 sphingomyelinase 작용, Q는 S. aureus α-toxin의 공 형성과 부합한다.",
+      "P는 C. perfringens α-toxin의 PLC 작용, Q는 S. aureus α-toxin의 공 형성과 부합한다.",
+      "P는 S. aureus β-toxin의 지질 분해, Q는 pneumolysin의 수십 단량체 공 형성과 부합한다.",
+      "P는 B. cereus의 PC-specific PLC 작용, Q는 S. aureus α-toxin의 공 형성과 부합한다.",
+      "P는 S. aureus α-toxin의 공 형성, Q는 β-toxin의 sphingomyelinase 작용과 부합한다."
     ],
     "answer": 1,
-    "explanation": "정답 ①. 막 손상이라는 공통 결과가 분자기전의 동일함을 뜻하지는 않는다. β-toxin은 sphingomyelinase이고 α-toxin은 막에서 올리고머를 이루어 공을 형성한다.\n① P의 기질 분해와 Q의 통로 형성을 각각 설명한다.\n② 두 독소의 대표 기전을 뒤바꾸었다.\n③ 정제 독소를 이용한 기질 가수분해는 세포 사멸 후 방출된 효소만으로 설명할 수 없다.\n④ 막을 관통하는 단백질 복합체와 지질의 화학적 절단은 다른 방식이다.\n⑤ 양의 차이로 반응의 크기는 달라질 수 있어도 기질 절단과 단백질 통로 형성의 질적 차이가 없어지지는 않는다.\n참고: α-toxin 공 형성 기전 보완 — https://pubmed.ncbi.nlm.nih.gov/23888516/",
-    "source": "6.(강의자료)미생물학) 포도알균_김범준 교수님.pdf / PDF p.9, 12; 강의 핵심 보완",
+    "explanation": "정답 ①. P는 sphingomyelin을 분해하면서 PC를 분해하지 않는 기질 특이성, Q는 지질을 절단하지 않는 7량체 공 형성으로 구별한다. 균종 이름만으로 고르지 않고 두 실험 결과를 함께 적용한다.\n① 포도알균 β-toxin은 sphingomyelinase이고 α-toxin은 대표적으로 7량체 막관통 공을 만든다. 주어진 두 결과가 모두 맞는다.\n② C. perfringens α-toxin은 실제 PLC이며 sphingomyelin뿐 아니라 PC도 분해한다. 따라서 P의 PC 음성과 맞지 않는다. Q 부분이 맞아도 이 조합 전체는 틀리다.\n③ 폐렴알균 pneumolysin도 실제 공 형성 독소이지만 대표적인 대형 공에는 수십 개 단량체가 참여한다. 공 형성이라는 결과만 같다고 Q의 7량체 구조까지 같은 것은 아니다.\n④ B. cereus에는 PC-specific PLC와 별도의 sphingomyelinase가 있다. 여기서 제시한 PC-specific PLC는 PC를 분해하므로 P와 맞지 않는다. B. cereus의 모든 막독소를 하나의 효소로 묶지 않는다.\n⑤ 포도알균 α-toxin의 공 형성과 β-toxin의 sphingomyelin 가수분해는 각각 옳은 기능이지만 P·Q에 거꾸로 연결했다.\n이 문항은 제시한 후보 사이의 기전 비교이다. 막 조성과 실험 조건을 달리해도 모든 독소의 활성이 같다는 뜻은 아니며, 7량체 구조와 교차 균종의 세부 기질 특이성은 강의 개념을 원저로 보완한 내용이다.",
+    "source": "6.(강의자료)미생물학) 포도알균_김범준 교수님.pdf / PDF p.9, 12; 통합 선지 보완: 무산소세균·사슬알균·미첨부 바실루스 범위의 막독소 비교 및 구조·기질 원저 — https://pubmed.ncbi.nlm.nih.gov/8914839/ ; https://pubmed.ncbi.nlm.nih.gov/8943190/ ; https://pubmed.ncbi.nlm.nih.gov/2560137/ ; https://pubmed.ncbi.nlm.nih.gov/11076935/ ; https://pubmed.ncbi.nlm.nih.gov/14573681/",
     "difficulty": "중상",
     "tags": [
       "α-toxin",
       "β-toxin",
       "Sphingomyelinase",
       "막손상",
-      "실험해석"
+      "실험해석",
+      "전범위 통합",
+      "C. perfringens",
+      "Pneumolysin",
+      "B. cereus"
     ],
     "origin": "강의·기출 기반 심화 새 문제",
     "id": "chat-generated-e2f69d92988e172f"
@@ -5637,23 +5650,27 @@ export const CHAT_QUESTIONS = [
     "category": "staphylococci",
     "bank": "generated",
     "title": "눈에 띄는 병변과 원인균이 있는 장소",
-    "stem": "신생아에서 결막염 후 광범위한 얕은 수포와 표피 박리가 발생했다. 조직은 표피 상부의 분리에 맞고 점막 침범은 없었다. 항균제 투여 전 채취한 온전한 수포액과 혈액 배양은 음성이었지만 결막 분비물에서 exfoliative toxin 생성 S. aureus가 검출되었다. 가장 적절한 해석은?",
+    "stem": "신생아에서 결막염 후 광범위한 얕은 수포와 표피 박리가 발생했다. 조직은 과립층 부근의 표재성 분리를 보였고 표피 전층 괴사는 없었다. 점막 침범과 최근 새 약제 노출도 없었다. 항균제 투여 전 온전한 수포액과 혈액 배양은 음성이지만 결막 분비물에서 S. aureus가 검출되었다. 임상·조직 소견에 가장 잘 맞는 피부 병변의 발생기전은?",
     "options": [
-      "수포의 음성 배양은 독소 생성 균이 결막에만 보균되어 있고 피부 병변의 원인은 별개임을 지지한다.",
-      "혈액에서 균이 자라지 않았으므로 피부의 광범위한 변화보다 결막의 국소 감염으로 해석한다.",
-      "결막에서 나온 독소 생성 균은 수포에서도 증식했지만 검체 희석 때문에 배양되지 않았다고 해석한다.",
-      "우선 수포 내 생균의 직접 침범으로 설명하고 독소는 국소 손상을 보조하는 인자로 해석한다.",
-      "원발 부위의 균이 만든 독소가 피부에 작용할 수 있어 수포와 원발 병소의 배양 결과가 다를 수 있다."
+      "피부·눈·입의 HSV 감염처럼, 각 피부 병변 안에서의 바이러스 증식과 세포 손상이 주된 기전이다.",
+      "독성표피괴사용해처럼, 세포독성 T세포 반응에 따른 광범위한 각질세포 사멸이 주된 기전이다.",
+      "수포농가진처럼, 수포 부위에서 증식하는 포도알균과 그곳에서 생성된 독소의 국소 작용이 주된 기전이다.",
+      "보통천포창처럼, desmoglein 3 등을 표적으로 하는 IgG가 표피 하부의 세포 접착을 방해한 결과이다.",
+      "원발 부위에서 생성된 독소가 다른 피부에 도달해 desmoglein 1을 절단한 결과이다."
     ],
     "answer": 5,
-    "explanation": "정답 ⑤. 이 임상·병리 맥락은 포도알균성 표피탈락증후군(SSSS)에 부합한다. 원발 병소에서 만든 exfoliative toxin이 다른 부위 피부에 작용하므로 수포 자체에서 균이 배양되지 않아도 성립한다. 강의 p17은 SSSS의 원인균 채취 부위로 비인두와 혈액을 제시하며 증후군에 맞춘 검체 선택을 강조한다. 결막은 이 문항의 원발 병소이다.\n① 이 임상·조직 맥락에서 독소 생성 균은 원발 병소의 원인일 수 있다. 수포 음성만으로 우연한 보균과 별개 피부병으로 분리하지 않는다.\n② 혈액배양 음성은 전신 독소 작용이나 광범위 피부 병변을 배제하지 못한다.\n③ 독소의 도달과 생균의 수포 내 증식을 구별해야 한다. 검사 희석을 원인으로 정할 자료도 없다.\n④ 이 임상·병리 맥락에서 직접 세균 침범보다 exfoliative toxin의 원격 작용이 핵심이다.\n⑤ 병태생리에 맞춘 검체 해석이다. 모든 수포성 피부병의 배양이 음성이라는 뜻은 아니며 bullous impetigo와도 구별한다.\n참고: MSD Manual Professional, Staphylococcal Scalded Skin Syndrome — https://www.msdmanuals.com/professional/infectious-diseases/bacterial-skin-infections/staphylococcal-scalded-skin-syndrome",
-    "source": "6.(강의자료)미생물학) 포도알균_김범준 교수님.pdf / PDF p.10, 14–17; 강의 핵심 보완",
+    "explanation": "정답 ⑤. 표재성 과립층 분리, 점막 보존, 광범위한 박리와 다른 부위의 포도알균 검출을 함께 보면 포도알균성 표피탈락증후군(SSSS)의 원격 독소 작용이 가장 잘 맞는다.\n① 신생아 HSV는 실제 피부·눈·입 감염을 일으키며 병변 내 바이러스 증식에 따른 세포 손상을 보인다. 그러나 이 문항의 광범위한 얕은 박리와 과립층 분리는 SSSS를 더 잘 지지한다. 바이러스성 봉입체가 보이지 않는다는 사실 하나만으로 HSV를 배제하는 문제는 아니다.\n② 독성표피괴사용해(TEN)는 세포독성 면역반응과 광범위한 각질세포 괴사를 동반하는 감별질환이다. 표피 전층 괴사가 없고 점막이 보존된 이 경우와 구별한다.\n③ 수포농가진도 exfoliative toxin과 관련되지만 생균과 독소의 국소 작용이 병변에 있다. 전신 SSSS에서는 원발 병소와 멀리 떨어진 수포가 무균일 수 있다.\n④ 보통천포창의 IgG 표적은 desmoglein 3 및 경우에 따라 1이며, 전형적으로 표피 하부의 극세포해리를 보인다. 이 사례의 과립층 분리와는 층·원인 모두 구별된다. 천포창 비교는 일반 감별 보완이며 특정 미첨부 강의의 수록 내용을 뜻하지 않는다.\n⑤ 결막 등 원발 부위의 균이 만든 exfoliative toxin이 다른 피부에 도달해 desmoglein 1을 절단하는 기전과 맞는다. 수포 배양 음성과 혈액배양 음성이 원격 독소 작용을 배제하지 않는다.\n결막의 균 배양 하나만으로 진단을 확정한 것이 아니라 피부 병변의 분포·분리 층·배양 부위를 함께 해석했다.",
+    "source": "6.(강의자료)미생물학) 포도알균_김범준 교수님.pdf / PDF p.10, 14–17; 통합 선지 보완: 미첨부 헤르페스바이러스·약물알레르기 범위 및 일반 수포질환 감별 — MSD Professional SSSS https://www.msdmanuals.com/professional/infectious-diseases/bacterial-skin-infections/staphylococcal-scalded-skin-syndrome ; Neonatal HSV https://www.msdmanuals.com/professional/pediatrics/infections-in-neonates/neonatal-herpes-simplex-virus-hsv-infection ; Pemphigus vulgaris https://www.msdmanuals.com/professional/dermatologic-disorders/bullous-diseases/pemphigus-vulgaris ; TEN 진료지침 https://onlinelibrary.wiley.com/doi/full/10.1111/1346-8138.70136",
     "difficulty": "중상",
     "tags": [
       "SSSS",
       "검체선택",
       "독소증",
-      "배양해석"
+      "배양해석",
+      "전범위 통합",
+      "HSV",
+      "TEN",
+      "수포질환 감별"
     ],
     "origin": "강의·기출 기반 심화 새 문제",
     "id": "chat-generated-49a10ecb032d0b1a"
@@ -5789,23 +5806,26 @@ export const CHAT_QUESTIONS = [
     "category": "enteric-bacteria",
     "bank": "generated",
     "title": "접촉 없이 전달된 항균 물질 생성능",
-    "stem": "대장균 공여주의 bacteriocin 생성 형질이 수용주로 옮겨져 계대 후에도 유지되었다. 전달은 세균이 전혀 없는 파지 입자 분획으로도 일어났고, 온전한 입자에 DNase를 처리해도 유지되었다. 입자의 단백질 껍질을 먼저 손상시킨 뒤 DNase를 처리하면 전달이 소실되었다. 파지 제거 대조에서는 전달되지 않았으며 직접 접촉에 의한 전달은 배제하였다. 수용주의 새 형질과 전달 기전을 가장 적절하게 설명한 것은?",
+    "stem": "대장균 공여주의 bacteriocin 생성 형질이 수용주로 옮겨져 계대 후에도 유지되었다. 전달은 세균이 전혀 없는 파지 입자 분획으로도 일어났고, 온전한 입자에 DNase를 처리해도 유지되었다. 입자의 단백질 껍질을 먼저 손상시킨 뒤 DNase를 처리하면 전달이 소실되었다. 파지 제거 대조에서는 전달되지 않았으며 직접 접촉에 의한 전달은 배제하였다. 유전자 추적에서 해당 유전자는 공여 세균 DNA에서 유래했고 파지 유전체에는 없었으며, 새 prophage가 남지 않은 수용주에서도 형질이 계대 후 유지되었다. 수용주의 새 형질과 전달 기전을 가장 적절하게 설명한 것은?",
     "options": [
-      "접합으로 새 형질을 얻은 것으로, DNase 내성은 두 세균 사이의 성섬모 연결을 입증한다.",
-      "형질전환으로 새 형질을 얻은 것으로, 파지 입자는 유리 DNA를 보호할 뿐 전달에는 관여하지 않는다.",
-      "공여주 단백질이 일시적으로 섞인 것으로, 수용주의 유전적 형질 획득은 이 결과와 양립하지 않는다.",
-      "형질도입으로 새 형질을 얻은 것으로, bacteriocin 생성은 곧 숙주 장관의 분비성 장독소 생성을 뜻한다.",
-      "파지가 보호한 DNA의 형질도입에 맞으며, bacteriocin 생성만으로 설사 유발 장독소 획득을 확정할 수 없다."
+      "용원성 전환 — 디프테리아 독소의 경우처럼 파지 자체 유전자가 수용주에 새 기능을 제공한 것으로 본다.",
+      "자연형질전환 — 폐렴알균의 협막형 교체 실험처럼 외부 유리 DNA를 직접 받아들여 새 형질을 얻었다고 본다.",
+      "단백질 전달 — 공여주 단백질이 수용주에 일시적으로 남아 항균 활성을 보인 것이며, 유전적 획득은 없었다고 본다.",
+      "접합 — 살아 있는 공여균의 플라스미드가 세포 간 접촉으로 이동하며, 그 과정에서 DNA가 보호된 것으로 본다.",
+      "형질도입 — 파지에 보호된 세균 DNA가 전달되었으며, 얻은 bacteriocin 기능과 숙주 장독소 기능은 구별한다."
     ],
     "answer": 5,
-    "explanation": "정답 ⑤. 세균이 없는 파지 분획의 전달능, 파지 제거 시 소실, 껍질 손상 후 DNase 감수성은 파지 입자에 보호된 DNA에 의한 형질도입을 지지한다. Bacteriocin은 다른 세균에 작용하는 항균 물질로, 숙주 장상피에 작용하는 enterotoxin과 같은 말이 아니다.\n① 접합은 세균 간 접촉을 요한다. DNase 내성 하나가 성섬모를 입증하는 것도 아니다.\n② 유리 DNA의 형질전환만으로 파지 입자의 보호·제거 대조 결과를 설명하기 어렵다.\n③ 새 생성 형질이 계대 후에도 유지되어 단순한 공여 단백질 혼입과 맞지 않는다.\n④ 전달 기전은 맞지만 bacteriocin과 enterotoxin의 표적을 혼동했다.\n⑤ 파지 매개 유전정보 전달과 전달된 유전자의 실제 기능을 구별한다.\n어떤 파지 유형이나 DNA 포장 기전인지까지는 확정하지 않는다. 강의가 함께 나열한 유전 형질과 transduction·conjugation의 구별을 확장한 가상 실험이다.",
-    "source": "10_장내세균일반특징_강의자료.pdf / PDF p9–10, p16; 관련 기출 2022년 4번·2021년 21번·2020년 21번의 접합 문제와 구별하여 파지 매개 전달을 보완",
+    "explanation": "정답 ⑤. 입자에 보호된 DNA의 파지 매개 전달이라는 점과, 새 형질을 암호화하는 DNA가 어디에서 유래했는지를 함께 본다. 유전자는 공여 세균에서 유래했고 파지 유전체에는 없으며, 새 prophage가 없는 수용주에도 유지되므로 제시된 형질 획득은 형질도입에 맞는다.\n① 디프테리아의 β-corynephage가 tox 유전자를 제공하여 독소 생성능을 주는 용원성 전환은 실제 기전이다. 여기서는 새 기능 유전자가 파지 자체 유전자라는 조건이 성립하지 않는다. 파지가 관련되었다는 사실만으로 두 현상을 동일시하지 않는다.\n② 폐렴알균은 외부 DNA를 받아들이는 자연형질전환을 하며, 협막형을 바꾸는 실험도 가능하다. 여기서는 온전한 파지 입자의 보호, 껍질 손상 뒤 DNase 감수성, 파지 제거 대조가 유리 DNA의 직접 흡수와 구별되는 근거다.\n③ 공여주 단백질의 일시적 혼입은 유전자 추적으로 확인한 세균 DNA 획득과 계대 후 형질 유지를 설명하지 못한다.\n④ 접합은 살아 있는 공여균과 수용균의 접촉을 필요로 한다. 세균이 없는 파지 분획에서도 전달되었고 직접 접촉을 배제한 조건과 맞지 않는다.\n⑤ 전달 기전과 전달된 유전자의 기능을 구별한다. Bacteriocin은 다른 세균에 작용하는 항균 물질로, 그 생성능을 얻었다고 숙주 장상피에 작용하는 설사 유발 장독소를 얻은 것은 아니다.\n특정 형질도입 유형이나 DNA 포장 기전까지 확정하지는 않는다. 유전자 출처·prophage 유무 조건은 용원성 전환과의 구별을 위해 추가한 가상 실험 정보이다.\n참고: 디프테리아 tox의 파지 유래 — https://pubmed.ncbi.nlm.nih.gov/820874/ ; 폐렴알균 자연형질전환·협막형 교체 실험 — https://journals.asm.org/doi/10.1128/mbio.01394-25",
+    "source": "10_장내세균일반특징_강의자료.pdf / PDF p9–10, p16; 관련 기출 2022년 4번·2021년 21번·2020년 21번의 접합 문제와 구별하여 파지 매개 전달을 보완; 통합 선지 보완: [261106_05]코리네박테리움, 노카르디아(염진기)_변준서v1.pdf / PDF p19–21; 폐렴알균 자연형질전환 — https://journals.asm.org/doi/10.1128/mbio.01394-25",
     "difficulty": "중상",
     "tags": [
       "형질도입",
       "파지",
       "bacteriocin",
-      "접합 감별"
+      "접합 감별",
+      "용원성 전환",
+      "폐렴알균 형질전환",
+      "전범위 통합"
     ],
     "origin": "강의·기출 기반 심화 새 문제",
     "id": "chat-generated-086acdea2116fdc6"
@@ -5867,23 +5887,27 @@ export const CHAT_QUESTIONS = [
     "category": "enteric-bacteria",
     "bank": "generated",
     "title": "서로 다른 세균 단백질의 공통 반응",
-    "stem": "같은 정도로 priming하여 pro-IL-1β의 양을 맞춘 생쥐 대식세포에, 정제 Salmonella flagellin 또는 Shigella의 type III secretion needle 단백질을 각각 세포질로 전달하였다. 두 단백질 모두 정상 세포에서는 caspase-1 활성화와 성숙 IL-1β 방출을 유도했지만 Nlrc4 결손 세포에서는 반응이 크게 감소했다. 전달량과 세포 수는 같고 단백질 제제의 LPS 오염도 배제하였다. 가장 타당한 해석은?",
+    "stem": "같은 정도로 priming하여 pro-IL-1β의 양을 맞춘 생쥐 대식세포에, 정제 Salmonella flagellin 또는 Shigella의 type III secretion needle 단백질을 각각 세포질로 전달하였다. 두 단백질 모두 정상 세포에서는 caspase-1 활성화와 성숙 IL-1β 방출을 유도했지만 Nlrc4 결손 세포에서는 반응이 크게 감소했다. 별도 Nlrp3 결손 또는 Aim2 결손 세포에서는 반응이 유지되고, Nlrc4를 복원하면 감소한 반응이 회복되었다. 전달량과 세포 수는 같고 단백질 제제의 LPS 오염도 배제하였다. 가장 타당한 해석은?",
     "options": [
-      "이 조건에서는 두 단백질 모두 NLRC4 의존 경로를 자극하며, 무편모라는 사실만으로 그 경로의 활성화를 배제할 수 없다.",
-      "두 단백질의 반응이 같으므로 NLRC4가 각각에 직접 결합하며, 상위 인식 단백질의 관여는 배제된다.",
-      "무편모 Shigella의 needle 단백질 반응은 설명할 수 없으므로, 그 결과는 남아 있는 LPS의 작용으로 분류한다.",
-      "Caspase-1 활성화가 줄어도 성숙 IL-1β 방출은 별개의 과정이므로, 두 감소를 같은 경로와 연결하기 어렵다.",
-      "정제 단백질을 세포질에 전달한 결과이므로, 자연감염의 모든 세포에서도 NLRC4만이 염증반응을 결정한다."
+      "두 단백질의 반응은 NLRC4 의존적이며, 무편모인 균도 분비장치 성분으로 이 경로를 자극할 수 있다.",
+      "포도알균 α-toxin의 K⁺ 유출 반응처럼 NLRP3가 일차 감지 경로이며, NLRC4 결손은 그 하위 신호를 막은 것으로 해석한다.",
+      "세포질 이중가닥 DNA를 감지하는 AIM2–ASC 경로가 두 제제의 공통 경로이며, NLRC4 결손은 DNA 감지 저하를 나타낸다고 본다.",
+      "LPS–TLR4에 의한 전사 priming이 부족해진 결과로 해석하고, 단백질 전달 뒤의 inflammasome 활성화와 구별하지 않는다.",
+      "NLRC4의 필요성이 확인되었으므로 두 단백질 모두 NLRC4에 직접 결합하며, NAIP 같은 상위 인식 인자의 관여는 배제된다."
     ],
     "answer": 1,
-    "explanation": "정답 ①. NLRC4 inflammasome은 편모 단백질뿐 아니라 type III 분비장치 성분에 대한 세포질 감지에도 관여할 수 있다. 편모가 없다는 형태적 성상과 특정 inflammasome 경로의 활성화 가능성을 동일시하면 안 된다.\n① priming·전달량·LPS를 통제한 결손 비교는 제시된 조건의 NLRC4 의존성을 지지한다.\n② 생쥐에서는 NAIP 계열이 리간드 인식에 관여해 NLRC4 복합체 형성을 유도한다. 결손 실험만으로 NLRC4와 리간드의 직접 결합까지 입증하지는 못한다.\n③ 실험은 LPS 오염을 배제했고 needle 단백질도 NLRC4 경로를 활성화할 수 있다.\n④ caspase-1에 의한 pro-IL-1β 처리와 성숙 IL-1β 방출은 inflammasome 반응에서 연결된다.\n⑤ 정제 단백질의 인위적 세포질 전달 결과를 모든 자연감염·숙주 세포에 일반화할 수 없다. 다른 경로와 균의 회피 기전도 고려한다.\n기존 기출의 원문 정답을 바꾸는 것이 아니라, 편모·분비장치와 선천면역의 연결을 조건을 명시한 실험으로 보완했다.\n참고 원저: NAIP proteins are required for cytosolic detection of specific bacterial ligands in vivo — https://pmc.ncbi.nlm.nih.gov/articles/PMC4854734/",
-    "source": "10_장내세균일반특징_강의자료.pdf / PDF p9, p14; 관련 기출 2025년 71번의 무편모·NLRC4 표현을 NAIP/NLRC4 원저로 보완한 심화 문항",
+    "explanation": "정답 ①. 같은 caspase-1·IL-1β 반응을 보더라도 어떤 자극과 감지 경로가 필요한지는 구별해야 한다. 리간드는 flagellin과 type III 분비장치 needle 단백질이며, 결손·복원 비교는 이 실험 조건의 NLRC4 의존성을 지지한다.\n① 생쥐 NAIP/NLRC4 경로는 편모뿐 아니라 type III 분비장치 성분의 감지에도 관여한다. 따라서 무편모 Shigella라는 형태적 성상만으로 NLRC4 활성화 가능성을 배제하지 않는다.\n② 포도알균 α-toxin의 막 손상·K⁺ 유출과 NLRP3 활성화는 실제 비교할 수 있는 기전이다. 그러나 이 실험에서는 Nlrp3 결손에서 반응이 유지되고 Nlrc4 결손·복원에 따라 달라져, 그 기전을 주된 설명으로 바꿀 수 없다.\n③ AIM2는 세포질 이중가닥 DNA를 인식해 ASC와 inflammasome을 형성한다. Vaccinia 같은 DNA 바이러스 감지 실험도 이 경로의 근거가 된다. 여기서는 단백질 리간드와 Aim2 결손 결과가 그 설명을 지지하지 않는다. 이 DNA 감지 비교는 강의 밖 원저로 보완했다.\n④ LPS–TLR4 신호는 pro-IL-1β 등을 마련하는 priming에 기여할 수 있다. 이 실험은 priming을 맞추고 LPS 오염도 배제했으므로, 성숙 IL-1β 반응의 차이를 단순히 priming 부족으로 바꿀 수 없다.\n⑤ 결손·복원은 경로의 필요성을 보이지만 리간드와 NLRC4의 직접 결합을 입증하는 실험은 아니다. 생쥐에서는 NAIP 계열의 리간드 인식과 NLRC4 복합체 형성을 구별한다.\n정제 단백질을 전달한 가상 대조실험이며, 모든 자연감염·숙주 세포에서 같은 경로 하나만 작용한다는 뜻은 아니다.\n참고: NAIP/NLRC4 — https://pmc.ncbi.nlm.nih.gov/articles/PMC4854734/ ; 포도알균 α-toxin/NLRP3 — https://pmc.ncbi.nlm.nih.gov/articles/PMC2758589/ ; AIM2/DNA — https://pmc.ncbi.nlm.nih.gov/articles/PMC2726264/ ; TLR4 priming — https://pubmed.ncbi.nlm.nih.gov/19570822/",
+    "source": "10_장내세균일반특징_강의자료.pdf / PDF p9, p14; 관련 기출 2025년 71번의 무편모·NLRC4 표현을 NAIP/NLRC4 원저로 보완한 심화 문항; 통합 선지 보완: 포도알균 α-toxin/NLRP3 — https://pmc.ncbi.nlm.nih.gov/articles/PMC2758589/ ; DNA 감지/AIM2 — https://pmc.ncbi.nlm.nih.gov/articles/PMC2726264/ ; TLR4 priming — https://pubmed.ncbi.nlm.nih.gov/19570822/",
     "difficulty": "상",
     "tags": [
       "편모",
       "T3SS",
       "NLRC4",
-      "실험 범위"
+      "실험 범위",
+      "NLRP3",
+      "AIM2",
+      "TLR4",
+      "전범위 통합"
     ],
     "origin": "강의·기출 기반 심화 새 문제",
     "id": "chat-generated-97ea5c4a405cf11a"
@@ -5895,21 +5919,22 @@ export const CHAT_QUESTIONS = [
     "stem": "GAS에서 정제한 표면 효소를 사람 C5a와 반응시킨 뒤 효소를 제거하고, 남은 C5a 분획을 호중구 이동실험에 사용했다. 활성 효소를 쓴 분획에서는 C5a 절단과 주화성 감소가 관찰되지만, 촉매활성을 없앤 효소에서는 그렇지 않다. 새 C5a를 보충하면 이동이 회복되고, 별도 대조군의 다른 주화성 자극에 대한 호중구 반응은 정상이다. 이 결과가 가장 직접적으로 지지하는 기전은?",
     "options": [
       "C5a peptidase에 의한 세포외 리간드 절단이 C5a 유도 주화성 신호를 감소시킨 것이다.",
-      "주된 결손은 호중구 C5a 수용체의 소실이며, 다른 자극에 대한 정상 반응이 이를 입증한다.",
-      "효소가 호중구 이동장치를 비가역적으로 손상시켰고, C5a 절단은 이동 감소와 무관한 동반 현상이다.",
-      "C5a의 기능은 유지되며, 효소가 수용체에 계속 경쟁적으로 결합하여 C5a 반응을 억제한 것이다.",
-      "호중구 기능이 정상이어도, 이 결과에서는 세포외 C5a의 변화와 세포 수용체 변화를 구별할 수 없다."
+      "Gi 단백질의 ADP-ribosylation으로 수용체 이후 신호전달이 억제되어, C5a에 대한 이동 반응이 감소한 것이다.",
+      "호중구막에 공이 형성되어 막 기능이 손상되었고, 그 결과 주화성 자극에 대한 이동 반응이 감소한 것이다.",
+      "Calmodulin 의존 adenylate cyclase가 세포 내 cAMP를 높여, 호중구의 이동 기능을 억제한 것이다.",
+      "C5a 수용체에 대한 지속적인 경쟁적 점유가 주된 원인이며, 세포외 C5a의 절단은 주화성과 무관한 것이다."
     ],
     "answer": 1,
-    "explanation": "정답 ①. 호중구와 만나기 전에 C5a가 효소에 의해 절단되었고, 효소 제거 후에도 활성이 낮으며 새 C5a로 이동이 회복된다. 이 조합은 호중구 자체의 영구적 손상보다 세포외 주화성 리간드의 기능 소실을 지지한다.\n① 강의의 C5a peptidase와 감염 부위의 호중구 유입 감소를 연결하는 해석이다.\n② 다른 수용체를 통한 반응이 정상인 사실만으로 C5a 수용체 소실을 입증하지는 못한다. 효소는 호중구 노출 전 제거되었고 새 C5a에도 반응했다.\n③ 비가역적 이동장치 손상이라면 새 C5a만으로 회복되는 결과와 맞지 않는다.\n④ 효소 제거와 촉매활성 대조, C5a 절단 결과를 무시했다. 계속되는 수용체 경쟁결합보다 리간드 변화가 직접 관찰되었다.\n⑤ 분리 반응·효소 제거·리간드 보충이라는 대조조건이 두 가설을 구별하는 데 기여한다.\n이 문항은 분리한 C5a 반응만을 묻는다. C5a peptidase가 실제 감염에서 오직 C5a에만 작용한다고 일반화하지 않는다.\n보완 근거: C5a peptidase 변이주 연구 — https://pubmed.ncbi.nlm.nih.gov/3039012/",
-    "source": "(강의자료)미생물학) 사슬알균_김범준 교수님.pdf / PDF p.6; 강의 핵심 보완",
+    "explanation": "정답 ①. C5a와 효소만 먼저 반응시켰고, 효소 제거 뒤 그 분획을 호중구에 넣었다. C5a 절단과 촉매활성 대조, 새 C5a에 의한 회복을 함께 보면 세포외 주화성 리간드의 소실이 가장 직접적인 설명이다.\n① GAS의 C5a peptidase가 보체 유래 주화성 신호를 절단하는 기능과 맞는다.\n② 백일해독소(PT)는 Gi 계열 단백질을 ADP-ribosylation하여 주화성 수용체의 세포 내 신호를 방해할 수 있다. 그러나 여기서는 효소를 호중구 노출 전에 제거했고 새 C5a에 대한 세포 반응도 유지되어, 세포 내 Gi 변화보다 리간드 자체의 변화가 지지된다.\n③ 포도알균의 leukocidin은 호중구막에 공을 형성할 수 있다. 이 실험의 세포외 C5a 절단과 새 리간드에 의한 회복을 직접 막 손상만으로 설명하기는 어렵다.\n④ 탄저 edema factor(EF)는 calmodulin 의존 adenylate cyclase이며 세포 내 cAMP 증가로 호중구 이동을 저해할 수 있다. 이는 세포 안에서 작용하는 방식으로, 세포와 만나기 전 C5a가 절단된 이 분리 실험과 구별된다.\n⑤ 효소 제거·C5a 절단·리간드 보충 대조를 무시한 해석이다. 이 결과에서 지속적인 수용체 점유가 주된 원인이라는 근거는 없다.\n같은 '호중구 이동 감소'라도 리간드 분해, 세포 내 신호 변경, 막 손상은 다른 기전이다. EF는 아직 첨부되지 않은 후반 주제의 통합 선지로, 특정 강의의 강조점이 아닌 원저로 보완했다.\n근거: C5a peptidase — https://pubmed.ncbi.nlm.nih.gov/3039012/ ; PT/Gi와 호중구 반응 — https://pubmed.ncbi.nlm.nih.gov/2989409/ ; leukocidin 막공 — https://pubmed.ncbi.nlm.nih.gov/8399361/ ; anthrax EF와 이동 — https://pubmed.ncbi.nlm.nih.gov/19349425/",
+    "source": "(강의자료)미생물학) 사슬알균_김범준 교수님.pdf / PDF p.6; 강의 핵심 보완; 통합 선지 보완: 백일해독소·포도알균 leukocidin·탄저 EF의 면역회피 기전을 원저와 비교(EF는 후반 미첨부 주제)",
     "difficulty": "상",
     "tags": [
       "C5a peptidase",
       "주화성",
       "보체",
       "호중구",
-      "대조실험"
+      "대조실험",
+      "전범위 통합"
     ],
     "origin": "강의·기출 기반 심화 새 문제",
     "id": "chat-generated-b54f8323a6da9687"
@@ -5920,22 +5945,23 @@ export const CHAT_QUESTIONS = [
     "title": "부착과 산 생성의 분리",
     "stem": "S. mutans의 sucrose 유래 불용성 glucan 합성능을 낮춘 변이주를 만들었다. 액체배지에서 성장과 당 발효 후 산 생성은 야생형과 같지만, sucrose를 공급한 치아 표면 모형에서 부착 균량과 표면의 산성 미세환경 유지가 감소했다. 해당 유전자를 복원하면 회복되었다. 이 결과를 가장 적절히 해석한 것은?",
     "options": [
-      "액체배지의 산 생성이 같으므로, 치아 표면에서도 머무는 균량과 탈회 위험이 같다고 판단한다.",
+      "숙주 mannose를 직접 인식하는 fimbrial adhesin의 결합 감소가 핵심이며, 세포외 기질 변화는 부차적이다.",
       "산 생성능 외에 glucan을 통한 표면 정착·기질 형성이 국소 산성 환경 유지에 기여한다.",
-      "표면의 산성 환경이 glucan에 따라 달라지므로, 당 발효에 의한 산 생성은 충치 병인에서 제외한다.",
-      "표면 부착이 감소한 결과는, 변이주의 액체배지 성장과 모든 당 발효능도 감소했음을 뜻한다.",
-      "유전자 복원으로 부착이 회복되었으므로, 구강의 다른 균이나 식이·숙주 요인은 탈회에 관여하지 않는다."
+      "숙주 fibronectin을 인식하는 단백질성 adhesin의 결핍이 핵심이며, sucrose 유래 다당 감소는 결과의 표지이다.",
+      "β-1,6-N-acetylglucosamine 기질의 결손이므로, sucrose 유래 glucan 감소와 같은 다당 합성 결함으로 해석한다.",
+      "표면의 산성 환경이 덜 유지되므로, 변이주 세포 하나당 산 생성능과 산에 견디는 능력이 함께 감소한 것이다."
     ],
     "answer": 2,
-    "explanation": "정답 ②. 충치의 병인에서는 당 발효에 따른 산 생성과 치아 표면에 머무는 생물막의 구조를 함께 보아야 한다. 액체배지의 산 생성이 유지되어도 표면 부착·기질이 감소하면 해당 위치의 산성 환경 유지와 탈회 양상이 달라질 수 있다.\n① 떠 있는 균의 대사량과 표면에서 유지되는 균량·미세환경을 동일시했다.\n② 강의의 mutans군–충치 연관성을 glucan과 국소 대사의 분리실험으로 확장한 해석이다.\n③ 정착·기질의 기여를 보였다고 해서 법랑질 탈회에서 산의 역할이 사라지는 것은 아니다.\n④ 액체배지의 성장과 산 생성은 같게 통제되었다. 표면 부착과 떠 있는 균의 대사를 같은 측정값으로 취급하면 안 된다.\n⑤ 단일 인자의 기여를 보여도 다균종 생물막·식이·타액 등 다른 요인의 기여가 사라지는 것은 아니다.\n실제 충치는 다요인 질환이다. 이 모형 결과만으로 임상 충치 발생률의 크기까지 정하지 않는다.\n보완 근거: sucrose 유래 세포외 다당과 치아 부위별 우식성의 실험 연구 — https://pubmed.ncbi.nlm.nih.gov/7781982/",
-    "source": "(강의자료)미생물학) 사슬알균_김범준 교수님.pdf / PDF p.2, 17; 강의 핵심 보완",
+    "explanation": "정답 ②. 액체배지의 성장·산 생성은 같고, glucan 합성과 표면 부착·기질·국소 산성 환경이 함께 변한다. 따라서 전체 산 생성능의 저하보다, 균이 만든 세포외 기질이 표면에 균과 산성 미세환경을 유지하는 기능이 지지된다.\n① 요로병원성 대장균의 FimH는 숙주 mannose를 인식하는 adhesin이다. 숙주 수용체에 대한 단백질성 부착과 sucrose로부터 균 자체가 만드는 glucan 기질은 구별해야 한다. 이 실험은 FimH형 수용체 결합 감소를 측정한 것이 아니다.\n② 당 발효와 표면 정착·기질 형성의 기능을 분리해 해석한 것이다.\n③ 포도알균의 fibronectin-binding proteins는 숙주 단백질을 이용한 부착에 기여한다. 그러나 제시한 선택적 결손과 복원은 glucan 합성에 있고, 숙주 fibronectin 결합능의 변화가 직접 확인된 것은 아니다.\n④ 피부포도알균의 PIA/PNAG는 주로 β-1,6 결합 N-acetylglucosamine 계열의 생물막 다당이다. S. mutans의 sucrose 유래 glucan과는 구성당·합성 경로가 다르다. 둘 다 생물막을 돕는다고 같은 다당으로 취급하지 않는다.\n⑤ 산을 만드는 능력(acidogenicity), 낮은 pH에 견디는 능력(aciduricity), 표면에서 산성 환경을 유지하는 것은 구별된다. 액체배지의 산 생성은 같고 산 내성의 변화는 제시하지 않았다.\n실제 충치는 다균종 생물막·식이·타액 등도 관여한다. 이 모형만으로 임상 충치 발생률의 크기까지 정하지 않는다.\n근거: mutans 다당 기질 — https://pmc.ncbi.nlm.nih.gov/articles/PMC2901689/ ; FimH — https://pubmed.ncbi.nlm.nih.gov/12010488/ ; fibronectin 결합 — https://pubmed.ncbi.nlm.nih.gov/18952882/ ; PIA 구조 — https://pubmed.ncbi.nlm.nih.gov/8550413/",
+    "source": "(강의자료)미생물학) 사슬알균_김범준 교수님.pdf / PDF p.2, 17; 강의 핵심 보완; 통합 선지 보완: 장내세균 FimH와 포도알균 fibronectin 결합·PIA 생물막을 원저로 비교(구성당 세부는 강의 외 보완)",
     "difficulty": "상",
     "tags": [
       "S. mutans",
       "충치",
       "Glucan",
       "생물막",
-      "산성 미세환경"
+      "산성 미세환경",
+      "전범위 통합"
     ],
     "origin": "강의·기출 기반 심화 새 문제",
     "id": "chat-generated-61cc269926f8edca"
