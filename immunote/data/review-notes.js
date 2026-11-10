@@ -599,5 +599,49 @@ export const ASSISTANT_REVIEWS = {
         "label": "[261109_03]항생제 약리학의 기본 원리_항생제 내성 PDF physical p11–12; 2021년 45번 원문 두 이미지"
       }
     ]
+  },
+  "past-1-22-2022-40": {
+    "status": "ambiguous",
+    "originalAnswers": [
+      5
+    ],
+    "suggestedAnswers": [],
+    "summary": "매개체가 명시되지 않아 예방 방법의 해석에 주의가 필요합니다.",
+    "rationale": "원답 ⑤는 유지합니다. 반복 고열이라는 임상상만으로 몸니 매개 재귀열과 진드기 매개 재귀열을 확정하기는 어렵습니다. 몸니 매개 재귀열을 의도했다면 몸·의복·침구의 위생 관리가 핵심입니다. 그러나 이 문항에는 2021년 유사 문항의 “몸을 자주 씻는다” 보기가 없고, ②도 “성관계를 금지한다”로 다릅니다. ⑤ 긴 옷은 진드기 노출을 줄이는 방법으로 설명할 수 있으므로, 매개체의 문맥이 없는 상태에서 확정적인 대체 정답을 제시하지 않습니다.",
+    "confidence": "중간",
+    "reviewedAt": "2026-11-10",
+    "references": [
+      {
+        "label": "20261110_감염과면역22_김현제_SNU-LIT_최종.pdf / PDF p.10,11,12,25"
+      },
+      {
+        "label": "About Louse-borne Relapsing Fever",
+        "url": "https://www.cdc.gov/relapsing-fever/about/about-lbrf.html"
+      }
+    ]
+  },
+  "past-1-22-2023-49": {
+    "status": "ambiguous",
+    "originalAnswers": [
+      5
+    ],
+    "suggestedAnswers": [],
+    "summary": "⑤의 검사 역할뿐 아니라 ③의 3기 매독 정의도 엄밀하지 않습니다.",
+    "rationale": "원답 ⑤는 유지합니다. 전통적 검사 흐름은 RPR/VDRL 같은 비트레포네마 검사 후 트레포네마 검사이므로 ⑤는 그 역할을 뒤바꾼 출제 의도로 해석됩니다. 현대에는 자동화 트레포네마 검사로 시작하는 역순 알고리즘도 있지만, FTA-ABS 선별·VDRL 단독 확진을 일반화하는 근거는 아닙니다. 또한 ③의 “3기=전신 장기에 균이 퍼진 상태”라는 표현은 2기의 전신 파종과 3기의 고무종·심혈관 등 후기 장기 손상을 구분하지 않아 부정확합니다. 신경매독은 어느 병기에도 가능합니다. 단일 오답형 문항의 모호함을 표시하며 확정적인 복수 정답을 추가하지 않습니다.",
+    "confidence": "중간",
+    "reviewedAt": "2026-11-10",
+    "references": [
+      {
+        "label": "20261110_감염과면역22_김현제_SNU-LIT_최종.pdf / PDF p.6,7,8,25"
+      },
+      {
+        "label": "About Syphilis",
+        "url": "https://www.cdc.gov/syphilis/about/index.html"
+      },
+      {
+        "label": "Syphilis — STI Treatment Guidelines",
+        "url": "https://www.cdc.gov/std/treatment-guidelines/syphilis.htm"
+      }
+    ]
   }
 };
