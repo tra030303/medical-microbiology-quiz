@@ -57,7 +57,9 @@ node scripts/build-github-static.mjs
 
 `outputs/github-static/`의 파일을 원격 저장소의 `immunote/` 아래에 반영하면 기존 Pages 배포가 갱신합니다. 업로드 경로와 체크섬은 `outputs/github-static-upload-manifest.json`에 기록됩니다. 인증정보, 원본 PDF, 사용자별 학습 기록은 게시하지 않습니다.
 
-원문 그림은 필요한 문항을 열 때만 불러오는 `data/scan-packs/` 모듈과 `data/scan-index.js`로 게시합니다. 작업 소스에 WebP 원본이 있으면 빌드가 묶음을 다시 만들고, 원격 저장소에서 내려받은 소스에 이미 묶음이 있으면 그대로 보존합니다. 문제·검토 의견만 바뀌면 해당 데이터 파일만 반영해도 됩니다.
+원문 그림은 필요한 문항을 열 때만 불러오는 `data/scan-packs/` 모듈과 `data/scan-index.js`로 게시합니다. 작업 소스에 WebP 원본이 있으면 빌드가 묶음을 다시 만들고, 원격 저장소에서 내려받은 소스에 이미 묶음이 있으면 그대로 보존합니다.
+
+게시용 채팅 문제는 `data/chat-question-packs/`의 작은 모듈로 나누고 `data/chat-questions.js`에서 합칩니다. 문항 ID·내용·순서는 작업 소스와 같습니다. 게시할 때는 업로드 manifest에서 달라진 문제 모듈과 진입 파일·검토 의견을 함께 반영합니다. 가져오기 스크립트는 같은 `CHAT_QUESTIONS` 내보내기를 읽으며, 다음 빌드가 게시용 모듈을 다시 만듭니다.
 
 ## 문제 업데이트와 학습 기록
 

@@ -643,5 +643,25 @@ export const ASSISTANT_REVIEWS = {
         "url": "https://www.cdc.gov/std/treatment-guidelines/syphilis.htm"
       }
     ]
+  },
+  "past-1-24-2020-7": {
+    "status": "ambiguous",
+    "originalAnswers": [
+      4
+    ],
+    "suggestedAnswers": [],
+    "summary": "④ doxycycline은 출제 의도와 현재 우선 치료에 맞지만, ⑤ tetracycline과의 구별 문구가 충분하지 않습니다.",
+    "rationale": "원답 ④는 유지합니다. 원문 사진의 가피·가을철 야외활동은 쯔쯔가무시증을 시사하고, doxycycline은 현재 권고되는 대표 치료제입니다. 다만 강의 p.33은 tetracycline도 치료 목록에 함께 적고 원문 ⑤에도 같은 이름이 있어, 단순히 “치료제는?”이라고만 물으면 약물명·계열명 해석에 따라 보기가 중복될 여지가 있습니다. ⑤를 자동으로 복수 정답에 추가하지 않고, 우선 권고 약제를 묻는 출제 의도와 문구의 모호함을 구분해 학습하도록 첨언합니다.",
+    "confidence": "중간",
+    "reviewedAt": "2026-11-10",
+    "references": [
+      {
+        "label": "[261110_03] 리케치아(조남혁)_신유빈v1.pdf / PDF p.12, 33"
+      },
+      {
+        "label": "CDC Clinical Overview of Scrub Typhus: doxycycline treatment",
+        "url": "https://www.cdc.gov/typhus/hcp/clinical-overview/clinical-overview-of-scrub-typhus.html"
+      }
+    ]
   }
 };

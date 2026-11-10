@@ -2,6 +2,7 @@ import { cp, mkdir, readFile, readdir, rm, stat, writeFile } from 'node:fs/promi
 import { resolve, relative, join } from 'node:path';
 import { createHash } from 'node:crypto';
 import { spawnSync } from 'node:child_process';
+import { pathToFileURL } from 'node:url';
 
 // Existing GitHub Pages branch deployments serve this directory as immunote/.
 // Pack original scans into lazy ES modules to avoid over 1,000 GitHub blob writes.
@@ -12,6 +13,40 @@ const targetPackBytes = 512 * 1024;
 const maximumPackBytes = 700_000;
 const build = spawnSync(process.execPath, [resolve(root, 'scripts/build-pages.mjs'), '--output', 'outputs/github-static'], { cwd: root, stdio: 'inherit' });
 if (build.status !== 0) throw new Error('The base GitHub Pages build failed.');
+
+// Bound question uploads too. The source/importer keeps one editable array;
+// the published entry point combines small modules without changing any IDs,
+// fields, or array order. Import before replacing output packs so this also
+// works when rebuilding a published checkout that already uses packed data.
+const { CHAT_QUESTIONS: chatQuestions } = await import(pathToFileURL(resolve(root, 'data/chat-questions.js')));
+if (!Array.isArray(chatQuestions)) throw new Error('CHAT_QUESTIONS must be an array.');
+const chatPackDirectory = resolve(output, 'data/chat-question-packs');
+await rm(chatPackDirectory, { recursive: true, force: true });
+await mkdir(chatPackDirectory, { recursive: true });
+const chatPackNames = [];
+const chatTargetBytes = 64 * 1024;
+const chatMaximumBytes = 96 * 1024;
+let chatEntries = [], chatBytes = 0;
+async function flushChatQuestions() {
+  if (!chatEntries.length) return;
+  const name = 'part-' + String(chatPackNames.length + 1).padStart(3, '0') + '.js';
+  const source = 'export const QUESTIONS = [' + chatEntries.join(',') + '];\n';
+  if (Buffer.byteLength(source) > chatMaximumBytes) throw new Error('A chat question module exceeds its upload size bound.');
+  await writeFile(join(chatPackDirectory, name), source);
+  chatPackNames.push(name);
+  chatEntries = []; chatBytes = 0;
+}
+for (const question of chatQuestions) {
+  const entry = JSON.stringify(question);
+  const bytes = Buffer.byteLength(entry) + 1;
+  if (bytes + 40 > chatMaximumBytes) throw new Error('A single chat question exceeds the upload size bound.');
+  if (chatEntries.length && chatBytes + bytes + 40 > chatTargetBytes) await flushChatQuestions();
+  chatEntries.push(entry); chatBytes += bytes;
+}
+await flushChatQuestions();
+const chatImports = chatPackNames.map((name, i) => `import { QUESTIONS as PACK_${i} } from './chat-question-packs/${name}';`).join('\n');
+const chatValues = chatPackNames.map((_, i) => `...PACK_${i}`).join(',');
+await writeFile(resolve(output, 'data/chat-questions.js'), '// Generated question entry point; IDs and order match the editable source.\n' + chatImports + '\nexport const CHAT_QUESTIONS = [' + chatValues + '];\n');
 
 const imageDirectory = resolve(output, 'data/past-images');
 const packDirectory = resolve(output, 'data/scan-packs');
@@ -156,7 +191,7 @@ for (const name of ['build-pages.mjs', 'build-github-static.mjs', 'import-chat-b
 // The working repository owns the full test suite. The published browser package
 // does not declare a test command that would require the unpacked original scans.
 
-const manifest = { version: 1, remotePrefix: prefix, scans: scanCount, scanPacks: packCount, questionImages: questionImageCount, questionImagePacks: questionImagePackCount, files: [] };
+const manifest = { version: 1, remotePrefix: prefix, scans: scanCount, scanPacks: packCount, questionImages: questionImageCount, questionImagePacks: questionImagePackCount, chatQuestions: chatQuestions.length, chatQuestionPacks: chatPackNames.length, files: [] };
 async function visit(directory) {
   for (const name of (await readdir(directory)).sort()) {
     const path = join(directory, name);

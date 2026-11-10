@@ -1,5 +1,5 @@
 import { readFile, writeFile, rename } from 'node:fs/promises';
-import { resolve, extname } from 'node:path';
+import { resolve, extname, dirname } from 'node:path';
 import { createHash } from 'node:crypto';
 import { pathToFileURL } from 'node:url';
 import { parseImport, validateQuestion } from '../src/importer.js';
@@ -10,6 +10,33 @@ const modulePath = resolve(root, 'data/chat-questions.js');
 const prefix = '// Chat-uploaded questions validated before publication.\nexport const CHAT_QUESTIONS = ';
 const normalized = value => String(value || '').replace(/\s/g, '');
 
+async function readSavedBank() {
+  let saved;
+  try { saved = (await readFile(modulePath, 'utf8')).replaceAll('\r\n', '\n'); }
+  catch (error) { if (error.code === 'ENOENT') return []; throw error; }
+  const flat = saved.match(/^\s*(?:\/\/[^\n]*\n\s*)*export const CHAT_QUESTIONS = (\[[\s\S]*\]);\s*$/);
+  if (flat) return JSON.parse(flat[1]);
+
+  // Recognize only our generated index and JSON-only packs; do not evaluate
+  // repository text or follow arbitrary import paths while reading a bank.
+  const imports = [...saved.matchAll(/^import \{ QUESTIONS as PACK_(\d+) \} from '\.\/chat-question-packs\/(part-\d+\.js)';$/gm)];
+  const header = '// Generated question entry point; IDs and order match the editable source.\n';
+  const expected = header + imports.map(match => match[0]).join('\n') + '\nexport const CHAT_QUESTIONS = [' + imports.map((_, i) => `...PACK_${i}`).join(',') + '];\n';
+  if (saved !== expected || imports.some((match, i) => match[1] !== String(i) || match[2] !== 'part-' + String(i + 1).padStart(3, '0') + '.js')) {
+    throw new Error('The existing chat question module has an unfamiliar format.');
+  }
+  const questions = [];
+  for (const match of imports) {
+    const source = await readFile(resolve(dirname(modulePath), 'chat-question-packs', match[2]), 'utf8');
+    const leaf = source.match(/^export const QUESTIONS = (\[[\s\S]*\]);\s*$/);
+    if (!leaf) throw new Error('A chat question pack has an unfamiliar format.');
+    const values = JSON.parse(leaf[1]);
+    if (!Array.isArray(values)) throw new Error('A chat question pack must contain an array.');
+    questions.push(...values);
+  }
+  return questions;
+}
+
 export async function importChatBundle({ inputPath, bank, allowUnconfirmed = false, replaceExisting = false, dryRun = false }) {
   if (!['past', 'generated'].includes(bank)) throw new Error('An explicit --bank past or --bank generated is required.');
   if (!['.json', '.txt', '.md', '.markdown', '.csv'].includes(extname(inputPath).toLowerCase())) throw new Error('Use a JSON, TXT, Markdown, or CSV question bundle.');
@@ -19,15 +46,7 @@ export async function importChatBundle({ inputPath, bank, allowUnconfirmed = fal
   const dangerousWarnings = parsed.warnings.filter(message => !(allowUnconfirmed && bank === 'past' && /정답이 없습니다/.test(message)));
   if (dangerousWarnings.length) throw new Error('Resolve all import warnings before publication:\n' + dangerousWarnings.join('\n'));
 
-  let existing = [];
-  try {
-    const saved = await readFile(modulePath, 'utf8');
-    const match = saved.match(/^\s*(?:\/\/[^\n]*\n\s*)*export const CHAT_QUESTIONS = (\[[\s\S]*\]);\s*$/);
-    if (!match) throw new Error('The existing chat question module has an unfamiliar format.');
-    existing = JSON.parse(match[1]);
-  } catch (error) {
-    if (error.code !== 'ENOENT') throw error;
-  }
+  const existing = await readSavedBank();
   if (!Array.isArray(existing)) throw new Error('The saved chat question bank must be an array.');
   const byId = new Map(existing.map(q => [q.id, q]));
   let added = 0, updated = 0, duplicates = 0;
