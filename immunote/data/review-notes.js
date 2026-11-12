@@ -663,5 +663,28 @@ export const ASSISTANT_REVIEWS = {
         "url": "https://www.cdc.gov/typhus/hcp/clinical-overview/clinical-overview-of-scrub-typhus.html"
       }
     ]
+  },
+  "past-1-26-2020-56": {
+    "status": "ambiguous",
+    "originalAnswers": [
+      4
+    ],
+    "suggestedAnswers": [],
+    "summary": "③의 대표 질환명은 급성 출혈성 “결막염”입니다. 원문의 “각막염” 표기는 확인이 필요하며, 원답 ④와 이 표현상 문제를 구분해 학습하세요.",
+    "rationale": "족보 원문 이미지의 ③은 “Enterovirus 70–급성 출혈성 각막염”으로 적혀 있습니다. 새 피코르나 강의 PDF 24쪽과 CDC의 표준 연결은 EV-70–acute hemorrhagic conjunctivitis(급성 출혈성 결막염)입니다. ④ Coxsackie B–포진성 구협염은 대표 연결상 틀리며, 주로 Coxsackie A와 연결하므로 원답 ④의 출제 의도는 유지됩니다. 다만 ③의 표기를 문자 그대로 읽으면 질환명 때문에 혼동이 생길 수 있습니다. 실제 눈 감염에서 각막 침범이 전혀 없다고 단정하는 뜻은 아니며, 출제 당시의 오기 여부나 복수정답 인정 여부를 확인할 자료가 없어 ③을 새 채점 정답으로 추가하지 않습니다.",
+    "confidence": "중간",
+    "reviewedAt": "2026-11-12",
+    "references": [
+      {
+        "label": "족보_1 PDF 46쪽 2020년 56번의 원문 이미지 2개와 원답 ④"
+      },
+      {
+        "label": "[261111_02] 피코르나바이러스(조남혁)_오성연v1.pdf / PDF p.24, 30"
+      },
+      {
+        "label": "CDC Clinical Overview of Pink Eye: EV-70·Coxsackie A24와 급성 출혈성 결막염",
+        "url": "https://www.cdc.gov/conjunctivitis/hcp/clinical-overview/index.html"
+      }
+    ]
   }
 };
