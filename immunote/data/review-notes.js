@@ -686,5 +686,98 @@ export const ASSISTANT_REVIEWS = {
         "url": "https://www.cdc.gov/conjunctivitis/hcp/clinical-overview/index.html"
       }
     ]
+  },
+  "past-1-26-2021-55": {
+    "status": "ambiguous",
+    "originalAnswers": [
+      3
+    ],
+    "suggestedAnswers": [],
+    "summary": "B형에서 재편성이 전혀 없다는 ③은 정확하지 않습니다. 범유행 관련 항원 대변이와 넓은 의미의 재편성을 구분하세요.",
+    "rationale": "Influenza B도 분절 유전체를 가지며 B형 사이의 재편성이 관찰됩니다. 따라서 B형이 A형과 같은 범유행의 대표 원인이 아니라는 사실을 “유전자 재편성이 일어나지 않는다”로 단순화한 원답 ③에는 문제가 있습니다. A형의 범유행 관련 antigenic shift와 재편성이라는 현상 전체를 같은 뜻으로 쓰지 마세요. ⑤의 “사람에서만”이라는 절대 표현도 바다표범 감염 보고와 새 강의 2쪽의 숙주 표 때문에 그대로 새 정답으로 단정하기 어렵습니다. 원문 답안은 보존하고 별도 해석 주의로 표시합니다.",
+    "confidence": "높음",
+    "reviewedAt": "2026-11-12",
+    "references": [
+      {
+        "label": "족보_1 PDF 46쪽 2021년 55번 원문 이미지 2개; 원답 ③"
+      },
+      {
+        "label": "오소믹소바이러스.pdf / PDF p.2–4"
+      },
+      {
+        "label": "Influenza B의 재편성을 관찰한 원저(Dudas 등); 여기서는 존재 여부만 참고",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4271528/"
+      }
+    ]
+  },
+  "past-1-26-2025-59": {
+    "status": "ambiguous",
+    "originalAnswers": [
+      2
+    ],
+    "suggestedAnswers": [],
+    "summary": "②는 맞지만, ①의 넓은 의미의 B형 재편성도 보고되어 있어 단일정답 문항으로는 표현상 주의가 필요합니다.",
+    "rationale": "원답 ②의 핵 내 전사·복제 설명은 인플루엔자의 일반 성질과 맞습니다. 다만 ①은 “유전자재편성(reassortment)은 B형 인플루엔자에서 일어난다”라고만 쓰여 있으며 “B형에서만”이라는 제한이 없습니다. B형에서도 재편성이 관찰되므로 이 문장을 원리적으로 불가능한 현상처럼 외우면 부정확합니다. 출제 의도는 범유행 관련 antigenic shift를 A형과 연결하는 것이었을 수 있으나, 이를 재편성 일반과 구분해야 합니다. 원답 ②를 유지하며 ①의 문자 그대로의 해석상 문제를 별도 표시합니다.",
+    "confidence": "높음",
+    "reviewedAt": "2026-11-12",
+    "references": [
+      {
+        "label": "족보_1 PDF 44쪽 2025년 59번 원문 이미지 2개; 원답 ②"
+      },
+      {
+        "label": "오소믹소바이러스.pdf / PDF p.4, 14"
+      },
+      {
+        "label": "Influenza B의 재편성을 관찰한 원저(Dudas 등); 여기서는 존재 여부만 참고",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4271528/"
+      }
+    ]
+  },
+  "past-1-26-2025-22": {
+    "status": "historical",
+    "originalAnswers": [
+      3,
+      5
+    ],
+    "suggestedAnswers": [],
+    "summary": "③·⑤의 질환 연결은 맞습니다. 다만 RSV는 현재 Pneumoviridae로 분류하므로 강의 묶음과 바이러스과를 구별하세요.",
+    "rationale": "Mumps–유행성귀밑샘염과 RSV–세기관지염이라는 연결은 타당하며 원답 ③·⑤를 유지합니다. 문제 머리말은 파라믹소바이러스로 함께 묶지만 새 강의 5쪽은 홍역·볼거리·파라인플루엔자의 Paramyxoviridae와 RSV·hMPV의 Pneumoviridae를 분리합니다. 수업에서 함께 다룬 임상 병원체 묶음을 현재 바이러스과 분류와 같은 뜻으로 외우지 않도록 보완합니다.",
+    "confidence": "높음",
+    "reviewedAt": "2026-11-12",
+    "references": [
+      {
+        "label": "족보_1 PDF 43쪽 2025년 22번 원문·복수 정답 ③·⑤"
+      },
+      {
+        "label": "파라믹소바이러스&풍진바이러스.pdf / PDF p.5, 28, 34"
+      }
+    ]
+  },
+  "past-1-26-2022-80": {
+    "status": "ambiguous",
+    "originalAnswers": [
+      3
+    ],
+    "suggestedAnswers": [],
+    "summary": "원문 이미지의 ③은 “악화”입니다. 추출 텍스트의 “약화”는 OCR 오자이며, 옛 RSV 사백신 사례를 현행 모든 예방 제품으로 일반화하지 마세요.",
+    "rationale": "족보 원문 이미지와 새 강의 28쪽은 과거 특정 불활화 RSV 백신에서 이후 감염이 더 심해진 사례를 설명합니다. 원문 ③은 “악화”로 적혀 있고 사이트의 펼쳐 보는 추출 텍스트는 “약화”로 잘못 인식되어 있으므로, 이미지의 원문을 기준으로 읽어야 합니다. 원답 ③은 이 역사적 사례에 해당합니다. 현재 승인된 RSV 백신과 영아 단클론항체를 모두 같은 위험으로 묶지는 않습니다. 또한 ⑤의 “대부분 경미한 감염 뒤 자연 회복”은 일반 임상상과 일부 겹치므로, 영아에서 하기도 감염이 중요하다는 이유만으로 모든 경우에 명백히 거짓이라고 단정하기에는 표현의 한계가 있습니다. 원문과 채점 답은 바꾸지 않고 이 차이를 별도 설명합니다.",
+    "confidence": "중간",
+    "reviewedAt": "2026-11-12",
+    "references": [
+      {
+        "label": "족보_1 PDF 45쪽 2022년 80번 원문 이미지 2개; 원문 ③ 악화·원답 ③"
+      },
+      {
+        "label": "파라믹소바이러스&풍진바이러스.pdf / PDF p.28, 30–31"
+      },
+      {
+        "label": "CDC RSV 영아 예방: 모체 백신·영아 단클론항체",
+        "url": "https://www.cdc.gov/rsv/hcp/vaccine-clinical-guidance/infants-young-children.html"
+      },
+      {
+        "label": "CDC RSV 영아 임상상: 대개 경미하나 세기관지염·폐렴·무호흡도 가능",
+        "url": "https://www.cdc.gov/rsv/infants-young-children/index.html"
+      }
+    ]
   }
 };
