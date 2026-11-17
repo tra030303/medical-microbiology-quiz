@@ -825,5 +825,100 @@ export const ASSISTANT_REVIEWS = {
         "label": "[261112_03]간염바이러스(김범준)_이세영v1.pdf / PDF p.30, 43"
       }
     ]
+  },
+  "past-1-34-2023-44": {
+    "status": "historical",
+    "originalAnswers": [
+      4
+    ],
+    "summary": "원답의 출제 의도는 유지하되, ① ribavirin 투여를 현재 광견병의 확립된 표준 치료로 암기하지 마세요.",
+    "rationale": "원답은 ④의 빈틈없는 봉합으로 조직 삼출물이 흐르지 않게 한다는 설명을 틀린 보기로 고른 것입니다. 광견병의 주요 표적은 CNS이며 고위험 교상은 신속한 상처 처치와 노출 후 예방이 중요합니다. 그러나 현재 임상 기준에서 ①의 정맥 ribavirin을 보편적인 표준 치료로 받아들이는 것도 부적절합니다. 새 필기본 PDF12 역시 표준 치료가 아니라고 보완합니다. 증상 전 RIG·백신에 의한 발병 예방과, 임상 광견병이 발생한 뒤의 치료는 구별해야 합니다. 따라서 현대 기준으로 다시 풀면 단일 오답 선택이 깔끔하지 않을 수 있습니다. 원문 정답·채점 기준을 바꾸지 않고 당시 강의 전제와 현재 근거의 차이로 표시합니다.",
+    "confidence": "높음",
+    "reviewedAt": "2026-11-17",
+    "references": [
+      {
+        "label": "[261117_01] 랍도바이러스, 지발바이러스 (석승혁)_정우진v1.pdf / PDF p.12, 21–23, 67"
+      },
+      {
+        "label": "CDC: Clinical overview of rabies; symptomatic disease is nearly always fatal and care is supportive",
+        "url": "https://www.cdc.gov/rabies/hcp/clinical-overview/index.html"
+      },
+      {
+        "label": "CDC: Rabies post-exposure prophylaxis",
+        "url": "https://www.cdc.gov/rabies/hcp/clinical-care/post-exposure-prophylaxis.html"
+      }
+    ]
+  },
+  "past-1-34-2022-84": {
+    "status": "historical",
+    "originalAnswers": [
+      3
+    ],
+    "summary": "원답의 출제 의도는 유지하되, ① ribavirin 투여를 현재 광견병의 확립된 표준 치료로 암기하지 마세요.",
+    "rationale": "원답은 ③의 표적 장기가 신장이라는 설명을 틀린 보기로 고른 것입니다. 광견병의 주요 표적은 CNS이며 고위험 교상은 신속한 상처 처치와 노출 후 예방이 중요합니다. 그러나 현재 임상 기준에서 ①의 정맥 ribavirin을 보편적인 표준 치료로 받아들이는 것도 부적절합니다. 새 필기본 PDF12 역시 표준 치료가 아니라고 보완합니다. 증상 전 RIG·백신에 의한 발병 예방과, 임상 광견병이 발생한 뒤의 치료는 구별해야 합니다. 따라서 현대 기준으로 다시 풀면 단일 오답 선택이 깔끔하지 않을 수 있습니다. 원문 정답·채점 기준을 바꾸지 않고 당시 강의 전제와 현재 근거의 차이로 표시합니다.",
+    "confidence": "높음",
+    "reviewedAt": "2026-11-17",
+    "references": [
+      {
+        "label": "[261117_01] 랍도바이러스, 지발바이러스 (석승혁)_정우진v1.pdf / PDF p.12, 21–23, 67"
+      },
+      {
+        "label": "CDC: Clinical overview of rabies; symptomatic disease is nearly always fatal and care is supportive",
+        "url": "https://www.cdc.gov/rabies/hcp/clinical-overview/index.html"
+      },
+      {
+        "label": "CDC: Rabies post-exposure prophylaxis",
+        "url": "https://www.cdc.gov/rabies/hcp/clinical-care/post-exposure-prophylaxis.html"
+      }
+    ]
+  },
+  "past-1-34-2021-34": {
+    "status": "historical",
+    "originalAnswers": [
+      3
+    ],
+    "summary": "원답의 출제 의도는 유지하되, ① ribavirin 투여를 현재 광견병의 확립된 표준 치료로 암기하지 마세요.",
+    "rationale": "원답은 ③의 표적 장기가 폐라는 설명을 틀린 보기로 고른 것입니다. 광견병의 주요 표적은 CNS이며 고위험 교상은 신속한 상처 처치와 노출 후 예방이 중요합니다. 그러나 현재 임상 기준에서 ①의 정맥 ribavirin을 보편적인 표준 치료로 받아들이는 것도 부적절합니다. 새 필기본 PDF12 역시 표준 치료가 아니라고 보완합니다. 증상 전 RIG·백신에 의한 발병 예방과, 임상 광견병이 발생한 뒤의 치료는 구별해야 합니다. 따라서 현대 기준으로 다시 풀면 단일 오답 선택이 깔끔하지 않을 수 있습니다. 원문 정답·채점 기준을 바꾸지 않고 당시 강의 전제와 현재 근거의 차이로 표시합니다.",
+    "confidence": "높음",
+    "reviewedAt": "2026-11-17",
+    "references": [
+      {
+        "label": "[261117_01] 랍도바이러스, 지발바이러스 (석승혁)_정우진v1.pdf / PDF p.12, 21–23, 67"
+      },
+      {
+        "label": "CDC: Clinical overview of rabies; symptomatic disease is nearly always fatal and care is supportive",
+        "url": "https://www.cdc.gov/rabies/hcp/clinical-overview/index.html"
+      },
+      {
+        "label": "CDC: Rabies post-exposure prophylaxis",
+        "url": "https://www.cdc.gov/rabies/hcp/clinical-care/post-exposure-prophylaxis.html"
+      }
+    ]
+  },
+  "past-1-34-2022-58": {
+    "status": "correction",
+    "originalAnswers": [
+      3
+    ],
+    "suggestedAnswers": [
+      2
+    ],
+    "summary": "원답 ③은 vCJD의 편도 소견과 혼동한 오류 가능성이 있습니다. 강의 비교표의 출제 의도에는 ②가 더 가까워 보입니다.",
+    "rationale": "이 증례는 과거 뇌하수체 성장호르몬 처치와 관련된 의인성 CJD를 시사합니다. 편도에서 비정상 프리온을 확인하는 설명은 주로 변종 vCJD의 진단 맥락이며, 모든 classical·의인성 CJD의 일반적인 양성 검사로 옮기기 어렵습니다. 새 필기본 PDF67–68도 원답 ③보다 ②를 제시합니다. 다만 ②의 4–6개월은 강의 표가 제시한 classical CJD의 대표 경과로 읽어야 하며 모든 의인성 CJD의 고정 경과를 의미하지 않습니다. 엄밀하게는 문항의 일반화에도 한계가 있어 검토 의견의 확신도는 중간으로 둡니다. 원래 답안표 ③과 실제 채점은 보존합니다.",
+    "confidence": "중간",
+    "reviewedAt": "2026-11-17",
+    "references": [
+      {
+        "label": "[261117_01] 랍도바이러스, 지발바이러스 (석승혁)_정우진v1.pdf / PDF p.42, 45, 47–48, 67–68"
+      },
+      {
+        "label": "NHS: CJD diagnosis—tonsil biopsy is associated with variant CJD",
+        "url": "https://www.nhs.uk/conditions/creutzfeldt-jakob-disease-cjd/diagnosis/"
+      },
+      {
+        "label": "CDC: Classic CJD clinical overview and diagnostic criteria",
+        "url": "https://www.cdc.gov/creutzfeldt-jakob/hcp/clinical-overview/index.html"
+      }
+    ]
   }
 };
