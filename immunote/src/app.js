@@ -6,7 +6,7 @@ import { getBank, selectBankQuestions, prepareBankSession, isGradable, isHistolo
 import { SEED_QUESTIONS } from '../data/questions.js';
 import { CATEGORIES } from '../data/categories.js';
 import { parseImport, IMPORT_TEMPLATE_JSON, IMPORT_TEMPLATE_MARKDOWN } from './importer.js';
-import { mountQuiz } from './quiz.js';
+import { mountQuiz, renderChoiceDetails } from './quiz.js';
 import { loadState, saveState, emptyState, recordAnswer, summarize, restoreBackup } from './store.js';
 
 const icons = {
@@ -297,6 +297,15 @@ function readPast(id) {
   const q=questions().find(q=>q.id===id); if(!q) return;
   showModal('<h2 id="modal-title">'+esc(q.title)+'</h2><p class="modal-intro">'+esc(q.source)+'</p><div class="unconfirmed-notice">원문 답안표에 일치하는 정답이 없어 자동 채점에서 제외한 문항입니다. 정답을 확인한 뒤 직접 등록할 수 있습니다.</div><div class="past-scan-reader">'+(q.scanImages||[]).filter(safeScanUrl).map((src,i)=>'<img data-scan-src="'+esc(src)+'" alt="족보 원문 '+(i+1)+'" loading="lazy">').join('')+'</div><details><summary>추출된 원문 텍스트</summary><p class="preview-stem">'+esc(q.stem)+'</p></details><label class="manual-answer-field"><span class="field-label">확인한 정답 직접 등록</span><select id="manual-answer"><option value="">정답 선택</option>'+q.options.map((_,i)=>'<option value="'+(i+1)+'">'+(i+1)+'번</option>').join('')+'</select></label><button class="button primary" data-action="save-manual-answer" data-id="'+esc(q.id)+'">정답 등록</button>');
   document.querySelectorAll('.past-scan-reader img[data-scan-src]').forEach(img=>bindScanImage(img,img.dataset.scanSrc));
+  const explanation = renderChoiceDetails(q);
+  if (explanation) {
+    const details = document.createElement('details');
+    details.className = 'unconfirmed-choice-details';
+    const summary = document.createElement('summary');
+    summary.textContent = '선지별 AI 해설 · 원문 정답 미확인';
+    details.append(summary, explanation);
+    document.querySelector('#modal-root .manual-answer-field').before(details);
+  }
 }
 function saveManualAnswer(id) {
   const value=Number(document.querySelector('#manual-answer')?.value);

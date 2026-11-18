@@ -151,3 +151,16 @@
   .quiz-image-caption, .quiz-photo-hint, .quiz-image-help { font-size: 10px; }
   .quiz-image-viewport { max-height: calc(100dvh - 180px); }
 }
+.quiz-choice-details { margin-top: 24px; }
+.quiz-choice-detail { margin-top: 12px; padding: 16px 18px; border: 1px solid var(--border, #dce6df); border-radius: 12px; background: #fff; min-width: 0; }
+.quiz-choice-title { margin: 0 0 9px; color: #294537; font-size: 14px; line-height: 1.7; overflow-wrap: anywhere; white-space: pre-wrap; }
+.quiz-choice-reason { margin: 0; color: #3d4c44; font-size: 14px; line-height: 1.9; white-space: pre-wrap; overflow-wrap: anywhere; }
+.quiz-choice-source { margin: 10px 0 0; color: #647368; font-size: 11px; line-height: 1.8; overflow-wrap: anywhere; white-space: pre-wrap; }
+.quiz-choice-notice, .quiz-choice-source-pending { color: #7a5a20; font-size: 12px; line-height: 1.8; }
+.quiz-choice-source-pending { display: block; margin-top: 6px; }
+.quiz-choice-reference { margin-top: 10px; }
+.quiz-choice-reference summary { cursor: pointer; color: #55715f; font-size: 11px; line-height: 1.8; }
+.quiz-choice-source a { color: #336749; text-underline-offset: 2px; }
+.quiz-common-explanation { margin-top: 20px; }
+.quiz-common-explanation summary { cursor: pointer; color: #456b55; font-size: 13px; line-height: 1.8; }
+@media (max-width: 600px) { .quiz-choice-detail { padding: 14px; } .quiz-choice-title, .quiz-choice-reason { font-size: 13px; } }

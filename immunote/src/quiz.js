@@ -1,4 +1,5 @@
 import { bindScanImage, isSafeScanSource } from './assets.js';
+import { getChoiceDetails } from './choice-explanations.js';
 const CIRCLED = ['①', '②', '③', '④', '⑤', '⑥', '⑦', '⑧'];
 
 export function getAnswerChoices(question) {
@@ -73,6 +74,45 @@ function element(tag, className, text) {
   if (className) node.className = className;
   if (text !== undefined && text !== null) node.textContent = String(text);
   return node;
+}
+
+function sourceText(node, text) {
+  let from = 0;
+  for (const match of text.matchAll(/https:\/\/[^\s<>"']+/g)) {
+    node.append(document.createTextNode(text.slice(from, match.index)));
+    const url = match[0].replace(/[;；,.]+$/, '');
+    const link = element('a', '', url);
+    link.href = url; link.target = '_blank'; link.rel = 'noopener noreferrer';
+    node.append(link, document.createTextNode(match[0].slice(url.length)));
+    from = match.index + match[0].length;
+  }
+  node.append(document.createTextNode(text.slice(from)));
+}
+
+// Also used by the original-source reader for questions without a confirmed key.
+export function renderChoiceDetails(question) {
+  const details = getChoiceDetails(question);
+  if (!details) return null;
+  const section = element('section', 'quiz-choice-details');
+  section.setAttribute('aria-label', '선지별 해설과 출처');
+  section.append(element('h3', 'quiz-explanation-label', '선지별 AI 해설'));
+  if (details.notice) section.append(element('p', 'quiz-choice-notice', details.notice));
+  details.choices.forEach((choice, i) => {
+    const card = element('article', 'quiz-choice-detail');
+    card.append(element('h4', 'quiz-choice-title', `${CIRCLED[i] || i + 1} ${choice.text || question.options[i]}`));
+    card.append(element('p', 'quiz-choice-reason', choice.explanation || '이 선지의 개별 해설은 아직 검토 중입니다. 아래 종합 해설을 함께 확인하세요.'));
+    if (choice.source) {
+      const source = element('details', 'quiz-choice-reference');
+      source.append(element('summary', '', choice.lecturePending ? '참고자료 · 해당 강의록 확인 대기' : '출처 보기'));
+      const paragraph = element('p', 'quiz-choice-source');
+      sourceText(paragraph, `${choice.sourceScope === 'question' ? '문항 공통 근거' : '근거'} · ${choice.source}`);
+      source.append(paragraph);
+      if (choice.lecturePending) source.append(element('small', 'quiz-choice-source-pending', '해당 주제 강의록 미확인 · 강의록 출처는 추후 보완'));
+      card.append(source);
+    }
+    section.append(card);
+  });
+  return section;
 }
 
 function button(text, className, action, attributes = {}) {
@@ -378,11 +418,18 @@ export function mountQuiz(container, questions, config = {}) {
       }
     }
     if (selected !== null && !correct) feedback.append(element('p', 'quiz-selected-summary', `선택한 답: ${Array.isArray(selected)?selected.map(n=>CIRCLED[n-1]||n).join(', '):(CIRCLED[selected - 1] || selected)+' '+question.options[selected - 1]}`));
+    const choiceDetails = renderChoiceDetails(question);
+    if (choiceDetails) {
+      feedback.append(choiceDetails);
+    }
     if (question.explanation) {
-      feedback.append(element('h3', 'quiz-explanation-label', '해설'));
+      const target = choiceDetails ? element('details', 'quiz-common-explanation') : feedback;
+      if (choiceDetails) target.append(element('summary', '', '종합 해설 · 기존 설명 전체 보기'));
+      else target.append(element('h3', 'quiz-explanation-label', '해설'));
       const explanation = element('p', 'quiz-explanation', question.explanation);
       explanation.style.whiteSpace = 'pre-wrap';
-      feedback.append(explanation);
+      target.append(explanation);
+      if (choiceDetails) feedback.append(target);
     }
     if (question.source) feedback.append(element('p', 'quiz-source', question.source));
     return feedback;

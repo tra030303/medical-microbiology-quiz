@@ -1,0 +1,20 @@
+// Reviewed per-choice additions; original banks and keys are unchanged.
+import { NOTES as PART_0 } from './choice-note-packs/part-001.js';
+import { NOTES as PART_1 } from './choice-note-packs/part-002.js';
+import { NOTES as PART_2 } from './choice-note-packs/part-003.js';
+import { NOTES as PART_3 } from './choice-note-packs/part-004.js';
+import { NOTES as PART_4 } from './choice-note-packs/part-005.js';
+import { NOTES as PART_5 } from './choice-note-packs/part-006.js';
+import { NOTES as PART_6 } from './choice-note-packs/part-007.js';
+import { NOTES as PART_7 } from './choice-note-packs/part-008.js';
+import { NOTES as PART_8 } from './choice-note-packs/part-009.js';
+import { NOTES as PART_9 } from './choice-note-packs/part-010.js';
+import { NOTES as PART_10 } from './choice-note-packs/part-011.js';
+import { NOTES as PART_11 } from './choice-note-packs/part-012.js';
+import { NOTES as PART_12 } from './choice-note-packs/part-013.js';
+import { NOTES as PART_13 } from './choice-note-packs/part-014.js';
+import { NOTES as PART_14 } from './choice-note-packs/part-015.js';
+import { NOTES as PART_15 } from './choice-note-packs/part-016.js';
+import { NOTES as PART_16 } from './choice-note-packs/part-017.js';
+import { NOTES as PART_17 } from './choice-note-packs/part-018.js';
+export const CHOICE_NOTES = {...PART_0,...PART_1,...PART_2,...PART_3,...PART_4,...PART_5,...PART_6,...PART_7,...PART_8,...PART_9,...PART_10,...PART_11,...PART_12,...PART_13,...PART_14,...PART_15,...PART_16,...PART_17};

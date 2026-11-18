@@ -1,0 +1,1486 @@
+export const NOTES = {
+  "past-2-51-2023-20": {
+    "choices": [
+      {
+        "text": "항핵항체",
+        "explanation": "RF·anti-CCP·ANA는 각각 다른 자가면역질환 평가에 쓰며 축성 척추관절염을 직접 확진하지 않는다."
+      },
+      {
+        "text": "항CCP항체",
+        "explanation": "RF·anti-CCP·ANA는 각각 다른 자가면역질환 평가에 쓰며 축성 척추관절염을 직접 확진하지 않는다."
+      },
+      {
+        "text": "류마티스인자",
+        "explanation": "RF·anti-CCP·ANA는 각각 다른 자가면역질환 평가에 쓰며 축성 척추관절염을 직접 확진하지 않는다."
+      },
+      {
+        "text": "골반 엑스선검사",
+        "explanation": "천장관절염을 평가하는 골반 X선이 기본 검사다. 초기 비방사선성 질환 의심이 남으면 MRI 등을 추가한다."
+      },
+      {
+        "text": "무릎 초음파검사",
+        "explanation": "초음파는 말초 부착부·관절에 유용할 수 있으나 천장관절염의 기본 골반 영상 평가를 대신하지 않는다."
+      }
+    ],
+    "source": "일반 의학 개념에 따른 AI 해설 · 해당 주제 강의록 대조 전",
+    "sourceScope": "question",
+    "lecturePending": true,
+    "signature": "047a4524"
+  },
+  "past-2-51-2023-4": {
+    "choices": [
+      {
+        "text": "자가항체",
+        "explanation": "자가항체 양성은 척추관절염의 필수 기준이 아니다."
+      },
+      {
+        "text": "구강궤양",
+        "explanation": "구강·항문궤양, 석회화결절, 원판상 발진 등은 각각 다른 염증성 질환과 감별하며 이 축성 증후군의 대표 병변이 아니다."
+      },
+      {
+        "text": "부착부염",
+        "explanation": "건·인대가 뼈에 붙는 부착부의 염증은 척추관절염의 대표 병변이다. Achilles 부착부가 흔한 예다."
+      },
+      {
+        "text": "석회화결절",
+        "explanation": "구강·항문궤양, 석회화결절, 원판상 발진 등은 각각 다른 염증성 질환과 감별하며 이 축성 증후군의 대표 병변이 아니다."
+      },
+      {
+        "text": "디스크양 발진",
+        "explanation": "구강·항문궤양, 석회화결절, 원판상 발진 등은 각각 다른 염증성 질환과 감별하며 이 축성 증후군의 대표 병변이 아니다."
+      }
+    ],
+    "source": "일반 의학 개념에 따른 AI 해설 · 해당 주제 강의록 대조 전",
+    "sourceScope": "question",
+    "lecturePending": true,
+    "signature": "44545ce8"
+  },
+  "past-2-51-2025-33": {
+    "choices": [
+      {
+        "text": "항핵항체",
+        "explanation": "RF·anti-CCP·ANA는 각각 다른 자가면역질환 평가에 쓰며 축성 척추관절염을 직접 확진하지 않는다."
+      },
+      {
+        "text": "척추초음파",
+        "explanation": "초음파는 말초 부착부·관절에 유용할 수 있으나 천장관절염의 기본 골반 영상 평가를 대신하지 않는다."
+      },
+      {
+        "text": "HLA typing",
+        "explanation": "HLA-B27은 진단을 지지하나 단독 확진이 아니다. HLA-B51은 Behçet병과 더 관련한다."
+      },
+      {
+        "text": "류마티스인자",
+        "explanation": "RF·anti-CCP·ANA는 각각 다른 자가면역질환 평가에 쓰며 축성 척추관절염을 직접 확진하지 않는다."
+      },
+      {
+        "text": "골반엑스선검사",
+        "explanation": "천장관절염을 평가하는 골반 X선이 기본 검사다. 초기 비방사선성 질환 의심이 남으면 MRI 등을 추가한다."
+      }
+    ],
+    "source": "일반 의학 개념에 따른 AI 해설 · 해당 주제 강의록 대조 전",
+    "sourceScope": "question",
+    "lecturePending": true,
+    "signature": "8432ea8a"
+  },
+  "past-2-51-2025-44": {
+    "choices": [
+      {
+        "text": "움직이면 호전된다",
+        "explanation": "움직임·운동 후 호전과 휴식 시 악화는 염증성 요통을 지지한다."
+      },
+      {
+        "text": "일어설 때 발생한다",
+        "explanation": "갑작스러운 발병·활동 악화·특정 자세 악화·방사성 저림은 염증성 요통의 대표 기준과 다르다."
+      },
+      {
+        "text": "통증이 갑자기 발생한다",
+        "explanation": "갑작스러운 발병·활동 악화·특정 자세 악화·방사성 저림은 염증성 요통의 대표 기준과 다르다."
+      },
+      {
+        "text": "스테로이드제에 반응이 없다",
+        "explanation": "갑작스러운 발병·활동 악화·특정 자세 악화·방사성 저림은 염증성 요통의 대표 기준과 다르다."
+      },
+      {
+        "text": "허리를 뒤로 젖힐 때 심해진다",
+        "explanation": "갑작스러운 발병·활동 악화·특정 자세 악화·방사성 저림은 염증성 요통의 대표 기준과 다르다."
+      }
+    ],
+    "source": "일반 의학 개념에 따른 AI 해설 · 해당 주제 강의록 대조 전",
+    "sourceScope": "question",
+    "lecturePending": true,
+    "signature": "41a8be9e"
+  },
+  "past-2-51-2025-63": {
+    "choices": [
+      {
+        "text": "구강궤양",
+        "explanation": "구강·항문궤양, 석회화결절, 원판상 발진 등은 각각 다른 염증성 질환과 감별하며 이 축성 증후군의 대표 병변이 아니다."
+      },
+      {
+        "text": "급성 결막염",
+        "explanation": "포도막염이 대표 안구 연관 소견이며 단순 급성·만성 결막염과 구분한다."
+      },
+      {
+        "text": "아킬레스건염",
+        "explanation": "건·인대가 뼈에 붙는 부착부의 염증은 척추관절염의 대표 병변이다. Achilles 부착부가 흔한 예다."
+      },
+      {
+        "text": "석회성 피하결절",
+        "explanation": "구강·항문궤양, 석회화결절, 원판상 발진 등은 각각 다른 염증성 질환과 감별하며 이 축성 증후군의 대표 병변이 아니다."
+      },
+      {
+        "text": "양측성 다발관절염",
+        "explanation": "구강·항문궤양, 석회화결절, 원판상 발진 등은 각각 다른 염증성 질환과 감별하며 이 축성 증후군의 대표 병변이 아니다."
+      }
+    ],
+    "source": "일반 의학 개념에 따른 AI 해설 · 해당 주제 강의록 대조 전",
+    "sourceScope": "question",
+    "lecturePending": true,
+    "signature": "8f89cf4b"
+  },
+  "past-2-52-2020-10": {
+    "choices": [
+      {
+        "text": "근위부 관절",
+        "explanation": "PIP를 뜻한다면 RA의 흔한 침범 부위다."
+      },
+      {
+        "text": "원위부 관절",
+        "explanation": "DIP는 전형적 RA에서 상대적으로 보존된다."
+      },
+      {
+        "text": "중수지절 관절",
+        "explanation": "MCP는 흔한 침범 부위다."
+      },
+      {
+        "text": "중족지절 관절",
+        "explanation": "MTP도 흔히 침범한다."
+      },
+      {
+        "text": "무릎 관절",
+        "explanation": "무릎 등 큰 관절도 침범할 수 있다."
+      }
+    ],
+    "source": "외부 참고(문항 공통): MSD Manual, Rheumatoid Arthritis https://www.msdmanuals.com/professional/musculoskeletal-and-connective-tissue-disorders/joint-disorders/rheumatoid-arthritis-ra",
+    "sourceScope": "question",
+    "lecturePending": true,
+    "signature": "effb079d"
+  },
+  "past-2-52-2020-11": {
+    "choices": [
+      {
+        "text": "pericarditis",
+        "explanation": "RA의 장막염·심낭염이 가능하다."
+      },
+      {
+        "text": "periodontitis",
+        "explanation": "치주염은 RA와 연관성이 있어 구강 관리와 병인 맥락을 구분한다."
+      },
+      {
+        "text": "uveitis",
+        "explanation": "포도막염은 특히 척추관절염·소아 관절염 등과 연결한다. 성인 RA의 전형적 안과 소견은 건조증·상공막염·공막염이다."
+      },
+      {
+        "text": "pyoderma gangrenosum",
+        "explanation": "드물게 연관될 수 있는 호중구성 피부질환이다."
+      },
+      {
+        "text": "Sjogren's syndrome",
+        "explanation": "이차 Sjögren 관련 건조 증상이 동반될 수 있다."
+      }
+    ],
+    "source": "외부 참고(문항 공통): MSD Manual, Rheumatoid Arthritis https://www.msdmanuals.com/professional/musculoskeletal-and-connective-tissue-disorders/joint-disorders/rheumatoid-arthritis-ra",
+    "sourceScope": "question",
+    "lecturePending": true,
+    "signature": "2e6f49cc"
+  },
+  "past-2-52-2020-12": {
+    "choices": [
+      {
+        "text": "TNF-alpha",
+        "explanation": "TNF 억제제는 RA의 확립된 표적치료다."
+      },
+      {
+        "text": "CD20",
+        "explanation": "CD20 B세포 표적 치료가 사용된다."
+      },
+      {
+        "text": "IL-6",
+        "explanation": "IL-6 수용체 표적 치료가 사용된다."
+      },
+      {
+        "text": "IL-17",
+        "explanation": "IL-17 경로는 병인에 관여해도 현재 RA의 대표 승인 표적치료와는 다르다. 다른 관절염의 적응증과 구분한다."
+      },
+      {
+        "text": "CTLA-4",
+        "explanation": "Abatacept는 CTLA4-Ig로 공자극을 억제한다. CTLA-4 자체를 차단하는 종양 면역치료와 다르며 원문 target 표현이 모호하다."
+      }
+    ],
+    "source": "외부 참고(문항 공통): MSD Manual, Rheumatoid Arthritis https://www.msdmanuals.com/professional/musculoskeletal-and-connective-tissue-disorders/joint-disorders/rheumatoid-arthritis-ra",
+    "sourceScope": "question",
+    "lecturePending": true,
+    "signature": "66a47158"
+  },
+  "past-2-52-2020-4": {
+    "choices": [
+      {
+        "text": "IL-1α",
+        "explanation": "TNF·IL-1·IL-6·IL-8·IL-17 등은 염증과 세포 유입에 기여하며 IL-10의 항염 작용과 비교한다."
+      },
+      {
+        "text": "IL-1β",
+        "explanation": "TNF·IL-1·IL-6·IL-8·IL-17 등은 염증과 세포 유입에 기여하며 IL-10의 항염 작용과 비교한다."
+      },
+      {
+        "text": "IL-6",
+        "explanation": "TNF·IL-1·IL-6·IL-8·IL-17 등은 염증과 세포 유입에 기여하며 IL-10의 항염 작용과 비교한다."
+      },
+      {
+        "text": "IL-8",
+        "explanation": "TNF·IL-1·IL-6·IL-8·IL-17 등은 염증과 세포 유입에 기여하며 IL-10의 항염 작용과 비교한다."
+      },
+      {
+        "text": "IL-10",
+        "explanation": "IL-10은 주로 항염증성 사이토카인으로 급성 염증 촉진 인자와 구분한다."
+      }
+    ],
+    "source": "외부 참고(문항 공통): MSD Manual, Rheumatoid Arthritis https://www.msdmanuals.com/professional/musculoskeletal-and-connective-tissue-disorders/joint-disorders/rheumatoid-arthritis-ra",
+    "sourceScope": "question",
+    "lecturePending": true,
+    "signature": "3c9fb38e"
+  },
+  "past-2-52-2020-52": {
+    "choices": [
+      {
+        "text": "HLA-DRB1*1501",
+        "explanation": "이 문항의 대표 RA shared-epitope 위험 대립유전자와 구분한다. 같은 DRB1*04 계열이라도 아형별 위험이 다르다."
+      },
+      {
+        "text": "HLA-DRB1*1104",
+        "explanation": "이 문항의 대표 RA shared-epitope 위험 대립유전자와 구분한다. 같은 DRB1*04 계열이라도 아형별 위험이 다르다."
+      },
+      {
+        "text": "HLA-DRB1*0401",
+        "explanation": "Shared epitope를 가진 RA 관련 위험 대립유전자의 대표 예다."
+      },
+      {
+        "text": "HLA-DRB1*0402",
+        "explanation": "이 문항의 대표 RA shared-epitope 위험 대립유전자와 구분한다. 같은 DRB1*04 계열이라도 아형별 위험이 다르다."
+      },
+      {
+        "text": "HLA-DRB1*0403",
+        "explanation": "이 문항의 대표 RA shared-epitope 위험 대립유전자와 구분한다. 같은 DRB1*04 계열이라도 아형별 위험이 다르다."
+      }
+    ],
+    "source": "외부 참고(문항 공통): MSD Manual, Rheumatoid Arthritis https://www.msdmanuals.com/professional/musculoskeletal-and-connective-tissue-disorders/joint-disorders/rheumatoid-arthritis-ra",
+    "sourceScope": "question",
+    "lecturePending": true,
+    "signature": "c7329232"
+  },
+  "past-2-52-2020-53": {
+    "choices": [
+      {
+        "text": "IL-10",
+        "explanation": "IL-10은 주로 항염증성 사이토카인으로 급성 염증 촉진 인자와 구분한다."
+      },
+      {
+        "text": "TGF-beta",
+        "explanation": "면역 조절·섬유화 등에 관여하며 직접 RANKL–RANK 파골세포 분화 신호와 구분한다."
+      },
+      {
+        "text": "Receptor Activator of NF-kB ligand",
+        "explanation": "RANKL은 파골세포의 RANK에 작용하여 분화·골흡수·골미란을 촉진한다."
+      },
+      {
+        "text": "Interferon alpha",
+        "explanation": "Type I interferon은 SLE 등의 병인과 관련하며 이 골미란의 직접 RANKL을 대신하지 않는다."
+      },
+      {
+        "text": "Osteoprotegerin",
+        "explanation": "OPG는 RANKL decoy receptor로 파골세포 분화를 억제하는 방향이다."
+      }
+    ],
+    "source": "외부 참고(문항 공통): MSD Manual, Rheumatoid Arthritis https://www.msdmanuals.com/professional/musculoskeletal-and-connective-tissue-disorders/joint-disorders/rheumatoid-arthritis-ra",
+    "sourceScope": "question",
+    "lecturePending": true,
+    "signature": "711f0c73"
+  },
+  "past-2-52-2020-54": {
+    "choices": [
+      {
+        "text": "Anti-Glomerular basement membrane Ab",
+        "explanation": "Anti-GBM은 폐·신장 기저막 질환과 관련한다."
+      },
+      {
+        "text": "Anti-RNA polymerase III Ab",
+        "explanation": "Anti-RNA polymerase III는 전신경화증·신위기 위험 등과 관련한다."
+      },
+      {
+        "text": "Anti-Ribosomal P Ab",
+        "explanation": "Anti-ribosomal P는 SLE와 관련하며 RA의 대표 ACPA와 다르다."
+      },
+      {
+        "text": "Anti-Mitochondrial Ab",
+        "explanation": "항미토콘드리아 항체는 원발담즙성담관염과 대표적으로 관련한다."
+      },
+      {
+        "text": "Anti-Cyclic Citrullinated peptide Ab",
+        "explanation": "PAD가 arginine을 citrulline으로 바꾸는 변형이며 ACPA 형성과 관련한다."
+      }
+    ],
+    "source": "외부 참고(문항 공통): MSD Manual, Rheumatoid Arthritis https://www.msdmanuals.com/professional/musculoskeletal-and-connective-tissue-disorders/joint-disorders/rheumatoid-arthritis-ra",
+    "sourceScope": "question",
+    "lecturePending": true,
+    "signature": "50899f5b"
+  },
+  "past-2-52-2021-30": {
+    "choices": [
+      {
+        "text": "HLA-DRB1*0101",
+        "explanation": "Shared epitope를 가진 RA 관련 위험 대립유전자의 대표 예다."
+      },
+      {
+        "text": "HLA-DRB1*0301",
+        "explanation": "이 문항의 대표 RA shared-epitope 위험 대립유전자와 구분한다. 같은 DRB1*04 계열이라도 아형별 위험이 다르다."
+      },
+      {
+        "text": "HLA-DRB1*0401",
+        "explanation": "Shared epitope를 가진 RA 관련 위험 대립유전자의 대표 예다."
+      },
+      {
+        "text": "HLA-DRB1*0404",
+        "explanation": "Shared epitope를 가진 RA 관련 위험 대립유전자의 대표 예다."
+      },
+      {
+        "text": "HLA-DRB1*0405",
+        "explanation": "Shared epitope를 가진 RA 관련 위험 대립유전자의 대표 예다."
+      }
+    ],
+    "source": "외부 참고(문항 공통): MSD Manual, Rheumatoid Arthritis https://www.msdmanuals.com/professional/musculoskeletal-and-connective-tissue-disorders/joint-disorders/rheumatoid-arthritis-ra",
+    "sourceScope": "question",
+    "lecturePending": true,
+    "signature": "65c57a21"
+  },
+  "past-2-52-2021-31": {
+    "choices": [
+      {
+        "text": "anti-glomerular basement membrane antibody",
+        "explanation": "Anti-GBM은 폐·신장 기저막 질환과 관련한다."
+      },
+      {
+        "text": "anti-RNA polymeraseIII antibody",
+        "explanation": "Anti-RNA polymerase III는 전신경화증·신위기 위험 등과 관련한다."
+      },
+      {
+        "text": "anti-cyclic citrullinated peptides antibody",
+        "explanation": "PAD가 arginine을 citrulline으로 바꾸는 변형이며 ACPA 형성과 관련한다."
+      },
+      {
+        "text": "anti-mitochondrial antibody",
+        "explanation": "항미토콘드리아 항체는 원발담즙성담관염과 대표적으로 관련한다."
+      },
+      {
+        "text": "anti-synthetase antibody",
+        "explanation": "항합성효소 항체는 염증성 근육병·간질성폐질환 등과 관련한다."
+      }
+    ],
+    "source": "외부 참고(문항 공통): MSD Manual, Rheumatoid Arthritis https://www.msdmanuals.com/professional/musculoskeletal-and-connective-tissue-disorders/joint-disorders/rheumatoid-arthritis-ra",
+    "sourceScope": "question",
+    "lecturePending": true,
+    "signature": "a9ad75d5"
+  },
+  "past-2-52-2021-33": {
+    "choices": [
+      {
+        "text": "T-cell receptor",
+        "explanation": "TCR은 MHC에 제시된 항원 peptide를 인식한다."
+      },
+      {
+        "text": "CD28",
+        "explanation": "T세포 공자극 수용체로 APC의 CD80/86과 결합한다."
+      },
+      {
+        "text": "Major histocompatibility complex(MHC)",
+        "explanation": "MHC class II는 CD4 T세포에 항원을 제시한다."
+      },
+      {
+        "text": "Matrix metalloproteinase(MMP)",
+        "explanation": "기질·연골 파괴 효소이며 TCR–MHC·CD28–CD80/86의 항원제시·공자극 쌍이 아니다."
+      },
+      {
+        "text": "CD80/86",
+        "explanation": "APC 공자극 분자로 CD28·CTLA4와 상호작용한다. RANKL의 직접 골흡수 기능과는 다르다."
+      }
+    ],
+    "source": "외부 참고(문항 공통): MSD Manual, Rheumatoid Arthritis https://www.msdmanuals.com/professional/musculoskeletal-and-connective-tissue-disorders/joint-disorders/rheumatoid-arthritis-ra",
+    "sourceScope": "question",
+    "lecturePending": true,
+    "signature": "ea782c03"
+  },
+  "past-2-52-2021-4": {
+    "choices": [
+      {
+        "text": "Interleukin-4",
+        "explanation": "IL-4는 Th2·조절 맥락이 중요하며 RA의 대표 염증 촉진 TNF·IL-6 등과 구분한다."
+      },
+      {
+        "text": "Interleukin-8",
+        "explanation": "TNF·IL-1·IL-6·IL-8·IL-17 등은 염증과 세포 유입에 기여하며 IL-10의 항염 작용과 비교한다."
+      },
+      {
+        "text": "Interleukin-9",
+        "explanation": "TNF·IL-1·IL-6·IL-8·IL-17 등은 염증과 세포 유입에 기여하며 IL-10의 항염 작용과 비교한다."
+      },
+      {
+        "text": "Interleukin-10",
+        "explanation": "IL-10은 주로 항염증성 사이토카인으로 급성 염증 촉진 인자와 구분한다."
+      },
+      {
+        "text": "Interleukin-17",
+        "explanation": "TNF·IL-1·IL-6·IL-8·IL-17 등은 염증과 세포 유입에 기여하며 IL-10의 항염 작용과 비교한다."
+      }
+    ],
+    "source": "외부 참고(문항 공통): MSD Manual, Rheumatoid Arthritis https://www.msdmanuals.com/professional/musculoskeletal-and-connective-tissue-disorders/joint-disorders/rheumatoid-arthritis-ra",
+    "sourceScope": "question",
+    "lecturePending": true,
+    "signature": "07f35d47"
+  },
+  "past-2-52-2021-6": {
+    "choices": [
+      {
+        "text": "활막의 비후",
+        "explanation": "활막 증식·pannus 형성이 특징이다."
+      },
+      {
+        "text": "림프구 침윤",
+        "explanation": "활막에 림프구 등 염증세포가 침윤한다."
+      },
+      {
+        "text": "혈관신생",
+        "explanation": "염증성 활막에서 혈관신생이 일어날 수 있다."
+      },
+      {
+        "text": "연골의 비후",
+        "explanation": "연골의 파괴·관절간격 감소가 문제이며 연골 비후를 대표 소견으로 보지 않는다."
+      },
+      {
+        "text": "골다공증",
+        "explanation": "관절 주변 골감소와 미란이 생길 수 있다."
+      }
+    ],
+    "source": "외부 참고(문항 공통): MSD Manual, Rheumatoid Arthritis https://www.msdmanuals.com/professional/musculoskeletal-and-connective-tissue-disorders/joint-disorders/rheumatoid-arthritis-ra",
+    "sourceScope": "question",
+    "lecturePending": true,
+    "signature": "02ab83b6"
+  },
+  "past-2-52-2021-7": {
+    "choices": [
+      {
+        "text": "Enbrel: Il-17",
+        "explanation": "Etanercept(Enbrel)는 TNF 억제제이며 IL-17 표적이 아니다."
+      },
+      {
+        "text": "Rituximab: T림프구",
+        "explanation": "Rituximab은 CD20 양성 B세포를 표적한다."
+      },
+      {
+        "text": "Adalimumab: IL-1",
+        "explanation": "Adalimumab은 TNF 표적 항체다."
+      },
+      {
+        "text": "Tocilizumab: IL-6 수용체",
+        "explanation": "Tocilizumab은 IL-6 수용체 표적 항체다."
+      },
+      {
+        "text": "Abatacept: TGF-beta",
+        "explanation": "Abatacept는 CTLA4-Ig로 CD80/86 결합을 통해 T세포 공자극을 억제한다."
+      }
+    ],
+    "source": "외부 참고(문항 공통): MSD Manual, Rheumatoid Arthritis https://www.msdmanuals.com/professional/musculoskeletal-and-connective-tissue-disorders/joint-disorders/rheumatoid-arthritis-ra",
+    "sourceScope": "question",
+    "lecturePending": true,
+    "signature": "132574b5"
+  },
+  "past-2-52-2021-8": {
+    "choices": [
+      {
+        "text": "류마티스 관절염은 HLA-DRB1의 특정변이와 관련이\n있다",
+        "explanation": "특정 HLA-DRB1 shared-epitope 대립유전자와 관련한다."
+      },
+      {
+        "text": "류마티스 관절염과 가장 관련 깊은 외부 요인은 음주\n이다.",
+        "explanation": "흡연이 중요한 환경 위험요인이며 음주를 가장 대표로 고르지 않는다."
+      },
+      {
+        "text": "류마티스 관절염을 유발하는 자가항체는 anti-\ndsDNA 항체이다.",
+        "explanation": "Anti-dsDNA는 SLE와 관련하며 RA의 대표 자가항체는 ACPA·RF다."
+      },
+      {
+        "text": "Anti-CCP 항체는 antibody의 Fc 부분을 타겟으로\n한다.",
+        "explanation": "Anti-CCP는 시트룰린화 항원을, RF는 IgG Fc를 표적으로 한다."
+      },
+      {
+        "text": "류마티스 인자가 없으면 류마티스 관절염이 발생하지\n않는다.",
+        "explanation": "RF 음성 RA도 존재한다."
+      }
+    ],
+    "source": "외부 참고(문항 공통): MSD Manual, Rheumatoid Arthritis https://www.msdmanuals.com/professional/musculoskeletal-and-connective-tissue-disorders/joint-disorders/rheumatoid-arthritis-ra",
+    "sourceScope": "question",
+    "lecturePending": true,
+    "signature": "d79f2bdd"
+  },
+  "past-2-52-2022-1": {
+    "choices": [
+      {
+        "text": "Interleukin-1β",
+        "explanation": "TNF·IL-1·IL-6·IL-8·IL-17 등은 염증과 세포 유입에 기여하며 IL-10의 항염 작용과 비교한다."
+      },
+      {
+        "text": "Interleukin-6",
+        "explanation": "TNF·IL-1·IL-6·IL-8·IL-17 등은 염증과 세포 유입에 기여하며 IL-10의 항염 작용과 비교한다."
+      },
+      {
+        "text": "Interleukin-8",
+        "explanation": "TNF·IL-1·IL-6·IL-8·IL-17 등은 염증과 세포 유입에 기여하며 IL-10의 항염 작용과 비교한다."
+      },
+      {
+        "text": "Interleukin-10",
+        "explanation": "IL-10은 주로 항염증성 사이토카인으로 급성 염증 촉진 인자와 구분한다."
+      },
+      {
+        "text": "Tumor necrosis factor",
+        "explanation": "TNF·IL-1·IL-6·IL-8·IL-17 등은 염증과 세포 유입에 기여하며 IL-10의 항염 작용과 비교한다."
+      }
+    ],
+    "source": "외부 참고(문항 공통): MSD Manual, Rheumatoid Arthritis https://www.msdmanuals.com/professional/musculoskeletal-and-connective-tissue-disorders/joint-disorders/rheumatoid-arthritis-ra",
+    "sourceScope": "question",
+    "lecturePending": true,
+    "signature": "6a7bb2dd"
+  },
+  "past-2-52-2022-14": {
+    "choices": [
+      {
+        "text": "우측 손목의 종창 및 압통",
+        "explanation": "손목은 RA의 흔한 침범 부위다."
+      },
+      {
+        "text": "좌측 중족지 관절의 종창 및 압통",
+        "explanation": "MTP 관절도 흔히 침범한다."
+      },
+      {
+        "text": "우측 원위지절관절의 종창 및 압통",
+        "explanation": "DIP는 전형적 RA에서 상대적으로 보존되며 골관절염·건선관절염 등과 비교한다."
+      },
+      {
+        "text": "우측 근위지절관절의 종창 및 압통",
+        "explanation": "PIP는 흔한 침범 부위다."
+      },
+      {
+        "text": "좌측 손목의 압통",
+        "explanation": "반대쪽 손목도 대칭적으로 침범할 수 있다."
+      }
+    ],
+    "source": "외부 참고(문항 공통): MSD Manual, Rheumatoid Arthritis https://www.msdmanuals.com/professional/musculoskeletal-and-connective-tissue-disorders/joint-disorders/rheumatoid-arthritis-ra",
+    "sourceScope": "question",
+    "lecturePending": true,
+    "signature": "4bad3466"
+  },
+  "past-2-52-2022-4": {
+    "choices": [
+      {
+        "text": "Tumor necrosis factor alpha",
+        "explanation": "TNF·IL-1·IL-6·IL-8·IL-17 등은 염증과 세포 유입에 기여하며 IL-10의 항염 작용과 비교한다."
+      },
+      {
+        "text": "Interleukin-4",
+        "explanation": "IL-4는 Th2·조절 맥락이 중요하며 RA의 대표 염증 촉진 TNF·IL-6 등과 구분한다."
+      },
+      {
+        "text": "Interleukin-6",
+        "explanation": "TNF·IL-1·IL-6·IL-8·IL-17 등은 염증과 세포 유입에 기여하며 IL-10의 항염 작용과 비교한다."
+      },
+      {
+        "text": "Interleukin-1",
+        "explanation": "TNF·IL-1·IL-6·IL-8·IL-17 등은 염증과 세포 유입에 기여하며 IL-10의 항염 작용과 비교한다."
+      },
+      {
+        "text": "Interleukin-17",
+        "explanation": "TNF·IL-1·IL-6·IL-8·IL-17 등은 염증과 세포 유입에 기여하며 IL-10의 항염 작용과 비교한다."
+      }
+    ],
+    "source": "외부 참고(문항 공통): MSD Manual, Rheumatoid Arthritis https://www.msdmanuals.com/professional/musculoskeletal-and-connective-tissue-disorders/joint-disorders/rheumatoid-arthritis-ra",
+    "sourceScope": "question",
+    "lecturePending": true,
+    "signature": "c9f77916"
+  },
+  "past-2-52-2022-46": {
+    "choices": [
+      {
+        "text": "anti-cyclic citrullinated peptides antibody",
+        "explanation": "PAD가 arginine을 citrulline으로 바꾸는 변형이며 ACPA 형성과 관련한다."
+      },
+      {
+        "text": "anti-RNA polymeraseIII antibody",
+        "explanation": "Anti-RNA polymerase III는 전신경화증·신위기 위험 등과 관련한다."
+      },
+      {
+        "text": "anti-glomerular basement membrane antibody",
+        "explanation": "Anti-GBM은 폐·신장 기저막 질환과 관련한다."
+      },
+      {
+        "text": "anti-mitochondrial antibody",
+        "explanation": "항미토콘드리아 항체는 원발담즙성담관염과 대표적으로 관련한다."
+      },
+      {
+        "text": "anti-synthetase antibody",
+        "explanation": "항합성효소 항체는 염증성 근육병·간질성폐질환 등과 관련한다."
+      }
+    ],
+    "source": "외부 참고(문항 공통): MSD Manual, Rheumatoid Arthritis https://www.msdmanuals.com/professional/musculoskeletal-and-connective-tissue-disorders/joint-disorders/rheumatoid-arthritis-ra",
+    "sourceScope": "question",
+    "lecturePending": true,
+    "signature": "c45f13fb"
+  },
+  "past-2-52-2022-51": {
+    "choices": [
+      {
+        "text": "T-cell receptor",
+        "explanation": "TCR은 MHC에 제시된 항원 peptide를 인식한다."
+      },
+      {
+        "text": "CD28",
+        "explanation": "T세포 공자극 수용체로 APC의 CD80/86과 결합한다."
+      },
+      {
+        "text": "Major histocompatibility complex(MHC)",
+        "explanation": "MHC class II는 CD4 T세포에 항원을 제시한다."
+      },
+      {
+        "text": "CD80/86",
+        "explanation": "APC 공자극 분자로 CD28·CTLA4와 상호작용한다. RANKL의 직접 골흡수 기능과는 다르다."
+      },
+      {
+        "text": "Matrix metalloproteinase(MMP)",
+        "explanation": "기질·연골 파괴 효소이며 TCR–MHC·CD28–CD80/86의 항원제시·공자극 쌍이 아니다."
+      }
+    ],
+    "source": "외부 참고(문항 공통): MSD Manual, Rheumatoid Arthritis https://www.msdmanuals.com/professional/musculoskeletal-and-connective-tissue-disorders/joint-disorders/rheumatoid-arthritis-ra",
+    "sourceScope": "question",
+    "lecturePending": true,
+    "signature": "a67fbaea"
+  },
+  "past-2-52-2022-57": {
+    "choices": [
+      {
+        "text": "HLA-DRB1*0301",
+        "explanation": "이 문항의 대표 RA shared-epitope 위험 대립유전자와 구분한다. 같은 DRB1*04 계열이라도 아형별 위험이 다르다."
+      },
+      {
+        "text": "HLA-DRB1*0401",
+        "explanation": "Shared epitope를 가진 RA 관련 위험 대립유전자의 대표 예다."
+      },
+      {
+        "text": "HLA-DRB1*0402",
+        "explanation": "이 문항의 대표 RA shared-epitope 위험 대립유전자와 구분한다. 같은 DRB1*04 계열이라도 아형별 위험이 다르다."
+      },
+      {
+        "text": "HLA-DRB1*0403",
+        "explanation": "이 문항의 대표 RA shared-epitope 위험 대립유전자와 구분한다. 같은 DRB1*04 계열이라도 아형별 위험이 다르다."
+      },
+      {
+        "text": "HLA-DRB1*1501",
+        "explanation": "이 문항의 대표 RA shared-epitope 위험 대립유전자와 구분한다. 같은 DRB1*04 계열이라도 아형별 위험이 다르다."
+      }
+    ],
+    "source": "외부 참고(문항 공통): MSD Manual, Rheumatoid Arthritis https://www.msdmanuals.com/professional/musculoskeletal-and-connective-tissue-disorders/joint-disorders/rheumatoid-arthritis-ra",
+    "sourceScope": "question",
+    "lecturePending": true,
+    "signature": "639b712b"
+  },
+  "past-2-52-2022-60": {
+    "choices": [
+      {
+        "text": "중성구",
+        "explanation": "염증성 관절액에서는 많을 수 있으나 활막 조직의 만성 림프구 침윤과 구분한다."
+      },
+      {
+        "text": "호산구",
+        "explanation": "알레르기성 세포 반응과 관련하며 RA 활막의 대표 우세 세포로 고르지 않는다."
+      },
+      {
+        "text": "호염구",
+        "explanation": "알레르기성 세포 반응과 관련하며 RA 활막의 대표 우세 세포로 고르지 않는다."
+      },
+      {
+        "text": "림프구",
+        "explanation": "만성 RA 활막 조직에서는 림프구·대식세포 등이 중요하며 CD4 T세포가 대표적이다. 관절액의 우세 호중구와 구분한다."
+      },
+      {
+        "text": "파골세포",
+        "explanation": "골미란을 만드는 세포로 중요하지만 활막의 가장 흔한 침윤세포는 아니다."
+      }
+    ],
+    "source": "외부 참고(문항 공통): MSD Manual, Rheumatoid Arthritis https://www.msdmanuals.com/professional/musculoskeletal-and-connective-tissue-disorders/joint-disorders/rheumatoid-arthritis-ra",
+    "sourceScope": "question",
+    "lecturePending": true,
+    "signature": "aeabaf50"
+  },
+  "past-2-52-2023-19": {
+    "choices": [
+      {
+        "text": "TNF-a",
+        "explanation": "염증·세포 유입에 기여할 수 있지만 파골세포의 직접 분화 신호는 RANKL–RANK다."
+      },
+      {
+        "text": "Interleukin-6",
+        "explanation": "염증·세포 유입에 기여할 수 있지만 파골세포의 직접 분화 신호는 RANKL–RANK다."
+      },
+      {
+        "text": "CD80/86",
+        "explanation": "APC 공자극 분자로 CD28·CTLA4와 상호작용한다. RANKL의 직접 골흡수 기능과는 다르다."
+      },
+      {
+        "text": "CD20",
+        "explanation": "B세포 표지·치료 표적으로 직접적인 파골세포 분화 ligand와 다르다."
+      },
+      {
+        "text": "RANKL",
+        "explanation": "RANKL은 파골세포의 RANK에 작용하여 분화·골흡수·골미란을 촉진한다."
+      }
+    ],
+    "source": "외부 참고(문항 공통): MSD Manual, Rheumatoid Arthritis https://www.msdmanuals.com/professional/musculoskeletal-and-connective-tissue-disorders/joint-disorders/rheumatoid-arthritis-ra",
+    "sourceScope": "question",
+    "lecturePending": true,
+    "signature": "eba3991e"
+  },
+  "past-2-52-2023-51": {
+    "choices": [
+      {
+        "text": "류마티스 인자는 면역글로불린의 Fab 부분에 대한 항\n체이다.",
+        "explanation": "RF는 IgG Fc를 표적으로 한다."
+      },
+      {
+        "text": "IgA isotype이 가장 흔하다.",
+        "explanation": "대표적으로 측정하는 RF는 IgM이다."
+      },
+      {
+        "text": "류마티스 인자가 음성이면 류마티스 관절염 진단을\n배제할 수 있다.",
+        "explanation": "RF 음성으로 RA를 배제할 수 없다."
+      },
+      {
+        "text": "류마티스 인자가 양성이면, 류마티스 관절염의 예후가\n좋다.",
+        "explanation": "고역가 RF는 오히려 불량 예후와 관련할 수 있다."
+      },
+      {
+        "text": "류마티스 인자는 만성감염때도 양성으로 나올 수 있\n다.",
+        "explanation": "만성감염·다른 자가면역질환·일부 건강인에서도 양성일 수 있어 RA 특이 검사가 아니다."
+      }
+    ],
+    "source": "외부 참고(문항 공통): MSD Manual, Rheumatoid Arthritis https://www.msdmanuals.com/professional/musculoskeletal-and-connective-tissue-disorders/joint-disorders/rheumatoid-arthritis-ra",
+    "sourceScope": "question",
+    "lecturePending": true,
+    "signature": "029a49ab"
+  },
+  "past-2-52-2023-55": {
+    "choices": [
+      {
+        "text": "lymphocyte",
+        "explanation": "만성 RA 활막 조직에서는 림프구·대식세포 등이 중요하며 CD4 T세포가 대표적이다. 관절액의 우세 호중구와 구분한다."
+      },
+      {
+        "text": "neutrophil",
+        "explanation": "염증성 관절액에서는 많을 수 있으나 활막 조직의 만성 림프구 침윤과 구분한다."
+      },
+      {
+        "text": "mast cell",
+        "explanation": "알레르기성 세포 반응과 관련하며 RA 활막의 대표 우세 세포로 고르지 않는다."
+      },
+      {
+        "text": "dendritic cell",
+        "explanation": "항원제시에 참여하지만 활막의 대표 우세 세포를 묻는 답은 림프구다."
+      },
+      {
+        "text": "osteoclast",
+        "explanation": "골미란을 만드는 세포로 중요하지만 활막의 가장 흔한 침윤세포는 아니다."
+      }
+    ],
+    "source": "외부 참고(문항 공통): MSD Manual, Rheumatoid Arthritis https://www.msdmanuals.com/professional/musculoskeletal-and-connective-tissue-disorders/joint-disorders/rheumatoid-arthritis-ra",
+    "sourceScope": "question",
+    "lecturePending": true,
+    "signature": "d987e1ee"
+  },
+  "past-2-52-2023-60": {
+    "choices": [
+      {
+        "text": "MHC polymorphism",
+        "explanation": "특정 HLA-DRB1 유전형이 RA 위험과 관련한다."
+      },
+      {
+        "text": "smoking",
+        "explanation": "흡연은 특히 혈청양성 RA의 중요한 환경 위험요인이다."
+      },
+      {
+        "text": "periodontitis",
+        "explanation": "치주염·점막 염증은 RA 병인과 관련하여 연구된다."
+      },
+      {
+        "text": "Citrullination",
+        "explanation": "Citrullination과 항시트룰린화 단백 항체가 중요한 병인 개념이다."
+      },
+      {
+        "text": "anti-oxidant",
+        "explanation": "항산화 물질을 전형적 RA 유발 요인으로 나열한 것은 부적절하다."
+      }
+    ],
+    "source": "외부 참고(문항 공통): MSD Manual, Rheumatoid Arthritis https://www.msdmanuals.com/professional/musculoskeletal-and-connective-tissue-disorders/joint-disorders/rheumatoid-arthritis-ra",
+    "sourceScope": "question",
+    "lecturePending": true,
+    "signature": "9aa51bfa"
+  },
+  "past-2-52-2023-61": {
+    "choices": [
+      {
+        "text": "Citrullination",
+        "explanation": "PAD가 arginine을 citrulline으로 바꾸는 변형이며 ACPA 형성과 관련한다."
+      },
+      {
+        "text": "Phosphorylation",
+        "explanation": "실제로 존재하는 단백질 변형이지만 PAD의 arginine→citrulline 반응과 다르다."
+      },
+      {
+        "text": "Methylation",
+        "explanation": "실제로 존재하는 단백질 변형이지만 PAD의 arginine→citrulline 반응과 다르다."
+      },
+      {
+        "text": "Glycosylation",
+        "explanation": "실제로 존재하는 단백질 변형이지만 PAD의 arginine→citrulline 반응과 다르다."
+      },
+      {
+        "text": "Ubiquitination",
+        "explanation": "실제로 존재하는 단백질 변형이지만 PAD의 arginine→citrulline 반응과 다르다."
+      }
+    ],
+    "source": "외부 참고(문항 공통): MSD Manual, Rheumatoid Arthritis https://www.msdmanuals.com/professional/musculoskeletal-and-connective-tissue-disorders/joint-disorders/rheumatoid-arthritis-ra",
+    "sourceScope": "question",
+    "lecturePending": true,
+    "signature": "002fc8fc"
+  },
+  "past-2-52-2023-7": {
+    "choices": [
+      {
+        "text": "HLA-DRB1*0301",
+        "explanation": "이 문항의 대표 RA shared-epitope 위험 대립유전자와 구분한다. 같은 DRB1*04 계열이라도 아형별 위험이 다르다."
+      },
+      {
+        "text": "HLA-DRB1*0401",
+        "explanation": "Shared epitope를 가진 RA 관련 위험 대립유전자의 대표 예다."
+      },
+      {
+        "text": "HLA-DRB1*0402",
+        "explanation": "이 문항의 대표 RA shared-epitope 위험 대립유전자와 구분한다. 같은 DRB1*04 계열이라도 아형별 위험이 다르다."
+      },
+      {
+        "text": "HLA-DRB1*0403",
+        "explanation": "이 문항의 대표 RA shared-epitope 위험 대립유전자와 구분한다. 같은 DRB1*04 계열이라도 아형별 위험이 다르다."
+      },
+      {
+        "text": "HLA-DRB1*1501",
+        "explanation": "이 문항의 대표 RA shared-epitope 위험 대립유전자와 구분한다. 같은 DRB1*04 계열이라도 아형별 위험이 다르다."
+      }
+    ],
+    "source": "외부 참고(문항 공통): MSD Manual, Rheumatoid Arthritis https://www.msdmanuals.com/professional/musculoskeletal-and-connective-tissue-disorders/joint-disorders/rheumatoid-arthritis-ra",
+    "sourceScope": "question",
+    "lecturePending": true,
+    "signature": "13b56b25"
+  },
+  "past-2-52-2025-28": {
+    "choices": [
+      {
+        "text": "류마티스 인자는 류마티스 관절염 환자 모두에서 나\n타난다.",
+        "explanation": "혈청음성 RA도 있어 모든 환자에서 검출되지 않는다."
+      },
+      {
+        "text": "류마티스 인자는 IgG의 Fab 부분에 대한 항체이다.",
+        "explanation": "RF는 주로 IgG의 Fc 부분에 대한 자가항체다."
+      },
+      {
+        "text": "류마티스 인자가 양성이면, 류마티스 관절염의 예후가\n좋다.",
+        "explanation": "고역가 RF는 관절 파괴·관절 외 질환 등 불량 예후와 관련할 수 있다."
+      },
+      {
+        "text": "류마티스 인자가 양성이면  항CCP항체는 보통 음성\n이다.",
+        "explanation": "RF와 anti-CCP는 함께 양성일 수 있고 서로 배타적이지 않다."
+      },
+      {
+        "text": "류마티스 인자 중 IgM항체가 가장 흔하다.",
+        "explanation": "임상에서 가장 흔히 측정하는 RF isotype은 IgM이다."
+      }
+    ],
+    "source": "외부 참고(문항 공통): MSD Manual, Rheumatoid Arthritis https://www.msdmanuals.com/professional/musculoskeletal-and-connective-tissue-disorders/joint-disorders/rheumatoid-arthritis-ra",
+    "sourceScope": "question",
+    "lecturePending": true,
+    "signature": "965dbeda"
+  },
+  "past-2-52-2025-31": {
+    "choices": [
+      {
+        "text": "HLA-DRB1 β사슬의 70-74번째 부위에 공통된 아\n미노산 서열이 존재한다.",
+        "explanation": "HLA-DRB1 β사슬 70~74번 부위의 공통 서열을 shared epitope라 한다."
+      },
+      {
+        "text": "HLA-DQ 유전자의 α사슬 변이에 의해 형성된다.",
+        "explanation": "DQ α사슬이 아니라 DRB1 β사슬 관련 개념이다."
+      },
+      {
+        "text": "음전하를 띠는 아미노산 서열이 특징이다.",
+        "explanation": "특정 전하·결합주머니의 성질이 중요하며 단순 음전하 공통 서열이라는 정의는 틀리다."
+      },
+      {
+        "text": "DRB1*1501, DRB1*0301 등이 대표적인 관련 대립\n유전자이다.",
+        "explanation": "대표 위험 대립유전자는 DRB1*04:01 등 shared-epitope 보유형이다."
+      },
+      {
+        "text": "Class I HLA 분자의 구조적 변이와 관련이 있다.",
+        "explanation": "HLA-DR은 MHC class II다."
+      }
+    ],
+    "source": "외부 참고(문항 공통): MSD Manual, Rheumatoid Arthritis https://www.msdmanuals.com/professional/musculoskeletal-and-connective-tissue-disorders/joint-disorders/rheumatoid-arthritis-ra",
+    "sourceScope": "question",
+    "lecturePending": true,
+    "signature": "b5a6ce02"
+  },
+  "past-2-52-2025-43": {
+    "choices": [
+      {
+        "text": "Etanercept",
+        "explanation": "TNF 경로를 억제하는 생물학적 제제로 abatacept의 T세포 공자극 억제와 다르다."
+      },
+      {
+        "text": "Adalimumab",
+        "explanation": "TNF 경로를 억제하는 생물학적 제제로 abatacept의 T세포 공자극 억제와 다르다."
+      },
+      {
+        "text": "Infliximab",
+        "explanation": "TNF 경로를 억제하는 생물학적 제제로 abatacept의 T세포 공자극 억제와 다르다."
+      },
+      {
+        "text": "Abatacept",
+        "explanation": "CTLA4-Ig가 CD80/86에 결합해 CD28 공자극을 억제한다."
+      },
+      {
+        "text": "Golimumab",
+        "explanation": "TNF 경로를 억제하는 생물학적 제제로 abatacept의 T세포 공자극 억제와 다르다."
+      }
+    ],
+    "source": "외부 참고(문항 공통): MSD Manual, Rheumatoid Arthritis https://www.msdmanuals.com/professional/musculoskeletal-and-connective-tissue-disorders/joint-disorders/rheumatoid-arthritis-ra",
+    "sourceScope": "question",
+    "lecturePending": true,
+    "signature": "06f4aa72"
+  },
+  "past-2-52-2025-47": {
+    "choices": [
+      {
+        "text": "CD4+ T 림프구",
+        "explanation": "만성 RA 활막 조직에서는 림프구·대식세포 등이 중요하며 CD4 T세포가 대표적이다. 관절액의 우세 호중구와 구분한다."
+      },
+      {
+        "text": "CD8+ T 림프구",
+        "explanation": "만성 RA 활막 조직에서는 림프구·대식세포 등이 중요하며 CD4 T세포가 대표적이다. 관절액의 우세 호중구와 구분한다."
+      },
+      {
+        "text": "중성구",
+        "explanation": "염증성 관절액에서는 많을 수 있으나 활막 조직의 만성 림프구 침윤과 구분한다."
+      },
+      {
+        "text": "호염구",
+        "explanation": "알레르기성 세포 반응과 관련하며 RA 활막의 대표 우세 세포로 고르지 않는다."
+      },
+      {
+        "text": "호산구",
+        "explanation": "알레르기성 세포 반응과 관련하며 RA 활막의 대표 우세 세포로 고르지 않는다."
+      }
+    ],
+    "source": "외부 참고(문항 공통): MSD Manual, Rheumatoid Arthritis https://www.msdmanuals.com/professional/musculoskeletal-and-connective-tissue-disorders/joint-disorders/rheumatoid-arthritis-ra",
+    "sourceScope": "question",
+    "lecturePending": true,
+    "signature": "fa18a264"
+  },
+  "past-2-52-2025-50": {
+    "choices": [
+      {
+        "text": "Infliximab",
+        "explanation": "TNF 경로를 억제하는 생물학적 제제로 abatacept의 T세포 공자극 억제와 다르다."
+      },
+      {
+        "text": "Tocilizumab",
+        "explanation": "IL-6 수용체 표적 항체다."
+      },
+      {
+        "text": "Abatacept",
+        "explanation": "CTLA4-Ig가 CD80/86에 결합해 CD28 공자극을 억제한다."
+      },
+      {
+        "text": "Rituximab",
+        "explanation": "CD20 양성 B세포를 표적한다."
+      },
+      {
+        "text": "Denosumab",
+        "explanation": "RANKL을 억제해 파골세포 분화·골흡수를 줄인다."
+      }
+    ],
+    "source": "외부 참고(문항 공통): MSD Manual, Rheumatoid Arthritis https://www.msdmanuals.com/professional/musculoskeletal-and-connective-tissue-disorders/joint-disorders/rheumatoid-arthritis-ra",
+    "sourceScope": "question",
+    "lecturePending": true,
+    "signature": "c3d754b2"
+  },
+  "past-2-52-2025-55": {
+    "choices": [
+      {
+        "text": "Glycosylation",
+        "explanation": "실제로 존재하는 단백질 변형이지만 PAD의 arginine→citrulline 반응과 다르다."
+      },
+      {
+        "text": "Hydroxylation",
+        "explanation": "실제로 존재하는 단백질 변형이지만 PAD의 arginine→citrulline 반응과 다르다."
+      },
+      {
+        "text": "Citrullination",
+        "explanation": "PAD가 arginine을 citrulline으로 바꾸는 변형이며 ACPA 형성과 관련한다."
+      },
+      {
+        "text": "Methylation",
+        "explanation": "실제로 존재하는 단백질 변형이지만 PAD의 arginine→citrulline 반응과 다르다."
+      },
+      {
+        "text": "Ubiquitination",
+        "explanation": "실제로 존재하는 단백질 변형이지만 PAD의 arginine→citrulline 반응과 다르다."
+      }
+    ],
+    "source": "외부 참고(문항 공통): MSD Manual, Rheumatoid Arthritis https://www.msdmanuals.com/professional/musculoskeletal-and-connective-tissue-disorders/joint-disorders/rheumatoid-arthritis-ra",
+    "sourceScope": "question",
+    "lecturePending": true,
+    "signature": "1fd6ce93"
+  },
+  "past-2-53-2020-13": {
+    "choices": [
+      {
+        "text": "Tacrolimus",
+        "explanation": "Calcineurin 억제제는 특정 신염 요법의 구성 요소가 될 수 있으나 환자·생검·신기능을 고려한다."
+      },
+      {
+        "text": "Rituximab",
+        "explanation": "보통 표준 초기 유도보다 불응성·특수 상황에서 평가한다."
+      },
+      {
+        "text": "Mycophenolate mofetil",
+        "explanation": "증식성 lupus nephritis 유도 치료의 주요 약제로 steroid 등과 함께 사용한다. 생검·중증도로 요법을 정한다."
+      },
+      {
+        "text": "Methotrexate",
+        "explanation": "관절·피부 표현형에 활용될 수 있지만 중증 신염의 적절한 기본 유도 치료는 아니다."
+      },
+      {
+        "text": "IVIG",
+        "explanation": "표준 루푸스신염 유도요법을 일반적으로 대신하지 않는다."
+      }
+    ],
+    "source": "외부 참고(문항 공통): MSD Manual, Systemic Lupus Erythematosus https://www.msdmanuals.com/professional/musculoskeletal-and-connective-tissue-disorders/systemic-rheumatic-diseases/systemic-lupus-erythematosus-sle",
+    "sourceScope": "question",
+    "lecturePending": true,
+    "signature": "a07eed2f"
+  },
+  "past-2-53-2020-14": {
+    "choices": [
+      {
+        "text": "anti-smooth muscle",
+        "explanation": "자가면역간염 등과 관련한다."
+      },
+      {
+        "text": "anti-centromere",
+        "explanation": "제한형 전신경화증과 관련한다."
+      },
+      {
+        "text": "anti-platelet",
+        "explanation": "혈소판감소와 관련할 수 있지만 임신 손실 위험의 대표 항체와 다르다."
+      },
+      {
+        "text": "anti-RNP",
+        "explanation": "MCTD 등의 관련 항체다."
+      },
+      {
+        "text": "anti-cardiolipin",
+        "explanation": "항인지질항체의 한 종류로 혈전·임신 합병증 위험 평가에 중요하다. Anti-Ro/La 등도 임신 전 함께 평가한다."
+      }
+    ],
+    "source": "외부 참고(문항 공통): MSD Manual, Systemic Lupus Erythematosus https://www.msdmanuals.com/professional/musculoskeletal-and-connective-tissue-disorders/systemic-rheumatic-diseases/systemic-lupus-erythematosus-sle",
+    "sourceScope": "question",
+    "lecturePending": true,
+    "signature": "da0073da"
+  },
+  "past-2-53-2020-15": {
+    "choices": [
+      {
+        "text": "intravenous immunoglobulin",
+        "explanation": "특수 불응성 사례 외에 기본 aspirin·heparin을 대신하는 우선 요법이 아니다."
+      },
+      {
+        "text": "Hydroxychlorozine",
+        "explanation": "Hydroxychloroquine은 SLE 유지에 중요하나 APS 임신 예방의 항혈전 치료를 대신하지 않는다."
+      },
+      {
+        "text": "Low dose aspirin+ heparin",
+        "explanation": "산과·혈전 APS 병력에 맞춰 저용량 aspirin과 heparin을 사용한다. 과거 혈전이 있어 heparin 강도는 별도 평가한다."
+      },
+      {
+        "text": "warfarin",
+        "explanation": "임신 중 태아 위험으로 일반 우선 선택이 아니다."
+      },
+      {
+        "text": "high dose prednisolone",
+        "explanation": "고용량 steroid는 APS 임신 합병증의 기본 예방요법이 아니다."
+      }
+    ],
+    "source": "외부 참고(문항 공통): MSD Manual, Systemic Lupus Erythematosus https://www.msdmanuals.com/professional/musculoskeletal-and-connective-tissue-disorders/systemic-rheumatic-diseases/systemic-lupus-erythematosus-sle",
+    "sourceScope": "question",
+    "lecturePending": true,
+    "signature": "65cd0e48"
+  },
+  "past-2-53-2021-10": {
+    "choices": [
+      {
+        "text": "anti-Sm:진단의 높은 민감도",
+        "explanation": "Anti-Sm은 특이도가 높지만 민감도는 높지 않다."
+      },
+      {
+        "text": "anti-SS-A: 신장 침범과 높은 연관성",
+        "explanation": "Anti-SSA는 신생아루푸스·심장차단·피부 표현형과 관련하며 신염 활성의 대표 항체는 anti-dsDNA다."
+      },
+      {
+        "text": "anti-β2 glycoprotein 1: 태아 손실과 연관",
+        "explanation": "항인지질항체로 혈전·임신 합병증·태아 손실 위험과 관련한다."
+      },
+      {
+        "text": "anti-RNP: 질병 특이적",
+        "explanation": "Anti-RNP는 MCTD 등에도 보여 SLE만의 특이 항체가 아니다."
+      },
+      {
+        "text": "anti-cardiolipin: 관절 침범과 연관성",
+        "explanation": "Anti-cardiolipin은 주로 혈전·산과 위험과 관련하며 관절 침범의 대표 표지가 아니다."
+      }
+    ],
+    "source": "외부 참고(문항 공통): MSD Manual, Systemic Lupus Erythematosus https://www.msdmanuals.com/professional/musculoskeletal-and-connective-tissue-disorders/systemic-rheumatic-diseases/systemic-lupus-erythematosus-sle",
+    "sourceScope": "question",
+    "lecturePending": true,
+    "signature": "8b06bad4"
+  },
+  "past-2-53-2021-11": {
+    "choices": [
+      {
+        "text": "항인지질항체 양성",
+        "explanation": "항인지질항체는 2012 SLICC 면역학적 기준에 해당한다."
+      },
+      {
+        "text": "직접 쿰즈 검사 양성",
+        "explanation": "용혈빈혈과 별도로 직접 Coombs 양성이 면역학적 기준에 포함될 수 있다."
+      },
+      {
+        "text": "2개 이상 관절을 침범한 활막염",
+        "explanation": "특정 조건의 다관절 활막염·압통/강직은 임상 기준이다."
+      },
+      {
+        "text": "구강 건조",
+        "explanation": "구강건조는 대표적인 SLICC 분류 항목이 아니다. 구강궤양과 구분한다."
+      },
+      {
+        "text": "장막염",
+        "explanation": "흉막염·심낭염 등 장막염은 임상 항목이다."
+      }
+    ],
+    "source": "외부 참고(문항 공통): MSD Manual, Systemic Lupus Erythematosus https://www.msdmanuals.com/professional/musculoskeletal-and-connective-tissue-disorders/systemic-rheumatic-diseases/systemic-lupus-erythematosus-sle",
+    "sourceScope": "question",
+    "lecturePending": true,
+    "signature": "17fbd9ae"
+  },
+  "past-2-53-2021-9": {
+    "choices": [
+      {
+        "text": "고용량 glucocorticoid",
+        "explanation": "중증 장기 침범에서 glucocorticoid를 신속히 사용할 수 있다."
+      },
+      {
+        "text": "Hydroxychloroquine",
+        "explanation": "금기 없으면 SLE의 기본 유지 약제이나 이것만으로 중증 신경·신장 침범을 치료하지 않는다."
+      },
+      {
+        "text": "Mycophenolate mofetil",
+        "explanation": "루푸스신염 유도 치료의 주요 약제이며 임신 등 금기를 고려한다."
+      },
+      {
+        "text": "Cyclophosphamide",
+        "explanation": "중증 장기 침범의 유도 치료에 사용할 수 있다."
+      },
+      {
+        "text": "Belimumab",
+        "explanation": "현재는 lupus nephritis에서 추가 치료로 사용할 수 있다. 다만 중증 CNS·중증 혈구감소가 있는 이 증례에서 단독 첫 구제 약제를 뜻하지 않으며 과거 문항 시점도 구분한다."
+      }
+    ],
+    "source": "외부 참고(문항 공통): MSD Manual, Systemic Lupus Erythematosus https://www.msdmanuals.com/professional/musculoskeletal-and-connective-tissue-disorders/systemic-rheumatic-diseases/systemic-lupus-erythematosus-sle",
+    "sourceScope": "question",
+    "lecturePending": true,
+    "signature": "a10fb320"
+  },
+  "past-2-53-2022-24": {
+    "choices": [
+      {
+        "text": "anti-dsDNA 양성",
+        "explanation": "Anti-dsDNA는 6점으로 그 자체만으로 기준 점수를 충족하지 않는다."
+      },
+      {
+        "text": "C3 와 C4 농도 모두 감소",
+        "explanation": "C3·C4 모두 감소는 4점이다."
+      },
+      {
+        "text": "용혈성 자가면역성 빈혈",
+        "explanation": "자가면역 용혈은 4점이다."
+      },
+      {
+        "text": "신장조직 검사상 III 형 또는 IV 형 루푸스 신염",
+        "explanation": "Class III/IV lupus nephritis는 10점이지만 ANA 진입조건·대체 원인 배제 등이 필요하다. 아무 조건 없이 생검 하나로 진단한다는 뜻은 아니다."
+      },
+      {
+        "text": "아급성 피부 루푸스",
+        "explanation": "아급성 피부루푸스는 그 자체로 10점이 아니다."
+      }
+    ],
+    "source": "외부 참고(문항 공통): MSD Manual, Systemic Lupus Erythematosus https://www.msdmanuals.com/professional/musculoskeletal-and-connective-tissue-disorders/systemic-rheumatic-diseases/systemic-lupus-erythematosus-sle",
+    "sourceScope": "question",
+    "lecturePending": true,
+    "signature": "636b1063"
+  },
+  "past-2-53-2022-5": {
+    "choices": [
+      {
+        "text": "anti-mitochondrial antibody",
+        "explanation": "원발담즙성담관염의 대표 항체다."
+      },
+      {
+        "text": "anti-double strand DNA antibody",
+        "explanation": "신염·활성 평가에 중요하나 태아 심장차단 위험의 대표 항체는 anti-Ro다."
+      },
+      {
+        "text": "anti-ribosomal P antibody",
+        "explanation": "신경정신 루푸스 등과 연관성이 연구된다."
+      },
+      {
+        "text": "anti-topoisomerase I antibody",
+        "explanation": "전신경화증·ILD와 대표적으로 관련한다."
+      },
+      {
+        "text": "anti-SS-A/Ro antibody",
+        "explanation": "Anti-Ro/SSA는 신생아루푸스·선천성 심장차단 위험과 관련해 임신 전 확인이 중요하다. APS 항체도 함께 평가한다."
+      }
+    ],
+    "source": "외부 참고(문항 공통): MSD Manual, Systemic Lupus Erythematosus https://www.msdmanuals.com/professional/musculoskeletal-and-connective-tissue-disorders/systemic-rheumatic-diseases/systemic-lupus-erythematosus-sle",
+    "sourceScope": "question",
+    "lecturePending": true,
+    "signature": "bc427c69"
+  },
+  "past-2-53-2022-56": {
+    "choices": [
+      {
+        "text": "Low dose aspirin",
+        "explanation": "확인된 APS 폐색전증의 충분한 항응고 치료를 aspirin만으로 대신하지 않는다."
+      },
+      {
+        "text": "Rivaroxaban",
+        "explanation": "고위험·삼중양성 APS에서는 DOAC보다 vitamin K antagonist를 우선한다."
+      },
+      {
+        "text": "Warfarin",
+        "explanation": "급성기 적절한 항응고 후 장기 warfarin을 사용하는 대표 APS 치료 원칙이다."
+      },
+      {
+        "text": "Cyclophosphamide",
+        "explanation": "염증 치료와 혈전성 APS의 항응고를 구분한다."
+      },
+      {
+        "text": "IV immunoglobulin",
+        "explanation": "일반 혈전성 APS의 표준 항응고를 대신하지 않는다."
+      }
+    ],
+    "source": "외부 참고(문항 공통): MSD Manual, Systemic Lupus Erythematosus https://www.msdmanuals.com/professional/musculoskeletal-and-connective-tissue-disorders/systemic-rheumatic-diseases/systemic-lupus-erythematosus-sle",
+    "sourceScope": "question",
+    "lecturePending": true,
+    "signature": "f60e5265"
+  },
+  "past-2-53-2023-11": {
+    "choices": [
+      {
+        "text": "Type I interferon 억제",
+        "explanation": "Type I IFN receptor 표적은 anifrolumab과 비교한다."
+      },
+      {
+        "text": "CD40-CD40L 결합 억제",
+        "explanation": "공자극 경로를 표적으로 하는 다른 전략과 구분한다."
+      },
+      {
+        "text": "Tumor necrosis factor 억제",
+        "explanation": "Belimumab은 TNF 억제제가 아니다."
+      },
+      {
+        "text": "T 세포 활성화 억제",
+        "explanation": "Belimumab의 직접 표적은 T세포 공자극이 아니다."
+      },
+      {
+        "text": "B 세포 활성화 억제",
+        "explanation": "BAFF/BLyS를 억제하여 B세포 생존·활성화를 줄인다."
+      }
+    ],
+    "source": "외부 참고(문항 공통): MSD Manual, Systemic Lupus Erythematosus https://www.msdmanuals.com/professional/musculoskeletal-and-connective-tissue-disorders/systemic-rheumatic-diseases/systemic-lupus-erythematosus-sle",
+    "sourceScope": "question",
+    "lecturePending": true,
+    "signature": "e6462496"
+  },
+  "past-2-53-2023-2": {
+    "choices": [
+      {
+        "text": "전신홍반루푸스",
+        "explanation": "핵 항원 제거 장애·자가항체·면역복합체 손상은 SLE의 대표 병인이다."
+      },
+      {
+        "text": "류마티스관절염",
+        "explanation": "RA는 ACPA·RF·활막염 등이 핵심으로 이 전신 핵항원 면역복합체 설명의 대표 답과 다르다."
+      },
+      {
+        "text": "통풍관절염",
+        "explanation": "통풍은 MSU 결정과 선천면역 염증이다."
+      },
+      {
+        "text": "강직성척추염",
+        "explanation": "축성 척추관절염은 부착부염·HLA-B27 등과 연결한다."
+      },
+      {
+        "text": "혈관염",
+        "explanation": "면역복합체성 혈관염도 있으나 제시된 전신 핵항원 자가면역의 대표 질환은 SLE다."
+      }
+    ],
+    "source": "외부 참고(문항 공통): MSD Manual, Systemic Lupus Erythematosus https://www.msdmanuals.com/professional/musculoskeletal-and-connective-tissue-disorders/systemic-rheumatic-diseases/systemic-lupus-erythematosus-sle",
+    "sourceScope": "question",
+    "lecturePending": true,
+    "signature": "53a5cd22"
+  },
+  "past-2-53-2023-33": {
+    "choices": [
+      {
+        "text": "Rheumatoid factor (류마티스 인자)",
+        "explanation": "RF는 RA 외 다른 자가면역·감염에서도 양성이라 이 SLE의 대표 선별 항체가 아니다."
+      },
+      {
+        "text": "Anti-nuclear antibody (항핵항체)",
+        "explanation": "ANA는 SLE에 민감하지만 특이적이지 않아 임상·특이 항체와 함께 해석한다."
+      },
+      {
+        "text": "Anti-cyclic citrullinated peptide antibody (항CCP\n항체)",
+        "explanation": "ACPA는 RA와 더 관련한다."
+      },
+      {
+        "text": "Anti-neutrophil cytoplasmic antibody (항호중구세\n포질항체)",
+        "explanation": "ANCA는 특정 소혈관염과 관련하며 이 SLE 조합의 대표 항체가 아니다."
+      },
+      {
+        "text": "Cryoglobulin (한랭글로불린)",
+        "explanation": "Cryoglobulin은 면역복합체성 혈관염 등과 연결한다."
+      }
+    ],
+    "source": "외부 참고(문항 공통): MSD Manual, Systemic Lupus Erythematosus https://www.msdmanuals.com/professional/musculoskeletal-and-connective-tissue-disorders/systemic-rheumatic-diseases/systemic-lupus-erythematosus-sle",
+    "sourceScope": "question",
+    "lecturePending": true,
+    "signature": "ce7f8135"
+  },
+  "past-2-53-2023-63": {
+    "choices": [
+      {
+        "text": "류마티스관절염(RA)",
+        "explanation": "전형적 대칭성 활막염·ACPA/RF와 비교한다."
+      },
+      {
+        "text": "전신성 홍반성 낭창(SLE)",
+        "explanation": "피부·관절·여러 자가항체·자가면역 혈구감소는 SLE를 시사한다."
+      },
+      {
+        "text": "그레이브씨병 (Grave's Disease)",
+        "explanation": "TSH 수용체 자극항체·갑상선기능항진과 관련한다."
+      },
+      {
+        "text": "인슐린 의존성 당뇨병 (IDDM)",
+        "explanation": "췌장 β세포 파괴·인슐린 부족과 관련한다."
+      },
+      {
+        "text": "중증근무력증 (Myasthenia gravis)",
+        "explanation": "신경근 접합부 수용체 등의 자가면역으로 근무력 증상이 대표적이다."
+      }
+    ],
+    "source": "외부 참고(문항 공통): MSD Manual, Systemic Lupus Erythematosus https://www.msdmanuals.com/professional/musculoskeletal-and-connective-tissue-disorders/systemic-rheumatic-diseases/systemic-lupus-erythematosus-sle",
+    "sourceScope": "question",
+    "lecturePending": true,
+    "signature": "e48a3099"
+  },
+  "past-2-53-2025-16": {
+    "choices": [
+      {
+        "text": "백혈구 2,700/mm3",
+        "explanation": "백혈구감소는 분류 항목에 포함될 수 있다."
+      },
+      {
+        "text": "보체 C3 45 mg/dL (참고치 70-150 mg/dL)",
+        "explanation": "보체 감소는 면역학적 항목이다."
+      },
+      {
+        "text": "혈소판 516,000/mm3",
+        "explanation": "분류 항목은 혈소판감소이며 혈소판증가가 아니다."
+      },
+      {
+        "text": "24시간 단백뇨 1.5 g",
+        "explanation": "의미 있는 단백뇨는 신장 항목에 포함된다."
+      },
+      {
+        "text": "항-Smith 항체 양성",
+        "explanation": "Anti-Sm은 SLE 특이 항체 항목이다. 분류에는 ANA 진입조건과 다른 원인 배제가 필요하다."
+      }
+    ],
+    "source": "외부 참고(문항 공통): MSD Manual, Systemic Lupus Erythematosus https://www.msdmanuals.com/professional/musculoskeletal-and-connective-tissue-disorders/systemic-rheumatic-diseases/systemic-lupus-erythematosus-sle",
+    "sourceScope": "question",
+    "lecturePending": true,
+    "signature": "fffb66f0"
+  },
+  "past-2-53-2025-38": {
+    "choices": [
+      {
+        "text": "Anti-Jo1 antibody",
+        "explanation": "Anti-Jo-1은 항합성효소증후군·근육염·ILD와 관련한다."
+      },
+      {
+        "text": "Anti-dsDNA antibody",
+        "explanation": "Anti-dsDNA는 일부 환자에서 신염·질병 활성과 연관하며 보체·임상 지표를 함께 본다."
+      },
+      {
+        "text": "Anti-histone antibody",
+        "explanation": "Anti-histone은 약물유발 루푸스 등과 관련하며 활성의 대표 추적 지표와 다르다."
+      },
+      {
+        "text": "Anti-SS-A/Ro antibody",
+        "explanation": "Anti-Ro는 신생아루푸스·심장차단·피부루푸스 등과 관련한다."
+      },
+      {
+        "text": "Anti-ribosomal P antibody",
+        "explanation": "Anti-ribosomal P는 특정 신경정신 루푸스와 연관성이 연구되나 전체 활성의 대표 지표가 아니다."
+      }
+    ],
+    "source": "외부 참고(문항 공통): MSD Manual, Systemic Lupus Erythematosus https://www.msdmanuals.com/professional/musculoskeletal-and-connective-tissue-disorders/systemic-rheumatic-diseases/systemic-lupus-erythematosus-sle",
+    "sourceScope": "question",
+    "lecturePending": true,
+    "signature": "2a480880"
+  }
+};
