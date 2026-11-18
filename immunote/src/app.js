@@ -10,6 +10,9 @@ import { mountQuiz, renderChoiceDetails } from './quiz.js';
 import { loadState, saveState, emptyState, recordAnswer, summarize, restoreBackup } from './store.js';
 import { CBL_MODULES, CBL_CASE_INDEX } from '../data/cbl-index.js';
 import { renderCblPage } from './cbl.js';
+import { OX_LECTURES, OX_TOTAL } from '../data/ox-index.js';
+import { renderOxPage, mountOxQuiz } from './ox.js';
+import { emptyOxProgress, recordOxAnswer, selectOxQuestions } from './ox-model.js';
 
 const icons = {
   grid: '<rect x="3" y="3" width="7" height="7" rx="1.6"/><rect x="14" y="3" width="7" height="7" rx="1.6"/><rect x="3" y="14" width="7" height="7" rx="1.6"/><rect x="14" y="14" width="7" height="7" rx="1.6"/>',
@@ -43,6 +46,7 @@ let activeBank = state.activeBank === 'past' ? 'past' : 'generated';
 let activeQuiz = null;
 let cleanQuiz = null;
 let cleanCbl = null;
+let cleanOx = null;
 let filters = { search: '', status: 'all', difficulty: 'all', count: 'all', mode: 'practice' };
 let listLimit = 10;
 let preview = null;
@@ -97,8 +101,14 @@ function shell() {
 function renderNavigation() {
   const r = getRoute(); const all = questions(); const stats = summarize(all, state);
   const navItem = (view, icon, label, count = '') => '<button class="nav-item ' + (r.view === view ? 'active' : '') + '" data-action="navigate" data-route="' + view + '">' + svg(icon) + '<span>' + label + '</span>' + (count !== '' ? '<span class="nav-count">' + count + '</span>' : '') + '</button>';
-  document.querySelector('#navigation').innerHTML = navItem('home', 'grid', '학습 대시보드') + '<div class="nav-section-label bank-nav-heading">문제은행 선택</div>' + navItem('past','book','족보 기출', selectBankQuestions(allQuestions(),'past').length) + navItem('generated','spark','만든 문제',selectBankQuestions(allQuestions(),'generated').length) + navItem('histology','lab','조직사진 문제',allQuestions().filter(isHistologyQuestion).length) + navItem('cbl','book','CBL 증례 해설',Object.keys(CBL_CASE_INDEX).length) + '<div class="nav-section-label bank-nav-heading">분류를 섞어서 한 번에</div>' + navItem('mix-past','history','족보 전체 섞어 풀기') + navItem('mix-generated','history','만든 문제 전체 섞어 풀기') + '<div class="nav-divider"></div><div class="nav-section-label">'+bankName(activeBank)+' 학습 기록</div>' + navItem('wrong','wrong','오답 노트',stats.wrong) + navItem('bookmarks','bookmark','북마크',state.bookmarks.filter(id=>all.some(q=>q.id===id)).length) + navItem('history','history','학습 기록') + '<div class="nav-divider"></div><button class="nav-all-categories" data-action="categories">분류별로 찾아보기'+svg('chevron')+'</button>';
+  document.querySelector('#navigation').innerHTML = navItem('home', 'grid', '학습 대시보드') + '<div class="nav-section-label bank-nav-heading">문제은행 선택</div>' + navItem('past','book','족보 기출', selectBankQuestions(allQuestions(),'past').length) + navItem('generated','spark','만든 문제',selectBankQuestions(allQuestions(),'generated').length) + navItem('histology','lab','조직사진 문제',allQuestions().filter(isHistologyQuestion).length) + navItem('cbl','book','CBL 증례 해설',Object.keys(CBL_CASE_INDEX).length) + navItem('ox','check','기본 개념 OX',OX_TOTAL) + '<div class="nav-section-label bank-nav-heading">분류를 섞어서 한 번에</div>' + navItem('mix-past','history','족보 전체 섞어 풀기') + navItem('mix-generated','history','만든 문제 전체 섞어 풀기') + '<div class="nav-divider"></div><div class="nav-section-label">학습 · 복습 기록</div>' + navItem('wrong','wrong','오답 노트',allQuestions().filter(q=>state.records[q.id]?.attempts&&!state.records[q.id].lastCorrect).length+Object.values(state.ox.records).filter(r=>r.attempts&&!r.lastCorrect).length) + navItem('bookmarks','bookmark','북마크',state.bookmarks.filter(id=>all.some(q=>q.id===id)).length) + navItem('history','history','학습 기록') + '<div class="nav-divider"></div><button class="nav-all-categories" data-action="categories">분류별로 찾아보기'+svg('chevron')+'</button>';
 
+}
+function wrongTabs() {
+  const r=getRoute(),selected=r.category==='ox'?'ox':activeBank;
+  const counts={past:0,generated:0,ox:Object.values(state.ox.records).filter(r=>r.attempts&&!r.lastCorrect).length};
+  for(const q of allQuestions())if(state.records[q.id]?.attempts&&!state.records[q.id].lastCorrect)counts[getBank(q)]++;
+  return '<div class="bank-tabs ox-wrong-tabs" role="group" aria-label="오답 종류">'+[['past','족보 오답'],['generated','만든 문제 오답'],['ox','OX 오답']].map(([id,label])=>'<button class="'+(selected===id?'selected':'')+'" data-action="navigate" data-route="wrong/'+id+'">'+label+' <span>'+counts[id]+'</span></button>').join('')+'</div>';
 }
 function getPool() {
   const r = getRoute();
@@ -120,13 +130,19 @@ function getPool() {
 function render() {
   if (activeQuiz) return;
   cleanCbl?.(); cleanCbl = null;
+  cleanOx?.(); cleanOx = null;
   const routeBank = getRoute().view;
   if (routeBank === 'past' || routeBank === 'mix-past') activeBank = 'past';
   if (routeBank === 'generated' || routeBank === 'mix-generated' || routeBank === 'histology') activeBank = 'generated';
+  if (routeBank === 'wrong' && ['past','generated'].includes(getRoute().category)) activeBank=getRoute().category;
   if (state.activeBank !== activeBank) { state.activeBank = activeBank; persist(); }
   filters.search = ''; filters.status = 'all'; filters.difficulty = 'all'; listLimit = 10;
   renderNavigation(); updateSaveStatus();
   const r = getRoute();
+  if(r.view==='ox'||r.view==='wrong'&&r.category==='ox') {
+    cleanOx=renderOxPage(document.querySelector('#main-content'),{wrong:r.view==='wrong',progress:state.ox,lectures:OX_LECTURES,tabs:r.view==='wrong'?wrongTabs():'',onStart:startOxQuiz});
+    return;
+  }
   if (r.view === 'cbl') {
     cleanCbl = renderCblPage(document.querySelector('#main-content'), {moduleId:r.category, caseId:r.caseId, findQuestion:id=>allQuestions().find(q=>q.id===id)});
     return;
@@ -140,7 +156,7 @@ function render() {
   const title = home ? '차근차근, 내 것으로.' : r.view === 'wrong' ? '틀린 문제에서, 한 걸음 더.' : r.view === 'bookmarks' ? '다시 보고 싶은 문제들.' : r.view === 'category' ? categoryName(r.category) : r.view === 'histology' ? '조직사진 문제.' : bankName(activeBank) + ' 문제은행.';
   const desc = r.view === 'histology' ? '임상 정보와 조직 사진을 연결해 판단해 보세요. 사진을 누르면 크게 볼 수 있습니다.' : home ? '족보의 흐름을 따라 정리하고, 오늘의 이해를 쌓아보세요.' : r.view === 'wrong' ? '최근 풀이에서 틀린 문제를 모았어요. 맞히면 오답 노트에서 빠집니다.' : r.view === 'bookmarks' ? '중요한 개념과 헷갈리는 문제를 따로 모아 복습하세요.' : '필요한 문제를 골라 나의 속도로 학습해 보세요.';
   const today = new Intl.DateTimeFormat('ko-KR', {timeZone:'Asia/Seoul',month:'long',day:'numeric',weekday:'long'}).format(new Date());
-  document.querySelector('#main-content').innerHTML = '<section class="page-heading"><div><div class="eyebrow">' + (home ? 'STUDY, AT YOUR OWN PACE' : 'MY QUESTION BANK') + '</div><h1>' + esc(title) + '</h1><p>' + esc(desc) + '</p></div><span class="today">' + svg('clock') + today + '</span></section>' + bankTabs() + (r.view==='category'&&CBL_MODULES.some(m=>m.id===r.category)?'<p class="cbl-category-entry"><a href="#/cbl/'+esc(r.category)+'">이 CBL의 증례 해설 읽기 →</a></p>':'') + (home ? renderHome(stats) : '<div class="bank-context">현재 선택: <strong>'+bankName(activeBank)+'</strong> · '+(activeBank==='past'?'원본 족보의 연도·문항·그림을 보존했습니다.':'직접 만든 응용·심화 문제입니다.')+'</div>') + '<section class="question-section"><div class="section-heading"><div><h2>' + (home ? '나의 문제은행' : r.view === 'wrong' ? '복습할 문제' : r.view === 'bookmarks' ? '저장한 문제' : '문제 목록') + ' <span id="pool-count">0</span></h2><p>' + (home ? '기출의 핵심부터 강의의 심화 개념까지' : '필터를 적용한 문제를 한 번에 풀 수 있어요.') + '</p></div><button class="text-button" data-action="import">' + svg('upload') + '채팅으로 문제 추가</button></div><div class="filter-row"><label class="search-box">' + svg('search') + '<input id="question-search" type="search" placeholder="문제, 주제, 키워드 검색" aria-label="문제 검색"></label><select id="status-filter" aria-label="풀이 상태"><option value="all">모든 상태</option><option value="unconfirmed">정답 확인 필요</option><option value="reviewed">검토 의견 있음</option><option value="unsolved">미풀이</option><option value="wrong">오답</option><option value="correct">정답</option></select><select id="difficulty-filter" aria-label="난이도"><option value="all">모든 난이도</option><option value="중">중</option><option value="중상">중상</option><option value="상">상</option></select></div><div id="question-list"></div><div class="study-bar"><div><strong id="ready-count"></strong><span>선택한 문제은행 안에서만 출제됩니다.</span></div><div class="study-controls"><select id="count-select" aria-label="풀 문제 수"><option value="all">전체 문항</option><option value="5">5문항</option><option value="10">10문항</option><option value="20">20문항</option></select><select id="mode-select" aria-label="풀이 모드"><option value="practice">학습 모드</option><option value="exam">시험 모드</option></select><button class="button primary" id="start-pool" data-action="start-pool">' + (r.view === 'histology' ? '사진 섞어 풀기' : '문제 풀기') + svg('arrow') + '</button></div></div></section>' + (home ? '<section class="bottom-note"><span>' + svg('spark') + '</span><div><strong>새로운 문제도, 같은 학습 공간에.</strong><p>면역노트를 만든 ChatGPT 대화에 강의록이나 새 문제를 첨부해 업데이트를 요청하세요.</p></div><button class="text-button" data-action="import">채팅 업데이트 안내' + svg('download') + '</button></section>' : '');
+  document.querySelector('#main-content').innerHTML = '<section class="page-heading"><div><div class="eyebrow">' + (home ? 'STUDY, AT YOUR OWN PACE' : 'MY QUESTION BANK') + '</div><h1>' + esc(title) + '</h1><p>' + esc(desc) + '</p></div><span class="today">' + svg('clock') + today + '</span></section>' + (r.view==='wrong'?wrongTabs():bankTabs()) + (r.view==='category'&&CBL_MODULES.some(m=>m.id===r.category)?'<p class="cbl-category-entry"><a href="#/cbl/'+esc(r.category)+'">이 CBL의 증례 해설 읽기 →</a></p>':'') + (home ? renderHome(stats) : '<div class="bank-context">현재 선택: <strong>'+bankName(activeBank)+'</strong> · '+(activeBank==='past'?'원본 족보의 연도·문항·그림을 보존했습니다.':'직접 만든 응용·심화 문제입니다.')+'</div>') + '<section class="question-section"><div class="section-heading"><div><h2>' + (home ? '나의 문제은행' : r.view === 'wrong' ? '복습할 문제' : r.view === 'bookmarks' ? '저장한 문제' : '문제 목록') + ' <span id="pool-count">0</span></h2><p>' + (home ? '기출의 핵심부터 강의의 심화 개념까지' : '필터를 적용한 문제를 한 번에 풀 수 있어요.') + '</p></div><button class="text-button" data-action="import">' + svg('upload') + '채팅으로 문제 추가</button></div><div class="filter-row"><label class="search-box">' + svg('search') + '<input id="question-search" type="search" placeholder="문제, 주제, 키워드 검색" aria-label="문제 검색"></label><select id="status-filter" aria-label="풀이 상태"><option value="all">모든 상태</option><option value="unconfirmed">정답 확인 필요</option><option value="reviewed">검토 의견 있음</option><option value="unsolved">미풀이</option><option value="wrong">오답</option><option value="correct">정답</option></select><select id="difficulty-filter" aria-label="난이도"><option value="all">모든 난이도</option><option value="중">중</option><option value="중상">중상</option><option value="상">상</option></select></div><div id="question-list"></div><div class="study-bar"><div><strong id="ready-count"></strong><span>선택한 문제은행 안에서만 출제됩니다.</span></div><div class="study-controls"><select id="count-select" aria-label="풀 문제 수"><option value="all">전체 문항</option><option value="5">5문항</option><option value="10">10문항</option><option value="20">20문항</option></select><select id="mode-select" aria-label="풀이 모드"><option value="practice">학습 모드</option><option value="exam">시험 모드</option></select><button class="button primary" id="start-pool" data-action="start-pool">' + (r.view === 'histology' ? '사진 섞어 풀기' : '문제 풀기') + svg('arrow') + '</button></div></div></section>' + (home ? '<section class="bottom-note"><span>' + svg('spark') + '</span><div><strong>새로운 문제도, 같은 학습 공간에.</strong><p>면역노트를 만든 ChatGPT 대화에 강의록이나 새 문제를 첨부해 업데이트를 요청하세요.</p></div><button class="text-button" data-action="import">채팅 업데이트 안내' + svg('download') + '</button></section>' : '');
   document.querySelector('#question-search').addEventListener('input', e => { filters.search = e.target.value; listLimit = 10; renderList(); });
   document.querySelector('#status-filter').addEventListener('change', e => { filters.status = e.target.value; renderList(); });
   document.querySelector('#difficulty-filter').addEventListener('change', e => { filters.difficulty = e.target.value; renderList(); });
@@ -172,12 +188,33 @@ function renderList() {
   }).join('') + (pool.length > listLimit ? '<button class="load-more" data-action="load-more">문제 더 보기 <span>' + (pool.length - listLimit) + '개</span>' + svg('chevron') + '</button>' : '');
 }
 function cleanupQuiz() { cleanQuiz?.(); cleanQuiz = null; activeQuiz = null; }
+function startOxQuiz({mode,count='30',questions=[],list}) {
+  const sourceMode=mode;
+  const wrongOnly=mode==='wrong'||mode==='wrong-shuffled';
+  const shuffle=mode==='shuffled'||mode==='wrong-shuffled';
+  const sessionMode=wrongOnly?'wrong':mode==='restart'?'ordered':mode;
+  const returnRoute=getRoute().view==='wrong'?'wrong/ox':'ox';
+  const pool=list||selectOxQuestions(questions,{count,shuffle,wrongOnly,progress:state.ox,start:mode==='ordered'?state.ox.cursor:0});
+  if(!pool.length)return toast('현재 풀 수 있는 OX 문제가 없습니다.');
+  if(sourceMode==='restart'){state.ox.cursor=0;persist();}
+  cleanCbl?.();cleanCbl=null;cleanOx?.();cleanOx=null;cleanupQuiz();
+  activeQuiz={kind:'ox',bank:'ox',ids:pool.map(q=>q.id)};
+  document.body.classList.remove('nav-open');window.scrollTo(0,0);
+  cleanQuiz=mountOxQuiz(document.querySelector('#main-content'),pool,{
+    lectures:OX_LECTURES,
+    onAnswer(answer,q){recordOxAnswer(state.ox,answer);if(sessionMode==='ordered')state.ox.cursor=q.order;persist();renderNavigation();},
+    onFinish(result){state.ox.sessions.unshift({...result,id:uid(),at:new Date().toISOString(),mode:sessionMode,shuffled:shuffle});state.ox.sessions=state.ox.sessions.slice(0,100);persist();renderNavigation();},
+    onExit(){cleanupQuiz();navigate(returnRoute);},
+    onRetry(list){startOxQuiz({mode:'retry',list});},
+  });
+}
 function startQuiz(qs, mode = filters.mode, countChoice = filters.count, shuffle = false) {
   if (new Set(qs.map(getBank)).size > 1 || qs.some(q=>getBank(q)!==activeBank)) return toast('족보 기출과 만든 문제는 함께 출제할 수 없습니다.');
   const ready = qs.filter(isGradable);
   if (!ready.length) return toast('정답이 등록된 문제가 없습니다. 문제 가져오기에서 정답을 확인해 주세요.');
   const list = prepareBankSession(ready, {bank:activeBank,count:countChoice,shuffle});
   cleanCbl?.(); cleanCbl = null;
+  cleanOx?.(); cleanOx = null;
   cleanupQuiz(); activeQuiz = { ids: list.map(q => q.id), mode, bank:activeBank, shuffled:shuffle };
   document.body.classList.remove('nav-open');
   const main = document.querySelector('#main-content'); main.innerHTML = ''; window.scrollTo(0, 0);
@@ -326,7 +363,7 @@ function renderHistory() {
   document.querySelector('#main-content').innerHTML = '<section class="page-heading"><div><div class="eyebrow">YOUR LEARNING JOURNEY</div><h1>'+bankName(activeBank)+' 학습 기록.</h1><p>선택한 문제은행의 학습 기록만 표시합니다.</p></div></section><div class="history-summary"><div><span>완료한 풀이</span><strong>' + state.sessions.filter(s=>(s.bank||'generated')===activeBank).length + '<small>회</small></strong></div><div><span>학습한 문제</span><strong>' + stats.solved + '<small>문항</small></strong></div><div><span>최근 답안 정답률</span><strong>' + (stats.rate ?? '—') + '<small>' + (stats.rate === null ? '' : '%') + '</small></strong></div></div><section class="history-list"><div class="section-heading"><div><h2>최근 학습 기록</h2><p>최근 100회의 완료 기록을 보관합니다.</p></div></div>' + (state.sessions.filter(s=>(s.bank||'generated')===activeBank).length ? state.sessions.filter(s=>(s.bank||'generated')===activeBank).map(s => '<div class="history-row"><span class="stat-icon teal">' + svg(s.mode === 'exam' ? 'clock' : 'book') + '</span><div><strong>' + esc(s.categories.map(categoryName).join(' · ')) + '</strong><small>' + timestamp(s.at) + ' · ' + (s.mode === 'exam' ? '시험 모드' : '학습 모드') + '</small></div><span class="history-score">' + s.correct + '<small> / ' + s.total + ' 정답</small></span><button class="button secondary small" data-action="retry-session" data-id="' + esc(s.id) + '">다시 풀기</button></div>').join('') : '<div class="empty-state"><span>' + svg('history') + '</span><h3>첫 번째 학습 기록을 기다리고 있어요.</h3><p>문제풀이를 완료하면 결과가 여기에 쌓입니다.</p><button class="button primary" data-action="all-questions">문제 보러 가기</button></div>') + '</section>';
 }
 function renderSettings() {
-  document.querySelector('#main-content').innerHTML = '<section class="page-heading"><div><div class="eyebrow">KEEP YOUR LEARNING SAFE</div><h1>나의 학습 데이터.</h1><p>추가한 문제와 기록을 백업하고 다른 브라우저로 옮길 수 있어요.</p></div></section><section class="settings-card"><h2>문제 · 학습 기록 백업</h2><p>추가한 문제, 오답 기록, 북마크와 학습 기록을 하나의 파일로 내려받습니다. 기본 족보 기출과 채팅을 통해 게시한 제작 문제는 사이트에 포함되어 있어요.</p><div class="settings-actions"><button class="button primary" data-action="backup">' + svg('download') + '백업 내려받기</button><label class="button secondary">' + svg('upload') + '백업 복원<input type="file" id="restore-file" accept=".json,application/json" hidden></label></div><div class="info-box"><strong>현재 브라우저에 저장됩니다.</strong><p>다른 기기와 자동 동기화되지 않습니다. 브라우저 데이터를 지우거나 기기를 바꾸기 전 백업 파일을 보관해 주세요. 백업 복원은 현재 기록을 대체합니다.</p></div></section><section class="settings-card"><h2>문제 양식과 내보내기</h2><p>이 양식을 ChatGPT에 전달하면 앞으로 만든 문제를 간편하게 가져올 수 있습니다.</p><div class="settings-actions"><button class="button secondary" data-action="template-json">JSON 양식</button><button class="button secondary" data-action="template-markdown">텍스트 양식</button><button class="button secondary" data-action="export-questions">현재 문제은행 내보내기</button></div></section><section class="settings-card"><h2>학습 기록 초기화</h2><p>추가한 문제와 북마크는 유지하고, 정답·오답 및 풀이 기록만 초기화합니다.</p><button class="button danger" data-action="reset-progress">학습 기록 초기화</button></section>';
+  document.querySelector('#main-content').innerHTML = '<section class="page-heading"><div><div class="eyebrow">KEEP YOUR LEARNING SAFE</div><h1>나의 학습 데이터.</h1><p>추가한 문제와 기록을 백업하고 다른 브라우저로 옮길 수 있어요.</p></div></section><section class="settings-card"><h2>문제 · 학습 기록 백업</h2><p>추가한 문제, 객관식·OX 오답과 풀이 기록, OX 이어 풀기 위치, 북마크를 하나의 파일로 내려받습니다. 기본 족보 기출과 채팅을 통해 게시한 제작 문제는 사이트에 포함되어 있어요.</p><div class="settings-actions"><button class="button primary" data-action="backup">' + svg('download') + '백업 내려받기</button><label class="button secondary">' + svg('upload') + '백업 복원<input type="file" id="restore-file" accept=".json,application/json" hidden></label></div><div class="info-box"><strong>현재 브라우저에 저장됩니다.</strong><p>다른 기기와 자동 동기화되지 않습니다. 브라우저 데이터를 지우거나 기기를 바꾸기 전 백업 파일을 보관해 주세요. 백업 복원은 현재 기록을 대체합니다.</p></div></section><section class="settings-card"><h2>문제 양식과 내보내기</h2><p>이 양식을 ChatGPT에 전달하면 앞으로 만든 문제를 간편하게 가져올 수 있습니다.</p><div class="settings-actions"><button class="button secondary" data-action="template-json">JSON 양식</button><button class="button secondary" data-action="template-markdown">텍스트 양식</button><button class="button secondary" data-action="export-questions">현재 문제은행 내보내기</button></div></section><section class="settings-card"><h2>학습 기록 초기화</h2><p>추가한 문제와 북마크는 유지하고, 정답·오답 및 풀이 기록만 초기화합니다.</p><button class="button danger" data-action="reset-progress">학습 기록 초기화</button></section>';
   document.querySelector('#restore-file').addEventListener('change', async e => {
     const file = e.target.files[0]; if (!file) return;
     if (file.size > 20 * 1024 * 1024) return toast('20 MB 이하의 백업 파일을 선택해 주세요.');
@@ -393,7 +430,7 @@ document.addEventListener('click', async event => {
     const prompt = '아래 면역노트 JSON 형식으로 객관식 문제를 만들어줘. category는 족보 강의명, answer는 1부터 시작하는 정답 번호이고 보기는 5개야. 설명과 출처도 포함해줘.\n' + (typeof IMPORT_TEMPLATE_JSON === 'string' ? IMPORT_TEMPLATE_JSON : JSON.stringify(IMPORT_TEMPLATE_JSON, null, 2));
     try { await navigator.clipboard.writeText(prompt); toast('요청 문구를 복사했습니다.'); } catch { showModal('<h2 id="modal-title">요청 문구 복사</h2><textarea class="copy-area" readonly>' + esc(prompt) + '</textarea>'); document.querySelector('.copy-area').select(); }
   }
-  if (action === 'reset-progress' && confirm('정답·오답 및 풀이 기록을 초기화할까요? 추가한 문제와 북마크는 유지됩니다.')) { state.records = {}; state.sessions = []; persist(); render(); toast('학습 기록을 초기화했습니다.'); }
+  if (action === 'reset-progress' && confirm('정답·오답 및 풀이 기록을 초기화할까요? 추가한 문제와 북마크는 유지됩니다.')) { state.records = {}; state.sessions = []; state.ox=emptyOxProgress(); persist(); render(); toast('학습 기록을 초기화했습니다.'); }
 });
 window.addEventListener('hashchange', () => { if (activeQuiz) cleanupQuiz(); render(); window.scrollTo(0, 0); });
 shell(); render();

@@ -1,6 +1,7 @@
+import { emptyOxProgress, validOxProgress } from './ox-model.js';
 export const STORAGE_KEY = 'immunote.study.v1';
 export function emptyState() {
-  return { version: 1, activeBank: 'generated', answerOverrides: {}, customQuestions: [], records: {}, bookmarks: [], sessions: [], imports: [], updatedAt: null };
+  return { version: 1, activeBank: 'generated', answerOverrides: {}, customQuestions: [], records: {}, bookmarks: [], sessions: [], imports: [], ox: emptyOxProgress(), updatedAt: null };
 }
 export function loadState(storage = globalThis.localStorage) {
   try {
@@ -8,7 +9,7 @@ export function loadState(storage = globalThis.localStorage) {
     if (!raw) return { state: emptyState(), available: true };
     const data = JSON.parse(raw);
     if (data.version !== 1 || !Array.isArray(data.customQuestions) || typeof data.records !== 'object' || !data.records || Array.isArray(data.records) || !Array.isArray(data.bookmarks) || (data.sessions !== undefined && !Array.isArray(data.sessions)) || (data.imports !== undefined && !Array.isArray(data.imports))) throw new Error('Invalid saved state');
-    return { state: { ...emptyState(), ...data }, available: true };
+    return { state: { ...emptyState(), ...data, ox: validOxProgress(data.ox) ? data.ox : emptyOxProgress() }, available: true };
   } catch {
     return { state: emptyState(), available: false };
   }
@@ -37,6 +38,7 @@ export function summarize(questions, state) {
 export function restoreBackup(data) {
   if (data?.app !== 'immunote' || data.version !== 1 || !data.state || data.state.version !== 1) throw new Error('면역노트 백업 파일이 아닙니다.');
   const s = data.state;
+  if (s.ox !== undefined && !validOxProgress(s.ox)) throw new Error('백업의 OX 학습 기록을 확인해 주세요.');
   if (!Array.isArray(s.customQuestions) || !Array.isArray(s.bookmarks) || !s.records || typeof s.records !== 'object' || Array.isArray(s.records) || (s.sessions !== undefined && !Array.isArray(s.sessions)) || (s.imports !== undefined && !Array.isArray(s.imports))) throw new Error('백업 데이터 구조를 확인해 주세요.');
   if (!(s.sessions || []).every(x => x && Array.isArray(x.categories) && Array.isArray(x.questionIds) && typeof x.at === 'string' && Number.isFinite(Date.parse(x.at)) && Number.isFinite(x.total) && Number.isFinite(x.correct))) throw new Error('백업의 학습 기록을 확인해 주세요.');
   return { ...emptyState(), ...s };
