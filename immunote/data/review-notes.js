@@ -989,5 +989,43 @@ export const ASSISTANT_REVIEWS = {
         "label": "[251119_01]신종감염병에 대한 대처와 전망(박상원)_신우림v1.pdf / PDF p.4"
       }
     ]
+  },
+  "past-1-40-2025-27": {
+    "status": "ambiguous",
+    "originalAnswers": [
+      2
+    ],
+    "summary": "⑤의 polyprotein 표현에는 해석 여지가 있습니다. 노로가 polyprotein을 전혀 만들지 않는다는 뜻으로 외우지 마세요.",
+    "rationale": "족보 원답 ②는 낮은 감염량이라는 명확한 특징입니다. 다만 ⑤의 “한 개의 polyprotein에서 바이러스 단백들이 만들어진다”가 일부 비구조단백질을 뜻하면 ORF1 설명과 일치할 수 있어 문구가 모호합니다. 노로바이러스 ORF1은 비구조 polyprotein을 암호화하며, 주요 구조단백질은 subgenomic RNA의 별도 ORF에서 발현합니다. 모든 구조·비구조단백질을 단 하나의 polyprotein에서만 얻는다는 해석은 부정확합니다. 원답과 채점 기준은 보존합니다.",
+    "confidence": "높음",
+    "reviewedAt": "2026-11-18",
+    "references": [
+      {
+        "label": "[261118_05]레오바이러스,코로나바이러스,노로바이러스(조남혁)_채시원v1.pdf · 실제 PDF 45쪽"
+      },
+      {
+        "label": "ICTV · Norovirus 유전체와 발현",
+        "url": "https://ictv.global/report/chapter/caliciviridae/caliciviridae/norovirus"
+      }
+    ]
+  },
+  "past-1-40-2022-43": {
+    "status": "ambiguous",
+    "originalAnswers": [
+      2
+    ],
+    "summary": "⑤의 polyprotein 표현에는 해석 여지가 있습니다. 노로가 polyprotein을 전혀 만들지 않는다는 뜻으로 외우지 마세요.",
+    "rationale": "족보 원답 ②는 낮은 감염량이라는 명확한 특징입니다. 다만 ⑤의 “한 개의 polyprotein에서 바이러스 단백들이 만들어진다”가 일부 비구조단백질을 뜻하면 ORF1 설명과 일치할 수 있어 문구가 모호합니다. 노로바이러스 ORF1은 비구조 polyprotein을 암호화하며, 주요 구조단백질은 subgenomic RNA의 별도 ORF에서 발현합니다. 모든 구조·비구조단백질을 단 하나의 polyprotein에서만 얻는다는 해석은 부정확합니다. 원답과 채점 기준은 보존합니다.",
+    "confidence": "높음",
+    "reviewedAt": "2026-11-18",
+    "references": [
+      {
+        "label": "[261118_05]레오바이러스,코로나바이러스,노로바이러스(조남혁)_채시원v1.pdf · 실제 PDF 45쪽"
+      },
+      {
+        "label": "ICTV · Norovirus 유전체와 발현",
+        "url": "https://ictv.global/report/chapter/caliciviridae/caliciviridae/norovirus"
+      }
+    ]
   }
 };

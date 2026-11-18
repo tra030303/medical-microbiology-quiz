@@ -592,9 +592,9 @@ export const NOTES = {
         "explanation": "Norovirus는 +ssRNA다. 그러나 모든 구조·비구조 단백이 단 한 polyprotein에서 나온다거나 단백분해효소 활성화를 대표 기전으로 묶는 것은 부정확하다."
       }
     ],
-    "source": "일반 의학 개념에 따른 AI 해설 · 해당 주제 강의록 대조 전",
+    "source": "[261118_05]레오바이러스,코로나바이러스,노로바이러스(조남혁)_채시원v1.pdf / 실제 PDF p.44–47; AI 보충: ICTV · Norovirus 유전체와 발현 https://ictv.global/report/chapter/caliciviridae/caliciviridae/norovirus",
     "sourceScope": "question",
-    "lecturePending": true,
+    "lecturePending": false,
     "signature": "09d0e68f"
   },
   "past-1-40-2022-71": {
@@ -731,9 +731,9 @@ export const NOTES = {
         "explanation": "Norovirus는 +ssRNA다. 그러나 모든 구조·비구조 단백이 단 한 polyprotein에서 나온다거나 단백분해효소 활성화를 대표 기전으로 묶는 것은 부정확하다."
       }
     ],
-    "source": "일반 의학 개념에 따른 AI 해설 · 해당 주제 강의록 대조 전",
+    "source": "[261118_05]레오바이러스,코로나바이러스,노로바이러스(조남혁)_채시원v1.pdf / 실제 PDF p.44–47; AI 보충: ICTV · Norovirus 유전체와 발현 https://ictv.global/report/chapter/caliciviridae/caliciviridae/norovirus",
     "sourceScope": "question",
-    "lecturePending": true,
+    "lecturePending": false,
     "signature": "e072baf9"
   },
   "past-1-40-2025-45": {
