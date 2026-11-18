@@ -1,5 +1,6 @@
 import { bindScanImage, isSafeScanSource } from './assets.js';
 import { getChoiceDetails } from './choice-explanations.js';
+import { CBL_QUESTION_GUIDES } from '../data/cbl-index.js';
 const CIRCLED = ['①', '②', '③', '④', '⑤', '⑥', '⑦', '⑧'];
 
 export function getAnswerChoices(question) {
@@ -112,6 +113,14 @@ export function renderChoiceDetails(question) {
     }
     section.append(card);
   });
+  const guide = CBL_QUESTION_GUIDES[question.id];
+  if (guide && question.bank !== 'past') {
+    const link = element('a', 'quiz-cbl-guide-link', '해당 증례의 전체 해설 읽기 →');
+    link.href = '#/cbl/' + guide.module + '/' + guide.id;
+    link.dataset.action = 'cbl-guide';
+    link.dataset.caseId = guide.id;
+    section.append(link);
+  }
   return section;
 }
 
