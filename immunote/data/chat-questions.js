@@ -22,4 +22,6 @@ import { QUESTIONS as PACK_19 } from './chat-question-packs/part-020.js';
 import { QUESTIONS as PACK_20 } from './chat-question-packs/part-021.js';
 import { QUESTIONS as PACK_21 } from './chat-question-packs/part-022.js';
 import { QUESTIONS as PACK_22 } from './chat-question-packs/part-023.js';
-export const CHAT_QUESTIONS = [...PACK_0,...PACK_1,...PACK_2,...PACK_3,...PACK_4,...PACK_5,...PACK_6,...PACK_7,...PACK_8,...PACK_9,...PACK_10,...PACK_11,...PACK_12,...PACK_13,...PACK_14,...PACK_15,...PACK_16,...PACK_17,...PACK_18,...PACK_19,...PACK_20,...PACK_21,...PACK_22];
+import { QUESTIONS as PACK_23 } from './chat-question-packs/part-024.js';
+import { QUESTIONS as PACK_24 } from './chat-question-packs/part-025.js';
+export const CHAT_QUESTIONS = [...PACK_0,...PACK_1,...PACK_2,...PACK_3,...PACK_4,...PACK_5,...PACK_6,...PACK_7,...PACK_8,...PACK_9,...PACK_10,...PACK_11,...PACK_12,...PACK_13,...PACK_14,...PACK_15,...PACK_16,...PACK_17,...PACK_18,...PACK_19,...PACK_20,...PACK_21,...PACK_22,...PACK_23,...PACK_24];

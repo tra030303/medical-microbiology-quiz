@@ -1110,7 +1110,7 @@ export const NOTES = {
         "explanation": "설치류·벼룩 환경에 따라 변하며 이 강의의 대표 도시 모기매개 연결과 다르다."
       }
     ],
-    "source": "관련 강의록: [261116_01] 신종, 재출현 바이러스(조남혁)_임재민v1.pdf · 신종감염 출현·숙주 전환; 외부 참고: WHO IHR https://www.who.int/health-topics/international-health-regulations",
+    "source": "2026 관련 개념: 2026강의록_감염과면역-신종감염병 11-19학생 (1).pdf / PDF p.5, 23; 2025 필기 보완: [251119_01]신종감염병에 대한 대처와 전망(박상원)_신우림v1.pdf / PDF p.26–30; 출처 범위: 도시화·환경·매개체 분포의 연결; 2025 필기 PDF26–30 보완; 기존 보충 근거: 관련 강의록: [261116_01] 신종, 재출현 바이러스(조남혁)_임재민v1.pdf · 신종감염 출현·숙주 전환; 외부 참고: WHO IHR https://www.who.int/health-topics/international-health-regulations",
     "sourceScope": "question",
     "signature": "34faa414"
   },
@@ -1137,7 +1137,7 @@ export const NOTES = {
         "explanation": "항균제 내성 획득·확산의 예다."
       }
     ],
-    "source": "관련 강의록: [261116_01] 신종, 재출현 바이러스(조남혁)_임재민v1.pdf · 신종감염 출현·숙주 전환; 외부 참고: WHO IHR https://www.who.int/health-topics/international-health-regulations",
+    "source": "2026 관련 개념: 2026강의록_감염과면역-신종감염병 11-19학생 (1).pdf / PDF p.3, 13–17; 출처 범위: 알려진 감염병의 확산과 미지 병원체의 첫 출현을 구분; 기존 보충 근거: 관련 강의록: [261116_01] 신종, 재출현 바이러스(조남혁)_임재민v1.pdf · 신종감염 출현·숙주 전환; 외부 참고: WHO IHR https://www.who.int/health-topics/international-health-regulations",
     "sourceScope": "question",
     "signature": "8be204ac"
   },
@@ -1164,7 +1164,7 @@ export const NOTES = {
         "explanation": "밀집에서 호흡기 전파도 늘 수 있다. 원문의 모기매개 정답을 다른 질환 불가능이라는 뜻으로 읽지 않는다."
       }
     ],
-    "source": "관련 강의록: [261116_01] 신종, 재출현 바이러스(조남혁)_임재민v1.pdf · 신종감염 출현·숙주 전환; 외부 참고: WHO IHR https://www.who.int/health-topics/international-health-regulations",
+    "source": "2026 관련 개념: 2026강의록_감염과면역-신종감염병 11-19학생 (1).pdf / PDF p.5, 23; 2025 필기 보완: [251119_01]신종감염병에 대한 대처와 전망(박상원)_신우림v1.pdf / PDF p.26–30; 출처 범위: 도시화·환경·매개체 분포의 연결; 슬럼과 모기 서식 상세 설명은 2025 필기 PDF26–30; 기존 보충 근거: 관련 강의록: [261116_01] 신종, 재출현 바이러스(조남혁)_임재민v1.pdf · 신종감염 출현·숙주 전환; 외부 참고: WHO IHR https://www.who.int/health-topics/international-health-regulations",
     "sourceScope": "question",
     "signature": "aaaadb5d"
   },
@@ -1191,7 +1191,7 @@ export const NOTES = {
         "explanation": "변이와 내성은 새로운 임상·공중보건 위협을 만들 수 있다."
       }
     ],
-    "source": "관련 강의록: [261116_01] 신종, 재출현 바이러스(조남혁)_임재민v1.pdf · 신종감염 출현·숙주 전환; 외부 참고: WHO IHR https://www.who.int/health-topics/international-health-regulations",
+    "source": "2026 관련 개념: 2026강의록_감염과면역-신종감염병 11-19학생 (1).pdf / PDF p.5, 40; 출처 범위: 발견 효과와 실제 발생 원인을 구분; 기존 보충 근거: 관련 강의록: [261116_01] 신종, 재출현 바이러스(조남혁)_임재민v1.pdf · 신종감염 출현·숙주 전환; 외부 참고: WHO IHR https://www.who.int/health-topics/international-health-regulations",
     "sourceScope": "question",
     "signature": "4efb4b29"
   },
@@ -1218,7 +1218,7 @@ export const NOTES = {
         "explanation": "Mpox는 PHEIC 선언 사례가 있다."
       }
     ],
-    "source": "관련 강의록: [261116_01] 신종, 재출현 바이러스(조남혁)_임재민v1.pdf · 신종감염 출현·숙주 전환; 외부 참고: WHO IHR https://www.who.int/health-topics/international-health-regulations",
+    "source": "2026 관련 개념: 2026강의록_감염과면역-신종감염병 11-19학생 (1).pdf / PDF p.20, 34; 출처 범위: IHR의 역할은 강의록; 개별 PHEIC 선언 이력은 기존 WHO 보충자료; 기존 보충 근거: 관련 강의록: [261116_01] 신종, 재출현 바이러스(조남혁)_임재민v1.pdf · 신종감염 출현·숙주 전환; 외부 참고: WHO IHR https://www.who.int/health-topics/international-health-regulations",
     "sourceScope": "question",
     "signature": "6b47f554"
   },
@@ -1245,7 +1245,7 @@ export const NOTES = {
         "explanation": "내성 획득은 재출현 위협의 한 범주지만 새 병원체 출현이라는 좁은 의미의 대표 답은 COVID-19다."
       }
     ],
-    "source": "관련 강의록: [261116_01] 신종, 재출현 바이러스(조남혁)_임재민v1.pdf · 신종감염 출현·숙주 전환; 외부 참고: WHO IHR https://www.who.int/health-topics/international-health-regulations",
+    "source": "2026 관련 개념: 2026강의록_감염과면역-신종감염병 11-19학생 (1).pdf / PDF p.3, 7–8; 출처 범위: 넓은 신종감염병 정의에는 AMR도 포함되어 단일답을 무조건 일반화하지 않음; 기존 보충 근거: 관련 강의록: [261116_01] 신종, 재출현 바이러스(조남혁)_임재민v1.pdf · 신종감염 출현·숙주 전환; 외부 참고: WHO IHR https://www.who.int/health-topics/international-health-regulations",
     "sourceScope": "question",
     "signature": "7e174dad"
   },
@@ -1272,7 +1272,7 @@ export const NOTES = {
         "explanation": "반복 노출·선택 과정이 적응 가능성에 영향을 줄 수 있으나 구체적 실험·변이 전략으로 확대하지 않는다."
       }
     ],
-    "source": "관련 강의록: [261116_01] 신종, 재출현 바이러스(조남혁)_임재민v1.pdf · 신종감염 출현·숙주 전환; 외부 참고: WHO IHR https://www.who.int/health-topics/international-health-regulations",
+    "source": "2026 관련 개념: 2026강의록_감염과면역-신종감염병 11-19학생 (1).pdf / PDF p.9–10; 출처 범위: 사람 감염과 지속 사람 간 전파를 구분하는 도식; 모든 숙주전환 사례의 정량적 빈도를 이 그림만으로 입증하지 않음; 기존 보충 근거: 관련 강의록: [261116_01] 신종, 재출현 바이러스(조남혁)_임재민v1.pdf · 신종감염 출현·숙주 전환; 외부 참고: WHO IHR https://www.who.int/health-topics/international-health-regulations",
     "sourceScope": "question",
     "signature": "fedd9489"
   },
@@ -1299,9 +1299,8 @@ export const NOTES = {
         "explanation": "일부 지역 소아용 말라리아 백신의 현재 사용과 일반 해외여행자 대상 예방접종을 구분한다."
       }
     ],
-    "source": "외부 참고(문항 공통): CDC Principles of Epidemiology, Lessons 1·6 https://archive.cdc.gov/www_cdc_gov/csels/dsepd/ss1978/index.html",
+    "source": "2026 관련 개념: 감염병의 자연사와 감시, 관리 및 예방_C (1).pdf / PDF p.23–24, 27; 출처 범위: 황열 예방접종 개념은 강의; 국가별 여행 권고와 최신 백신 이용가능성은 최신 지침으로 별도 확인; 기존 보충 근거: 외부 참고(문항 공통): CDC Principles of Epidemiology, Lessons 1·6 https://archive.cdc.gov/www_cdc_gov/csels/dsepd/ss1978/index.html",
     "sourceScope": "question",
-    "lecturePending": true,
     "signature": "80e8de7d"
   },
   "past-1-43-2020-80": {
@@ -1316,7 +1315,7 @@ export const NOTES = {
       },
       {
         "text": "잠재감염은 전파가 가능하다.",
-        "explanation": "원문은 무증상·불현성 감염을 넓게 표현한 것으로 읽어야 한다. 결핵의 잠복감염처럼 전파하지 않는 상태도 있어 모든 잠복감염이 전파 가능하다는 일반화는 틀리다."
+        "explanation": "원답은 ③이지만 잠재감염이 일반적으로 전파 가능하다는 단정은 부정확하다. 올해 PDF19는 잠재감염 자체의 전파 가능성을 대체로 음성으로, 불현성감염과 보균자는 별도 상태로 제시한다. 잠복결핵감염 자체는 전염시키지 않으며 재활성화된 활동성 질환·무증상 배출과 혼동하지 않는다."
       },
       {
         "text": "감수성자 중 현성 감염자의 분율을 병원력이라 한다.",
@@ -1327,9 +1326,8 @@ export const NOTES = {
         "explanation": "만성보균자는 무증상일 수 있으나 항상 완전히 건강하다는 단정은 부적절하다."
       }
     ],
-    "source": "외부 참고(문항 공통): CDC Principles of Epidemiology, Lessons 1·6 https://archive.cdc.gov/www_cdc_gov/csels/dsepd/ss1978/index.html",
+    "source": "2026 관련 개념: 감염병의 자연사와 감시, 관리 및 예방_C (1).pdf / PDF p.7–9, 15, 17, 19; 출처 범위: 원답 잠재감염 전파 문구는 올해 PDF19의 잠재감염·불현성감염 구분과 충돌 가능; 기존 보충 근거: 외부 참고(문항 공통): CDC Principles of Epidemiology, Lessons 1·6 https://archive.cdc.gov/www_cdc_gov/csels/dsepd/ss1978/index.html",
     "sourceScope": "question",
-    "lecturePending": true,
     "signature": "4eabce96"
   },
   "past-1-43-2020-81": {
@@ -1355,9 +1353,8 @@ export const NOTES = {
         "explanation": "전파 경로와 증상 전 전파 등에 따라 우선 조치는 달라진다."
       }
     ],
-    "source": "외부 참고(문항 공통): CDC Principles of Epidemiology, Lessons 1·6 https://archive.cdc.gov/www_cdc_gov/csels/dsepd/ss1978/index.html",
+    "source": "2026 관련 개념: 감염병의 자연사와 감시, 관리 및 예방_C (1).pdf / PDF p.20, 22–26; 방역조치 병행: 감염병 역학조사_C (1).pdf / PDF p.25; 출처 범위: 수인성·분변경구 전파의 물·손 위생을 구별; 기존 보충 근거: 외부 참고(문항 공통): CDC Principles of Epidemiology, Lessons 1·6 https://archive.cdc.gov/www_cdc_gov/csels/dsepd/ss1978/index.html",
     "sourceScope": "question",
-    "lecturePending": true,
     "signature": "07aaee63"
   },
   "past-1-43-2020-82": {
@@ -1383,9 +1380,8 @@ export const NOTES = {
         "explanation": "집단면역·관리로 유효재생산수가 감소할 수 있지만 병원체의 기초재생산수 R₀가 1 미만으로 바뀌었다고 설명하지 않는다."
       }
     ],
-    "source": "외부 참고(문항 공통): CDC Principles of Epidemiology, Lessons 1·6 https://archive.cdc.gov/www_cdc_gov/csels/dsepd/ss1978/index.html",
+    "source": "2026 관련 개념: 감염병의 자연사와 감시, 관리 및 예방_C (1).pdf / PDF p.28–31; 주기적 발생 도식: 감염병 역학조사_C (1).pdf / PDF p.7; 출처 범위: 원본 그림과 함께 해석; R0와 면역 반영 R을 구별; 기존 보충 근거: 외부 참고(문항 공통): CDC Principles of Epidemiology, Lessons 1·6 https://archive.cdc.gov/www_cdc_gov/csels/dsepd/ss1978/index.html",
     "sourceScope": "question",
-    "lecturePending": true,
     "signature": "6cf03399"
   }
 };

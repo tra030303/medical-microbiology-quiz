@@ -22,9 +22,8 @@ export const NOTES = {
         "explanation": "백신 실패가 모든 소화기감염 유행의 기본 원인이 아니다."
       }
     ],
-    "source": "외부 참고(문항 공통): CDC Principles of Epidemiology, Lessons 1·6 https://archive.cdc.gov/www_cdc_gov/csels/dsepd/ss1978/index.html",
+    "source": "2026 관련 개념: 감염병의 자연사와 감시, 관리 및 예방_C (1).pdf / PDF p.7–9; 출처 범위: 소화기 감염의 대표 도식에 관한 해석; 기존 보충 근거: 외부 참고(문항 공통): CDC Principles of Epidemiology, Lessons 1·6 https://archive.cdc.gov/www_cdc_gov/csels/dsepd/ss1978/index.html",
     "sourceScope": "question",
-    "lecturePending": true,
     "signature": "ec022092"
   },
   "past-1-43-2021-81": {
@@ -35,7 +34,7 @@ export const NOTES = {
       },
       {
         "text": "병원체가 숙주에 침입하여 다른 숙주에 감염을 가장\n많이 일으킬 때까지의 기간은 발병기이다",
-        "explanation": "강의의 발병기·세대기 용어 정의에 관한 원문 답이다. 현대 용어의 generation interval·serial interval과 범위를 구분해야 한다."
+        "explanation": "원답은 ②이지만 발병기라는 명칭은 올해 강의의 정의와 맞지 않는다. PDF7–8은 세대기를 1차 감염자의 감염 시점부터 2차 감염자의 감염 시점까지로, 연속간격을 두 사람의 증상 시작 사이로 정의한다. 최대 배출 시점까지의 간격은 도식의 근사적 설명과 구별한다. 올해 용어를 우선 학습하고 원문 정답은 보존한다."
       },
       {
         "text": "병원체가 숙주로부터 배출되기 시작하여 배출이 끝날\n때까지의 기간은 발병기이다",
@@ -50,9 +49,8 @@ export const NOTES = {
         "explanation": "검출 기간과 임상 이환 기간은 동일하지 않다."
       }
     ],
-    "source": "외부 참고(문항 공통): CDC Principles of Epidemiology, Lessons 1·6 https://archive.cdc.gov/www_cdc_gov/csels/dsepd/ss1978/index.html",
+    "source": "2026 관련 개념: 감염병의 자연사와 감시, 관리 및 예방_C (1).pdf / PDF p.7–9; 출처 범위: 원답 용어 발병기는 올해 세대기·연속간격 정의와 별도 비교; 기존 보충 근거: 외부 참고(문항 공통): CDC Principles of Epidemiology, Lessons 1·6 https://archive.cdc.gov/www_cdc_gov/csels/dsepd/ss1978/index.html",
     "sourceScope": "question",
-    "lecturePending": true,
     "signature": "d4f29e66"
   },
   "past-1-43-2021-82": {
@@ -78,9 +76,8 @@ export const NOTES = {
         "explanation": "숙주 대책은 예방접종·면역·노출 감소 등이며 숙주 제거가 아니다."
       }
     ],
-    "source": "외부 참고(문항 공통): CDC Principles of Epidemiology, Lessons 1·6 https://archive.cdc.gov/www_cdc_gov/csels/dsepd/ss1978/index.html",
+    "source": "2026 관련 개념: 감염병의 자연사와 감시, 관리 및 예방_C (1).pdf / PDF p.15, 17, 21–27; 기존 보충 근거: 외부 참고(문항 공통): CDC Principles of Epidemiology, Lessons 1·6 https://archive.cdc.gov/www_cdc_gov/csels/dsepd/ss1978/index.html",
     "sourceScope": "question",
-    "lecturePending": true,
     "signature": "ce82d900"
   },
   "past-1-43-2022-16": {
@@ -106,9 +103,8 @@ export const NOTES = {
         "explanation": "감수성자는 500−400−20=80명, 총 감염은 20+40=60명이므로 60/80=75%다."
       }
     ],
-    "source": "외부 참고(문항 공통): CDC Principles of Epidemiology, Lessons 1·6 https://archive.cdc.gov/www_cdc_gov/csels/dsepd/ss1978/index.html",
+    "source": "2026 관련 개념: 감염병의 자연사와 감시, 관리 및 예방_C (1).pdf / PDF p.17–18; 출처 범위: 원문 감수성자 80명, 감염자 60명에 강의 정의 적용; 기존 보충 근거: 외부 참고(문항 공통): CDC Principles of Epidemiology, Lessons 1·6 https://archive.cdc.gov/www_cdc_gov/csels/dsepd/ss1978/index.html",
     "sourceScope": "question",
-    "lecturePending": true,
     "signature": "7881adfe"
   },
   "past-1-43-2022-61": {
@@ -134,9 +130,8 @@ export const NOTES = {
         "explanation": "대체로 이 강의의 소화기감염 비교에서는 세대기가 잠복기보다 긴 경우를 설명한다. 병원체별 예외가 있다."
       }
     ],
-    "source": "외부 참고(문항 공통): CDC Principles of Epidemiology, Lessons 1·6 https://archive.cdc.gov/www_cdc_gov/csels/dsepd/ss1978/index.html",
+    "source": "2026 관련 개념: 감염병의 자연사와 감시, 관리 및 예방_C (1).pdf / PDF p.7–9, 15; 기존 보충 근거: 외부 참고(문항 공통): CDC Principles of Epidemiology, Lessons 1·6 https://archive.cdc.gov/www_cdc_gov/csels/dsepd/ss1978/index.html",
     "sourceScope": "question",
-    "lecturePending": true,
     "signature": "8982cc64"
   },
   "past-1-43-2023-47": {
@@ -162,9 +157,8 @@ export const NOTES = {
         "explanation": "너무 이른 시점부터 첫 발병까지 광범위하게 포함하여 주된 추정 노출창을 좁히지 못한다."
       }
     ],
-    "source": "외부 참고(문항 공통): CDC Principles of Epidemiology, Lessons 1·6 https://archive.cdc.gov/www_cdc_gov/csels/dsepd/ss1978/index.html",
+    "source": "2026 관련 개념: 감염병의 자연사와 감시, 관리 및 예방_C (1).pdf / PDF p.9, 12; 2025 노출시점 추정·정정 설명: [251120_02]감염병의 집단발병 역학조사(송진수)_유승훈_v2.pdf / PDF p.12–13; 출처 범위: 원문 유행곡선과 잠복기 역산을 함께 사용; 올해 자료가 원문 날짜를 직접 제시하는 것은 아님; 기존 보충 근거: 외부 참고(문항 공통): CDC Principles of Epidemiology, Lessons 1·6 https://archive.cdc.gov/www_cdc_gov/csels/dsepd/ss1978/index.html",
     "sourceScope": "question",
-    "lecturePending": true,
     "signature": "06c14562"
   },
   "past-1-43-2023-84": {
@@ -190,9 +184,8 @@ export const NOTES = {
         "explanation": "오염 물을 통한 매개물 전파다."
       }
     ],
-    "source": "외부 참고(문항 공통): CDC Principles of Epidemiology, Lessons 1·6 https://archive.cdc.gov/www_cdc_gov/csels/dsepd/ss1978/index.html",
+    "source": "2026 관련 개념: 감염병의 자연사와 감시, 관리 및 예방_C (1).pdf / PDF p.23; 출처 범위: 올해 표는 비말을 직접전파 내 간접접촉에 배치함; 분류 체계가 달라질 수 있어 실제 전파기전과 구별; 기존 보충 근거: 외부 참고(문항 공통): CDC Principles of Epidemiology, Lessons 1·6 https://archive.cdc.gov/www_cdc_gov/csels/dsepd/ss1978/index.html",
     "sourceScope": "question",
-    "lecturePending": true,
     "signature": "5ae19803"
   },
   "past-1-43-2025-38": {
@@ -218,9 +211,8 @@ export const NOTES = {
         "explanation": "N95는 공기매개 위험 등에 활용하며 일반 소화기감염의 대표 전파 차단 보호구가 아니다."
       }
     ],
-    "source": "외부 참고(문항 공통): CDC Principles of Epidemiology, Lessons 1·6 https://archive.cdc.gov/www_cdc_gov/csels/dsepd/ss1978/index.html",
+    "source": "2026 관련 개념: 감염병의 자연사와 감시, 관리 및 예방_C (1).pdf / PDF p.15, 23–26; 아포 손위생 비교: 20261119 감염병의 예방_환경관리 소독과멸균_배부.pdf / PDF p.9, 36; 기존 보충 근거: 외부 참고(문항 공통): CDC Principles of Epidemiology, Lessons 1·6 https://archive.cdc.gov/www_cdc_gov/csels/dsepd/ss1978/index.html",
     "sourceScope": "question",
-    "lecturePending": true,
     "signature": "dfbe3d8d"
   },
   "past-1-43-2025-50": {
@@ -246,9 +238,8 @@ export const NOTES = {
         "explanation": "수두 의심 환자 진료는 공기·접촉주의가 필요하며 의료진은 적절한 호흡기 보호구를 사용한다."
       }
     ],
-    "source": "외부 참고(문항 공통): CDC Principles of Epidemiology, Lessons 1·6 https://archive.cdc.gov/www_cdc_gov/csels/dsepd/ss1978/index.html",
+    "source": "2026 관련 개념: 감염병의 자연사와 감시, 관리 및 예방_C (1).pdf / PDF p.11, 23; 수두 추가 주의: 감염병의 예방원칙 2026 (1).pdf / PDF p.6–7, 14–16; 기존 보충 근거: 외부 참고(문항 공통): CDC Principles of Epidemiology, Lessons 1·6 https://archive.cdc.gov/www_cdc_gov/csels/dsepd/ss1978/index.html",
     "sourceScope": "question",
-    "lecturePending": true,
     "signature": "c17543b2"
   },
   "past-1-43-2025-52": {
@@ -274,9 +265,8 @@ export const NOTES = {
         "explanation": "잠복기는 증상까지, 잠재기는 전염력 발생까지로 서로 다른 개념이다."
       }
     ],
-    "source": "외부 참고(문항 공통): CDC Principles of Epidemiology, Lessons 1·6 https://archive.cdc.gov/www_cdc_gov/csels/dsepd/ss1978/index.html",
+    "source": "2026 관련 개념: 감염병의 자연사와 감시, 관리 및 예방_C (1).pdf / PDF p.7–9, 15; 출처 범위: 도식의 대표 양상을 모든 개별 질환에 일반화하지 않음; 기존 보충 근거: 외부 참고(문항 공통): CDC Principles of Epidemiology, Lessons 1·6 https://archive.cdc.gov/www_cdc_gov/csels/dsepd/ss1978/index.html",
     "sourceScope": "question",
-    "lecturePending": true,
     "signature": "1e9db575"
   },
   "past-1-44-2020-83": {
@@ -302,9 +292,8 @@ export const NOTES = {
         "explanation": "단일 공동노출형보다는 여러 파동의 연쇄 전파형을 의도한다."
       }
     ],
-    "source": "외부 참고(문항 공통): CDC Principles of Epidemiology, Lessons 1·6 https://archive.cdc.gov/www_cdc_gov/csels/dsepd/ss1978/index.html",
+    "source": "2026 관련 개념: 감염병 역학조사_C (1).pdf / PDF p.16, 18–19; 출처 범위: 원본 곡선의 여러 파동을 확인하여 개념 적용; 곡선만으로 정확한 잠복기나 전파 세대를 확정하지 않음; 기존 보충 근거: 외부 참고(문항 공통): CDC Principles of Epidemiology, Lessons 1·6 https://archive.cdc.gov/www_cdc_gov/csels/dsepd/ss1978/index.html",
     "sourceScope": "question",
-    "lecturePending": true,
     "signature": "b19c8dda"
   },
   "past-1-44-2020-84": {
@@ -330,9 +319,8 @@ export const NOTES = {
         "explanation": "RR은 노출군 발병위험/비노출군 발병위험이다. 이 정의도 맞아 원문 정답과의 모호성이 있다."
       }
     ],
-    "source": "외부 참고(문항 공통): CDC Principles of Epidemiology, Lessons 1·6 https://archive.cdc.gov/www_cdc_gov/csels/dsepd/ss1978/index.html",
+    "source": "2026 관련 개념: 감염병 역학조사_C (1).pdf / PDF p.22–24; 2025 RR·OR 비교: [251120_02]감염병의 집단발병 역학조사(송진수)_유승훈_v2.pdf / PDF p.19–21; 출처 범위: 원문 표와 함께 해석; 시간적 선후만으로 인과성 확정 불가; 기존 보충 근거: 외부 참고(문항 공통): CDC Principles of Epidemiology, Lessons 1·6 https://archive.cdc.gov/www_cdc_gov/csels/dsepd/ss1978/index.html",
     "sourceScope": "question",
-    "lecturePending": true,
     "signature": "433a624d"
   },
   "past-1-44-2021-83": {
@@ -358,9 +346,8 @@ export const NOTES = {
         "explanation": "유행 자료만으로 환경 위생 불량이 원인이라고 단정할 수 없다."
       }
     ],
-    "source": "외부 참고(문항 공통): CDC Principles of Epidemiology, Lessons 1·6 https://archive.cdc.gov/www_cdc_gov/csels/dsepd/ss1978/index.html",
+    "source": "2026 관련 개념: 감염병 역학조사_C (1).pdf / PDF p.11–16, 19; 기존 보충 근거: 외부 참고(문항 공통): CDC Principles of Epidemiology, Lessons 1·6 https://archive.cdc.gov/www_cdc_gov/csels/dsepd/ss1978/index.html",
     "sourceScope": "question",
-    "lecturePending": true,
     "signature": "5098f579"
   },
   "past-1-44-2021-84": {
@@ -386,9 +373,8 @@ export const NOTES = {
         "explanation": "예상보다 많은 사례가 짧은 시기에 모여 보고된 시간 집적성이다. 시간적 연속성만으로 백신 인과성을 확정하지 않는다."
       }
     ],
-    "source": "외부 참고(문항 공통): CDC Principles of Epidemiology, Lessons 1·6 https://archive.cdc.gov/www_cdc_gov/csels/dsepd/ss1978/index.html",
+    "source": "2026 관련 개념: 감염병 역학조사_C (1).pdf / PDF p.11–12, 14–15; 출처 범위: 시간 집적성 개념만 뒷받침하며 백신과 이상반응의 인과성은 이 관찰만으로 확정하지 않음; 기존 보충 근거: 외부 참고(문항 공통): CDC Principles of Epidemiology, Lessons 1·6 https://archive.cdc.gov/www_cdc_gov/csels/dsepd/ss1978/index.html",
     "sourceScope": "question",
-    "lecturePending": true,
     "signature": "4bd4e391"
   },
   "past-1-44-2022-76": {
@@ -414,9 +400,8 @@ export const NOTES = {
         "explanation": "환자가 계속 생기는 이유는 사람 간 전파일 수도 있어 오염원 잔존만으로 단정하지 않는다."
       }
     ],
-    "source": "외부 참고(문항 공통): CDC Principles of Epidemiology, Lessons 1·6 https://archive.cdc.gov/www_cdc_gov/csels/dsepd/ss1978/index.html",
+    "source": "2026 관련 개념: 감염병 역학조사_C (1).pdf / PDF p.16, 19; 출처 범위: 곡선 모양은 원본 이미지로 확인; 기존 보충 근거: 외부 참고(문항 공통): CDC Principles of Epidemiology, Lessons 1·6 https://archive.cdc.gov/www_cdc_gov/csels/dsepd/ss1978/index.html",
     "sourceScope": "question",
-    "lecturePending": true,
     "signature": "e9b463ae"
   },
   "past-1-44-2022-85": {
@@ -442,9 +427,8 @@ export const NOTES = {
         "explanation": "면역을 반영하지 않은 기초재생산수다."
       }
     ],
-    "source": "외부 참고(문항 공통): CDC Principles of Epidemiology, Lessons 1·6 https://archive.cdc.gov/www_cdc_gov/csels/dsepd/ss1978/index.html",
+    "source": "2026 관련 개념: 감염병 역학조사_C (1).pdf / PDF p.3–5; 기존 보충 근거: 외부 참고(문항 공통): CDC Principles of Epidemiology, Lessons 1·6 https://archive.cdc.gov/www_cdc_gov/csels/dsepd/ss1978/index.html",
     "sourceScope": "question",
-    "lecturePending": true,
     "signature": "7b84f150"
   },
   "past-1-44-2023-34": {
@@ -470,9 +454,8 @@ export const NOTES = {
         "explanation": "면역 70%를 반영한 계산이 아니다."
       }
     ],
-    "source": "외부 참고(문항 공통): CDC Principles of Epidemiology, Lessons 1·6 https://archive.cdc.gov/www_cdc_gov/csels/dsepd/ss1978/index.html",
+    "source": "2026 관련 개념: 감염병 역학조사_C (1).pdf / PDF p.3–5; 기존 보충 근거: 외부 참고(문항 공통): CDC Principles of Epidemiology, Lessons 1·6 https://archive.cdc.gov/www_cdc_gov/csels/dsepd/ss1978/index.html",
     "sourceScope": "question",
-    "lecturePending": true,
     "signature": "96cae1bc"
   },
   "past-1-44-2023-36": {
@@ -498,9 +481,8 @@ export const NOTES = {
         "explanation": "지속 오염원형보다 짧은 단일 공동노출형에 가깝다."
       }
     ],
-    "source": "외부 참고(문항 공통): CDC Principles of Epidemiology, Lessons 1·6 https://archive.cdc.gov/www_cdc_gov/csels/dsepd/ss1978/index.html",
+    "source": "2026 관련 개념: 감염병 역학조사_C (1).pdf / PDF p.16, 18; 출처 범위: 곡선 모양은 원본 이미지로 확인; 기존 보충 근거: 외부 참고(문항 공통): CDC Principles of Epidemiology, Lessons 1·6 https://archive.cdc.gov/www_cdc_gov/csels/dsepd/ss1978/index.html",
     "sourceScope": "question",
-    "lecturePending": true,
     "signature": "aa2876ac"
   },
   "past-1-44-2025-48": {
@@ -526,9 +508,8 @@ export const NOTES = {
         "explanation": "유행 중 유해 노출을 무작위 배정하는 방식은 적절한 조사 설계가 아니다."
       }
     ],
-    "source": "외부 참고(문항 공통): CDC Principles of Epidemiology, Lessons 1·6 https://archive.cdc.gov/www_cdc_gov/csels/dsepd/ss1978/index.html",
+    "source": "2026 관련 개념: 감염병 역학조사_C (1).pdf / PDF p.22–24; 기존 보충 근거: 외부 참고(문항 공통): CDC Principles of Epidemiology, Lessons 1·6 https://archive.cdc.gov/www_cdc_gov/csels/dsepd/ss1978/index.html",
     "sourceScope": "question",
-    "lecturePending": true,
     "signature": "29001663"
   },
   "past-1-44-2025-67": {
@@ -554,9 +535,8 @@ export const NOTES = {
         "explanation": "단일 공동노출 가정에서는 잠복기와 발병 시각으로 대략적 노출창을 추정할 수 있다."
       }
     ],
-    "source": "외부 참고(문항 공통): CDC Principles of Epidemiology, Lessons 1·6 https://archive.cdc.gov/www_cdc_gov/csels/dsepd/ss1978/index.html",
+    "source": "2026 관련 개념: 감염병 역학조사_C (1).pdf / PDF p.16, 18; 2025 노출시점 추정·교수 답변: [251120_02]감염병의 집단발병 역학조사(송진수)_유승훈_v2.pdf / PDF p.12–13; 출처 범위: 원문 잠복기·발병시각을 이용한 AI 계산은 별도이며 원답 미확정을 유지; 기존 보충 근거: 외부 참고(문항 공통): CDC Principles of Epidemiology, Lessons 1·6 https://archive.cdc.gov/www_cdc_gov/csels/dsepd/ss1978/index.html",
     "sourceScope": "question",
-    "lecturePending": true,
     "signature": "cc59e451"
   },
   "past-1-45-2020-85": {
@@ -582,9 +562,8 @@ export const NOTES = {
         "explanation": "감염·특정 적응증 없이 퇴원 때까지 vancomycin을 지속하지 않는다."
       }
     ],
-    "source": "외부 참고(문항 공통): CDC Isolation Precautions·Disinfection and Sterilization https://www.cdc.gov/infection-control/hcp/isolation-precautions/ https://www.cdc.gov/infection-control/hcp/disinfection-sterilization/",
+    "source": "2026 관련 개념: 감염병의 예방원칙 2026 (1).pdf / PDF p.27–32; 출처 범위: 천공성 복막염은 기존 감염 치료와 예방요법을 구별; 기존 보충 근거: 외부 참고(문항 공통): CDC Isolation Precautions·Disinfection and Sterilization https://www.cdc.gov/infection-control/hcp/isolation-precautions/ https://www.cdc.gov/infection-control/hcp/disinfection-sterilization/",
     "sourceScope": "question",
-    "lecturePending": true,
     "signature": "328ce7f1"
   },
   "past-1-45-2020-86": {
@@ -610,7 +589,7 @@ export const NOTES = {
         "explanation": "접종 완료자의 추가 HBIG·백신 필요성은 anti-HBs와 과거 반응에 따라 달라 무조건 투여하지 않는다."
       }
     ],
-    "source": "관련 강의록: [261112_03]간염바이러스(김범준)_이세영v1.pdf · HBV 노출 후 예방; 외부 참고: CDC HBV Exposure",
+    "source": "2026 관련 개념: 감염병의 예방원칙 2026 (1).pdf / PDF p.17–20; 기존 보충 근거: 관련 강의록: [261112_03]간염바이러스(김범준)_이세영v1.pdf · HBV 노출 후 예방; 외부 참고: CDC HBV Exposure",
     "sourceScope": "question",
     "signature": "6c071533"
   },
@@ -637,7 +616,7 @@ export const NOTES = {
         "explanation": "접종 완료자의 추가 HBIG·백신 필요성은 anti-HBs와 과거 반응에 따라 달라 무조건 투여하지 않는다."
       }
     ],
-    "source": "관련 강의록: [261112_03]간염바이러스(김범준)_이세영v1.pdf · HBV 노출 후 예방; 외부 참고: CDC HBV Exposure",
+    "source": "2026 관련 개념: 감염병의 예방원칙 2026 (1).pdf / PDF p.17–20; 기존 보충 근거: 관련 강의록: [261112_03]간염바이러스(김범준)_이세영v1.pdf · HBV 노출 후 예방; 외부 참고: CDC HBV Exposure",
     "sourceScope": "question",
     "signature": "3040b4c5"
   },
@@ -664,9 +643,8 @@ export const NOTES = {
         "explanation": "수두 의심의 면역저하 소아는 표준주의에 공기·접촉주의를 함께 적용한다."
       }
     ],
-    "source": "외부 참고(문항 공통): CDC Isolation Precautions·Disinfection and Sterilization https://www.cdc.gov/infection-control/hcp/isolation-precautions/ https://www.cdc.gov/infection-control/hcp/disinfection-sterilization/",
+    "source": "2026 관련 개념: 감염병의 예방원칙 2026 (1).pdf / PDF p.6–7, 14–16; 기존 보충 근거: 외부 참고(문항 공통): CDC Isolation Precautions·Disinfection and Sterilization https://www.cdc.gov/infection-control/hcp/isolation-precautions/ https://www.cdc.gov/infection-control/hcp/disinfection-sterilization/",
     "sourceScope": "question",
-    "lecturePending": true,
     "signature": "e2ec33ef"
   },
   "past-1-45-2021-9": {
@@ -692,9 +670,8 @@ export const NOTES = {
         "explanation": "감염·특정 적응증 없이 퇴원 때까지 vancomycin을 지속하지 않는다."
       }
     ],
-    "source": "외부 참고(문항 공통): CDC Isolation Precautions·Disinfection and Sterilization https://www.cdc.gov/infection-control/hcp/isolation-precautions/ https://www.cdc.gov/infection-control/hcp/disinfection-sterilization/",
+    "source": "2026 관련 개념: 감염병의 예방원칙 2026 (1).pdf / PDF p.27–32; 기존 보충 근거: 외부 참고(문항 공통): CDC Isolation Precautions·Disinfection and Sterilization https://www.cdc.gov/infection-control/hcp/isolation-precautions/ https://www.cdc.gov/infection-control/hcp/disinfection-sterilization/",
     "sourceScope": "question",
-    "lecturePending": true,
     "signature": "70fdb799"
   },
   "past-1-45-2022-32": {
@@ -720,9 +697,8 @@ export const NOTES = {
         "explanation": "감염·특정 적응증 없이 퇴원 때까지 vancomycin을 지속하지 않는다."
       }
     ],
-    "source": "외부 참고(문항 공통): CDC Isolation Precautions·Disinfection and Sterilization https://www.cdc.gov/infection-control/hcp/isolation-precautions/ https://www.cdc.gov/infection-control/hcp/disinfection-sterilization/",
+    "source": "2026 관련 개념: 감염병의 예방원칙 2026 (1).pdf / PDF p.27–32; 출처 범위: 천공성 복막염은 기존 감염 치료와 예방요법을 구별; 기존 보충 근거: 외부 참고(문항 공통): CDC Isolation Precautions·Disinfection and Sterilization https://www.cdc.gov/infection-control/hcp/isolation-precautions/ https://www.cdc.gov/infection-control/hcp/disinfection-sterilization/",
     "sourceScope": "question",
-    "lecturePending": true,
     "signature": "3bbc65d2"
   },
   "past-1-45-2022-52": {
@@ -748,9 +724,8 @@ export const NOTES = {
         "explanation": "임상·여행력상 홍역 의심이면 표준주의와 공기주의를 함께 적용한다."
       }
     ],
-    "source": "외부 참고(문항 공통): CDC Isolation Precautions·Disinfection and Sterilization https://www.cdc.gov/infection-control/hcp/isolation-precautions/ https://www.cdc.gov/infection-control/hcp/disinfection-sterilization/",
+    "source": "2026 관련 개념: 감염병의 예방원칙 2026 (1).pdf / PDF p.6–7; 기존 보충 근거: 외부 참고(문항 공통): CDC Isolation Precautions·Disinfection and Sterilization https://www.cdc.gov/infection-control/hcp/isolation-precautions/ https://www.cdc.gov/infection-control/hcp/disinfection-sterilization/",
     "sourceScope": "question",
-    "lecturePending": true,
     "signature": "64856792"
   },
   "past-1-45-2023-54": {
@@ -776,7 +751,7 @@ export const NOTES = {
         "explanation": "미접종자의 HBsAg 양성 노출에는 HBIG와 백신을 신속하게 투여한다."
       }
     ],
-    "source": "관련 강의록: [261112_03]간염바이러스(김범준)_이세영v1.pdf · HBV 노출 후 예방; 외부 참고: CDC HBV Exposure",
+    "source": "2026 관련 개념: 감염병의 예방원칙 2026 (1).pdf / PDF p.17–20; 기존 보충 근거: 관련 강의록: [261112_03]간염바이러스(김범준)_이세영v1.pdf · HBV 노출 후 예방; 외부 참고: CDC HBV Exposure",
     "sourceScope": "question",
     "signature": "21b2d0c4"
   },
@@ -803,9 +778,8 @@ export const NOTES = {
         "explanation": "수두 의심의 면역저하 소아는 표준주의에 공기·접촉주의를 함께 적용한다."
       }
     ],
-    "source": "외부 참고(문항 공통): CDC Isolation Precautions·Disinfection and Sterilization https://www.cdc.gov/infection-control/hcp/isolation-precautions/ https://www.cdc.gov/infection-control/hcp/disinfection-sterilization/",
+    "source": "2026 관련 개념: 감염병의 예방원칙 2026 (1).pdf / PDF p.6–7, 14–16; 기존 보충 근거: 외부 참고(문항 공통): CDC Isolation Precautions·Disinfection and Sterilization https://www.cdc.gov/infection-control/hcp/isolation-precautions/ https://www.cdc.gov/infection-control/hcp/disinfection-sterilization/",
     "sourceScope": "question",
-    "lecturePending": true,
     "signature": "6d91e741"
   },
   "past-1-45-2025-10": {
@@ -831,9 +805,8 @@ export const NOTES = {
         "explanation": "폐렴알균 예방접종·필요 시 항균제 예방 등이며 수동면역이 일반 표준은 아니다."
       }
     ],
-    "source": "외부 참고(문항 공통): CDC Isolation Precautions·Disinfection and Sterilization https://www.cdc.gov/infection-control/hcp/isolation-precautions/ https://www.cdc.gov/infection-control/hcp/disinfection-sterilization/",
+    "source": "2026 관련 개념: 감염병의 예방원칙 2026 (1).pdf / PDF p.9, 16, 24–25; 2025 RSV 수동면역·수두 PEP: [251120_03]감염병의 예방원칙(윤기욱)_유예원v3.pdf / PDF p.16–17, 29–31; 출처 범위: RSV와 VZIG의 적응증을 구분해야 하며 원답 외 선지도 타당할 가능성; 기존 보충 근거: 외부 참고(문항 공통): CDC Isolation Precautions·Disinfection and Sterilization https://www.cdc.gov/infection-control/hcp/isolation-precautions/ https://www.cdc.gov/infection-control/hcp/disinfection-sterilization/",
     "sourceScope": "question",
-    "lecturePending": true,
     "signature": "db270593"
   },
   "past-1-45-2025-7": {
@@ -859,7 +832,7 @@ export const NOTES = {
         "explanation": "접종 완료자의 추가 HBIG·백신 필요성은 anti-HBs와 과거 반응에 따라 달라 무조건 투여하지 않는다."
       }
     ],
-    "source": "관련 강의록: [261112_03]간염바이러스(김범준)_이세영v1.pdf · HBV 노출 후 예방; 외부 참고: CDC HBV Exposure",
+    "source": "2026 관련 개념: 감염병의 예방원칙 2026 (1).pdf / PDF p.17–20; 기존 보충 근거: 관련 강의록: [261112_03]간염바이러스(김범준)_이세영v1.pdf · HBV 노출 후 예방; 외부 참고: CDC HBV Exposure",
     "sourceScope": "question",
     "signature": "66d49c13"
   },
@@ -886,9 +859,8 @@ export const NOTES = {
         "explanation": "멸균 방식에 맞는 생물학적 지시자를 사용한다. 모든 방식의 지시자가 동일하지 않으며 EO 잔류물의 제거도 제조사 검증 조건을 따른다."
       }
     ],
-    "source": "외부 참고(문항 공통): CDC Isolation Precautions·Disinfection and Sterilization https://www.cdc.gov/infection-control/hcp/isolation-precautions/ https://www.cdc.gov/infection-control/hcp/disinfection-sterilization/",
+    "source": "2026 관련 개념: 20261119 감염병의 예방_환경관리 소독과멸균_배부.pdf / PDF p.5–6, 15–20, 27; 출처 범위: 고수준 소독을 부분멸균과 동일시하지 않음; 기존 보충 근거: 외부 참고(문항 공통): CDC Isolation Precautions·Disinfection and Sterilization https://www.cdc.gov/infection-control/hcp/isolation-precautions/ https://www.cdc.gov/infection-control/hcp/disinfection-sterilization/",
     "sourceScope": "question",
-    "lecturePending": true,
     "signature": "314418c4"
   },
   "past-1-46-2021-85": {
@@ -914,9 +886,8 @@ export const NOTES = {
         "explanation": "CDI 환경에는 아포 효과가 검증된 제품을 지침대로 사용한다. 표면 적합성·제품 라벨이 우선이다."
       }
     ],
-    "source": "외부 참고(문항 공통): CDC Isolation Precautions·Disinfection and Sterilization https://www.cdc.gov/infection-control/hcp/isolation-precautions/ https://www.cdc.gov/infection-control/hcp/disinfection-sterilization/",
+    "source": "2026 관련 개념: 20261119 감염병의 예방_환경관리 소독과멸균_배부.pdf / PDF p.7, 9–13, 24, 36; 출처 범위: 아포 세부 성분명은 보충 지식; 기존 보충 근거: 외부 참고(문항 공통): CDC Isolation Precautions·Disinfection and Sterilization https://www.cdc.gov/infection-control/hcp/isolation-precautions/ https://www.cdc.gov/infection-control/hcp/disinfection-sterilization/",
     "sourceScope": "question",
-    "lecturePending": true,
     "signature": "b6e01a4b"
   },
   "past-1-46-2021-86": {
@@ -942,9 +913,8 @@ export const NOTES = {
         "explanation": "멸균 방식에 맞는 생물학적 지시자를 사용한다. 모든 방식의 지시자가 동일하지 않으며 EO 잔류물의 제거도 제조사 검증 조건을 따른다."
       }
     ],
-    "source": "외부 참고(문항 공통): CDC Isolation Precautions·Disinfection and Sterilization https://www.cdc.gov/infection-control/hcp/isolation-precautions/ https://www.cdc.gov/infection-control/hcp/disinfection-sterilization/",
+    "source": "2026 관련 개념: 20261119 감염병의 예방_환경관리 소독과멸균_배부.pdf / PDF p.5–6, 15–20, 27; 출처 범위: 세척·멸균·고수준 소독 구분과 EO 지침의 범위; 기존 보충 근거: 외부 참고(문항 공통): CDC Isolation Precautions·Disinfection and Sterilization https://www.cdc.gov/infection-control/hcp/isolation-precautions/ https://www.cdc.gov/infection-control/hcp/disinfection-sterilization/",
     "sourceScope": "question",
-    "lecturePending": true,
     "signature": "c838aa2e"
   },
   "past-1-46-2021-87": {
@@ -970,9 +940,8 @@ export const NOTES = {
         "explanation": "피부 소독제는 도포 후 제조사 지침의 작용·건조 시간을 지킨다. 모든 제품에 동일 시간을 일괄 적용하지 않는다."
       }
     ],
-    "source": "외부 참고(문항 공통): CDC Isolation Precautions·Disinfection and Sterilization https://www.cdc.gov/infection-control/hcp/isolation-precautions/ https://www.cdc.gov/infection-control/hcp/disinfection-sterilization/",
+    "source": "2026 관련 개념: 20261119 감염병의 예방_환경관리 소독과멸균_배부.pdf / PDF p.7, 9, 11–13; 기존 보충 근거: 외부 참고(문항 공통): CDC Isolation Precautions·Disinfection and Sterilization https://www.cdc.gov/infection-control/hcp/isolation-precautions/ https://www.cdc.gov/infection-control/hcp/disinfection-sterilization/",
     "sourceScope": "question",
-    "lecturePending": true,
     "signature": "49f2470b"
   },
   "past-1-46-2022-1": {
@@ -998,9 +967,8 @@ export const NOTES = {
         "explanation": "CDI 환경에는 아포 효과가 검증된 제품을 지침대로 사용한다. 표면 적합성·제품 라벨이 우선이다."
       }
     ],
-    "source": "외부 참고(문항 공통): CDC Isolation Precautions·Disinfection and Sterilization https://www.cdc.gov/infection-control/hcp/isolation-precautions/ https://www.cdc.gov/infection-control/hcp/disinfection-sterilization/",
+    "source": "2026 관련 개념: 20261119 감염병의 예방_환경관리 소독과멸균_배부.pdf / PDF p.7, 9, 24, 36; 출처 범위: 아포의 세부 성분명은 기존 외부·미생물학 지식 보충; 올해 PDF7은 보호층과 저수분을 요약; 기존 보충 근거: 외부 참고(문항 공통): CDC Isolation Precautions·Disinfection and Sterilization https://www.cdc.gov/infection-control/hcp/isolation-precautions/ https://www.cdc.gov/infection-control/hcp/disinfection-sterilization/",
     "sourceScope": "question",
-    "lecturePending": true,
     "signature": "69065865"
   },
   "past-1-46-2022-63": {
@@ -1026,9 +994,8 @@ export const NOTES = {
         "explanation": "멸균 방식에 맞는 생물학적 지시자를 사용한다. 모든 방식의 지시자가 동일하지 않으며 EO 잔류물의 제거도 제조사 검증 조건을 따른다."
       }
     ],
-    "source": "외부 참고(문항 공통): CDC Isolation Precautions·Disinfection and Sterilization https://www.cdc.gov/infection-control/hcp/isolation-precautions/ https://www.cdc.gov/infection-control/hcp/disinfection-sterilization/",
+    "source": "2026 관련 개념: 20261119 감염병의 예방_환경관리 소독과멸균_배부.pdf / PDF p.5–6, 15–20, 27; 출처 범위: 내독소 완전 제거와 EO 환기 시간의 고정값 일반화는 경계; 기존 보충 근거: 외부 참고(문항 공통): CDC Isolation Precautions·Disinfection and Sterilization https://www.cdc.gov/infection-control/hcp/isolation-precautions/ https://www.cdc.gov/infection-control/hcp/disinfection-sterilization/",
     "sourceScope": "question",
-    "lecturePending": true,
     "signature": "3f86471e"
   },
   "past-1-46-2023-57": {
@@ -1054,9 +1021,8 @@ export const NOTES = {
         "explanation": "포장 무결성·습윤·오염·보관 사건 및 시설의 유효기간 정책을 확인해야 한다."
       }
     ],
-    "source": "외부 참고(문항 공통): CDC Isolation Precautions·Disinfection and Sterilization https://www.cdc.gov/infection-control/hcp/isolation-precautions/ https://www.cdc.gov/infection-control/hcp/disinfection-sterilization/",
+    "source": "2026 관련 개념: 20261119 감염병의 예방_환경관리 소독과멸균_배부.pdf / PDF p.15–18, 24, 27, 30, 35; 기존 보충 근거: 외부 참고(문항 공통): CDC Isolation Precautions·Disinfection and Sterilization https://www.cdc.gov/infection-control/hcp/isolation-precautions/ https://www.cdc.gov/infection-control/hcp/disinfection-sterilization/",
     "sourceScope": "question",
-    "lecturePending": true,
     "signature": "f518f7b6"
   },
   "past-1-46-2023-93": {
@@ -1082,9 +1048,8 @@ export const NOTES = {
         "explanation": "CDI 환경에는 아포 효과가 검증된 제품을 지침대로 사용한다. 표면 적합성·제품 라벨이 우선이다."
       }
     ],
-    "source": "외부 참고(문항 공통): CDC Isolation Precautions·Disinfection and Sterilization https://www.cdc.gov/infection-control/hcp/isolation-precautions/ https://www.cdc.gov/infection-control/hcp/disinfection-sterilization/",
+    "source": "2026 관련 개념: 20261119 감염병의 예방_환경관리 소독과멸균_배부.pdf / PDF p.9–13, 24, 35–36; 기존 보충 근거: 외부 참고(문항 공통): CDC Isolation Precautions·Disinfection and Sterilization https://www.cdc.gov/infection-control/hcp/isolation-precautions/ https://www.cdc.gov/infection-control/hcp/disinfection-sterilization/",
     "sourceScope": "question",
-    "lecturePending": true,
     "signature": "ca1ebef9"
   },
   "past-1-46-2025-31": {
@@ -1110,9 +1075,8 @@ export const NOTES = {
         "explanation": "독소 검출은 증상성 독소 질환을 지지한다. 검사 성능·증상·NAAT/독소 알고리즘을 함께 해석하며 가장 특이적이라는 표현은 검사법별로 구분한다."
       }
     ],
-    "source": "외부 참고(문항 공통): CDC Isolation Precautions·Disinfection and Sterilization https://www.cdc.gov/infection-control/hcp/isolation-precautions/ https://www.cdc.gov/infection-control/hcp/disinfection-sterilization/",
+    "source": "2026 관련 개념: 20261119 감염병의 예방_환경관리 소독과멸균_배부.pdf / PDF p.6–7, 9, 24, 35–36; 출처 범위: CDI 관리 개념은 강의; 독소검사 성능과 검사 알고리즘은 기존 외부자료 보충; 기존 보충 근거: 외부 참고(문항 공통): CDC Isolation Precautions·Disinfection and Sterilization https://www.cdc.gov/infection-control/hcp/isolation-precautions/ https://www.cdc.gov/infection-control/hcp/disinfection-sterilization/",
     "sourceScope": "question",
-    "lecturePending": true,
     "signature": "4401f287"
   },
   "past-1-46-2025-69": {
@@ -1138,9 +1102,8 @@ export const NOTES = {
         "explanation": "호흡·마취 장비 중 점막 접촉 부품은 semicritical이며 낮은 수준 소독만으로 일괄 처리하지 않는다."
       }
     ],
-    "source": "외부 참고(문항 공통): CDC Isolation Precautions·Disinfection and Sterilization https://www.cdc.gov/infection-control/hcp/isolation-precautions/ https://www.cdc.gov/infection-control/hcp/disinfection-sterilization/",
+    "source": "2026 관련 개념: 20261119 감염병의 예방_환경관리 소독과멸균_배부.pdf / PDF p.5–6, 15–20, 39; 기존 보충 근거: 외부 참고(문항 공통): CDC Isolation Precautions·Disinfection and Sterilization https://www.cdc.gov/infection-control/hcp/isolation-precautions/ https://www.cdc.gov/infection-control/hcp/disinfection-sterilization/",
     "sourceScope": "question",
-    "lecturePending": true,
     "signature": "e6b10c21"
   },
   "past-1-47-2020-88": {
