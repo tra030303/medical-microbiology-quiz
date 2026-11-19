@@ -1129,7 +1129,7 @@ export const NOTES = {
         "explanation": "감수성 MSSA의 중추신경계 감염이라는 문항 조건과 강의의 약물 분포 원칙에 맞는다."
       }
     ],
-    "source": "강의록: 감염병의 치료원칙-학생용2026.pdf · 기출: 2025년 21번·2021년 2번·2020년 6번 / 치료 PDF 17~20쪽",
+    "source": "강의록: 감염병의 치료원칙-학생용2026.pdf · 기출: 2025년 21번·2021년 2번·2020년 6번 / 치료 PDF 17~20쪽; 형성평가 대조: [261119_05] 형성평가&피드백_이은빈v1.pdf / 실제 PDF p.2; IDSA 2017 · 의료관련 뇌실염·수막염의 MSSA 치료 https://www.idsociety.org/practice-guideline/healthcare-associated-ventriculitis-and-meningitis/",
     "sourceScope": "question",
     "signature": "4b9a0899"
   },
