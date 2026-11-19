@@ -8,4 +8,5 @@ import { QUESTIONS as P5 } from './ox-packs/part-006.js';
 import { QUESTIONS as P6 } from './ox-packs/part-007.js';
 import { QUESTIONS as P7 } from './ox-packs/part-008.js';
 import { QUESTIONS as P8 } from './ox-packs/part-009.js';
-export const OX_QUESTIONS = [...P0,...P1,...P2,...P3,...P4,...P5,...P6,...P7,...P8];
+import { QUESTIONS as P9 } from './ox-packs/part-010.js';
+export const OX_QUESTIONS = [...P0,...P1,...P2,...P3,...P4,...P5,...P6,...P7,...P8,...P9];
