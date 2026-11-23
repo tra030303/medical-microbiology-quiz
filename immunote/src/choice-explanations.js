@@ -1,4 +1,4 @@
-import { CHOICE_NOTES } from '../data/choice-notes.js';
+import { CHOICE_NOTES } from './exam-data.js';
 
 // Deliberately omit answer/acceptedAnswers: a personal key override must not
 // detach factual notes. A changed stem, option order or bank must detach them.

@@ -1,7 +1,8 @@
 import { summarizeOx } from './ox-model.js';
+import { ACTIVE_EXAM } from './exams.js';
 const esc = value => String(value??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 let pending;
-export function loadOxQuestions() { return pending ||= import('../data/ox-questions.js').then(m=>m.OX_QUESTIONS); }
+export function loadOxQuestions() { return pending ||= (ACTIVE_EXAM === 2 ? import('../data/exam-2/ox-questions.js') : import('../data/ox-questions.js')).then(m=>m.OX_QUESTIONS); }
 function sourceHtml(q,lectures) {
   const lecture=lectures.find(l=>l.id===q.lecture);
   const references=(q.references||[]).filter(r=>/^https:\/\//.test(r.url));
@@ -22,6 +23,10 @@ export function renderOxPage(container,{wrong=false,progress,lectures,tabs='',on
     const cursor=progress.cursor>=questions.length?0:progress.cursor;
     const options='<option value="10">10문항</option><option value="30" selected>30문항</option><option value="50">50문항</option><option value="100">100문항</option><option value="all">전체</option>';
     host.removeAttribute('aria-busy');
+    if (!wrong && !questions.length) {
+      host.innerHTML='<div class="empty-state exam-pending"><span class="eyebrow">BASIC CONCEPTS</span><h2>OX 문제를 준비할 공간이에요.</h2><p>강의록을 추가하면 기본 개념을 확인하는 OX 문제가 여기에 모입니다.<br>순서대로 풀기와 전체 섞어 풀기를 사용할 수 있어요.</p><button class="button secondary" data-action="import">강의록 추가 안내</button></div>';
+      return;
+    }
     if(wrong){
       host.innerHTML='<section class="ox-wrong-overview"><div><span class="eyebrow">REVIEW YOUR OX</span><h2>복습할 OX '+wrongPool.length+'문항</h2><p>족보·객관식 오답과 구분해 저장합니다.</p></div><a class="button secondary" href="#/ox">전체 OX로</a></section>'+(wrongPool.length?'<div class="ox-wrong-actions"><label>한 번에 풀 문제 수 <select id="ox-count">'+options+'</select></label><button class="button primary" data-ox-start="wrong">OX 오답 순서대로 풀기</button><button class="button secondary" data-ox-start="wrong-shuffled">OX 오답 섞어 풀기</button></div><div class="ox-wrong-list"></div><button class="button secondary ox-more" data-ox-more>더 보기</button>':'<div class="empty-state"><h2>모아둔 OX 오답이 없어요.</h2><p>OX를 풀면 틀린 개념이 이곳에 모입니다.</p><a class="button primary" href="#/ox">OX 풀러 가기</a></div>');
       let limit=20;

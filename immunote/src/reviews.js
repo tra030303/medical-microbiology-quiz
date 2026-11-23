@@ -1,4 +1,4 @@
-import { ASSISTANT_REVIEWS } from '../data/review-notes.js';
+import { ASSISTANT_REVIEWS } from './exam-data.js';
 
 export function attachAssistantReview(question, reviews = ASSISTANT_REVIEWS) {
   const review = reviews[question.id];

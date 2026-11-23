@@ -1,11 +1,13 @@
 import { emptyOxProgress, validOxProgress } from './ox-model.js';
+import { examStorageKey } from './exams.js';
 export const STORAGE_KEY = 'immunote.study.v1';
 export function emptyState() {
   return { version: 1, activeBank: 'generated', answerOverrides: {}, customQuestions: [], records: {}, bookmarks: [], sessions: [], imports: [], ox: emptyOxProgress(), updatedAt: null };
 }
-export function loadState(storage = globalThis.localStorage) {
+export function loadState(storage = globalThis.localStorage, exam = 1) {
+  const key = examStorageKey(exam);
   try {
-    const raw = storage.getItem(STORAGE_KEY);
+    const raw = storage.getItem(key);
     if (!raw) return { state: emptyState(), available: true };
     const data = JSON.parse(raw);
     if (data.version !== 1 || !Array.isArray(data.customQuestions) || typeof data.records !== 'object' || !data.records || Array.isArray(data.records) || !Array.isArray(data.bookmarks) || (data.sessions !== undefined && !Array.isArray(data.sessions)) || (data.imports !== undefined && !Array.isArray(data.imports))) throw new Error('Invalid saved state');
@@ -14,8 +16,9 @@ export function loadState(storage = globalThis.localStorage) {
     return { state: emptyState(), available: false };
   }
 }
-export function saveState(state, storage = globalThis.localStorage) {
-  try { storage.setItem(STORAGE_KEY, JSON.stringify(state)); return true; } catch { return false; }
+export function saveState(state, storage = globalThis.localStorage, exam = 1) {
+  const key = examStorageKey(exam);
+  try { storage.setItem(key, JSON.stringify(state)); return true; } catch { return false; }
 }
 export function recordAnswer(state, answer, now = new Date().toISOString()) {
   const previous = state.records[answer.questionId] || {};
@@ -35,8 +38,12 @@ export function summarize(questions, state) {
   }
   return { total: questions.length, solved, correct, wrong, unsolved: questions.length - solved, rate: solved ? Math.round(correct / solved * 100) : null };
 }
-export function restoreBackup(data) {
+export function restoreBackup(data, { exam = 1 } = {}) {
+  examStorageKey(exam);
   if (data?.app !== 'immunote' || data.version !== 1 || !data.state || data.state.version !== 1) throw new Error('면역노트 백업 파일이 아닙니다.');
+  const backupExam = data.exam === undefined ? 1 : data.exam;
+  examStorageKey(backupExam);
+  if (backupExam !== exam) throw new Error(backupExam + '차 시험 백업입니다. ' + backupExam + '차 탭에서 복원해 주세요.');
   const s = data.state;
   if (s.ox !== undefined && !validOxProgress(s.ox)) throw new Error('백업의 OX 학습 기록을 확인해 주세요.');
   if (!Array.isArray(s.customQuestions) || !Array.isArray(s.bookmarks) || !s.records || typeof s.records !== 'object' || Array.isArray(s.records) || (s.sessions !== undefined && !Array.isArray(s.sessions)) || (s.imports !== undefined && !Array.isArray(s.imports))) throw new Error('백업 데이터 구조를 확인해 주세요.');

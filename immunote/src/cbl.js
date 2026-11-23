@@ -1,5 +1,4 @@
-import { CBL_MODULES, CBL_CASE_INDEX } from '../data/cbl-index.js';
-import { CBL_CASES } from '../data/cbl-guides.js';
+import { CBL_MODULES, CBL_CASE_INDEX, CBL_CASES } from './exam-data.js';
 
 const esc = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const route = c => '#/cbl/' + c.module + '/' + c.id;

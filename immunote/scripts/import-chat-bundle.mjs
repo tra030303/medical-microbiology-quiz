@@ -3,14 +3,12 @@ import { resolve, extname, dirname } from 'node:path';
 import { createHash } from 'node:crypto';
 import { pathToFileURL } from 'node:url';
 import { parseImport, validateQuestion } from '../src/importer.js';
-import { CATEGORIES } from '../data/categories.js';
 
 const root = resolve(import.meta.dirname, '..');
-const modulePath = resolve(root, 'data/chat-questions.js');
 const prefix = '// Chat-uploaded questions validated before publication.\nexport const CHAT_QUESTIONS = ';
 const normalized = value => String(value || '').replace(/\s/g, '');
 
-async function readSavedBank() {
+async function readSavedBank(modulePath) {
   let saved;
   try { saved = (await readFile(modulePath, 'utf8')).replaceAll('\r\n', '\n'); }
   catch (error) { if (error.code === 'ENOENT') return []; throw error; }
@@ -37,7 +35,11 @@ async function readSavedBank() {
   return questions;
 }
 
-export async function importChatBundle({ inputPath, bank, allowUnconfirmed = false, replaceExisting = false, dryRun = false }) {
+export async function importChatBundle({ inputPath, bank, exam = 1, allowUnconfirmed = false, replaceExisting = false, dryRun = false }) {
+  if (![1, 2].includes(exam)) throw new Error('Select --exam 1 or --exam 2.');
+  const directory = exam === 2 ? 'data/exam-2' : 'data';
+  const modulePath = resolve(root, directory, 'chat-questions.js');
+  const { CATEGORIES } = await import(pathToFileURL(resolve(root, directory, 'categories.js')));
   if (!['past', 'generated'].includes(bank)) throw new Error('An explicit --bank past or --bank generated is required.');
   if (!['.json', '.txt', '.md', '.markdown', '.csv'].includes(extname(inputPath).toLowerCase())) throw new Error('Use a JSON, TXT, Markdown, or CSV question bundle.');
   const raw = await readFile(inputPath, 'utf8');
@@ -46,7 +48,7 @@ export async function importChatBundle({ inputPath, bank, allowUnconfirmed = fal
   const dangerousWarnings = parsed.warnings.filter(message => !(allowUnconfirmed && bank === 'past' && /정답이 없습니다/.test(message)));
   if (dangerousWarnings.length) throw new Error('Resolve all import warnings before publication:\n' + dangerousWarnings.join('\n'));
 
-  const existing = await readSavedBank();
+  const existing = await readSavedBank(modulePath);
   if (!Array.isArray(existing)) throw new Error('The saved chat question bank must be an array.');
   const byId = new Map(existing.map(q => [q.id, q]));
   let added = 0, updated = 0, duplicates = 0;
@@ -83,7 +85,7 @@ export async function importChatBundle({ inputPath, bank, allowUnconfirmed = fal
     await writeFile(temporary, output, 'utf8');
     await rename(temporary, modulePath);
   }
-  return { bank, added, updated, duplicates, total: byId.size, dryRun, acceptedIds: accepted, warnings: parsed.warnings };
+  return { exam, bank, added, updated, duplicates, total: byId.size, dryRun, acceptedIds: accepted, warnings: parsed.warnings };
 }
 
 if (process.argv[1] && import.meta.url === pathToFileURL(resolve(process.argv[1])).href) {
@@ -91,7 +93,9 @@ if (process.argv[1] && import.meta.url === pathToFileURL(resolve(process.argv[1]
   const inputPath = args.shift();
   const bankIndex = args.indexOf('--bank');
   const bank = bankIndex === -1 ? undefined : args[bankIndex + 1];
-  const known = new Set(['--bank', 'past', 'generated', '--allow-unconfirmed', '--replace-existing', '--dry-run']);
-  if (!inputPath || args.some(argument => !known.has(argument))) throw new Error('Usage: node scripts/import-chat-bundle.mjs <file> --bank past|generated [--allow-unconfirmed] [--replace-existing] [--dry-run]');
-  console.log(JSON.stringify(await importChatBundle({ inputPath: resolve(inputPath), bank, allowUnconfirmed: args.includes('--allow-unconfirmed'), replaceExisting: args.includes('--replace-existing'), dryRun: args.includes('--dry-run') }), null, 2));
+  const examIndex = args.indexOf('--exam');
+  const exam = examIndex === -1 ? 1 : Number(args[examIndex + 1]);
+  const known = new Set(['--bank', 'past', 'generated', '--exam', '1', '2', '--allow-unconfirmed', '--replace-existing', '--dry-run']);
+  if (!inputPath || args.some(argument => !known.has(argument))) throw new Error('Usage: node scripts/import-chat-bundle.mjs <file> --bank past|generated [--exam 1|2] [--allow-unconfirmed] [--replace-existing] [--dry-run]');
+  console.log(JSON.stringify(await importChatBundle({ inputPath: resolve(inputPath), bank, exam, allowUnconfirmed: args.includes('--allow-unconfirmed'), replaceExisting: args.includes('--replace-existing'), dryRun: args.includes('--dry-run') }), null, 2));
 }

@@ -1,6 +1,6 @@
 import { bindScanImage, isSafeScanSource } from './assets.js';
 import { getChoiceDetails } from './choice-explanations.js';
-import { CBL_QUESTION_GUIDES } from '../data/cbl-index.js';
+import { CBL_QUESTION_GUIDES } from './exam-data.js';
 const CIRCLED = ['①', '②', '③', '④', '⑤', '⑥', '⑦', '⑧'];
 
 export function getAnswerChoices(question) {
