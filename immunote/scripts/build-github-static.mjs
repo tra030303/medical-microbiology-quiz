@@ -3,6 +3,7 @@ import { resolve, relative, join } from 'node:path';
 import { createHash } from 'node:crypto';
 import { spawnSync } from 'node:child_process';
 import { pathToFileURL } from 'node:url';
+import { packSecondExam } from './pack-exam-data.mjs';
 
 // Existing GitHub Pages branch deployments serve this directory as immunote/.
 // Pack original scans into lazy ES modules to avoid over 1,000 GitHub blob writes.
@@ -185,13 +186,14 @@ for (const name of ['README.md', 'CHAT_UPDATES.md']) {
 }
 await writeFile(resolve(output,'package.json'), JSON.stringify({name:'immunote',private:true,type:'module',scripts:{build:'node scripts/build-github-static.mjs'}}, null, 2)+'\n');
 await mkdir(resolve(output, 'scripts'), { recursive: true });
-for (const name of ['build-pages.mjs', 'build-github-static.mjs', 'import-chat-bundle.mjs']) {
+for (const name of ['build-pages.mjs', 'build-github-static.mjs', 'import-chat-bundle.mjs', 'pack-exam-data.mjs']) {
   await cp(resolve(root, 'scripts', name), resolve(output, 'scripts', name));
 }
 // The working repository owns the full test suite. The published browser package
 // does not declare a test command that would require the unpacked original scans.
 
-const manifest = { version: 1, remotePrefix: prefix, scans: scanCount, scanPacks: packCount, questionImages: questionImageCount, questionImagePacks: questionImagePackCount, chatQuestions: chatQuestions.length, chatQuestionPacks: chatPackNames.length, files: [] };
+const secondExam = await packSecondExam(root, output);
+const manifest = { version: 1, remotePrefix: prefix, scans: scanCount, scanPacks: packCount, questionImages: questionImageCount, questionImagePacks: questionImagePackCount, chatQuestions: chatQuestions.length, chatQuestionPacks: chatPackNames.length, secondExam, files: [] };
 async function visit(directory) {
   for (const name of (await readdir(directory)).sort()) {
     const path = join(directory, name);
