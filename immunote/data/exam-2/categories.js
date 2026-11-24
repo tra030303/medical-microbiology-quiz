@@ -47,7 +47,7 @@ export const CATEGORIES = [
     "name": "전신 경화증",
     "group": "면역 질환",
     "order": 55,
-    "professor": "김민정"
+    "professor": "박준원"
   },
   {
     "id": "dermatomyositis",

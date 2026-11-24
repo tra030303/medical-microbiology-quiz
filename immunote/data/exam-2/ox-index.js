@@ -71,6 +71,42 @@ export const OX_LECTURES = [
         "pages": 47
       }
     ]
+  },
+  {
+    "id": "exam2-systemic-sclerosis",
+    "title": "전신 경화증",
+    "order": 7,
+    "count": 30,
+    "sources": [
+      {
+        "name": "[261124_01] 전신경화증(박준원)_김서형v1.pdf",
+        "pages": 48
+      }
+    ]
+  },
+  {
+    "id": "exam2-dermatomyositis",
+    "title": "피부근염",
+    "order": 8,
+    "count": 30,
+    "sources": [
+      {
+        "name": "[261124_02]피부근염(강은하)_김성민v1.pdf",
+        "pages": 44
+      }
+    ]
+  },
+  {
+    "id": "exam2-vasculitis",
+    "title": "혈관염",
+    "order": 9,
+    "count": 30,
+    "sources": [
+      {
+        "name": "[261124_03] 혈관염(박진균)_김솔립v1.pdf",
+        "pages": 53
+      }
+    ]
   }
 ];
-export const OX_TOTAL = 180;
+export const OX_TOTAL = 270;

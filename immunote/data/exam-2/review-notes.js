@@ -268,5 +268,100 @@ export const ASSISTANT_REVIEWS = {
     "suggestedAnswers": [
       3
     ]
+  },
+  "past-2-57-2025-21": {
+    "status": "source-missing",
+    "originalAnswers": [],
+    "summary": "원답표는 미확인이지만 올해 필기본과 임상상은 ⑤ 신속한 고용량 glucocorticoid 치료를 지지합니다.",
+    "rationale": "고령의 새 두통·턱 파행·측두동맥 압통·급성 시력 저하는 GCA의 허혈성 안구 침범을 강하게 시사합니다. 필기본 PDF34는 검사 전 신속 steroid 치료를 강조하며 PDF46의 재수록 주석도 ⑤를 제안합니다. 원본 answer=null은 유지하고 자동 채점 정답을 새로 만들지 않습니다.",
+    "references": [
+      {
+        "label": "[261124_03] 혈관염(박진균)_김솔립v1.pdf / 실제 PDF 33, 34, 46쪽"
+      },
+      {
+        "label": "ACR/VF GCA 시력 위협 치료 권고",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12344528/"
+      }
+    ],
+    "reviewedAt": "2026-11-24",
+    "confidence": "높음",
+    "suggestedAnswers": [
+      5
+    ]
+  },
+  "past-2-57-2022-8": {
+    "status": "ambiguous",
+    "originalAnswers": [
+      2
+    ],
+    "summary": "원답 ②는 유지하지만 ④의 도움이 된다는 문구는 단독 확진과 다르게 해석할 여지가 있습니다.",
+    "rationale": "혈관염의 핵심은 혈관벽의 염증·손상이며 혈관주위 침윤만으로 확진하지 않습니다. 그러나 비특이적 소견이 보조적으로 도움이 될 수 있다는 표현까지 항상 거짓이라고 단정하기 어렵습니다. 원문 문구의 한계로 표시하며 정답을 임의 교체하지 않습니다.",
+    "references": [
+      {
+        "label": "[261124_03] 혈관염(박진균)_김솔립v1.pdf / 실제 PDF 11, 15, 48쪽"
+      }
+    ],
+    "reviewedAt": "2026-11-24",
+    "confidence": "중간",
+    "suggestedAnswers": []
+  },
+  "past-2-57-2020-27": {
+    "status": "historical",
+    "originalAnswers": [
+      3
+    ],
+    "summary": "원답 ③과 현대의 steroid 감량 유도 전략을 구분해 학습합니다.",
+    "rationale": "CYC와 RTX는 모두 중증 GPA·MPA 유도에 사용할 수 있습니다. 현재 지침은 적절한 병용 유도제와 함께 GC 노출을 줄이는 프로토콜을 강조합니다. 따라서 ⑤의 moderate라는 단어만으로 모든 GC+CYC 조합을 부적절하다고 일반화하지 않습니다. 이 문항은 초기 용량·감량·pulse 등의 조건이 불충분하며 원답 ③은 보존합니다.",
+    "references": [
+      {
+        "label": "[261124_03] 혈관염(박진균)_김솔립v1.pdf / 실제 PDF 25, 30쪽"
+      },
+      {
+        "label": "KDIGO2024 AAV 요약",
+        "url": "https://kdigo.org/wp-content/uploads/2024/01/KDIGO-2024-ANCA-Vasculitis-Guideline-Executive-Summary.pdf"
+      }
+    ],
+    "reviewedAt": "2026-11-24",
+    "confidence": "중간",
+    "suggestedAnswers": []
+  },
+  "past-2-55-2020-20": {
+    "status": "ambiguous",
+    "originalAnswers": [
+      5
+    ],
+    "summary": "원답 ⑤는 유지하되 손·얼굴의 피부 변화만으로 항체 결과를 유일하게 예측할 수는 없습니다.",
+    "rationale": "빠른 피부 진행은 미만형을 생각할 단서이지만 상완·대퇴·몸통 침범이나 항체 결과가 명시되지 않았습니다. Centromere와 Scl70는 각각 대표 아형·장기 위험과의 연관이지 피부 증상만으로 양성을 확정·배제하는 규칙이 아닙니다. 원답을 바꾸지 않고 문항의 조건 부족을 표시합니다.",
+    "references": [
+      {
+        "label": "[261124_01] 전신경화증(박준원)_김서형v1.pdf / 실제 PDF 7, 9, 10, 37쪽"
+      }
+    ],
+    "reviewedAt": "2026-11-24",
+    "confidence": "중간",
+    "suggestedAnswers": []
+  },
+  "past-2-56-2021-19": {
+    "status": "ambiguous",
+    "originalAnswers": [
+      3
+    ],
+    "summary": "원답 ③은 타당하지만 ④를 근염은 식도괄약근을 전혀 침범하지 않는다는 뜻으로 외우지 않습니다.",
+    "rationale": "근염의 연하곤란에는 구인두·상부 식도 횡문근과 윤상인두근/상부식도괄약근 기능 장애가 관여할 수 있습니다. 원문은 괄약근의 위치를 명시하지 않아 포괄적입니다. 전신경화증의 원위 식도·하부괄약근 병변과는 구별하고, ILD의 제한성 환기장애라는 ③은 유지합니다.",
+    "references": [
+      {
+        "label": "[261124_02]피부근염(강은하)_김성민v1.pdf / 실제 PDF 8, 13쪽"
+      },
+      {
+        "label": "[261124_01] 전신경화증(박준원)_김서형v1.pdf / 실제 PDF 18, 31쪽"
+      },
+      {
+        "label": "근염의 구인두 연하곤란 생리 원저",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1773618/"
+      }
+    ],
+    "reviewedAt": "2026-11-24",
+    "confidence": "중간",
+    "suggestedAnswers": []
   }
 };
