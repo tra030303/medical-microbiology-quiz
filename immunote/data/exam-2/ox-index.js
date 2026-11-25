@@ -1,4 +1,4 @@
-// Second-exam basic concepts, in verified lecture order.
+// Second-exam concepts in lecture order, including CBL 7.
 export const OX_LECTURES = [
   {
     "id": "exam2-immunopharmacology",
@@ -107,6 +107,82 @@ export const OX_LECTURES = [
         "pages": 53
       }
     ]
+  },
+  {
+    "id": "exam2-allergy-pathogenesis",
+    "title": "알레르기질환의 병인론",
+    "order": 10,
+    "count": 30,
+    "sources": [
+      {
+        "name": "[261125_01] 알레르기질환의 병인론(강혜련)_최현서v1.pdf",
+        "pages": 55
+      }
+    ]
+  },
+  {
+    "id": "exam2-allergic-rhinitis",
+    "title": "알레르기 비염",
+    "order": 11,
+    "count": 30,
+    "sources": [
+      {
+        "name": "[261125_02] 알레르기비염(장윤석)_김태경v1.pdf",
+        "pages": 51
+      }
+    ]
+  },
+  {
+    "id": "exam2-asthma",
+    "title": "기관지 천식",
+    "order": 12,
+    "count": 30,
+    "sources": [
+      {
+        "name": "[261125_03] 기관지천식(박흥우)_김하진v1.pdf",
+        "pages": 49
+      }
+    ]
+  },
+  {
+    "id": "exam2-pediatric-asthma",
+    "title": "소아 천식",
+    "order": 13,
+    "count": 30,
+    "sources": [
+      {
+        "name": "[261125_05] 소아천식(김경훈)_류호진v1.pdf",
+        "pages": 48
+      }
+    ]
+  },
+  {
+    "id": "exam2-cancer-immunity",
+    "title": "암면역",
+    "order": 14,
+    "count": 30,
+    "sources": [
+      {
+        "name": "[261125_06] 암면역(성승용)_박건엽v1.pdf",
+        "pages": 63
+      }
+    ]
+  },
+  {
+    "id": "cbl-7",
+    "title": "CBL 7 · 암면역",
+    "order": 15,
+    "count": 30,
+    "sources": [
+      {
+        "name": "[261125_07] CBL 7 암면역(김태민, 김범석)_박재민v1.pdf",
+        "pages": 15
+      },
+      {
+        "name": "[261125_06] 암면역(성승용)_박건엽v1.pdf",
+        "pages": 63
+      }
+    ]
   }
 ];
-export const OX_TOTAL = 270;
+export const OX_TOTAL = 450;

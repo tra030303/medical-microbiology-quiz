@@ -7,4 +7,5 @@ import { NOTES as PACK_4 } from './choice-note-packs/part-005.js';
 import { NOTES as PACK_5 } from './choice-note-packs/part-006.js';
 import { NOTES as PACK_6 } from './choice-note-packs/part-007.js';
 import { NOTES as PACK_7 } from './choice-note-packs/part-008.js';
-export const CHOICE_NOTES = {...PACK_0,...PACK_1,...PACK_2,...PACK_3,...PACK_4,...PACK_5,...PACK_6,...PACK_7};
+import { NOTES as PACK_8 } from './choice-note-packs/part-009.js';
+export const CHOICE_NOTES = {...PACK_0,...PACK_1,...PACK_2,...PACK_3,...PACK_4,...PACK_5,...PACK_6,...PACK_7,...PACK_8};

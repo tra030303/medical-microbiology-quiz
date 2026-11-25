@@ -1,4 +1,4 @@
-// Separate second-exam reviews; original grading answers are preserved.
+// AI interpretation is separate from all original grading keys.
 export const ASSISTANT_REVIEWS = {
   "past-2-51-2022-30": {
     "status": "ambiguous",
@@ -361,6 +361,316 @@ export const ASSISTANT_REVIEWS = {
       }
     ],
     "reviewedAt": "2026-11-24",
+    "confidence": "중간",
+    "suggestedAnswers": []
+  },
+  "past-2-58-2020-29": {
+    "status": "ambiguous",
+    "originalAnswers": [
+      1
+    ],
+    "summary": "원답 ①은 유지하되 Fab 자체가 알레르겐이라는 뜻으로 읽지 않습니다.",
+    "rationale": "선지 중 항원 특이적 결합 부위는 IgE의 Fab입니다. 그러나 질문은 알레르겐의 특성을 가진 것이라고 되어 있어 알레르겐 자체와 이를 인식하는 항체 부위를 혼동하게 할 수 있습니다. 원문 문구를 보존하고 의도된 결합 부위의 의미를 별도 설명합니다.",
+    "references": [
+      {
+        "label": "[261125_01] 알레르기질환의 병인론(강혜련)_최현서v1.pdf / 실제 PDF 29, 47쪽"
+      }
+    ],
+    "reviewedAt": "2026-11-25",
+    "confidence": "중간",
+    "suggestedAnswers": []
+  },
+  "past-2-58-2023-25": {
+    "status": "ambiguous",
+    "originalAnswers": [
+      4
+    ],
+    "summary": "가을철 병력은 원답 ④ 돼지풀을, 사과 교차반응은 전형적으로 자작나무를 가리킵니다.",
+    "rationale": "계절성과 식품 교차반응 단서가 서로 다른 방향입니다. 올해 필기본 PDF17은 가을 잡초를, PDF21은 꽃가루–식품 교차반응을 설명합니다. 사과 증상만으로 모든 환자에서 한 항원을 확정할 수는 없지만 사과–자작나무가 대표 조합이므로 원답을 유일한 원인으로 단정하지 않습니다.",
+    "references": [
+      {
+        "label": "[261125_01] 알레르기질환의 병인론(강혜련)_최현서v1.pdf / 실제 PDF 17, 21쪽"
+      }
+    ],
+    "reviewedAt": "2026-11-25",
+    "confidence": "중간",
+    "suggestedAnswers": []
+  },
+  "past-2-60-2025-22": {
+    "status": "ambiguous",
+    "originalAnswers": [
+      5
+    ],
+    "summary": "원답의 메타콜린–기도과민성 연결은 타당하지만 기관지확장제–가역적 폐쇄 연결도 맞습니다.",
+    "rationale": "현재 무증상에서 평소의 과민성을 확인한다는 임상 맥락은 원답을 지지합니다. 그러나 문항이 검사와 병태생리의 맞는 연결만을 묻는 것으로 읽히면 기관지확장제 반응–가역적 폐쇄 역시 옳은 조합입니다. 최적 검사 선택과 검사–기전 사실의 옳고 그름을 구별합니다.",
+    "references": [
+      {
+        "label": "[261125_03] 기관지천식(박흥우)_김하진v1.pdf / 실제 PDF 20, 21, 26쪽"
+      }
+    ],
+    "reviewedAt": "2026-11-25",
+    "confidence": "중간",
+    "suggestedAnswers": []
+  },
+  "past-2-60-2023-62": {
+    "status": "ambiguous",
+    "originalAnswers": [
+      4
+    ],
+    "summary": "원답의 메타콜린–기도과민성 연결은 타당하지만 기관지확장제–가역적 폐쇄 연결도 맞습니다.",
+    "rationale": "현재 무증상에서 평소의 과민성을 확인한다는 임상 맥락은 원답을 지지합니다. 그러나 문항이 검사와 병태생리의 맞는 연결만을 묻는 것으로 읽히면 기관지확장제 반응–가역적 폐쇄 역시 옳은 조합입니다. 최적 검사 선택과 검사–기전 사실의 옳고 그름을 구별합니다.",
+    "references": [
+      {
+        "label": "[261125_03] 기관지천식(박흥우)_김하진v1.pdf / 실제 PDF 20, 21, 26쪽"
+      }
+    ],
+    "reviewedAt": "2026-11-25",
+    "confidence": "중간",
+    "suggestedAnswers": []
+  },
+  "past-2-60-2023-5": {
+    "status": "ambiguous",
+    "originalAnswers": [
+      3
+    ],
+    "summary": "원답 ③ mannitol 유발검사를 가역성 검사 자체와 동일시하지 않습니다.",
+    "rationale": "기관지 유발검사는 주로 기도과민성을 확인하며 기관지확장제 반응이나 시간에 따른 기류 변동과 검사 목적이 다릅니다. 제시된 보기 중 의도된 답을 보존하되 질문의 가역성·가변성 표현과 과민성의 차이를 표시합니다.",
+    "references": [
+      {
+        "label": "[261125_03] 기관지천식(박흥우)_김하진v1.pdf / 실제 PDF 16, 20, 21, 26쪽"
+      }
+    ],
+    "reviewedAt": "2026-11-25",
+    "confidence": "중간",
+    "suggestedAnswers": []
+  },
+  "past-2-60-2020-37": {
+    "status": "ambiguous",
+    "originalAnswers": [
+      4
+    ],
+    "summary": "원답 ④는 보존하지만 객담 호중구 12%만으로 ILC2형 호산구 염증을 확정하기 어렵습니다.",
+    "rationale": "원본 문항 이미지도 호산구가 아닌 호중구 12%로 읽혀 단순 전사 오류로 고치지 않았습니다. 메타콜린 양성은 과민성을 지지하지만 T2 내재형을 지정하지 않습니다. ILC2형 비알레르기 천식에는 호산구·상피 alarmin 등의 추가 맥락이 필요합니다.",
+    "references": [
+      {
+        "label": "[261125_03] 기관지천식(박흥우)_김하진v1.pdf / 실제 PDF 8, 9, 10, 27, 28쪽"
+      },
+      {
+        "label": "족보 원본 해당 문항 이미지 대조: 호중구 12%"
+      }
+    ],
+    "reviewedAt": "2026-11-25",
+    "confidence": "중간",
+    "suggestedAnswers": []
+  },
+  "past-2-62-2023-40": {
+    "status": "historical",
+    "originalAnswers": [
+      3
+    ],
+    "summary": "원답 CTLA-4는 유지하되 흉선 중추관용 자체와 동일시하지 않습니다.",
+    "rationale": "강의·기출은 CTLA-4의 초기 림프절 priming 조절을 central이라는 표현으로 단순화합니다. 그러나 CTLA-4도 말초관용에 중요하며 흉선 음성선택의 중추관용과 초기 활성화 위치는 같은 개념이 아닙니다. 올해 PDF12의 표현도 PDF29·32의 B7 경쟁·Treg 기능과 함께 교정해서 읽습니다.",
+    "references": [
+      {
+        "label": "[261125_06] 암면역(성승용)_박건엽v1.pdf / 실제 PDF 12, 29, 32쪽"
+      },
+      {
+        "label": "CTLA-4·PD-1의 말초관용 역할 리뷰",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/18759926/"
+      }
+    ],
+    "reviewedAt": "2026-11-25",
+    "confidence": "중간",
+    "suggestedAnswers": []
+  },
+  "past-2-62-2021-42": {
+    "status": "historical",
+    "originalAnswers": [
+      3
+    ],
+    "summary": "원답 CTLA-4는 유지하되 흉선 중추관용 자체와 동일시하지 않습니다.",
+    "rationale": "강의·기출은 CTLA-4의 초기 림프절 priming 조절을 central이라는 표현으로 단순화합니다. 그러나 CTLA-4도 말초관용에 중요하며 흉선 음성선택의 중추관용과 초기 활성화 위치는 같은 개념이 아닙니다. 올해 PDF12의 표현도 PDF29·32의 B7 경쟁·Treg 기능과 함께 교정해서 읽습니다.",
+    "references": [
+      {
+        "label": "[261125_06] 암면역(성승용)_박건엽v1.pdf / 실제 PDF 12, 29, 32쪽"
+      },
+      {
+        "label": "CTLA-4·PD-1의 말초관용 역할 리뷰",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/18759926/"
+      }
+    ],
+    "reviewedAt": "2026-11-25",
+    "confidence": "중간",
+    "suggestedAnswers": []
+  },
+  "past-2-62-2020-60": {
+    "status": "historical",
+    "originalAnswers": [
+      4
+    ],
+    "summary": "원답 CTLA-4는 유지하되 흉선 중추관용 자체와 동일시하지 않습니다.",
+    "rationale": "강의·기출은 CTLA-4의 초기 림프절 priming 조절을 central이라는 표현으로 단순화합니다. 그러나 CTLA-4도 말초관용에 중요하며 흉선 음성선택의 중추관용과 초기 활성화 위치는 같은 개념이 아닙니다. 올해 PDF12의 표현도 PDF29·32의 B7 경쟁·Treg 기능과 함께 교정해서 읽습니다.",
+    "references": [
+      {
+        "label": "[261125_06] 암면역(성승용)_박건엽v1.pdf / 실제 PDF 12, 29, 32쪽"
+      },
+      {
+        "label": "CTLA-4·PD-1의 말초관용 역할 리뷰",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/18759926/"
+      }
+    ],
+    "reviewedAt": "2026-11-25",
+    "confidence": "중간",
+    "suggestedAnswers": []
+  },
+  "past-2-62-2025-41": {
+    "status": "ambiguous",
+    "originalAnswers": [
+      2
+    ],
+    "summary": "PD-1은 의도된 대표 답이지만 말초관용에 관여하는 수용체가 PD-1 하나뿐인 것은 아닙니다.",
+    "rationale": "CTLA-4 역시 말초관용·Treg 기능에 중요합니다. 일부 보기에는 LAG-3·TIM-3 등 다른 억제 수용체도 있습니다. 원답은 보존하되 PD-1=말초, CTLA-4=흉선 중추라는 배타적 이분법으로 다른 보기의 기능까지 부정하지 않습니다.",
+    "references": [
+      {
+        "label": "[261125_06] 암면역(성승용)_박건엽v1.pdf / 실제 PDF 12, 28, 29, 32, 33쪽"
+      },
+      {
+        "label": "CTLA-4·PD-1의 말초관용 역할 리뷰",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/18759926/"
+      }
+    ],
+    "reviewedAt": "2026-11-25",
+    "confidence": "중간",
+    "suggestedAnswers": []
+  },
+  "past-2-62-2022-9": {
+    "status": "ambiguous",
+    "originalAnswers": [
+      2
+    ],
+    "summary": "PD-1은 의도된 대표 답이지만 말초관용에 관여하는 수용체가 PD-1 하나뿐인 것은 아닙니다.",
+    "rationale": "CTLA-4 역시 말초관용·Treg 기능에 중요합니다. 일부 보기에는 LAG-3·TIM-3 등 다른 억제 수용체도 있습니다. 원답은 보존하되 PD-1=말초, CTLA-4=흉선 중추라는 배타적 이분법으로 다른 보기의 기능까지 부정하지 않습니다.",
+    "references": [
+      {
+        "label": "[261125_06] 암면역(성승용)_박건엽v1.pdf / 실제 PDF 12, 28, 29, 32, 33쪽"
+      },
+      {
+        "label": "CTLA-4·PD-1의 말초관용 역할 리뷰",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/18759926/"
+      }
+    ],
+    "reviewedAt": "2026-11-25",
+    "confidence": "중간",
+    "suggestedAnswers": []
+  },
+  "past-2-62-2021-43": {
+    "status": "ambiguous",
+    "originalAnswers": [
+      1
+    ],
+    "summary": "PD-1은 의도된 대표 답이지만 말초관용에 관여하는 수용체가 PD-1 하나뿐인 것은 아닙니다.",
+    "rationale": "CTLA-4 역시 말초관용·Treg 기능에 중요합니다. 일부 보기에는 LAG-3·TIM-3 등 다른 억제 수용체도 있습니다. 원답은 보존하되 PD-1=말초, CTLA-4=흉선 중추라는 배타적 이분법으로 다른 보기의 기능까지 부정하지 않습니다.",
+    "references": [
+      {
+        "label": "[261125_06] 암면역(성승용)_박건엽v1.pdf / 실제 PDF 12, 28, 29, 32, 33쪽"
+      },
+      {
+        "label": "CTLA-4·PD-1의 말초관용 역할 리뷰",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/18759926/"
+      }
+    ],
+    "reviewedAt": "2026-11-25",
+    "confidence": "중간",
+    "suggestedAnswers": []
+  },
+  "past-2-62-2020-58": {
+    "status": "ambiguous",
+    "originalAnswers": [
+      2
+    ],
+    "summary": "PD-1은 의도된 대표 답이지만 말초관용에 관여하는 수용체가 PD-1 하나뿐인 것은 아닙니다.",
+    "rationale": "CTLA-4 역시 말초관용·Treg 기능에 중요합니다. 일부 보기에는 LAG-3·TIM-3 등 다른 억제 수용체도 있습니다. 원답은 보존하되 PD-1=말초, CTLA-4=흉선 중추라는 배타적 이분법으로 다른 보기의 기능까지 부정하지 않습니다.",
+    "references": [
+      {
+        "label": "[261125_06] 암면역(성승용)_박건엽v1.pdf / 실제 PDF 12, 28, 29, 32, 33쪽"
+      },
+      {
+        "label": "CTLA-4·PD-1의 말초관용 역할 리뷰",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/18759926/"
+      }
+    ],
+    "reviewedAt": "2026-11-25",
+    "confidence": "중간",
+    "suggestedAnswers": []
+  },
+  "past-2-62-2021-57": {
+    "status": "ambiguous",
+    "originalAnswers": [
+      4
+    ],
+    "summary": "원답의 호중구 소실은 면역감시 근거가 아니지만 종양 특이 항체도 엄밀히 체액성 반응입니다.",
+    "rationale": "강의 PDF4는 이를 항종양 면역감시의 증거로 함께 소개합니다. 그러나 문항의 세포매개라는 표현을 엄밀히 적용하면 항체 증가는 세포매개 반응 자체가 아니라 체액성 면역의 소견입니다. 전체 항종양 면역의 근거와 세포매개 면역의 정의를 구분합니다.",
+    "references": [
+      {
+        "label": "[261125_06] 암면역(성승용)_박건엽v1.pdf / 실제 PDF 3, 4, 6쪽"
+      }
+    ],
+    "reviewedAt": "2026-11-25",
+    "confidence": "중간",
+    "suggestedAnswers": []
+  },
+  "past-2-62-2020-61": {
+    "status": "ambiguous",
+    "originalAnswers": [
+      5
+    ],
+    "summary": "원답의 호중구 소실은 면역감시 근거가 아니지만 종양 특이 항체도 엄밀히 체액성 반응입니다.",
+    "rationale": "강의 PDF4는 이를 항종양 면역감시의 증거로 함께 소개합니다. 그러나 문항의 세포매개라는 표현을 엄밀히 적용하면 항체 증가는 세포매개 반응 자체가 아니라 체액성 면역의 소견입니다. 전체 항종양 면역의 근거와 세포매개 면역의 정의를 구분합니다.",
+    "references": [
+      {
+        "label": "[261125_06] 암면역(성승용)_박건엽v1.pdf / 실제 PDF 3, 4, 6쪽"
+      }
+    ],
+    "reviewedAt": "2026-11-25",
+    "confidence": "중간",
+    "suggestedAnswers": []
+  },
+  "past-2-62-2025-58": {
+    "status": "historical",
+    "originalAnswers": [
+      1
+    ],
+    "summary": "보기 중 원답 CD19를 보존하되 B세포림프종 이중항체의 표적을 CD19 하나로 일반화하지 않습니다.",
+    "rationale": "원문에는 CD20 보기가 없고 CD19는 B계열 표적이라는 점에서 의도된 답입니다. 하지만 실제 림프종 치료의 CD3 유도 이중항체에는 CD20 표적 mosunetuzumab 등이 있습니다. CD19 CAR-T·CD19 이중항체와 CD20 림프종 이중항체, 이번 CBL의 DLL3 이중항체를 치료·질환 맥락별로 구별합니다.",
+    "references": [
+      {
+        "label": "[261125_06] 암면역(성승용)_박건엽v1.pdf / 실제 PDF 41, 51쪽"
+      },
+      {
+        "label": "[261125_07] CBL 7 암면역(김태민, 김범석)_박재민v1.pdf / 실제 PDF 6쪽"
+      },
+      {
+        "label": "NCI mosunetuzumab: CD20×CD3",
+        "url": "https://www.cancer.gov/about-cancer/treatment/drugs/mosunetuzumab-axgb"
+      }
+    ],
+    "reviewedAt": "2026-11-25",
+    "confidence": "중간",
+    "suggestedAnswers": []
+  },
+  "past-2-58-2022-6": {
+    "status": "ambiguous",
+    "originalAnswers": [
+      1
+    ],
+    "summary": "원답 M2는 유지하되 호염기구·IL-25의 기생충 방어 참여를 부정하지 않습니다.",
+    "rationale": "대체 활성 대식세포는 type 2 기생충 방어·조직 복구의 대표 요소입니다. 다만 크게 기여한다는 넓은 문구에서는 호염기구 및 ILC2를 활성화하는 IL-25도 관련되어 유일성에 한계가 있습니다. 세포와 cytokine의 구분 및 대표 경로의 학습 맥락을 함께 봅니다.",
+    "references": [
+      {
+        "label": "[261125_01] 알레르기질환의 병인론(강혜련)_최현서v1.pdf / 실제 PDF 9, 10, 48, 49쪽"
+      }
+    ],
+    "reviewedAt": "2026-11-25",
     "confidence": "중간",
     "suggestedAnswers": []
   }

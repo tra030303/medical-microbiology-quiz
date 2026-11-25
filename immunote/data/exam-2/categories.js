@@ -1,4 +1,4 @@
-// Original second-exam lecture categories and current professors.
+// Original second-exam categories and current professors.
 export const CATEGORIES = [
   {
     "id": "immunopharmacology",
@@ -75,7 +75,7 @@ export const CATEGORIES = [
     "name": "알레르기 비염",
     "group": "면역 질환",
     "order": 59,
-    "professor": "양민석"
+    "professor": "장윤석"
   },
   {
     "id": "asthma",
